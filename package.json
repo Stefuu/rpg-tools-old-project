@@ -1,0 +1,50 @@
+{
+  "name": "RPG Tools",
+  "version": "0.0.1",
+  "description": "Ferramentas para RPG",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/rpgtools/rpg-tools"
+  },
+  "keywords": [
+    "Cordova",
+    "Gulp"
+  ],
+  "author": "RPG Tools",
+  "license": "Apache version 2.0",
+  "devDependencies": {
+    "browserify": "~3.44.x",
+    "cordova-lib": "^0.21.6",
+    "del": "^0.1.1",
+    "envify": "*",
+    "gulp": "^3.8.7",
+    "gulp-concat": "2.4.3",
+    "gulp-jest": "^0.3.0",
+    "gulp-jshint": "^1.8.4",
+    "gulp-minify-css": "^0.3.12",
+    "gulp-uglify": "1.0.2",
+    "harmonize": "^1.4.0",
+    "jest-cli": "^0.2.2",
+    "jsxc": "~0.1.6",
+    "reactify": "*",
+    "run-sequence": "*",
+    "vinyl-source-stream": "*"
+  },
+  "dependencies": {
+    "cordova-android": "^3.5.1",
+    "date-utils": "^1.2.16",
+    "gulp-browserify": "^0.5.1",
+    "gulp-rename": "^1.2.0",
+    "hammerjs": "^2.0.4",
+    "jquery": "^2.1.3",
+    "lodash": "^3.0.1",
+    "react": "0.12.x",
+    "reflux": "^0.2.4",
+    "store": "^1.3.17",
+    "underscore": "*"
+  }
+}
