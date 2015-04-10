@@ -6,12 +6,12 @@ var QuickMenu = React.createClass({
   render: function() {
     return (
       <ul className="quick-menu">
-        <li className="active">
+        <li className="Home active">
           <span className="text">Features</span>
           <span className="state"></span>
         </li>
-        <li>
-          <span className="text">Style notes</span>
+        <li className="BattleMap">
+          <span className="text">Battle Map</span>
           <span className="state"></span>
         </li>
       </ul>
