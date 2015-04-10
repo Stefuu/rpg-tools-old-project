@@ -1,30 +1,3 @@
 .main-content {
   height: 67%;
 }
-.main-content img {
-  width: 100%;
-}
-.main-content .feature {
-  position: relative;
-}
-.main-content .feature-label {
-  color: #fff;
-  font-size: 20%;
-  position: absolute;
-  padding: 5%;
-  width: 100%;
-  background-color: rgba(0,0,0,0.7);
-  bottom: 0;
-}
-.main-content .feature-label .title {
-  display: block;
-  font-size: 73%;
-}
-.main-content .feature-label .desc {
-  font-size: 61%;
-}
-@media (orientation: landscape) {
-  .main-content .feature-label {
-    padding: 1.4%;
-  }
-}

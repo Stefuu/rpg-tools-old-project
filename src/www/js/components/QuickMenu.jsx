@@ -6,8 +6,8 @@ var QuickMenu = React.createClass({
   render: function() {
     return (
       <ul className="quick-menu">
-        <li className="Home active">
-          <span className="text">Features</span>
+        <li className="DiceRoller active">
+          <span className="text">Dice Roller</span>
           <span className="state"></span>
         </li>
         <li className="BattleMap">

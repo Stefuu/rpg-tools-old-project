@@ -1,7 +1,7 @@
 /** @jsx React.DOM */
 
 var React = require('react');
-var Home = require('./Home.jsx');
+var DiceRoller = require('./DiceRoller.jsx');
 var BattleMap = require('./BattleMap.jsx');
 
 var Content = React.createClass({
@@ -23,22 +23,23 @@ var Content = React.createClass({
     selectedItem.className = selectedItem.className + ' active';
 
     // Altera estado do conteudo
-    console.log(contentToShow == 'Home');
+
     switch(contentToShow){
-      case 'Home' :
-        var content = <Home />;
+      case 'DiceRoller' :
+        var content = <DiceRoller />;
         break;
       case 'BattleMap' :
         var content = <BattleMap />;
         break;
     }
-    console.log(content);
+
+    // Altera o estado do conteudo, e por consequencia re-desenha com o componente adequado
     this.setState({content: content});
 
   },
   getInitialState: function(){
     return {
-      content: <Home />
+      content: <DiceRoller />
     };
   },
   componentDidMount: function(){
