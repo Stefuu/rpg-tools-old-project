@@ -1,0 +1,7 @@
+logs
+*.log
+build
+node_modules
+src/www/dist
+src/www/temp
+.DS_Store

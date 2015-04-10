@@ -1,0 +1,26 @@
+.main-content {
+  height: 67%;
+  position: relative;
+}
+
+.main-content .feature-label {
+  color: #fff;
+  font-size: 20%;
+  position: absolute;
+  padding: 5%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.7);
+}
+.main-content .feature-label .title {
+  display: block;
+  font-size: 73%;
+}
+.main-content .feature-label .desc {
+  font-size: 61%;
+}
+.main-content .dice-roller {
+  top: 23.8%;
+}
+.main-content .guide-book {
+  top: 86%;
+}
