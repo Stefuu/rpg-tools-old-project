@@ -39,7 +39,7 @@
   color: #ff8126;
 }
 .main-header .quick-menu .active .state{
-  border-bottom: 6px solid #ff8126;
+  border-bottom: 10px solid #ff8126;
 }
 .main-header .cssDraw-line {
   display: block;

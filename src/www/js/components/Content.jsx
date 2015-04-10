@@ -6,15 +6,19 @@ var Content = React.createClass({
   render: function() {
     return (
       <div className="main-content">
-        <img height="41%" src="assets/img/dices.png" />
-        <div className="feature-label dice-roller">
-          <span className="title">Dice Roll</span>
-          <span className="desc">Select witch and how many dices you want to roll</span>
+        <div className="feature dices">
+          <img height="41%" src="assets/img/dices.png" />
+          <div className="feature-label">
+            <span className="title">Dice Roll</span>
+            <span className="desc">Select witch and how many dices you want to roll</span>
+          </div>
         </div>
-        <img height="62%" src="assets/img/books.jpg" />
-        <div className="feature-label guide-book">
-          <span className="title">Guide Book</span>
-          <span className="desc">Books to guide your adventure</span>
+        <div className="feature books">
+          <img height="59%" src="assets/img/books.jpg" />
+          <div className="feature-label">
+            <span className="title">Guide Book</span>
+            <span className="desc">Books to guide your adventure</span>
+          </div>
         </div>
       </div>
     );
