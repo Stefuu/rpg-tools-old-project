@@ -5,9 +5,6 @@ var Header = require('./../components/Header.jsx');
 var Content = require('./../components/Content.jsx');
 var Footer = require('./../components/Footer.jsx');
 
-//Adiciona funcionalidades ao Date nativo.
-require ('date-utils');
-
 // Here we put our React instance to the global scope. Make sure you do not put it
 // into production and make sure that you close and open your console if the
 // DEV-TOOLS does not display

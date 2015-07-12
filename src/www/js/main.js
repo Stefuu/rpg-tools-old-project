@@ -6,6 +6,10 @@ var React = require('react');
 var Routes = require('./routes.js');
 var FastClick = require('fastclick');
 
+//Para remover o delay de 300ms do tap. Utilizado pelo material-ui.
+var injectTapEventPlugin = require("react-tap-event-plugin");
+injectTapEventPlugin();
+
 //Adiciona funcionalidades ao Date nativo.
 require ('date-utils');
 
