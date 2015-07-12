@@ -1,7 +1,6 @@
 /** @jsx React.DOM */
 
 var React = require('react');
-var QuickMenu = require('./QuickMenu.jsx');
 
 var Header = React.createClass({
   render: function() {
@@ -13,7 +12,6 @@ var Header = React.createClass({
             <span>RPG Tools</span>
           </div>
         </div>
-        <QuickMenu />
       </div>
     );
   }

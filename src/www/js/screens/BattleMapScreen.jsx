@@ -4,19 +4,19 @@
 
 var React = require('react');
 var Header = require('./../components/Header.jsx');
-var DiceRoller = require('./../components/DiceRoller.jsx');
+var BattleMap = require('./../components/BattleMap.jsx');
 var Footer = require('./../components/Footer.jsx');
 
-var DiceRollerScreen = React.createClass({
+var BattleMapScreen = React.createClass({
   render: function() {
     return (
       <div>
         <Header />
-        <DiceRoller />
+        <BattleMap />
         <Footer />
       </div>
     );
   }
 });
 
-module.exports = DiceRollerScreen;
+module.exports = BattleMapScreen;
