@@ -1,9 +1,10 @@
 /** @jsx React.DOM */
+/* jshint node:true */
+/* jshint browser:true */
 
 var React = require('react');
-var Header = require('./components/Header.jsx');
-var Content = require('./components/Content.jsx');
-var Footer = require('./components/Footer.jsx');
+var Routes = require('./routes.js');
+var FastClick = require('fastclick');
 
 //Adiciona funcionalidades ao Date nativo.
 require ('date-utils');
@@ -13,59 +14,9 @@ require ('date-utils');
 // DEV-TOOLS does not display
 window.React = React;
 
-var RPGtools = React.createClass({
-  _getOrientationByScreenSize: function(){
-    var orientation = ( window.outerWidth > window.outerHeight ) ? 'landscape' : 'portrait';
-    return orientation;
-  },
-  _setBodyFont: function() {
-    if( this._getOrientationByScreenSize() == 'portrait' ){
-      console.log('port');
-      document.querySelector('body').style.fontSize = parseInt(window.innerHeight * 0.2) + 'px';
-    }else{
-      console.log('land');
-      document.querySelector('body').style.fontSize = parseInt(window.innerWidth * 0.16) + 'px';
-    }
-  },
-  componentDidMount: function(){
-    console.log('mount app.js');
-    // Seta a font-size do body inicial
-    this._setBodyFont();
-
-    // Observa se houve mudança de orientação
-    window.addEventListener("orientationchange", function() {
-      //document.querySelector(".match_info").style.display = "none";
-      setTimeout(function(){
-        this.setState({orientation: this._getOrientationByScreenSize()});
-        //document.querySelector(".match_info").style.display = "inline-block";
-
-        // Seta font-size do body quando muda o orientation
-        this._setBodyFont();
-
-      }.bind(this), 500);
-    }.bind(this));
-  },
-  getInitialState: function(){
-    return {
-      orientation: this._getOrientationByScreenSize()
-    };
-  },
-  render: function() {
-    return (
-      <div className="container">
-        <Header />
-        <Content />
-        <Footer />
-      </div>
-    );
-  }
-});
-
 document.addEventListener('deviceready', function(){
-  React.render(
-    <RPGtools />,
-      document.getElementById('RPGtools')
-    );
+  FastClick(document.body);
+  Routes.run();
 }, false);
 
 if(!window.cordova){
@@ -73,5 +24,3 @@ if(!window.cordova){
   var deviceready = new Event('deviceready');
   document.dispatchEvent(deviceready);
 }
-
-module.exports = RPGtools;
