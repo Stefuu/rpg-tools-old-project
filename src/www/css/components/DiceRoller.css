@@ -37,9 +37,16 @@
   display: block;
   margin: 30px 1%;
   float: left;
-  width: 30%
+  width: 30%;
+  box-sizing: border-box;
 }
 
 #dicesList li img {
   width:100%;
+}
+
+.dicePositionsSelected {
+  border-color: #000;
+  border-style: solid;
+  border-size:2px;
 }
