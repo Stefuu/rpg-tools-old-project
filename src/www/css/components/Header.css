@@ -1,14 +1,19 @@
-.main-header .top {
-  height: 9%;
-  margin-top: 4%;
+.main-header{
+  background-color: #2196F3;
+  color: #FFF;
+  height: 40px;
+  line-height: 40px;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
+
 .main-header .appName {
   width: 50%;
 }
 .main-header .appName span {
   font-size: 17%;
   font-weight: 700;
-  color: #333;
   margin-left: 22%;
 }
 .main-header .menu {
@@ -17,7 +22,6 @@
 }
 .main-header .quick-menu {
   font-size: 14%;
-  color: #333;
   height: 6%;
 }
 

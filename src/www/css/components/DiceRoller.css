@@ -1,3 +1,44 @@
 .dice-roller {
-  font-size: 50%;
+  margin: 40px 0 0 0;
+  height: 100%;
+}
+
+.rollDiceButton{
+  border: 0 none;
+  width: 90%;
+  height: 35%;
+  margin: 30px auto;
+  background-color: #BDBDBD;
+  font-size:25%;
+}
+
+.rollDiceContainer{
+  text-align:center;
+  height: 120px;
+  font-size: 60%;
+}
+
+.listDiceContainer{
+  position:absolute;
+  top: 35%;
+  bottom:0;
+  left: 0;
+  right: 0;
+  overflow: auto;
+}
+
+#dicesList{
+ margin: 0;
+ padding: 0;
+}
+
+#dicesList li{
+  display: block;
+  margin: 30px 1%;
+  float: left;
+  width: 30%
+}
+
+#dicesList li img {
+  width:100%;
 }
