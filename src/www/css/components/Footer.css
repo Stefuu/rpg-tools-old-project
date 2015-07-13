@@ -1,5 +1,7 @@
 .main-footer {
-  height: 12%;
   font-size: 25px;
+  height: 30px;
+  position: fixed;
+  bottom: 0;
 }
 
