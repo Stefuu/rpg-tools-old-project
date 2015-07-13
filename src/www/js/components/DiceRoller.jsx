@@ -13,14 +13,21 @@ var DiceRoller = React.createClass({
   render: function() {
     return (
       <div className="dice-roller">
-      <button onClick={this._rollDice}>Roll Dice</button>
-      <span>{this.state.diceResult}</span>
-      <ul id="dicesList">
-        <li>4</li>
-        <li>6</li>
-        <li>10</li>
-        <li>100</li>
-      </ul>
+        <div className="rollDiceContainer">
+          <button className="rollDiceButton" onClick={this._rollDice}>Roll Dice</button>
+          <br/>
+          <span className="rollDiceResult">{this.state.diceResult}</span>
+        </div>
+        <div className="listDiceContainer">
+          <ul id="dicesList">
+            <li><img src="assets/img/icon-d4.png" /></li>
+            <li><img src="assets/img/icon-d6.png" /></li>
+            <li><img src="assets/img/icon-d8.png" /></li>
+            <li><img src="assets/img/icon-d10.png" /></li>
+            <li><img src="assets/img/icon-d12.png" /></li>
+            <li><img src="assets/img/icon-d20.png" /></li>
+          </ul>
+        </div>
       </div>
     );
   }
