@@ -24,18 +24,20 @@ var DiceRoller = React.createClass({
     return (
       <div className="dice-roller">
         <div className="rollDiceContainer">
-          <button className="rollDiceButton" onClick={this._rollDices}>Roll Dice</button>
-          <div className="selectedDices"></div>
-          <div className="rollDiceResult">
-            <div className="label">
-              <span>TOTAL</span>
-            </div>
-            <div className="result">
-              <span>{this.state.dicesSum}</span>
-            </div>
-          </div>
+          <button className="rollDiceButton" onClick={this._rollDice}>Roll Dice</button>
+          <br/>
+          <span className="rollDiceResult">{this.state.diceResult}</span>
         </div>
-        <DiceList />
+        <div className="listDiceContainer">
+          <ul id="dicesList">
+            <li><img src="assets/img/icon-d4.png" /></li>
+            <li><img src="assets/img/icon-d6.png" /></li>
+            <li><img src="assets/img/icon-d8.png" /></li>
+            <li><img src="assets/img/icon-d10.png" /></li>
+            <li><img src="assets/img/icon-d12.png" /></li>
+            <li><img src="assets/img/icon-d20.png" /></li>
+          </ul>
+        </div>
       </div>
     );
   }
