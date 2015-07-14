@@ -61,7 +61,7 @@ var paths = {
   bundleCss: ['./node_modules/bootstrap/dist/css/bootstrap.min.css', './src/www/css/**/*.css'],
   watchJs: ['./src/www/js/**/*.js', './src/www/js/**/*.jsx'],
   bundleJs: ['./node_modules/jquery/dist/jquery.min.js','./node_modules/bootstrap/dist/js/bootstrap.min.js', './src/www/temp/js/bundle.js'],
-  app_js: './src/www/js/app.js'
+  app_js: './src/www/js/main.js'
 };
 
 //////////////////////// TASKS /////////////////////////////

@@ -35,16 +35,18 @@
     "vinyl-source-stream": "*"
   },
   "dependencies": {
-    "cordova-android": "^3.5.1",
+    "cordova-android": "4.0.x",
     "date-utils": "^1.2.16",
     "gulp-browserify": "^0.5.1",
-    "gulp-rename": "^1.2.0",
     "hammerjs": "^2.0.4",
-    "jquery": "^2.1.3",
-    "lodash": "^3.0.1",
-    "react": "0.12.x",
-    "reflux": "^0.2.4",
+    "lodash": "^3.7.0",
+    "react": "0.13.x",
+    "react-tap-event-plugin": "0.1.x",
+    "reflux": "^0.2.7",
     "store": "^1.3.17",
-    "underscore": "*"
+    "underscore": "*",
+    "fastclick": "*",
+    "material-ui": "^0.7.x",
+    "react-router": "0.13.x"
   }
 }

@@ -1,19 +1,16 @@
 /** @jsx React.DOM */
 
 var React = require('react');
-var Header = require('./components/Header.jsx');
-var Content = require('./components/Content.jsx');
-var Footer = require('./components/Footer.jsx');
-
-//Adiciona funcionalidades ao Date nativo.
-require ('date-utils');
+var Header = require('./../components/Header.jsx');
+var Content = require('./../components/Content.jsx');
+var Footer = require('./../components/Footer.jsx');
 
 // Here we put our React instance to the global scope. Make sure you do not put it
 // into production and make sure that you close and open your console if the
 // DEV-TOOLS does not display
 window.React = React;
 
-var RPGtools = React.createClass({
+var MainWindow = React.createClass({
   _getOrientationByScreenSize: function(){
     var orientation = ( window.outerWidth > window.outerHeight ) ? 'landscape' : 'portrait';
     return orientation;
@@ -63,8 +60,8 @@ var RPGtools = React.createClass({
 
 document.addEventListener('deviceready', function(){
   React.render(
-    <RPGtools />,
-      document.getElementById('RPGtools')
+    <MainWindow />,
+    document.getElementById('MainWindow')
     );
 }, false);
 
@@ -74,4 +71,4 @@ if(!window.cordova){
   document.dispatchEvent(deviceready);
 }
 
-module.exports = RPGtools;
+module.exports = MainWindow;
