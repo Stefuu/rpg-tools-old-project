@@ -37,6 +37,8 @@ Usamos [este](https://github.com/kamrik/CordovaGulpTemplate "Title") template in
 ## Projeto ##
     git clone <url  do projeto>
     cd rpgtools
+    sudo chown -R $USER ~/.npm
+    sudo chown -R $USER /usr/local/lib/node_modules
     npm install
     gulp recreate
     gulp build/run/emulate
