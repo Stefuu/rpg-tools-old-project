@@ -7,7 +7,7 @@ var DiceRoller = React.createClass({
     this.setState({diceResult : 0});
     this.setState({dicePositions : 10});
   },
-  _rollDice(){
+  _rollDice: function(){
     this.setState({diceResult : Math.round(Math.random() * (this.state.dicePositions - 1) + 1)});
   },
   render: function() {
