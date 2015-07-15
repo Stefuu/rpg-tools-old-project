@@ -3,13 +3,19 @@
 /* jshint browser:true */
 
 var React = require('react');
-var Guide = require('./../components/Guide.jsx');
+var Router = require('react-router');
+var Link = Router.Link;
 
 var GuideScreen = React.createClass({
   render: function() {
     return (
-      <div>
-        <Guide />
+      <div className="guides">
+      	<ul>
+	    	<Link to="vampire">
+	    		<li>Vampire</li>
+	    	</Link>
+	    	<li>D&amp;D</li>
+        </ul>
       </div>
     );
   }

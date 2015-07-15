@@ -16,15 +16,20 @@ var GuideScreen = require('./screens/GuideScreen.jsx');
 /*Guides*/
 var Vampire = require('./components/guides/Vampire.jsx');
 
+/*Clans*/
+var Clans = require('./components/guides/Clans.jsx');
+var Ventrue = require('./components/guides/clans/Ventrue.jsx');
+
 var App = require('./components/App.jsx');
 
 var Routes = {
   routes: (<Route name="app" path="/" handler={App}>
     <Route name="diceroller" path="diceroller" handler={DiceRollerScreen}/>
     <Route name="battlemap" path="battlemap" handler={BattleMapScreen} />
-    <Route name="guide" path="guide" handler={GuideScreen} >
-      <Route name="vampire" path="vampire" handler={Vampire} />
-    </Route>
+    <Route name="guides" path="guides" handler={GuideScreen} />
+    <Route name="vampire" path="guides/vampire" handler={Vampire} />
+    <Route name="clans" path="guides/vampire/clans" handler={Clans} />
+    <Route name="ventrue" path="guides/vampire/clans/ventrue" handler={Ventrue} />
     <DefaultRoute handler={MainWindow}/>
   </Route>),
   run: function(){
