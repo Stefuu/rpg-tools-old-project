@@ -3,20 +3,21 @@
 var React = require('react');
 var Router = require('react-router');
 var Link = Router.Link;
-var Vampire = React.createClass({
+
+var Guides = React.createClass({
 
   render: function() {
     return (
-      <div className="vampire">
+      <div className="guides">
         <ul>
-        	<Link to="clans">
-        		<li> Clans</li>
+        	<Link to="vampire">
+        		<li>Vampire</li>
         	</Link>
-        	<li> Disciplinas</li>
+        	<li>D&amp;D</li>
         </ul>
       </div>
     );
   }
 });
 
-module.exports = Vampire;
+module.exports = Guides;
