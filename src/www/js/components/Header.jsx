@@ -25,7 +25,7 @@ var Header = React.createClass({
                 <li>Dice Roller &#62;</li>
               </Link>
               <Link to="battlemap">
-                <li>Guide &#62;</li>
+                <li>Battle Map &#62;</li>
               </Link>
             </ul>
           </div>
