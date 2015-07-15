@@ -2,7 +2,7 @@
 
 var React = require('react');
 var Header = require('./../components/Header.jsx');
-var Content = require('./../components/Content.jsx');
+var DiceRoller = require('./../components/DiceRoller.jsx');
 var Footer = require('./../components/Footer.jsx');
 
 // Here we put our React instance to the global scope. Make sure you do not put it
@@ -51,7 +51,7 @@ var MainWindow = React.createClass({
     return (
       <div className="container">
         <Header />
-        <Content />
+        <DiceRoller />
         <Footer />
       </div>
     );
