@@ -3,16 +3,16 @@
 /* jshint browser:true */
 
 var React = require('react');
-var DiceRoller = require('./../components/DiceRoller.jsx');
+var Guide = require('./../components/Guide.jsx');
 
-var DiceRollerScreen = React.createClass({
+var GuideScreen = React.createClass({
   render: function() {
     return (
       <div>
-        <DiceRoller />
+        <Guide />
       </div>
     );
   }
 });
 
-module.exports = DiceRollerScreen;
+module.exports = GuideScreen;
