@@ -29,6 +29,7 @@
   bottom: 110px;
   left: 0;
   right: 0;
+  overflow: auto;
 }
 
 .rollDiceResult {
@@ -45,4 +46,20 @@
 
 .rollDiceResult .result {
   font-size: 70px;
+}
+
+#selectedDicesList {
+  margin: 0 auto;
+  padding: 0;
+}
+
+#selectedDicesList li {
+  display: inline-block;
+  width: 70px;
+  height:70px;
+  margin: 0 5px;
+}
+
+#selectedDicesList li img {
+  width:100%;
 }

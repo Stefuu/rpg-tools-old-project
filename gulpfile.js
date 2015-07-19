@@ -66,7 +66,7 @@ var paths = {
     main: './src/www/js/main.js'
   },
   css: {
-    files: ['./src/www/less/**/*.less', './src/www/css/**/*.css',]
+    files: ['./src/www/css/**/*.css',]
   }
 };
 
@@ -107,25 +107,13 @@ gulp.task('js', function(){
   return result;
 });
 
+//Compiles the css's files into a single css.
 gulp.task('css', function() {
-  var lessFiles = gulp.src('./src/www/less/main.less')
-    .pipe(less())
-    .on("error", handleError);
-
-  var rawCssFiles = gulp.src('./src/www/css/**/*.css');
-
-  var result = eventStream.merge(lessFiles, rawCssFiles)
-    .pipe(autoprefixer({
-            browsers: ['> 5%'],
-            cascade: false
-        }))
-    .pipe(concat('bundle.css'))
+  return gulp.src(paths.css.files)
+    .pipe(concat('main.min.css'))
     .pipe(minifyCSS())
-    .pipe(gulp.dest('./src/www/dist/css/'));
-
-//  prepare();
-
-  return result;
+    .on("error", handleError)
+    .pipe(gulp.dest('./src/www/dist/css'));
 });
 
 //Run gulp js and gulp css
