@@ -24,14 +24,14 @@ var DiceRoller = React.createClass({
     return (
       <div className="dice-roller">
         <div className="rollDiceContainer">
-          <button className="rollDiceButton" onClick={this._rollDice}>Roll Dice</button>
+          <button className="rollDiceButton" onClick={this._rollDices}>Roll Dice</button>
           <div className="selectedDices"></div>
           <div className="rollDiceResult">
             <div className="label">
               <span>TOTAL</span>
             </div>
             <div className="result">
-              <span>{this.state.diceResult}</span>
+              <span>{this.state.dicesSum}</span>
             </div>
           </div>
         </div>
