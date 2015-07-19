@@ -8,7 +8,6 @@ var Route = Router.Route;
 var RouteHandler = Router.RouteHandler;
 var DefaultRoute = Router.DefaultRoute;
 
-var MainWindow = require('./screens/MainWindow.jsx');
 var DiceRoller = require('./screens/DiceRollerScreen.jsx');
 var BattleMap = require('./screens/BattleMapScreen.jsx');
 
@@ -18,7 +17,7 @@ var Routes = {
   routes: (<Route name="app" path="/" handler={App}>
     <Route name="diceroller" path="/diceroller" handler={DiceRoller}/>
     <Route name="batlemap" path="/batlemap" handler={BattleMap} />
-    <DefaultRoute handler={MainWindow}/>
+    <DefaultRoute handler={DiceRoller}/>
   </Route>),
   run: function(){
     Router.run(this.routes, function(Handler){

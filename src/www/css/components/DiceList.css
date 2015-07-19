@@ -1,0 +1,25 @@
+.listDiceContainer{
+  position:fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  text-align: center;
+}
+
+.listDiceContainer #dicesList {
+  margin: 0 auto;
+  padding: 0;
+  width: 480px;
+}
+.listDiceContainer #dicesList li {
+  display: inline-block;
+  width: 70px;
+  height:70px;
+  margin: 0 5px;
+}
+
+.listDiceContainer #dicesList li img {
+  width:100%;
+}
