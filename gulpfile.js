@@ -26,7 +26,6 @@ var del = require('del');
 
 var pkg = require('./package.json');
 var gulp = require('gulp');
-var jshint = require('gulp-jshint');
 var cordova_lib = require('cordova-lib');
 var cdv = cordova_lib.cordova.raw;
 var buildDir = path.join(__dirname, 'build');
@@ -74,12 +73,6 @@ function handleError(err) {
   console.log(err.toString());
   this.emit('end');
 }
-
-gulp.task('jshint', function() {
-  return gulp.src(paths.app_js)
-    .pipe(jshint())
-    .pipe(jshint.reporter('default'));
-});
 
 //Compiles the jsx files into a single js.
 gulp.task('browserify', function() {
