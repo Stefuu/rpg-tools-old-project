@@ -8,7 +8,7 @@ var _ = require('lodash');
 var DiceRollerActions = require('./../actions/DiceRollerActions.jsx');
 
 var initialState = {
-  dices: [4, 4, 20],
+  dices: [],
   results: [],
   dicesSum: 0
 };
