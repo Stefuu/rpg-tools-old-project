@@ -18,7 +18,7 @@
   "license": "Apache version 2.0",
   "devDependencies": {
     "browserify": "~9.0.x",
-    "cordova-lib": "^5.0.0",
+    "cordova-lib": "^4.3.0",
     "del": "^1.1.1",
     "envify": "*",
     "event-stream": "^3.3.x",
