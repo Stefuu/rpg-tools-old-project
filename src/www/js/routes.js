@@ -17,7 +17,7 @@ var App = require('./components/App.jsx');
 var Routes = {
   routes: (<Route name="app" path="/" handler={App}>
     <Route name="diceroller" path="/diceroller" handler={DiceRoller}/>
-    <Route name="batlemap" path="/batlemap" handler={BattleMap} />
+    <Route name="battlemap" path="/battlemap" handler={BattleMap} />
     <DefaultRoute handler={MainWindow}/>
   </Route>),
   run: function(){
