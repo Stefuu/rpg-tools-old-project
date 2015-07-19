@@ -21,11 +21,21 @@ var DiceRoller = React.createClass({
     event.currentTarget.classList.add('dicePositionsSelected');
   },
   render: function() {
+    var renderedDiceList = [];
+    console.log(this.state.dices);
+    for(var i = 0; i <= this.state.dices.length; ++i) {
+      console.log(this.state.dices[i]);
+      renderedDiceList.push(<li>{this.state.dices[i]}</li>);
+    }
     return (
       <div className="dice-roller">
         <div className="rollDiceContainer">
           <button className="rollDiceButton" onClick={this._rollDices}>Roll Dice</button>
-          <div className="selectedDices"></div>
+          <div className="selectedDices">
+            <ul>
+              {renderedDiceList}
+              </ul>
+          </div>
           <div className="rollDiceResult">
             <div className="label">
               <span>TOTAL</span>
