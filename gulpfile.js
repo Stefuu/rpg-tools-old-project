@@ -1,3 +1,5 @@
+/* jshint node:true */
+
 /*
 
 An experimental gulpfile that manages a simple cordova based app using
@@ -9,36 +11,39 @@ Cordova project is created under ./build/ and treated as a build artifact.
 
 */
 
-/////// SETTINGS ////////////
-
-// Plugins can't be stores in package.josn right now.
-//  - They are published to plugin registry rather than npm.
-//  - They don't list their dependency plugins in their package.json.
-//    This might even be impossible because dependencies can be platform specific.
-var plugins = require('./plugins.json');
-
-// Platform to use for run/emulate. Alternatively, create tasks like runios, runandroid.
-var testPlatform = 'android';
-
-var path = require('path');
-var fs = require('fs');
-var del = require('del');
+/* General */
 
 var pkg = require('./package.json');
 var gulp = require('gulp');
-var cordova_lib = require('cordova-lib');
-var cdv = cordova_lib.cordova.raw;
-var buildDir = path.join(__dirname, 'build');
-var browserify = require('gulp-browserify');  // Bundles JS.
+var path = require('path');
+var fs = require('fs');
+var del = require('del');
 var concat = require('gulp-concat');
-var minifyCSS = require('gulp-minify-css');
 var rename = require('gulp-rename');
 var runSequence = require('run-sequence');
+var eventStream = require('event-stream');
 
-//Harmonize é necessário para rodar a task de testes.
-var jest = require('gulp-jest');
-require('harmonize')();
+/* JS */
 
+var browserify = require('gulp-browserify');  // Bundles JS.
+
+/* CSS */
+
+var minifyCSS = require('gulp-minify-css');
+var less = require('gulp-less');
+var autoprefixer = require('gulp-autoprefixer');
+
+/* Cordova */
+
+var plugins = require('./cordova-plugins.json');
+var cordova_lib = require('cordova-lib');
+var cdv = cordova_lib.cordova.raw;
+
+/*   Android */
+
+// Platform to use for run/emulate. Alternatively, create tasks like runios, runandroid.
+var testPlatform = 'android';
+var buildDir = path.join(__dirname, 'build');
 
 // List of platforms determined form pkd.dependencies. This way platform file
 // downloading and version preferences are entirely handled by npm install.
@@ -55,12 +60,23 @@ for (var p in cordova_lib.cordova_platforms) {
 
 //define the paths of files in the app
 var paths = {
-  tests: ['./src/www/tests/**/*.js'],
-  watchCss: ['./src/www/css/**/*.css'],
-  bundleCss: ['./src/www/css/**/*.css'],
-  watchJs: ['./src/www/js/**/*.js', './src/www/js/**/*.jsx'],
-  bundleJs: ['./src/www/temp/js/bundle.js'],
-  app_js: './src/www/js/main.js'
+  js: {
+    vendor: ['./node_modules/jquery/dist/jquery.min.js','./node_modules/bootstrap/dist/js/bootstrap.min.js'],
+    files: ['./src/www/js/**/*.js', './src/www/js/**/*.jsx'],
+    main: './src/www/js/main.js'
+  },
+  css: {
+    files: ['./src/www/less/**/*.less', './src/www/css/**/*.css',]
+  }
+};
+
+//Define the prepare function, that copies all files from src to build and prepares the app to be used with PhonegapApp
+
+var prepare = function(){
+  var currentDir = process.cwd();
+  process.chdir(buildDir);
+  cdv.prepare();
+  process.chdir(currentDir);
 };
 
 //////////////////////// TASKS /////////////////////////////
@@ -75,29 +91,41 @@ function handleError(err) {
 }
 
 //Compiles the jsx files into a single js.
-gulp.task('browserify', function() {
-  // Browserify/bundle the JS.
-  return gulp.src(paths.app_js)
+gulp.task('js', function(){
+  var browserifiedFiles = gulp.src(paths.js.main)
     .pipe(browserify({transform: 'reactify'}))
-    .on('error', handleError)
-    .pipe(rename('bundle.js'))
-    .pipe(gulp.dest('./src/www/temp/js/'));
-});
+    .on('error', handleError);
 
-//Compiles the jsx files into a single js.
-gulp.task('js', ['browserify'], function(){
-  return gulp.src(paths.bundleJs)
+  var vendorFiles = gulp.src(paths.js.vendor);
+
+  var result = eventStream.merge(vendorFiles, browserifiedFiles)
     .pipe(concat('bundle.js'))
     .pipe(gulp.dest('./src/www/dist/js/'));
+
+//  prepare();
+
+  return result;
 });
 
-//Compiles the css's files into a single css.
 gulp.task('css', function() {
-  return gulp.src(paths.bundleCss)
-    .pipe(concat('main.min.css'))
+  var lessFiles = gulp.src('./src/www/less/main.less')
+    .pipe(less())
+    .on("error", handleError);
+
+  var rawCssFiles = gulp.src('./src/www/css/**/*.css');
+
+  var result = eventStream.merge(lessFiles, rawCssFiles)
+    .pipe(autoprefixer({
+            browsers: ['> 5%'],
+            cascade: false
+        }))
+    .pipe(concat('bundle.css'))
     .pipe(minifyCSS())
-    .on("error", handleError)
-    .pipe(gulp.dest('./src/www/dist/css'));
+    .pipe(gulp.dest('./src/www/dist/css/'));
+
+//  prepare();
+
+  return result;
 });
 
 //Run gulp js and gulp css
@@ -105,20 +133,10 @@ gulp.task('js-css', ['css', 'js'], function(){
 
 });
 
-gulp.task('test', function(){
-  // return gulp.src(paths.tests)
-  //   .pipe(jest());
-  return gulp.src('src/www/**/__tests__').pipe(jest({
-    // rootDir: 'src'
-    // scriptPreprocessor: '../node_modules/6to5-jest',
-    // unmockedModulePathPatterns: [ 'react' ]
-  }));
-});
-
 // Rerun tasks whenever a file changes.
 gulp.task('watch', function() {
-  gulp.watch(paths.watchCss, ['css']);
-  gulp.watch(paths.watchJs, ['js']);
+  gulp.watch(paths.css.files, ['css']);
+  gulp.watch(paths.js.files, ['js']);
 });
 
 //Deletes the contents of the build folder
@@ -151,7 +169,7 @@ gulp.task('emulate', function() {
   return cdv.emulate({platforms:[testPlatform]});
 });
 
-gulp.task('release', ['copy_ant.properties'], function() {
+gulp.task('release', ['copy_release-signing.properties'], function() {
   process.chdir(buildDir);
   return cdv.build({options: ['--release']});
   // gulp.src('./android build files/ant.properties').pipe(gulp.dest(path.join('.', 'build', 'platforms', 'android')));
@@ -159,13 +177,13 @@ gulp.task('release', ['copy_ant.properties'], function() {
 });
 
 //Copy ant.properties file to project
-gulp.task('copy_ant.properties', function(){
+gulp.task('copy_release-signing.properties', function(){
   if(!fs.existsSync(path.join('.', 'build', 'platforms', 'android'))){
     fs.mkdirSync(path.join('.', 'build'));
     fs.mkdirSync(path.join('.', 'build', 'platforms'));
     fs.mkdirSync(path.join('.', 'build', 'platforms', 'android'));
   }
-  gulp.src('./android build files/ant.properties').pipe(gulp.dest(path.join('.', 'build', 'platforms', 'android')));
+  gulp.src('./android build files/release-signing.properties').pipe(gulp.dest(path.join('.', 'build', 'platforms', 'android')));
 });
 
 // Create the cordova project under ./build/. This version doesn't use cordova
@@ -194,13 +212,12 @@ gulp.task('recreate', ['clean'], function() {
   });
 });
 
-
 // Alternative version of recreate that uses "cordova create" rather than
 // creating the links manually.
 gulp.task('cdvcreate', ['clean'], function() {
   // TODO: remove "uri" when cordova-lib 0.21.7 is released.
   var srcDir = path.join(__dirname, 'src');
-  cfg = {lib: {www: {uri: srcDir, url: srcDir, link: true}}};
+  var cfg = {lib: {www: {uri: srcDir, url: srcDir, link: true}}};
 
   // TODO: Can app id be saved in package.json
   var appId = 'org.primeiroportal.chronos';
