@@ -35,6 +35,7 @@ var DiceRollerStore = Reflux.createStore({
   },
 
   onRollDices: function(){
+  console.log('Dados:', currentState.dices);
     currentState.results = [];
     currentState.dicesSum = 0;
     for(var i = 0; i < currentState.dices.length; ++i){
@@ -42,10 +43,13 @@ var DiceRollerStore = Reflux.createStore({
       currentState.results.push(diceREsult);
       currentState.dicesSum += diceREsult;
     }
+    console.log('Resultados:', currentState.results);
     this.trigger(currentState);
   },
   onAddDice: function(dicePositions){
-    console.log(dicePositions);
+    currentState.dices.push(parseInt(dicePositions));
+    currentState.dices.sort(function(a, b){return a-b;});
+    this.trigger(currentState);
   },
   onClearDices: function(){
     console.log('clearDices');
