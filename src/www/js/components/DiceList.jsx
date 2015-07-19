@@ -1,13 +1,14 @@
 /** @jsx React.DOM */
+/* jshint node:true */
+/* jshint browser:true */
 
 var React = require('react');
+var DiceRollerStore = require('./../stores/DiceRollerStore.jsx');
+var DiceRollerActions = require('./../actions/DiceRollerActions.jsx');
 
 var DiceList = React.createClass({
-  componentWillMount: function(){
-    this.setState({diceResult : 0});
-  },
   _addDice: function(event){
-    console.log(event);
+    DiceRollerActions.addDice(event.currentTarget.id);
   },
   render: function() {
     return (

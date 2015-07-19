@@ -4,18 +4,50 @@
 
 var Reflux = require('reflux');
 var Store = require('store');
-var DiceRollerActions = require('./../actions/DiceRollerActions.js');
+var _ = require('lodash');
+var DiceRollerActions = require('./../actions/DiceRollerActions.jsx');
+
+var initialState = {
+  dices: [4, 4, 20],
+  results: [],
+  dicesSum: 0
+};
+
+var currentState = {};
+
+var loadState = function(){
+  var lastState = Store.get('DiceRoller:state');
+  if(typeof lastState === "undefined"){
+    lastState = JSON.stringify(_.cloneDeep(initialState));
+  }
+  currentState = JSON.parse(lastState);
+  return currentState;
+};
+
+var saveState = function(state){
+  Store.set('DiceRoller:state', JSON.stringify(state));
+};
 
 var DiceRollerStore = Reflux.createStore({
   listenables: [DiceRollerActions],
+  getInitialState: function(){
+    return loadState();
+  },
 
-  rollDices: function(){
-    console.log('rollDices');
+  onRollDices: function(){
+    currentState.results = [];
+    currentState.dicesSum = 0;
+    for(var i = 0; i < currentState.dices.length; ++i){
+      var diceREsult = Math.round(Math.random() * (currentState.dices[i] - 1) + 1);
+      currentState.results.push(diceREsult);
+      currentState.dicesSum += diceREsult;
+    }
+    this.trigger(currentState);
   },
-  addDice: function(){
-    console.log('addDice');
+  onAddDice: function(dicePositions){
+    console.log(dicePositions);
   },
-  clearDices: function(){
+  onClearDices: function(){
     console.log('clearDices');
   }
 });
