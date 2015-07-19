@@ -35,7 +35,6 @@ var DiceRollerStore = Reflux.createStore({
   },
 
   onRollDices: function(){
-  console.log('Dados:', currentState.dices);
     currentState.results = [];
     currentState.dicesSum = 0;
     for(var i = 0; i < currentState.dices.length; ++i){

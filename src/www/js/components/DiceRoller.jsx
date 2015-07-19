@@ -22,17 +22,19 @@ var DiceRoller = React.createClass({
   },
   render: function() {
     var renderedDiceList = [];
-    console.log(this.state.dices);
-    for(var i = 0; i <= this.state.dices.length; ++i) {
-      console.log(this.state.dices[i]);
-      renderedDiceList.push(<li>{this.state.dices[i]}</li>);
+    for(var i = 0; i < this.state.dices.length; ++i) {
+      var imgSrc = "assets/img/icon-d" + this.state.dices[i] + ".png";
+      renderedDiceList.push(
+        <li>
+          <img src={imgSrc} />
+        </li>);
     }
     return (
       <div className="dice-roller">
         <div className="rollDiceContainer">
           <button className="rollDiceButton" onClick={this._rollDices}>Roll Dice</button>
           <div className="selectedDices">
-            <ul>
+            <ul id="selectedDicesList">
               {renderedDiceList}
               </ul>
           </div>
