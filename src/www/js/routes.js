@@ -96,8 +96,9 @@ var Routes = {
     
     <Route name="diceroller" path="/diceroller" handler={DiceRoller}/>
     <Route name="batlemap" path="/batlemap" handler={BattleMap} />
-    <DefaultRoute handler={DiceRoller}/>
 
+    <Route name="battlemap" path="/battlemap" handler={BattleMap} />
+    <DefaultRoute handler={DiceRoller}/>
   </Route>),
   run: function(){
     Router.run(this.routes, function(Handler){
