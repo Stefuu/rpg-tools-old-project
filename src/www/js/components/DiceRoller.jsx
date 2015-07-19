@@ -3,14 +3,15 @@
 /* jshint browser:true */
 
 var React = require('react');
-var DiceList = require('./DiceList.jsx')
+var Reflux = require('reflux');
+var DiceList = require('./DiceList.jsx');
+var DiceRollerStore = require('./../stores/DiceRollerStore.jsx');
+var DiceRollerActions = require('./../actions/DiceRollerActions.jsx');
 
 var DiceRoller = React.createClass({
-  componentWillMount: function(){
-    this.setState({diceResult : 0});
-  },
-  _rollDice: function(){
-    this.setState({diceResult : Math.round(Math.random() * (document.querySelector('#dicesList li.dicePositionsSelected').id - 1) + 1)});
+  mixins: [Reflux.connect(DiceRollerStore)],
+  _rollDices: function(){
+    DiceRollerActions.rollDices();
   },
   _selectDicePositions: function(event){
     var elements = document.querySelectorAll('#dicesList li');
@@ -23,14 +24,14 @@ var DiceRoller = React.createClass({
     return (
       <div className="dice-roller">
         <div className="rollDiceContainer">
-          <button className="rollDiceButton" onClick={this._rollDice}>Roll Dice</button>
+          <button className="rollDiceButton" onClick={this._rollDices}>Roll Dice</button>
           <div className="selectedDices"></div>
           <div className="rollDiceResult">
             <div className="label">
               <span>TOTAL</span>
             </div>
             <div className="result">
-              <span>{this.state.diceResult}</span>
+              <span>{this.state.dicesSum}</span>
             </div>
           </div>
         </div>
