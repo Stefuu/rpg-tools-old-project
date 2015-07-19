@@ -10,8 +10,21 @@ var DiceRollerActions = require('./../actions/DiceRollerActions.jsx');
 
 var DiceRoller = React.createClass({
   mixins: [Reflux.connect(DiceRollerStore)],
+  componentWillMount(){
+    if(window.shake){
+      window.shake.startWatch(this._rollDices, 40);
+    }
+  },
+  componentWillDestroy(){
+    if(window.shake){
+      window.shake.stopWatch();
+    }
+  },
   _rollDices: function(){
-    DiceRollerActions.rollDices();
+    if(this.state.dices.length > 0){
+      navigator.vibrate([50]);
+      DiceRollerActions.rollDices();
+    }
   },
   _selectDicePositions: function(event){
     var elements = document.querySelectorAll('#dicesList li');
