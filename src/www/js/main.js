@@ -19,6 +19,9 @@ require ('date-utils');
 window.React = React;
 
 document.addEventListener('deviceready', function(){
+  if (window.cordova && window.cordova.platformId == 'android') {
+    StatusBar.backgroundColorByHexString("#1976D2");
+  }
   FastClick(document.body);
   Routes.run();
 }, false);
