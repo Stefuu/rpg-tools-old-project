@@ -3,49 +3,45 @@
   height: 100%;
 }
 
-.rollDiceButton{
-  border: 0 none;
-  width: 90%;
-  height: 35%;
-  margin: 30px auto;
-  background-color: #BDBDBD;
-  font-size:25%;
-}
-
-.rollDiceContainer{
+.rollDiceContainer {
   text-align:center;
-  height: 120px;
-  font-size: 60%;
-}
-
-.listDiceContainer{
-  position:absolute;
-  top: 35%;
-  bottom:0;
+  position: fixed;
+  top: 40px;
   left: 0;
   right: 0;
-  overflow: auto;
+  bottom: 70px;
 }
 
-#dicesList{
- margin: 0;
- padding: 0;
+.rollDiceButton {
+  border: 0 none;
+  width: 90%;
+  height: 60px;
+  margin: 30px auto 0 auto;
+  background-color: #2196F3;
+  color: #FFF;
+  font-size:30px;
 }
 
-#dicesList li{
-  display: block;
-  margin: 30px 1%;
-  float: left;
-  width: 30%;
-  box-sizing: border-box;
+.selectedDices{
+  position: absolute;
+  top: 100px;
+  bottom: 110px;
+  left: 0;
+  right: 0;
 }
 
-#dicesList li img {
-  width:100%;
+.rollDiceResult {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
-.dicePositionsSelected {
-  border-color: #2196F3;
-  border-style: solid;
-  border-size:2px;
+.rollDiceResult .label {
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+.rollDiceResult .result {
+  font-size: 70px;
 }
