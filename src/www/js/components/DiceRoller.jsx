@@ -22,12 +22,17 @@ var DiceRoller = React.createClass({
   },
   render: function() {
     var renderedDiceList = [];
-    for(var i = 0; i < this.state.dices.length; ++i) {
-      var imgSrc = "assets/img/icon-d" + this.state.dices[i] + ".png";
-      renderedDiceList.push(
-        <li>
-          <img src={imgSrc} />
-        </li>);
+    if(this.state.dices.length > 0){
+      for(var i = 0; i < this.state.dices.length; ++i) {
+        var imgSrc = "assets/img/icon-d" + this.state.dices[i] + ".png";
+        renderedDiceList.push(
+          <li>
+            <img src={imgSrc} />
+          </li>);
+      }
+    }
+    else{
+      renderedDiceList.push(<span>Selecione pelo menos um dado</span>);
     }
     return (
       <div className="dice-roller">
@@ -36,7 +41,7 @@ var DiceRoller = React.createClass({
           <div className="selectedDices">
             <ul id="selectedDicesList">
               {renderedDiceList}
-              </ul>
+            </ul>
           </div>
           <div className="rollDiceResult">
             <div className="label">
