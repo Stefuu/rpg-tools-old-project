@@ -9,8 +9,8 @@ var ConcertinaList = React.createClass({
   	var itensMarkup = [];
   	for(var i = 0; i < itens.length; i++){
   		itensMarkup.push( <li>
-  							<span>Level {itens[i].title}</span>
-  							<span>{itens[i].description}</span> 
+  							<span className='title'>{itens[i].title}</span>
+  							<span className='desc'>{itens[i].description}</span> 
   						  </li>);
   	}
     return (
