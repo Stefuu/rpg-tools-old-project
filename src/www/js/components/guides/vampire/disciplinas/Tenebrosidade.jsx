@@ -1,17 +1,15 @@
 /** @jsx React.DOM */
 
 var React = require('react');
-var Router = require('react-router');
-var Link = Router.Link;
+var ConcertinaList = require('./../../../../components/ConcertinaList.jsx');
+var Json = require('./../../../../languages/pt-BR.json');
 
 var Tenebrosidade = React.createClass({
 
   render: function() {
     return (
       <div className="tenebrosidade">
-        <span>
-          Tenebrosidade é bla bla.
-        </span>
+        <ConcertinaList itens={Json.guias.vampiro.disciplinas.tenebrosidade}/>
       </div>
     );
   }

@@ -1,15 +1,15 @@
 /** @jsx React.DOM */
 
 var React = require('react');
+var ConcertinaList = require('./../../../../components/ConcertinaList.jsx');
+var Json = require('./../../../../languages/pt-BR.json');
 
 var Rapidez = React.createClass({
 
   render: function() {
     return (
       <div className="rapidez">
-        <span>
-          Rapidez bla bla.
-        </span>
+        <ConcertinaList itens={Json.guias.vampiro.disciplinas.rapidez}/>
       </div>
     );
   }
