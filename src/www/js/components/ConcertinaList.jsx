@@ -1,36 +1,7 @@
 /** @jsx React.DOM */
 /* jshint node:true */
 /* jshint browser:true */
-/*
-var json = {
-	"vampire" : {
-		"disciplinas" : {
-			"animalismo" : [
-				{
-					"title" : "Level 1", 
-					"description" : "blabla"
-				},
-				{
-					"title" : "Level 2", 
-					"description" : "blabla"
-				}
-			],
-			"fortitude" : [
-				{
-					"title" : "Level 1", 
-					"description" : "blabla"
-				},
-				{
-					"title" : "Level 2", 
-					"description" : "blabla"
-				}
-			],
-		}
-	}
-}
 
-porps.itens = json.vampire.disciplinas.animalismo
-*/
 var ConcertinaList = React.createClass({
 
   render: function(){
