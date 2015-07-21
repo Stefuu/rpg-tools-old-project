@@ -4,17 +4,17 @@ var React = require('react');
 var Router = require('react-router');
 var Link = Router.Link;
 
-var Clans = React.createClass({
+var Tenebrosidade = React.createClass({
 
   render: function() {
     return (
-      <div className="ventrue">
+      <div className="tenebrosidade">
         <span>
-          Ventrue é um clan bem legal, pena que o pigão usa ele
+          Tenebrosidade é bla bla.
         </span>
       </div>
     );
   }
 });
 
-module.exports = Clans;
+module.exports = Tenebrosidade;

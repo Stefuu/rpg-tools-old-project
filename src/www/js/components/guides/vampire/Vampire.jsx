@@ -10,9 +10,11 @@ var Vampire = React.createClass({
       <div className="vampire">
         <ul>
         	<Link to="clans">
-        		<li> Clans</li>
+        	 <li>Clans</li>
         	</Link>
-        	<li> Disciplinas</li>
+          <Link to="disciplinas">
+        	 <li>disciplinas</li>
+          </Link>
         </ul>
       </div>
     );
