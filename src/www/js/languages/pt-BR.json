@@ -1,72 +1,338 @@
 {
-	"vampire" : {
-		"disciplinas" : {
-			"animalismo" : [
-				{
-					"title" : "Nível 1 - Sussuros", 
-					"description" : "Embora a maioria dos animais não possuam a inteligência necessária para manterem um discurso inteiro sobre qualquer assunto, com esta disciplina você poderá tentar estabelecer uma forma limitada de comunicação empática e dar ordens específicas às criaturas. Esses intercursos ocorrem mentalmente — não há necessidade de que você chie ou lata para comunicar suas idéias ao animal. Para iniciar o diálogo, você precisa apenas olhar nos olhos do animal. O contato visual precisa ser mantido durante o diálogo inteiro. Se o contato for rompido, será preciso restabelecê-lo para 'falar' novamente com ele. Obviamente, não há nenhuma garantia de que um determinado animal deseje falar ou, caso fale, seja honesto. Depois de estabelecer o contato visual você estará apto a transmitir comandos complexos a um único animal, que obedecerá de acordo com o máximo de sua capacidade. Contudo, o comando deve ser proferido em termos de um pedido, e o animal deve ser convencido a atender o pedido. (Em outras palavras, será preciso representar o diálogo). O 'favor' não pode ser complexo demais para o intelecto do animal. Por exemplo, um rato seria incapaz de distinguir pessoas, enquanto um cachorro não saberia o que é um telefone. Certamente nenhum animal poderia ser instruído a investir contra a pessoa 'que me atacar com más intenções'. No entanto, esses comandos podem ser implantados profundamente, de modo que afetam o animal durante algum tempo. Por exemplo, um gato poderia ser instruído a vir até você quando alguém entrar no porão, fazendo isso durante dias ou mesmo semanas."
-				},
-				{
-					"title" : "Nível 2 - O Chamado", 
-					"description" : "A essência do animal fortaleceu-se dentro de você, e agora os animais atendem quando você os chama. Você está apto a chamar praticamente qualquer espécie de animais, atraindo-os até você. O personagem precisa te cantar na voz dos animais que deseja convocar — uivando como um lobo ou grasnando como um pássaro. A limitação básica é que você não pode convocar animais de espécies diferentes. Apenas uma convocação poderá ser realizada por vez, e não existe forma de cancelar um chamado depois que ele tiver sido feito. Portanto é preciso acertar de primeira. Os animais convocados desta forma não ficam sob qualquer obrigação imediata de atender aos seus comandos, embora costumem reagir com presteza e curiosidade ao seu chamado."
-				},
-				{
-					"title" : "Nível 3 - Canção da Serenidade", 
-					"description" : "Este poder lhe permite extrair a selvageria de um animal ou humano, tornando o alvo passivo e moroso. Simplesmente tocando o indivíduo ao qual deseja afetar, e cantando uma canção de conforto e consolo para a Besta interior, pode-se extrair dele aquilo que lhe confere a chama da individualidade e da criatividade. Quando a Besta tiver sido removida de um indivíduo, este perde a vontade de lutar ou de se defender. Ele perde momentaneamente o atributo Vontade, não podendo resistir a qualquer tipo de ataque. Os Membros são imunes a este poder. Os mortais e as criaturas que estiverem desprovidos de uma Besta tendem a aceitar praticamente qualquer coisa que lhes ocorra como completamente normal e natural, não esboçando qualquer tipo de reação. Mais tarde eles poderão se perguntar porque não reagiram, mas na maioria das vezes evitam pensar na situação."
-				},
-				{
-					"title" : "Nível 4 - Compartilhar o Espírito", 
-					"description" : "Fitando os olhos de um animal, o seu espírito ou consciente move-se para dentro do animal e encarna nele. Isto lhe permite controlar as ações do animal como se você fosse o próprio. O seu corpo se torna inconsciente e permanece imóvel durante esse tempo, como se você estivesse num estado de torpor."
-				},
-				{
-					"title" : "Nível 5 - Expulsando a Besta", 
-					"description" : "Você alcançou um entendimento profundo dos mistérios dos primos selvagens do homem. Armado com este conhecimento, estará apto a lidar melhor com a Besta interior. Quando a Besta tornar-se poderosa demais para ser controlada, você poderá transferir suas necessidades bestiais para outra criatura. Em termos práticos, você induz a um estado de frenesi outro animal, homem ou vampiro, como uma forma de evitar que o mesmo venha a ocorrer com você. O receptor desta energia vasta e selvagem precisa ser capaz de agüentá-la. Apenas seres com nível 7 ou menos de Humanidade são suficientemente selvagens para abrigar sua Besta. Esta criatura infeliz realmente recebe a sua Besta, e portanto a sua personalidade estará visível na natureza do frenesi sofrido pela vítima. O frenesi progredirá exatamente como se você fosse a criatura naquele estado."
-				},
-			],
-			"auspicios" : [
-				{
-					"title" : "Nível 1 - Sentidos Aguçados", 
-					"description" : "Você pode aguçar todos os seus sentidos a um grau extraordinário. Isto é feito à vontade, e dura o tempo que você quiser. Isto lhe possibilita duplicar seus alcances normais de audição e visão, em termos de distância e das condições pelas quais esses sentidos sejam eficazes. Os seus outros sentidos tornam-se igualmente úteis. Com um aumento da sensibilidade olfativa, pode-se rastrear mesmo se não tiverem sido deixadas pistas, e identificar praticamente qualquer objeto apenas pelo toque. No entanto há um lado negativo em ter os sentidos aguçados; ruídos altos ou luzes fortes podem perturbá-lo neste estado. Você pode até mesmo tornar-se 'cego' nesse sentido específico durante um período curto de tempo (dependendo do grau do ruído ou da luminosidade, esse período pode estender-se por dias). Portanto, se você for exposto à luz do sol enquanto estiver empregando Sentidos Aguçados, pode ficar cego por uma semana, mesmo depois do dano agravado ter sido curado. Você é ocasionalmente alertado para o perigo iminente por premonições perturbadoras. Essas premonições costumam ser confusas, mas seu valor é inestimável."
-				},
-				{
-					"title" : "Nível 2 - Percepção da Aura", 
-					"description" : "Você pode ver as auras dos outros seres, cujas cores indicam seus humores, identidades e níveis de hostilidade. Este poder também lhe possibilita reconhecer outros vampiros (eles possuem auras pálidas). Mesmo a pessoa mais superficial e apática costuma possuir diversas cores compondo sua aura. A aura pode variar entre cores diferentes num ciclo predizível, ou pode mudar de forma completamente aleatória. As cores mudam segundo o presente estado emocional do personagem, e como as pessoas costumam sentir emoções contraditórias com freqüência, a aura costuma assumir uma coloração mesclada."
-				},
-				{
-					"title" : "Nível 3 - O Toque do Espírito", 
-					"description" : "Com este poder você pode tocar um objeto e adquirir impressões de um dos últimos indivíduos que o tocaram. Esta leitura de objeto costuma limitar-se a lampejos de imagens fixas, mas ocasionalmente coisas como raça, sexo e até mesmo a aura da pessoa em questão pode ser discernida. O Toque do Espírito pode revelar também como o proprietário veio a adquirir o objeto, ou o que aconteceu durante os últimos momentos em que o indivíduo o esteve manipulando."
-				},
-				{
-					"title" : "Nível 4 - Telepatia", 
-					"description" : "Você pode sondar os pensamentos superficiais de qualquer indivíduo próximo e escutá-los como se estivesse ouvindo a pessoa falar. Dispondo de tempo, você pode aprender praticamente qualquer coisa sobre o indivíduo. Por exemplo, você pode conseguir descobrir o senhor de outro vampiro através da Telepatia."
-				},
-				{
-					"title" : "Nível 5 - Projeção Psíquica", 
-					"description" : "Você está apto a expandir a sua consciência a um grau tão elevado que pode separar a sua mente do corpo. Enquanto estiver neste estado poderá viajar sem fazer uso de seu corpo, projetando-se até qualquer lugar da Terra. Porém, quando o seu eu astral atingir o ponto mais afastado da órbita da Lua, irá encontrar o que convencionou-se chamar Limite da Esfera Lunar — uma barreira intransponível. O corpo físico deixado para trás mantém-se imóvel como se estivesse em estado de torpor. A sua mente permanece com o seu eu astral, e você não tem como saber o que está acontecendo em torno de seu corpo. Na verdade, até onde você sabe, ele poderia estar em chamas. Um cordão de prata — uma linha diáfana que prende a consciência ao corpo — conecta o seu eu astral ao seu corpo real. Se este cordão for rompido durante um incidente astral, você irá perder-se, entrando completamente no plano astral, o reino dos fantasmas e das sombras. Para reencontrar seu corpo precisará primeiro passar por uma jornada dura e aterrorizante."
-				}
-			],
-			"dominacao" : [
-				{
-					"title" : "Nível 1 - Comandar Mentes Fracas", 
-					"description" : "Você está apto a proferir comandos de uma palavra a outro indivíduo. Esses comandos devem ser obedecidos instantaneamente. Eles precisam ser palavras simples e concisas que possuam apenas um significado — pule, sente, levante, pare, ria, chore, corra, salte, pisque, sorria, carranqueie, tussa. Se a palavra for ambígüa o indivíduo irá reagir com confusão temporária. Você pode incluir a palavra de comando numa sentença, ressaltando-a apenas levemente, desta forma escondendo dos outros o que você está fazendo."
-				},
-				{
-					"title" : "Nível 2 - Hipnotizar", 
-					"description" : " Você pode implantar uma sugestão no inconsciente de um indivíduo. Isto requer concentração intensa e o uso preciso e cuidadoso de instruções para que as suas ordens sejam cumpridas apropriadamente. Você pode fazer a hipnose surtir efeito imediatamente, ou pode designar os eventos que o dispararão. É preciso manter contato visual durante todo o tempo que for necessário para completar o seu comando (se quiser, represente a cena). No entanto, pode-se realizar sugestões muito complicadas. É essencial proferir cuidadosamente as palavras, à medida que o alvo irá tentar inconscientemente perverter ao máximo o espírito da sugestão. Você pode dar comandos exatos a outra pessoa, como 'suba aquela escada' e 'finja que é um cachorro', ou o controle pode durar mais tempo e ser muito mais sutil. Depois que a sugestão inicial tenha sido implantada, não é mais preciso manter contato visual. A sugestão não pode forçar o indivíduo a fazer alguma coisa contra sua Natureza inata, e só se pode implantar uma sugestão de cada vez num indivíduo."
-				},
-				{
-					"title" : "Nível 3 - Ordenar Esquecimentos", 
-					"description" : "Com este poder pode-se roubar, criar ou remover memórias de um indivíduo. Esta é uma técnica bastante útil para fazer as pessoas esquecerem que você bebeu seu sangue ou mesmo que vocês se encontraram. Pode-se fazer um monte de travessuras com esse poder: é possível roubar praticamente qualquer memória de um indivíduo. O poder nem sempre é completamente eficaz. Por exemplo, o alvo pode saber que alguém o mordeu no pescoço, mas achar que foi um amante. Ocasionalmente um memória pode retornar anos depois, confundindo e aterrorizando o indivíduo."
-				},
-				{
-					"title" : "Nível 4 - Condicionamento", 
-					"description" : "Com o tempo, um indivíduo pode ser Condicionado de modo a ficar incapaz de resistir ao Dominação, tornando- se também mais resistente à Dominação de outros. Os Membros costumam Condicionar seus servos para que se tornem lacaios leais. O procedimento funciona tendo por base o fato de que os mortais que tenham sido Dominados repetidamente sentem mais dificuldade em resistir a tentativas futuras. O Condicionamento não é alguma coisa que funcione num piscar de olhos. Demanda tempo cultivar com cuidado a mente do indivíduo para o tipo de Vontade que você irá exercer. O condicionamento pleno de um indivíduo pode levar semanas ou mesmo meses. Os lacaios condicionados possuem pouca imaginação, tendendo a obedecer ao pé da letra as ordens que lhes são dadas. O Condicionamento pleno de um indivíduo destrói um pouco de seu livre arbítrio, transformando-o num autômato."
-				},
-				{
-					"title" : "Nível 5 - Possessão", 
-					"description" : "Com este poder você é capaz de exercer Vontade absoluto sobre a mente e o corpo de outra pessoa. Entrando na mente da outra pessoa, pode controlar suas ações de uma forma muito precisa. O indivíduo é um autômato, completamente incapaz de uma ação independente. Enquanto estiver controlando a mente do indivíduo o seu corpo permanece tão imóvel quanto se estivesse em estado de torpor. Você não pode Possuir outros Membros da Família. O Vontade sobre outros vampiros é possível apenas através de um Laço de Sangue."
-				}
-			]
+	"guides" : {
+		"vampire" : {
+			"disciplinas" : {
+				"animalismo" : [
+					{
+						"title" : "Nível 1 - Sussuros", 
+						"description" : "Embora a maioria dos animais não possuam a inteligência necessária para manterem um discurso inteiro sobre qualquer assunto, com esta disciplina você poderá tentar estabelecer uma forma limitada de comunicação empática e dar ordens específicas às criaturas. Esses intercursos ocorrem mentalmente — não há necessidade de que você chie ou lata para comunicar suas idéias ao animal. Para iniciar o diálogo, você precisa apenas olhar nos olhos do animal. O contato visual precisa ser mantido durante o diálogo inteiro. Se o contato for rompido, será preciso restabelecê-lo para 'falar' novamente com ele. Obviamente, não há nenhuma garantia de que um determinado animal deseje falar ou, caso fale, seja honesto. Depois de estabelecer o contato visual você estará apto a transmitir comandos complexos a um único animal, que obedecerá de acordo com o máximo de sua capacidade. Contudo, o comando deve ser proferido em termos de um pedido, e o animal deve ser convencido a atender o pedido. (Em outras palavras, será preciso representar o diálogo). O 'favor' não pode ser complexo demais para o intelecto do animal. Por exemplo, um rato seria incapaz de distinguir pessoas, enquanto um cachorro não saberia o que é um telefone. Certamente nenhum animal poderia ser instruído a investir contra a pessoa 'que me atacar com más intenções'. No entanto, esses comandos podem ser implantados profundamente, de modo que afetam o animal durante algum tempo. Por exemplo, um gato poderia ser instruído a vir até você quando alguém entrar no porão, fazendo isso durante dias ou mesmo semanas."
+					},
+					{
+						"title" : "Nível 2 - O Chamado", 
+						"description" : "A essência do animal fortaleceu-se dentro de você, e agora os animais atendem quando você os chama. Você está apto a chamar praticamente qualquer espécie de animais, atraindo-os até você. O personagem precisa te cantar na voz dos animais que deseja convocar — uivando como um lobo ou grasnando como um pássaro. A limitação básica é que você não pode convocar animais de espécies diferentes. Apenas uma convocação poderá ser realizada por vez, e não existe forma de cancelar um chamado depois que ele tiver sido feito. Portanto é preciso acertar de primeira. Os animais convocados desta forma não ficam sob qualquer obrigação imediata de atender aos seus comandos, embora costumem reagir com presteza e curiosidade ao seu chamado."
+					},
+					{
+						"title" : "Nível 3 - Canção da Serenidade", 
+						"description" : "Este poder lhe permite extrair a selvageria de um animal ou humano, tornando o alvo passivo e moroso. Simplesmente tocando o indivíduo ao qual deseja afetar, e cantando uma canção de conforto e consolo para a Besta interior, pode-se extrair dele aquilo que lhe confere a chama da individualidade e da criatividade. Quando a Besta tiver sido removida de um indivíduo, este perde a vontade de lutar ou de se defender. Ele perde momentaneamente o atributo Vontade, não podendo resistir a qualquer tipo de ataque. Os Membros são imunes a este poder. Os mortais e as criaturas que estiverem desprovidos de uma Besta tendem a aceitar praticamente qualquer coisa que lhes ocorra como completamente normal e natural, não esboçando qualquer tipo de reação. Mais tarde eles poderão se perguntar porque não reagiram, mas na maioria das vezes evitam pensar na situação."
+					},
+					{
+						"title" : "Nível 4 - Compartilhar o Espírito", 
+						"description" : "Fitando os olhos de um animal, o seu espírito ou consciente move-se para dentro do animal e encarna nele. Isto lhe permite controlar as ações do animal como se você fosse o próprio. O seu corpo se torna inconsciente e permanece imóvel durante esse tempo, como se você estivesse num estado de torpor."
+					},
+					{
+						"title" : "Nível 5 - Expulsando a Besta", 
+						"description" : "Você alcançou um entendimento profundo dos mistérios dos primos selvagens do homem. Armado com este conhecimento, estará apto a lidar melhor com a Besta interior. Quando a Besta tornar-se poderosa demais para ser controlada, você poderá transferir suas necessidades bestiais para outra criatura. Em termos práticos, você induz a um estado de frenesi outro animal, homem ou vampiro, como uma forma de evitar que o mesmo venha a ocorrer com você. O receptor desta energia vasta e selvagem precisa ser capaz de agüentá-la. Apenas seres com nível 7 ou menos de Humanidade são suficientemente selvagens para abrigar sua Besta. Esta criatura infeliz realmente recebe a sua Besta, e portanto a sua personalidade estará visível na natureza do frenesi sofrido pela vítima. O frenesi progredirá exatamente como se você fosse a criatura naquele estado."
+					}
+				],
+				"auspicios" : [
+					{
+						"title" : "Nível 1 - Sentidos Aguçados", 
+						"description" : "Você pode aguçar todos os seus sentidos a um grau extraordinário. Isto é feito à vontade, e dura o tempo que você quiser. Isto lhe possibilita duplicar seus alcances normais de audição e visão, em termos de distância e das condições pelas quais esses sentidos sejam eficazes. Os seus outros sentidos tornam-se igualmente úteis. Com um aumento da sensibilidade olfativa, pode-se rastrear mesmo se não tiverem sido deixadas pistas, e identificar praticamente qualquer objeto apenas pelo toque. No entanto há um lado negativo em ter os sentidos aguçados; ruídos altos ou luzes fortes podem perturbá-lo neste estado. Você pode até mesmo tornar-se 'cego' nesse sentido específico durante um período curto de tempo (dependendo do grau do ruído ou da luminosidade, esse período pode estender-se por dias). Portanto, se você for exposto à luz do sol enquanto estiver empregando Sentidos Aguçados, pode ficar cego por uma semana, mesmo depois do dano agravado ter sido curado. Você é ocasionalmente alertado para o perigo iminente por premonições perturbadoras. Essas premonições costumam ser confusas, mas seu valor é inestimável."
+					},
+					{
+						"title" : "Nível 2 - Percepção da Aura", 
+						"description" : "Você pode ver as auras dos outros seres, cujas cores indicam seus humores, identidades e níveis de hostilidade. Este poder também lhe possibilita reconhecer outros vampiros (eles possuem auras pálidas). Mesmo a pessoa mais superficial e apática costuma possuir diversas cores compondo sua aura. A aura pode variar entre cores diferentes num ciclo predizível, ou pode mudar de forma completamente aleatória. As cores mudam segundo o presente estado emocional do personagem, e como as pessoas costumam sentir emoções contraditórias com freqüência, a aura costuma assumir uma coloração mesclada."
+					},
+					{
+						"title" : "Nível 3 - O Toque do Espírito", 
+						"description" : "Com este poder você pode tocar um objeto e adquirir impressões de um dos últimos indivíduos que o tocaram. Esta leitura de objeto costuma limitar-se a lampejos de imagens fixas, mas ocasionalmente coisas como raça, sexo e até mesmo a aura da pessoa em questão pode ser discernida. O Toque do Espírito pode revelar também como o proprietário veio a adquirir o objeto, ou o que aconteceu durante os últimos momentos em que o indivíduo o esteve manipulando."
+					},
+					{
+						"title" : "Nível 4 - Telepatia", 
+						"description" : "Você pode sondar os pensamentos superficiais de qualquer indivíduo próximo e escutá-los como se estivesse ouvindo a pessoa falar. Dispondo de tempo, você pode aprender praticamente qualquer coisa sobre o indivíduo. Por exemplo, você pode conseguir descobrir o senhor de outro vampiro através da Telepatia."
+					},
+					{
+						"title" : "Nível 5 - Projeção Psíquica", 
+						"description" : "Você está apto a expandir a sua consciência a um grau tão elevado que pode separar a sua mente do corpo. Enquanto estiver neste estado poderá viajar sem fazer uso de seu corpo, projetando-se até qualquer lugar da Terra. Porém, quando o seu eu astral atingir o ponto mais afastado da órbita da Lua, irá encontrar o que convencionou-se chamar Limite da Esfera Lunar — uma barreira intransponível. O corpo físico deixado para trás mantém-se imóvel como se estivesse em estado de torpor. A sua mente permanece com o seu eu astral, e você não tem como saber o que está acontecendo em torno de seu corpo. Na verdade, até onde você sabe, ele poderia estar em chamas. Um cordão de prata — uma linha diáfana que prende a consciência ao corpo — conecta o seu eu astral ao seu corpo real. Se este cordão for rompido durante um incidente astral, você irá perder-se, entrando completamente no plano astral, o reino dos fantasmas e das sombras. Para reencontrar seu corpo precisará primeiro passar por uma jornada dura e aterrorizante."
+					}
+				],
+				"dominacao" : [
+					{
+						"title" : "Nível 1 - Comandar Mentes Fracas", 
+						"description" : "Você está apto a proferir comandos de uma palavra a outro indivíduo. Esses comandos devem ser obedecidos instantaneamente. Eles precisam ser palavras simples e concisas que possuam apenas um significado — pule, sente, levante, pare, ria, chore, corra, salte, pisque, sorria, carranqueie, tussa. Se a palavra for ambígüa o indivíduo irá reagir com confusão temporária. Você pode incluir a palavra de comando numa sentença, ressaltando-a apenas levemente, desta forma escondendo dos outros o que você está fazendo."
+					},
+					{
+						"title" : "Nível 2 - Hipnotizar", 
+						"description" : " Você pode implantar uma sugestão no inconsciente de um indivíduo. Isto requer concentração intensa e o uso preciso e cuidadoso de instruções para que as suas ordens sejam cumpridas apropriadamente. Você pode fazer a hipnose surtir efeito imediatamente, ou pode designar os eventos que o dispararão. É preciso manter contato visual durante todo o tempo que for necessário para completar o seu comando (se quiser, represente a cena). No entanto, pode-se realizar sugestões muito complicadas. É essencial proferir cuidadosamente as palavras, à medida que o alvo irá tentar inconscientemente perverter ao máximo o espírito da sugestão. Você pode dar comandos exatos a outra pessoa, como 'suba aquela escada' e 'finja que é um cachorro', ou o controle pode durar mais tempo e ser muito mais sutil. Depois que a sugestão inicial tenha sido implantada, não é mais preciso manter contato visual. A sugestão não pode forçar o indivíduo a fazer alguma coisa contra sua Natureza inata, e só se pode implantar uma sugestão de cada vez num indivíduo."
+					},
+					{
+						"title" : "Nível 3 - Ordenar Esquecimentos", 
+						"description" : "Com este poder pode-se roubar, criar ou remover memórias de um indivíduo. Esta é uma técnica bastante útil para fazer as pessoas esquecerem que você bebeu seu sangue ou mesmo que vocês se encontraram. Pode-se fazer um monte de travessuras com esse poder: é possível roubar praticamente qualquer memória de um indivíduo. O poder nem sempre é completamente eficaz. Por exemplo, o alvo pode saber que alguém o mordeu no pescoço, mas achar que foi um amante. Ocasionalmente um memória pode retornar anos depois, confundindo e aterrorizando o indivíduo."
+					},
+					{
+						"title" : "Nível 4 - Condicionamento", 
+						"description" : "Com o tempo, um indivíduo pode ser Condicionado de modo a ficar incapaz de resistir ao Dominação, tornando- se também mais resistente à Dominação de outros. Os Membros costumam Condicionar seus servos para que se tornem lacaios leais. O procedimento funciona tendo por base o fato de que os mortais que tenham sido Dominados repetidamente sentem mais dificuldade em resistir a tentativas futuras. O Condicionamento não é alguma coisa que funcione num piscar de olhos. Demanda tempo cultivar com cuidado a mente do indivíduo para o tipo de Vontade que você irá exercer. O condicionamento pleno de um indivíduo pode levar semanas ou mesmo meses. Os lacaios condicionados possuem pouca imaginação, tendendo a obedecer ao pé da letra as ordens que lhes são dadas. O Condicionamento pleno de um indivíduo destrói um pouco de seu livre arbítrio, transformando-o num autômato."
+					},
+					{
+						"title" : "Nível 5 - Possessão", 
+						"description" : "Com este poder você é capaz de exercer Vontade absoluto sobre a mente e o corpo de outra pessoa. Entrando na mente da outra pessoa, pode controlar suas ações de uma forma muito precisa. O indivíduo é um autômato, completamente incapaz de uma ação independente. Enquanto estiver controlando a mente do indivíduo o seu corpo permanece tão imóvel quanto se estivesse em estado de torpor. Você não pode Possuir outros Membros da Família. O Vontade sobre outros vampiros é possível apenas através de um Laço de Sangue."
+					}
+				],
+				"fortitude" : [
+					{
+						"title" : "Nível 1 - Tolerância", 
+						"description" : "Enquanto a maioria dos cainitas ainda sofre da fatiga e da dor de seus ferimentos, você ignora estas dificuldades. mesm os ferimentos mais sérios como os de fogo e de luz solar não os pararão. O vampior não sofre nenhuma penalidade por ferimentos e até o nível Machucado. Eneuqnto a maioria dos vampiros perdem todos os empates enquanto Feridos ou permanecem Incapacitados, você sofre nestes casos apenas a penalidade de estar Machucado. Você entra em Torpor ou atinge a Morte Final normalmente."
+					},
+					{
+						"title" : "Nível 2 - Têmpera", 
+						"description" : "Ferimentos que atrasariam outro vampiros não significam nada para você. Pode-se ignorar dano da maioroa das fontes, não sentindo dor e tampouco sendo ferido. Seu corpo resite danos com um vigor incrível. Uma vez atingido este poder, ganha um mínimo de vitalidade extra, que age exatamente como um novo nível Saudável. este nível é perdido e curado como qualquer outro."
+					},
+					{
+						"title" : "Nível 3 - Resiliência", 
+						"description" : "Mesmo as ameaças da maioria dos cainitas, o fogo e a luz solar raramente machucam. Você pode sobreviver ao que reduziria outros vampiros em cinzas, embora isso somente seja verdade por um curto período de tempo."
+					},
+					{
+						"title" : "Nível 4 - Resistência", 
+						"description" : "Seu vigor vampírico supera de longe o qde qualquer mortal ou da maioria dos vampiros. Golpes que matariam um mortal, podem nem mesmo arranhá-lo."
+					},
+					{
+						"title" : "Nível 5 - Escudo", 
+						"description" : "Como uma barra de aço, uma montanha ou uma constante imutável, você resiste a qualquer dano e sobrevive a qualquer ataque> Apenas forças monumentais e persistentes podem destruí-lo completamente. Entretanto, uma vez que o fogo e a destruição tenham passado, você pode erguer-se do caos que restou."
+					}
+				],
+				"metamorfose" : [
+					{
+						"title" : "Nível 1 - Os olhos da besta", 
+						"description" : "No primeiro nível o vampiro pode transformar seus olhos em olhos bestiais que enxergam no escuro e tem uma coloração vermelha. Assim o vampiro pode atravessar a mais escura das florestas sem se preocupar com uma lanterna."
+					},
+					{
+						"title" : "Nível 2 - Garras da besta", 
+						"description" : "Agora o vampiro pode fazer com que suas garras cresçam como as garras de uma besta feroz. Causando dano agravado de Força + 1. As garras podem sair nas mãos e pés."
+					},
+					{
+						"title" : "Nível 3 - Fusão com a terra", 
+						"description" : "Agora o vampiro pode se tornar um com a terra. O vampiro só pode entrar na terra e não pode atravessar outros materiais como madeira ou asfalto. Apesar de não poder se mexer na terra, o vampiro não sofre dano de luz solar."
+					},
+					{
+						"title" : "Nível 4 - A forma da besta", 
+						"description" : "Neste nível, o vampiro pode se transformar lendariamente em lobo ou morcego. Assim, o vampiro pode ganhar os sentidos aguçados dos lobos ou o vôo dos morcegos. Alguns vampiros de outras regiões podem se transformar em outros animais."
+					},
+					{
+						"title" : "Nível 5 - Forma de névoa", 
+						"description" : "Este estranho poder dota o vampiro com o poder de se transformar em névoa. Nesta forma o vampiro pode passar por pequenas frestas e buracos, mas pode ser arrastado para longe de seu destino por um vento forte."
+					}
+				],
+				"ofuscacao" : [
+					{
+						"title" : "Nível 1 - Manto das sombras", 
+						"description" : "Em seu nível mais básico, o vampiro usa as sombras para poder se esconder, indo em um local sem luzes diretas o vampiro entra na escuridão e não pode ser visto por olhos comuns. Ele só será visto se fizer barulho ou se alguém fizer uma vistoria minuciosa."
+					},
+					{
+						"title" : "Nível 2 - Presença invisível", 
+						"description" : "Neste nível de compreensão, o vampiro pode se mover livremente sem ser visto pelos outros. As pessoa evitam olhar em sua direção. Ele se manterá ofuscado a não ser que chame atenção com uma ação brusca ou que alguém esteja procurando por ele."
+					},
+					{
+						"title" : "Nível 3 - Mascara das mil faces", 
+						"description" : "Agora, o vampiro pode usar a ofuscação para mudar sua fisionomia da maneira que quiser. Este poder é muito usado pelos Nosferatu que querem sair de seus refúgios sem espantarem a população."
+					},
+					{
+						"title" : "Nível 4 - Desaparecimento do olho da mente", 
+						"description" : "Este nível é tão poderoso que o vampiro pode desaparecer mesmo estando frente a frente com o alvo."
+					},
+					{
+						"title" : "Nível 5 - Cobrindo o grupo", 
+						"description" : "Neste nível, o vampiro pode não só ofuscar a si mesmo como também a quem estiver com ele. Cobrindo assim seus amigos em uma situação de perigo. Se alguém chamar a atenção, só aquela pessoa aparece, se o vampiro chamar a atenção, todos aparecem."
+					}
+				],
+				"potencia" : [
+					{
+						"title" : "Nível 1 - Intrepidez", 
+						"description" : "Você possui uma quantidade de força incomum para os vampiros. Onde outros falham, você redobra seus esforços. seus golpes possuem uma força que pode matar os mais resistentes dos mortais."
+					},
+					{
+						"title" : "Nível 2 - Força", 
+						"description" : "Sua força assusta até mesmo outros vampiros. poucos arriscariam entrar em um teste de poder físico com você. Você está além de um vampiro médio em desafios envolvendo força."
+					},
+					{
+						"title" : "Nível 3 - Vigor", 
+						"description" : "Sua força vampírica é realmente fenomenal. Você pode erguer centenas de quilogramas com facilidade, tendo força o suficiente para esmagar ossos com um único golpe e nocautear qualquer oponente inferior."
+					},
+					{
+						"title" : "Nível 4 - Intensidade", 
+						"description" : "Sua força titânica nunca lhe falhou. A menos que pressionado ou ferido, você pode realizae feitos de força contínua."
+					},
+					{
+						"title" : "Nível 5 - Pujança", 
+						"description" : "Nenum mortal pode lhe fazer frente e mesmo vampiros tremem ao seu ataque. A força de seus membros cadavéricos é realmente monumental, esmagando tudo que se opor a você."
+					}
+				],
+				"presenca" : [
+					{
+						"title" : "Nível 1 - Fascínio", 
+						"description" : "Neste nível o vampiro faz com que as pessoas a sua volta sintam uma vontade inexplicável de ficarem próximo a ele e serem as mais prestativas possíveis. O fascínio é muito eficaz na comunicação em massa."
+					},
+					{
+						"title" : "Nível 2 - Olhar aterrorizante", 
+						"description" : "Com este poder, o vampiro eleva a imagem aterrorizante do vampiro a um nível absurdo, até mesmo os mais robustos e corajosos fogem apavorados do olhar de um vampiro usando o Olhar Aterrorizante."
+					},
+					{
+						"title" : "Nível 3 - Transe", 
+						"description" : "Influenciando a emoção dos outros, o vampiro pode torna-las seus servos. Já que este poder é feito por livre vontade e amor e não por dominação cerebral, os alvos mantêm suas criatividades e habilidades."
+					},
+					{
+						"title" : "Nível 4 - Convocaçao", 
+						"description" : "Este poder incrível faz com que o vampiro convoque qualquer um que ele já tenha conhecido antes. Ele pode chamar qualquer pessoa de qualquer distância dentro do mundo físico e a pessoa sem ao menos saber porque virá ao vampiro o mais rápido possível."
+					},
+					{
+						"title" : "Nível 5 - Majestade", 
+						"description" : "Neste nível de maestria, o vampiro se torna mil vezes mais atraente ou apavorante. Até mesmo os mais corajosos não conseguem resistir ao poder do vampiro. Sob esse poder todos a sua volta o seguem corajoso, forte, audaz e esperto, sem exceção."
+					}
+				],
+				"quietus" : [
+					{
+						"title" : "Nível 1 - Silêncio mortal", 
+						"description" : "O Assamita pode fazer com que tudo a sua volta fique sem som nenhum, uma espécie de poder emudecedor emana do corpo do Assamita fazendo com que ninguém possa ouvir os gritos de morte da vitima."
+					},
+					{
+						"title" : "Nível 2 - Toque do escorpião", 
+						"description" : "Ao mudar as propriedades de seu sangue, o vampiro transforma seu sangue em um veneno poderoso que destrói o vigor do alvo."
+					},
+					{
+						"title" : "Nível 3 - O chamado de dagon", 
+						"description" : "Com um simples toque o vampiro pode afogar a sua vítima com seu próprio sangue explodindo seus vasos sanguíneos."
+					},
+					{
+						"title" : "Nível 4 - A carícia de baal", 
+						"description" : "O vampiro transforma seu sangue em um liquido virulento que ao ser passado na arma do Assamita faz com que ela cause dano agravado."
+					},
+					{
+						"title" : "Nível 5 - Gosto da morte", 
+						"description" : "O gosto da morte faz com que o vampiro seja capaz de cuspir sangue caustico em sua vítima. Este sangue coroe os ossos e carne da vítima."
+					}
+				],
+				"quimerismo" : [
+					{
+						"title" : "Nível 1 - Ignis Fatuus", 
+						"description" : "Essas ilusões pequenas e estáticas afetam apenas um sentido. Qualquer indivíduo que se encontre na área pode detectar a ilusão com este sentido, mas não com os outros. Atenção: mesmo se uma ilusão puder ser detectada pelo toque, ela não estará onde parece. Portanto um muro invisível de Ignis Fatuus poderia ser atravessado (basta empurrá- lo — se uma pessoa a socasse, sentiria uma ilusão tátil, mas a sua mão a atravessaria)."
+					},
+					{
+						"title" : "Nível 2 - Fata Morgana", 
+						"description" : "Uma ilusão criada com este poder pode ser detectada por qualquer ou todos os sentidos, conforme decidido pelo vampiro no momento em que ele criar a ilusão. Mais uma vez, a ilusão não se encontra realmente lá, podendo ser atravessada."
+					},
+					{
+						"title" : "Nível 3 - Aparição", 
+						"description" : "Este poder é usado em conjunto com um dos poderes acima e permite que a ilusão em questão se mova."
+					},
+					{
+						"title" : "Nível 4 - Permanência", 
+						"description" : "Este poder, também usado com Ignis Fatuus ou Fata Morgana, permite que uma ilusão continue existindo mesmo quando o vampiro não puder vê-la."
+					},
+					{
+						"title" : "Nível 5 - Realidade Cruel", 
+						"description" : "Este poder é eficaz apenas em uma pessoa por vez. Essencialmente, a vítima da Cruel Realidade acredita completa e absolutamente que a ilusão de fato existe. Um fogo falso irá queimá-lo, uma parede falsa irá detê-lo, uma bala falsa poderá feri-lo."
+					}
+				],
+				"rapidez" : [
+					{
+						"title" : "Nível 1 - Alacridade", 
+						"description" : "Seus reflexos são muito aguçados. mesmo quando voCê observa os outros agirem, você ainda pode realizar uma ação, completando seus movimentos antes que eles possam responder."
+					},
+					{
+						"title" : "Nível 2 - Explosão", 
+						"description" : "Com a velocidade assustadora, você move-se mais rápido do que seria possível para um ser humano. Enquanto os outros ainda se recuperam dos últimos acontecimentos, você já está fazendo seu próximo movimento."
+					},
+					{
+						"title" : "Nível 3 - Velocidade", 
+						"description" : "Mesmo outros cainitas ficam fascinados com sua velocidade sobrenatural. Você facilmente cata objetos arremessados e a velocidade de sua corrida chicoteia roupas e levanta poeira."
+					},
+					{
+						"title" : "Nível 4 - Ligeireza", 
+						"description" : "Movendo-se mais rápido do que o olho humano pode acompanhar, você é um borrão que cruza a apaisagem com a velocidade de uma chita. Comparados com você, transeuntes são estátuas."
+					},
+					{
+						"title" : "Nível 5 - Velocidade do vento", 
+						"description" : "Chamado o poder do sangue, você pode ser um redemoinho em movimento. Sua passagem extingue pequenas chamas, chicoteia o ar e causa confusão entre as entidades movimentano-se lentamente."
+					}
+				],
+				"serpentis" : [
+					{
+						"title" : "Nível 1 - Os Olhos da Serpente", 
+						"description" : "Os olhos do Setista parecem ser dourados com grandes íris negras, e os mortais ao redor do personagem vêem-se estranhamente atraídos a ele. Os olhos do Setita são muitos sedutores, sendo capazes de imobilizar os humanos que os fitarem. Enquanto o personagem continuar fitando os olhos de suas vítimas mortais, elas permanecerão paradas no mesmo lugar."
+					},
+					{
+						"title" : "Nível 2 - A Língua da Serpente", 
+						"description" : "O Setita pode transformar sua língua numa longa e bifurcada língua de serpente. Esta língua costuma ter 44cm de comprimento, podendo ser usada em combate corpo a corpo."
+					},
+					{
+						"title" : "Nível 3 - Mumificar", 
+						"description" : "Com este poder, um vampiro pode assumir uma forma praticamente invulnerável. O personagem entra num estado semelhante ao torpor. Neste estado as únicas coisas que podem feri-lo são a luz do sol e o fogo. Contudo, o personagem fica completamente incapacitado de qualquer ação, não podendo nem mesmo empregar as Disciplinas que ele ativaria normalmente durante o torpor. O personagem só poderá ser revivido deste estado bebendo um pouco de sangue."
+					},
+					{
+						"title" : "Nível 4 - Forma de Serpente", 
+						"description" : "O Setita é capaz de transformar-se numa grande cobra negra de dois metros de comprimento, 15cm de diâmetro e com o mesmo peso do personagem. Enquanto estiver nesta forma, o personagem adquire as vantagens dela: a capacidade de escorregar através de buracos estreitos, uma mordida venenosa (a mortais, pelo menos) e o mesmo olfato aguçado das cobras. O personagem é capaz de usar todas as suas outras Disciplinas enquanto estiver nesta forma (exceto aquelas que requeiram uso das mãos, como Garras de Lobo)."
+					},
+					{
+						"title" : "Nível 5 - O Coração das Trevas", 
+						"description" : "Este poder permite ao Setita remover o seu próprio coração do corpo. Através de várias horas de cirurgia, a operação pode ser realizada em outro vampiro. Este poder só pode ser usado durante as noites de escuridão absoluta (as de lua nova). Depois de ser removido, o coração precisa ser colocado numa urna de barro, que deve ser enterrada. Este poder deixa o Setita completamente “a prova de estacas”, facilitando também resistir ao frenesi (afinal de contas, o coração é a fonte da emoção). As dificuldades de todos os testes para resistir ao Frenesi caem em dois pontos. O maior perigo inerente ao uso deste poder é a possibilidade de que alguma outra pessoa encontre o coração. Se isto acontecer, o Setita ficará inteiramente à mercê de quem descobri-lo. Se o coração for jogado numa fogueira ou exposto à luz, o Setita sofrerá uma morte horrível. Esta é a única forma de destruí-lo. Se empalado com uma estaca de madeira, o Setita entrará instantaneamente em torpor. Muitos Setitas levam seus corações para onde quer que vão ou enterram vários outros falsos em diversos lugares. A maioria dos Setitas são paranóicos demais para visitar os seus próprios corações, temerosos de que alguém possa segui-los até eles. Ao mesmo tempo, esses Setitas vivem aterrorizados com a incerteza de seus corações ainda estarem ou não escondidos em segurança. Há rumores de que os Setitas mais velhos controlam sua progênie retendo os corações de seus filhos. Se isto for verdade, ajudaria a explicar porque o clã é tão unido."
+					}
+				],
+				"taumaturgia" : [
+					{
+						"title" : "Nível 1 - Um gosto por sangue", 
+						"description" : "Este poder foi desenvolvido como um meio de testar o poder de um inimigo — uma habilidade extremamente importante nas tumultuosas noites iniciais do Clã Tremere. Simplesmente provando do sangue do alvo, o taumaturgo pode determinar quanta vitae ainda resta em seu corpo e, se o alvo for um vampiro, quão recentemente ele se alimentou, sua geração (aproximadamente) e, com três ou mais sucessos, se ele cometeu diablerie recentemente."
+					},
+					{
+						"title" : "Nível 2 - Fúria do sangue", 
+						"description" : "Este poder permite que um vampiro force outro Membro a usar pontos de sangue contra a sua vontade. O taumaturgo precisa tocar seu alvo para que este poder funcione, apesar do mais leve toque ser o suficiente. Um vampiro afetado por este poder pode sentir uma agitação física conforme o taumaturgo intensifica seus Atributos Físicos ou pode até mesmo se encontrar próximo do frenesi conforme seu estoque de vitae é misticamente esgotado."
+					},
+					{
+						"title" : "Nível 3 - Potência do sangue", 
+						"description" : "O taumaturgo ganha tamanho controle sobre o seu sangue que ele pode 'concentrá-lo', tornando-o mais forte por um curto período de tempo. Na verdade, ele pode temporariamente diminuir sua geração com este poder. Este poder pode ser usado somente uma vez por noite."
+					},
+					{
+						"title" : "Nível 4 - Furto de vitae", 
+						"description" : "Usando este poder, um taumaturgo consegue extrair a vitae de suas vítimas. Ele não precisa entrar em contato com o seu alvo — o sangue literalmente flui em uma torrente fisica que vai do alvo at e o Membro (ela normalmente é absorvida misticamente e não precisa ser ingerida pela boca)."
+					},
+					{
+						"title" : "Nível 5 - Caldeirão de sangue", 
+						"description" : "Um taumaturgo usando este poder, ferve o sangue do alvo em suas veias como água no fogão. O Membro precisa tocar o alvo e é este toque que faz com que o sangue do alvo ferva. Este poder é sempre fatal para os mortais e causa grandes danos até mesmo nos mais poderosos vampiros."
+					}
+				],
+				"tenebrosidade" : [
+					{
+						"title" : "Nível 1 - Jogo de Sombras", 
+						"description" : "No primeiro nível, o vampiro pode mexer com as sombras a sua volta, fazendo com que sua silhueta fique assustadora ou que a sombra de um objeto se mexa. Ou até mesmo transformando sombras em sombras de outros objetos que não estão realmente lá."
+					},
+					{
+						"title" : "Nível 2 - Mortalha das Trevas", 
+						"description" : "Agora, o vampiro pode criar uma espécie de sombra que cobre uma certa área a escolha do vampiro. Esta sombra obstrui totalmente a luz e até mesmo o som de certa forma."
+					},
+					{
+						"title" : "Nível 3 - Braços do Abismo", 
+						"description" : "Ao refinar o controle sobre a escuridão, o vampiro pode criar braços de escuridão que podem esmagar os inimigos do vampiro."
+					},
+					{
+						"title" : "Nível 4 - Metamorfose Sombria", 
+						"description" : "Neste poder, o vampiro se funde com sua sombra criando uma criatura assustadora e bizarra."
+					},
+					{
+						"title" : "Nível 5 - Corpo de Sombras", 
+						"description" : "O nível de compreensão é tão alto que o vampiro pode se transformar em uma sombra em forma de ameba. Podendo assim, deslizar por frestas e ser imune a ataques que não seja o fogo e o sol."
+					}
+				],
+				"vicissitude" : [
+					{
+						"title" : "Nível 1 - Aspecto maleável", 
+						"description" : "No nível inicial, o Tzimisce pode mudar seus aspectos superficiais como sua face, voz, altura, cor de pele, tamanho e outras características. Mas apenas em uma profundidade de 30 cm."
+					},
+					{
+						"title" : "Nível 2 - Moldar carne", 
+						"description" : "Este nível é bem parecido com seu anterior, mas possibilita mudanças drásticas, os Tzimisce usam este poder para fazer de seus carniçais criaturas monstruosas."
+					},
+					{
+						"title" : "Nível 3 - Moldar ossos", 
+						"description" : "Agora o Tzimisce pode até mesmo mudar os ossos do alvo transformando a vítima em coisas irreconhecíveis até mesmo para os melhores amigos da pessoa."
+					},
+					{
+						"title" : "Nível 4 - Forma horripilante", 
+						"description" : "O Tzimisce que usa este poder se transforma em uma criatura horrenda e assustadora que parece ter saído direto de um pesadelo. A estatura do vampiro aumenta em até dois metros de altura, sua cor muda para um verde gosmento ou cinza doentio, ossos crescem em suas costas e suas unhas ficam negras e grandes."
+					},
+					{
+						"title" : "Nível 5 - Forma sanguínea", 
+						"description" : "Um vampiro com este poder pode transformar total ou parcialmente o seu corpo em sangue consciente. Se todo seu sangue for absorvido o vampiro encara a Morte Final."
+					}
+				]
+			}
 		}
 	}
 }
