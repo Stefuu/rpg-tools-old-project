@@ -6,13 +6,25 @@ var json = {
 	"vampire" : {
 		"disciplinas" : {
 			"animalismo" : [
-				{"level" : "1", "description" : "blabla"},
-				{"level2" : "blabla"}
+				{
+					"title" : "Level 1", 
+					"description" : "blabla"
+				},
+				{
+					"title" : "Level 2", 
+					"description" : "blabla"
+				}
 			],
-			"fortitude" : {
-				"level1" : "blabla",
-				"level2" : "blabla"
-			}
+			"fortitude" : [
+				{
+					"title" : "Level 1", 
+					"description" : "blabla"
+				},
+				{
+					"title" : "Level 2", 
+					"description" : "blabla"
+				}
+			],
 		}
 	}
 }
@@ -26,7 +38,7 @@ var ConcertinaList = React.createClass({
   	var itensMarkup = [];
   	for(var i = 0; i < itens.length; i++){
   		itensMarkup.push( <li>
-  							<span>Level {itens[i].level}</span>
+  							<span>Level {itens[i].title}</span>
   							<span>{itens[i].description}</span> 
   						  </li>);
   	}
