@@ -5,10 +5,18 @@
 var React = require('react');
 var Orientation = require('../modules/Orientation.js');
 var RouteHandler = require('react-router').RouteHandler;
+var Header = require('../components/Header.jsx');
+var Footer = require('../components/Footer.jsx');
 
 var App = React.createClass({
   render: function(){
-    return <RouteHandler />;
+    return (
+    	<div>
+	    	<Header />
+	    	<RouteHandler />
+	    	<Footer />
+	    </div>
+    );
   }
 });
 
