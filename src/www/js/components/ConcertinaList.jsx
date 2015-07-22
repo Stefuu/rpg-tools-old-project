@@ -2,16 +2,14 @@
 /* jshint node:true */
 /* jshint browser:true */
 
-var ConcertinaList = React.createClass({
+var ConcertinaListItens = require('./ConcertinaListItens.jsx');
 
+var ConcertinaList = React.createClass({
   render: function(){
   	var itens = this.props.itens;
   	var itensMarkup = [];
   	for(var i = 0; i < itens.length; i++){
-  		itensMarkup.push( <li>
-  							<span className='title'>{itens[i].title}</span>
-  							<span className='desc'>{itens[i].description}</span> 
-  						  </li>);
+  		itensMarkup.push( <ConcertinaListItens item={itens[i]}/>);
   	}
     return (
     	<div>
