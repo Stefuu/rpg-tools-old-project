@@ -57,6 +57,14 @@ button:focus {
   outline:0;
 }
 
+body h1 { 
+  text-align: center;
+  font-size: 34px;
+  padding: 15px;
+  font-weight: bold;
+  font-family: Arial;
+}
+
 .container{
   float: left;
   width: 100%;
@@ -66,4 +74,36 @@ button:focus {
 
 .hidden {
   display: none !important;
+}
+
+/* Seta para CIMA */
+.seta-cima:after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid black;
+  position: absolute;
+  right: 0;
+  margin-top: 7px;
+}
+
+/* Seta para BAIXO */
+.seta-baixo:after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid black;
+  position: absolute;
+  right: 0;
+  margin-top: 7px;
 }
