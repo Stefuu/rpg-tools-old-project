@@ -3,6 +3,7 @@
 var React = require('react');
 var Router = require('react-router');
 var Link = Router.Link;
+
 var Disciplinas = React.createClass({
 
   render: function() {
