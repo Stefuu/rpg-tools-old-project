@@ -1,3 +1,65 @@
 .dice-roller {
   font-size: 35px;
+  margin: 40px 0 0 0;
+  height: 100%;
+}
+
+.rollDiceContainer {
+  text-align:center;
+  position: fixed;
+  top: 40px;
+  left: 0;
+  right: 0;
+  bottom: 70px;
+}
+
+.rollDiceButton {
+  border: 0 none;
+  width: 90%;
+  height: 60px;
+  margin: 30px auto 0 auto;
+  background-color: #2196F3;
+  color: #FFF;
+  font-size:30px;
+}
+
+.selectedDices{
+  position: absolute;
+  top: 100px;
+  bottom: 110px;
+  left: 0;
+  right: 0;
+  overflow: auto;
+}
+
+.rollDiceResult {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.rollDiceResult .label {
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+.rollDiceResult .result {
+  font-size: 70px;
+}
+
+#selectedDicesList {
+  margin: 0 auto;
+  padding: 0;
+}
+
+#selectedDicesList li {
+  display: inline-block;
+  width: 70px;
+  height:70px;
+  margin: 0 5px;
+}
+
+#selectedDicesList li img {
+  width:100%;
 }

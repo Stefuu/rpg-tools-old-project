@@ -8,9 +8,7 @@ var DiceRoller = require('./../components/DiceRoller.jsx');
 var DiceRollerScreen = React.createClass({
   render: function() {
     return (
-      <div>
-        <DiceRoller />
-      </div>
+      <DiceRoller />
     );
   }
 });

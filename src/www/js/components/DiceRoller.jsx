@@ -1,26 +1,71 @@
 /** @jsx React.DOM */
+/* jshint node:true */
+/* jshint browser:true */
 
 var React = require('react');
+var Reflux = require('reflux');
+var DiceList = require('./DiceList.jsx');
+var DiceRollerStore = require('./../stores/DiceRollerStore.jsx');
+var DiceRollerActions = require('./../actions/DiceRollerActions.jsx');
 
 var DiceRoller = React.createClass({
-  componentWillMount: function(){
-    this.setState({diceResult : 0});
-    this.setState({dicePositions : 10});
+  mixins: [Reflux.connect(DiceRollerStore)],
+  componentWillMount(){
+    if(window.shake){
+      window.shake.startWatch(this._rollDices, 40);
+    }
   },
-  _rollDice: function(){
-    this.setState({diceResult : Math.round(Math.random() * (this.state.dicePositions - 1) + 1)});
+  componentWillDestroy(){
+    if(window.shake){
+      window.shake.stopWatch();
+    }
+  },
+  _rollDices: function(){
+    if(this.state.dices.length > 0){
+      navigator.vibrate([50]);
+      DiceRollerActions.rollDices();
+    }
+  },
+  _selectDicePositions: function(event){
+    var elements = document.querySelectorAll('#dicesList li');
+    Array.prototype.forEach.call(elements, function(el, i){
+      el.classList.remove('dicePositionsSelected');
+    });
+    event.currentTarget.classList.add('dicePositionsSelected');
   },
   render: function() {
+    var renderedDiceList = [];
+    if(this.state.dices.length > 0){
+      for(var i = 0; i < this.state.dices.length; ++i) {
+        var imgSrc = "assets/img/icon-d" + this.state.dices[i] + ".png";
+        renderedDiceList.push(
+          <li>
+            <img src={imgSrc} />
+          </li>);
+      }
+    }
+    else{
+      renderedDiceList.push(<span>Selecione pelo menos um dado</span>);
+    }
     return (
       <div className="dice-roller">
-      <button onClick={this._rollDice}>Roll Dice</button>
-      <span>{this.state.diceResult}</span>
-      <ul id="dicesList">
-        <li>4</li>
-        <li>6</li>
-        <li>10</li>
-        <li>100</li>
-      </ul>
+        <div className="rollDiceContainer">
+          <button className="rollDiceButton" onClick={this._rollDices}>Roll Dice</button>
+          <div className="selectedDices">
+            <ul id="selectedDicesList">
+              {renderedDiceList}
+            </ul>
+          </div>
+          <div className="rollDiceResult">
+            <div className="label">
+              <span>TOTAL</span>
+            </div>
+            <div className="result">
+              <span>{this.state.dicesSum}</span>
+            </div>
+          </div>
+        </div>
+        <DiceList />
       </div>
     );
   }

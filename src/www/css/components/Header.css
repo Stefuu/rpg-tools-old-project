@@ -1,20 +1,60 @@
-.main-header .top {
-  height: 9%;
-  margin-top: 4%;
+.main-header{
+  background-color: #2196F3;
+  color: #FFF;
+  height: 40px;
+  line-height: 40px;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
+
 .main-header .appName {
   width: 50%;
 }
+
 .main-header .appName span {
   font-size: 25px;
   font-weight: 700;
-  color: #333;
   margin-left: 22%;
 }
+
 .main-header .menu {
   margin-left: 5%;
   font-size: 25px;
 }
+
+.main-header .quick-menu {
+  font-size: 14%;
+  height: 6%;
+}
+
+.main-header .quick-menu li {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  font-weight: bold;
+}
+.main-header .quick-menu li .text {
+  height: 86%;
+}
+.main-header .quick-menu li span {
+  display: block;
+  width: 100%;
+}
+.main-header .quick-menu .active,
+.main-header .quick-menu .active .state{
+  color: #ff8126;
+}
+.main-header .quick-menu .active .state{
+  border-bottom: 10px solid #ff8126;
+}
+.main-header .cssDraw-line {
+  display: block;
+  height: 3px;
+  width: 100%;
+  border-bottom: 2px solid #333;
+}
+
 .main-header .menu,
 .main-header .appName {
   display: inline-block;
