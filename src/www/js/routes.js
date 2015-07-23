@@ -8,7 +8,6 @@ var Route = Router.Route;
 var RouteHandler = Router.RouteHandler;
 var DefaultRoute = Router.DefaultRoute;
 
-var MainWindow = require('./screens/MainWindow.jsx');
 var DiceRollerScreen = require('./screens/DiceRollerScreen.jsx');
 var BattleMapScreen = require('./screens/BattleMapScreen.jsx');
 var GuideScreen = require('./screens/GuideScreen.jsx');
@@ -93,11 +92,6 @@ var Routes = {
     <Route name="taumaturgia" path="guides/vampire/disciplinas/taumaturgia" handler={Taumaturgia} />   
     <Route name="tenebrosidade" path="guides/vampire/disciplinas/tenebrosidade" handler={Tenebrosidade} />   
     <Route name="vicissitude" path="guides/vampire/disciplinas/vicissitude" handler={Vicissitude} />   
-    
-    <Route name="diceroller" path="/diceroller" handler={DiceRoller}/>
-    <Route name="batlemap" path="/batlemap" handler={BattleMap} />
-
-    <Route name="battlemap" path="/battlemap" handler={BattleMap} />
     <DefaultRoute handler={DiceRoller}/>
   </Route>),
   run: function(){
