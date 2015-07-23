@@ -4,25 +4,19 @@
 
 var ConcertinaListItens = React.createClass({
   _toggleItem: function(e){
-    var item = e.target.nextSibling;
-    if(getComputedStyle(item)['display'] == 'none'){
-      item.style.display = 'block';
-      this.setState({open: true});
-    }else{
-      item.style.display = 'none';
-      this.setState({open: false});
-    }
+      this.state.open ? this.setState({open: false}) : this.setState({open: true});
   },
   getInitialState: function() {
     return {open: false};
   },
   render: function(){
     var item = this.props.item;
-    var titleClass = this.state.open ? 'title seta-cima' : 'title seta-baixo';
+    var titleClass = this.state.open ? 'seta-cima' : 'seta-baixo';
+    var descClass = this.state.open ? '' : 'hidden';
     return (
     	<li>
-        <span onClick={this._toggleItem} className={titleClass}>{item.title}</span>
-        <span className='desc'>{item.description}</span> 
+        <span onClick={this._toggleItem} className={'title ' + titleClass}>{item.title}</span>
+        <span className={'desc ' + descClass}>{item.description}</span> 
       </li>
     );
   }
