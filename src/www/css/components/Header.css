@@ -19,7 +19,11 @@
 .main-header .appName {
   display: inline-block;
 }
-
+.main-header .menu span {
+  min-width: 30px;
+  min-height: 30px;
+  display: block;
+}
 .main-header .menu ul{
   position: absolute;
   background-color: #eee;

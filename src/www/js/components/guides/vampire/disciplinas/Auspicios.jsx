@@ -3,8 +3,7 @@
 var React = require('react');
 var ConcertinaList = require('./../../../../components/ConcertinaList.jsx');
 var Internationalization = require('./../../../../modules/Internationalization.js');
-
-var Json = require('./../../../../languages/en-US.json');
+var Json = Internationalization.chooseLanguage();
 
 var Auspicios = React.createClass({
 
