@@ -3,77 +3,77 @@
 		"vampiro" : {
 			"disciplinas" : {
 				"animalismo" : {
-					"title" : "Animalismo",
+					"title" : "Animalism",
 					"itens" : [
 						{
-							"title" : "Nível 1 - Sussuros English ", 
-							"description" : "Embora a maioria dos animais não possuam a inteligência necessária para manterem um discurso inteiro sobre qualquer assunto, com esta disciplina você poderá tentar estabelecer uma forma limitada de comunicação empática e dar ordens específicas às criaturas. Esses intercursos ocorrem mentalmente — não há necessidade de que você chie ou lata para comunicar suas idéias ao animal. Para iniciar o diálogo, você precisa apenas olhar nos olhos do animal. O contato visual precisa ser mantido durante o diálogo inteiro. Se o contato for rompido, será preciso restabelecê-lo para 'falar' novamente com ele. Obviamente, não há nenhuma garantia de que um determinado animal deseje falar ou, caso fale, seja honesto. Depois de estabelecer o contato visual você estará apto a transmitir comandos complexos a um único animal, que obedecerá de acordo com o máximo de sua capacidade. Contudo, o comando deve ser proferido em termos de um pedido, e o animal deve ser convencido a atender o pedido. (Em outras palavras, será preciso representar o diálogo). O 'favor' não pode ser complexo demais para o intelecto do animal. Por exemplo, um rato seria incapaz de distinguir pessoas, enquanto um cachorro não saberia o que é um telefone. Certamente nenhum animal poderia ser instruído a investir contra a pessoa 'que me atacar com más intenções'. No entanto, esses comandos podem ser implantados profundamente, de modo que afetam o animal durante algum tempo. Por exemplo, um gato poderia ser instruído a vir até você quando alguém entrar no porão, fazendo isso durante dias ou mesmo semanas."
+							"title" : "Level 1 - Feral Whispers", 
+							"description" : "This power is the basis from which all other Animalism abilities grow. The vampire creates an empathic connection with a beast, thereby allowing him to communicate or issue simple commands. The Kindred locks eyes with the animal, transmitting his desires through sheer force of will. Although it isn't necessary to actually 'speak' in chirps, hisses, or barks, some vampires find that doing so helps strengthen the connection with the animal. Eye contact must be maintained the entire time; if it's broken, the Kindred must re-establish contact to continue communication. The simpler the creature, the more difficult it becomes to connect with the animal's Beast. Mammals, predatory birds, and larger reptiles are relatively easy to communicate with. Insects, invertebrates, and most fish are just too simple to connect with. Feral Whispers provides no guarantees that an animal will want to deal with the vampire, nor does it ensure that the animal will pursue any requests the vampire makes of it. Still, it does at least make the creature better disposed toward the Kindred. The manner in which the vampire presents his desires to the animal often depends on the type of creature. A Kindred can often bully smaller beasts into heeding commands, but he's better off couching orders for large predators as requests. If the vampire successfully uses the power, the animal performs the command to the best of its ability and intellect. Only the very brightest creatures understand truly complex directives (orders dealing with conditional situations or requiring abstract logic). Commands that the animal does understand remain deeply implanted, however, and guide its behavior for some time."
 						},
 						{
-							"title" : "Nível 2 - O Chamado", 
-							"description" : "A essência do animal fortaleceu-se dentro de você, e agora os animais atendem quando você os chama. Você está apto a chamar praticamente qualquer espécie de animais, atraindo-os até você. O personagem precisa te cantar na voz dos animais que deseja convocar — uivando como um lobo ou grasnando como um pássaro. A limitação básica é que você não pode convocar animais de espécies diferentes. Apenas uma convocação poderá ser realizada por vez, e não existe forma de cancelar um chamado depois que ele tiver sido feito. Portanto é preciso acertar de primeira. Os animais convocados desta forma não ficam sob qualquer obrigação imediata de atender aos seus comandos, embora costumem reagir com presteza e curiosidade ao seu chamado."
+							"title" : "Level 2 - Beckoning", 
+							"description" : "The vampire's connection to the Beast grows strong enough that he may call out in the voice of a specific type of animal -- howling like a wolf, shrilling like a raven, etc. This call mystically summons creatures of the chosen type. Since each type of animal has a different call, Beckoning works for only a single species at a time. All such animals within earshot are summoned, and some percentage of them will heed the Beckoning if it is successful. While the vampire has no further control over the beasts who answer, the animals who do are favorably disposed toward him and are at least willing to listen to the Kindred's concerns. (The vampire can then use Feral Whispers on individual animals to command them, which may be at a decreased difficulty at Storyteller discretion.)"
 						},
 						{
-							"title" : "Nível 3 - Canção da Serenidade", 
-							"description" : "Este poder lhe permite extrair a selvageria de um animal ou humano, tornando o alvo passivo e moroso. Simplesmente tocando o indivíduo ao qual deseja afetar, e cantando uma canção de conforto e consolo para a Besta interior, pode-se extrair dele aquilo que lhe confere a chama da individualidade e da criatividade. Quando a Besta tiver sido removida de um indivíduo, este perde a vontade de lutar ou de se defender. Ele perde momentaneamente o atributo Vontade, não podendo resistir a qualquer tipo de ataque. Os Membros são imunes a este poder. Os mortais e as criaturas que estiverem desprovidos de uma Besta tendem a aceitar praticamente qualquer coisa que lhes ocorra como completamente normal e natural, não esboçando qualquer tipo de reação. Mais tarde eles poderão se perguntar porque não reagiram, mas na maioria das vezes evitam pensar na situação."
+							"title" : "Level 3 - Quell The Beast", 
+							"description" : "As the supreme predators of the natural world, Kindred are highly attuned to the bestial nature that dwells within every mortal heart. A vampire who develops this power may assert his will over a mortal (animal or human) subject, subduing the Beast within her. This quenches all powerful, strong emotions -- hope, fury, love, fear -- within the target. The Kindred must either touch his subject or stare into her eyes to channel his will effectively. Mortals who lack the fire of their inner Beasts are quite tractable, reacting to even stressful situations with indifference. Even the most courageous or maddened mortal becomes apathetic and listless, while an especially sensitive individual may suffer from a phobic derangement while under the power's influence. Different Clans evoke this power in different ways, though the effect itself is identical. Tzimisce call it Cowing the Beast, since they force the mortal's weaker spirit to shrivel in fear before the Kindred's own inner Beast. Nosferatu refer to it as Song of Serenity, since they soothe the subject's Beast into a state of utter complacency, thus allowing them to feed freely. Gangrel know the power as Quell the Beast, and force the mortal spirit into a state of fear or apathy as befits the individual vampire's nature."
 						},
 						{
-							"title" : "Nível 4 - Compartilhar o Espírito", 
-							"description" : "Fitando os olhos de um animal, o seu espírito ou consciente move-se para dentro do animal e encarna nele. Isto lhe permite controlar as ações do animal como se você fosse o próprio. O seu corpo se torna inconsciente e permanece imóvel durante esse tempo, como se você estivesse num estado de torpor."
+							"title" : "Level 4 - Subsume The Spirit", 
+							"description" : "By locking his gaze with that of an animal, the vampire may mentally possess the creature. Some elders believe that since animals don't have souls but spirits, the vampire can move his own soul into the animal's body. Many younger vampires think it a matter of transferring one's consciousness into the animal's mind. In either case, it's agreed that the beast's weaker spirit (or mind) is pushed aside by the Kindred's own consciousness. The vampire's body falls into a motionless state akin to torpor while his mind takes control of the animal's actions, remaining this way until the Kindred's consciousness returns. Some haughty Tzimisce eschew this power, considering it debasing to enter the body of a lesser creature. When they do stoop to using it, they possess only predators. Conversely, Gangrel revel in connecting to the natural world in this way. They delight in sampling different animals' natures."
 						},
 						{
-							"title" : "Nível 5 - Expulsando a Besta", 
-							"description" : "Você alcançou um entendimento profundo dos mistérios dos primos selvagens do homem. Armado com este conhecimento, estará apto a lidar melhor com a Besta interior. Quando a Besta tornar-se poderosa demais para ser controlada, você poderá transferir suas necessidades bestiais para outra criatura. Em termos práticos, você induz a um estado de frenesi outro animal, homem ou vampiro, como uma forma de evitar que o mesmo venha a ocorrer com você. O receptor desta energia vasta e selvagem precisa ser capaz de agüentá-la. Apenas seres com nível 7 ou menos de Humanidade são suficientemente selvagens para abrigar sua Besta. Esta criatura infeliz realmente recebe a sua Besta, e portanto a sua personalidade estará visível na natureza do frenesi sofrido pela vítima. O frenesi progredirá exatamente como se você fosse a criatura naquele estado."
+							"title" : "Level 5 - Drawing Out The Beast", 
+							"description" : "At this level of Animalism, the Kindred has a keen understanding of the Beast Within, and is able to release his feral urges upon another mortal or vampire. The recipient of the vampire's Beast is instantly overcome by frenzy. This is an unnatural frenzy, however, as the victim is channeling the Kindred's own fury. As such, the vampire's own behavior, expressions, and even speech patterns are evident in the subject's savage actions. Gangrel and Tzimisce are especially fond of unleashing their Beasts onto others. Gangrel do so to stir their ghouls into inspired heights of savagery during combat. Tzimisce care less about who receives their Beast than retaining their own composure."
 						}
 					]
 				},
 				"auspicios" : {
-					"title" : "Auspícios",
+					"title" : "Auspex",
 					"itens" : [
 						{
-							"title" : "Nível 1 - Sentidos Aguçados", 
-							"description" : "Você pode aguçar todos os seus sentidos a um grau extraordinário. Isto é feito à vontade, e dura o tempo que você quiser. Isto lhe possibilita duplicar seus alcances normais de audição e visão, em termos de distância e das condições pelas quais esses sentidos sejam eficazes. Os seus outros sentidos tornam-se igualmente úteis. Com um aumento da sensibilidade olfativa, pode-se rastrear mesmo se não tiverem sido deixadas pistas, e identificar praticamente qualquer objeto apenas pelo toque. No entanto há um lado negativo em ter os sentidos aguçados; ruídos altos ou luzes fortes podem perturbá-lo neste estado. Você pode até mesmo tornar-se 'cego' nesse sentido específico durante um período curto de tempo (dependendo do grau do ruído ou da luminosidade, esse período pode estender-se por dias). Portanto, se você for exposto à luz do sol enquanto estiver empregando Sentidos Aguçados, pode ficar cego por uma semana, mesmo depois do dano agravado ter sido curado. Você é ocasionalmente alertado para o perigo iminente por premonições perturbadoras. Essas premonições costumam ser confusas, mas seu valor é inestimável."
+							"title" : "Level 1 - Heightened Senses", 
+							"description" : "This power increases the acuity of all of the vampire's senses, effectively doubling the clarity and range of sight, hearing, and smell. While her senses of taste and touch extend no farther than normal, they likewise become far more distinct; the vampire could taste the hint of liquor in a victim's blood or feel the give of the board concealing a hollow space in the floor. The Kindred may magnify her senses at will, sustaining this heightened focus for as long as she desires. At the Storyteller's option, this may make hunting easier. Occasionally, this talent provides extrasensory or even precognitive insights. These brief, unfocused glimpses may be odd premonitions, flashes of empathy, or eerie feelings of foreboding. The vampire has no control over these perceptions, but with practice can learn to interpret them with a fair degree of accuracy. Expanded senses come at a price, however. Bright lights, loud noises and strong smells present a hazard while the vampire uses this power. In addition to the possibility for distraction, an especially sudden or potent stimulus (like the glare of a spotlight or a clap of thunder) can blind or deafen the Kindred for an hour or more."
 						},
 						{
-							"title" : "Nível 2 - Percepção da Aura", 
-							"description" : "Você pode ver as auras dos outros seres, cujas cores indicam seus humores, identidades e níveis de hostilidade. Este poder também lhe possibilita reconhecer outros vampiros (eles possuem auras pálidas). Mesmo a pessoa mais superficial e apática costuma possuir diversas cores compondo sua aura. A aura pode variar entre cores diferentes num ciclo predizível, ou pode mudar de forma completamente aleatória. As cores mudam segundo o presente estado emocional do personagem, e como as pessoas costumam sentir emoções contraditórias com freqüência, a aura costuma assumir uma coloração mesclada."
+							"title" : "Level 2 - Aura Perception", 
+							"description" : "Using this power, the vampire can perceive the psychic 'auras' that radiate from mortals and supernatural beings alike. These halos comprise a shifting series of colors that take practice to discern with clarity. Even the simplest individual has many shifting hues within his aura; strong emotions predominate, while momentary impressions or deep secrets flash through in streaks and swirls. The colors change in sympathy with the subject's emotional state, blending into new tones in a constantly dancing pattern. The stronger the emotions involved, the more intense the hues become. A skilled vampire can learn much from her subject by reading the nuances of color and brilliance in the aura's flow. Aside from perceiving emotional states, vampires use Aura Perception to detect supernatural beings. The colors in Kindred auras, while intense, are quite pale; mage halos often flare and crackle with arcane power; the race of shapeshifters has strikingly bright, almost frantic, auras; ghosts have weak auras that flicker fitfully like a dying flame; and faerie creatures' radiance is shot through with capricious rainbow hues."
 						},
 						{
-							"title" : "Nível 3 - O Toque do Espírito", 
-							"description" : "Com este poder você pode tocar um objeto e adquirir impressões de um dos últimos indivíduos que o tocaram. Esta leitura de objeto costuma limitar-se a lampejos de imagens fixas, mas ocasionalmente coisas como raça, sexo e até mesmo a aura da pessoa em questão pode ser discernida. O Toque do Espírito pode revelar também como o proprietário veio a adquirir o objeto, ou o que aconteceu durante os últimos momentos em que o indivíduo o esteve manipulando."
+							"title" : "Level 3 - The Spirit's Touch", 
+							"description" : "When someone handles an object for any length of time, he leaves a psychic impression on the item. A vampire with this level of Auspex can 'read' these sensations, learning who handled the object, when he last held it, and what was done with it recently. (For these purposes, a corpse counts as an 'object' and can be read accordingly.) These visions are seldom clear and detailed, registering more like a kind of 'psychic snapshot.' Still, the Kindred can learn much even from such a glimpse. Although most visions concern the last person to handle the item, a long-time owner leaves a stronger impression than someone who held the object briefly. Gleaning information from the spiritual residue requires the vampire to hold the object and enter a shallow trance. She is only marginally aware of her surroundings while using The Spirit's Touch, but a loud noise or jarring physical sensation breaks the trance instantly. At the Storyteller's discretion, some impressions on objects may be so strong -- a knife plunged into Caesar's breast, the tip of the Spear of Destiny, a fang pulled from the maw of Dracula -- that any use of this power may be deemed a success."
 						},
 						{
-							"title" : "Nível 4 - Telepatia", 
-							"description" : "Você pode sondar os pensamentos superficiais de qualquer indivíduo próximo e escutá-los como se estivesse ouvindo a pessoa falar. Dispondo de tempo, você pode aprender praticamente qualquer coisa sobre o indivíduo. Por exemplo, você pode conseguir descobrir o senhor de outro vampiro através da Telepatia."
+							"title" : "Level 4 - Telepathy", 
+							"description" : "The vampire projects a portion of her consciousness into a nearby mortal's mind, creating a mental link through which she can communicate wordlessly or even read the target's deepest thoughts. The Kindred 'hears' in her own mind the thoughts plucked from a subject as if they were spoken to her. This is one of the most potent vampiric abilities, since, given time, a Kindred can learn virtually anything from a subject without him ever knowing. The Tremere and Tzimisce in particular find this power especially useful in gleaning secrets from others, or for directing their mortal followers with silent precision."
 						},
 						{
-							"title" : "Nível 5 - Projeção Psíquica", 
-							"description" : "Você está apto a expandir a sua consciência a um grau tão elevado que pode separar a sua mente do corpo. Enquanto estiver neste estado poderá viajar sem fazer uso de seu corpo, projetando-se até qualquer lugar da Terra. Porém, quando o seu eu astral atingir o ponto mais afastado da órbita da Lua, irá encontrar o que convencionou-se chamar Limite da Esfera Lunar — uma barreira intransponível. O corpo físico deixado para trás mantém-se imóvel como se estivesse em estado de torpor. A sua mente permanece com o seu eu astral, e você não tem como saber o que está acontecendo em torno de seu corpo. Na verdade, até onde você sabe, ele poderia estar em chamas. Um cordão de prata — uma linha diáfana que prende a consciência ao corpo — conecta o seu eu astral ao seu corpo real. Se este cordão for rompido durante um incidente astral, você irá perder-se, entrando completamente no plano astral, o reino dos fantasmas e das sombras. Para reencontrar seu corpo precisará primeiro passar por uma jornada dura e aterrorizante."
+							"title" : "Level 5 - Psychic Projection", 
+							"description" : "The Kindred with this awesome ability projects her senses out of her physical shell, stepping from her body as an entity of pure thought. The vampire's astral form is immune to physical damage or fatigue, and can 'fly' with blinding speed anywhere across the earth -- or even underground -- so long as she remains below the moon's orbit. The Kindred's material form lies in a torpid state while her astral self is active, and the vampire isn't aware of anything that befalls her body until she returns to it. An ephemeral silver cord connects the Kindred's psyche to her body. If this cord is severed, her consciousness becomes stranded in the astral plane (the realm of ghosts, spirits, and shades). Attempting to return to the vampire's physical shell is a long and terrifying ordeal, especially since there is no guarantee that she will accomplish the journey successfully. This significant danger keeps many Kindred from leaving their bodies for long, but those who dare can learn much."
 						}
 					]
 				},
 				"dominacao" : {
-					"title" : "Dominação",
+					"title" : "Dominate",
 					"itens" : [
 						{
-							"title" : "Nível 1 - Comandar Mentes Fracas", 
-							"description" : "Você está apto a proferir comandos de uma palavra a outro indivíduo. Esses comandos devem ser obedecidos instantaneamente. Eles precisam ser palavras simples e concisas que possuam apenas um significado — pule, sente, levante, pare, ria, chore, corra, salte, pisque, sorria, carranqueie, tussa. Se a palavra for ambígüa o indivíduo irá reagir com confusão temporária. Você pode incluir a palavra de comando numa sentença, ressaltando-a apenas levemente, desta forma escondendo dos outros o que você está fazendo."
+							"title" : "Level 1 - Command", 
+							"description" : "The vampire locks eyes with the subject and speaks a one-word command, which the subject must be obey instantly. The order must be clear and straightforward: Run, agree, fall, yawn, jump, laugh, surrender, stop, scream, follow. If the command is at all confusing or ambiguous, the subject may respond slowly or perform the task poorly. The subject cannot be ordered to do something directly harmful to herself, so a command like 'die' is ineffective. The command may be included in a sentence, thereby concealing the power's use from others. This effort at subtlety still requires the Kindred to make eye contact at the proper moment and stress the key word slightly. An alert bystander -- or even the victim -- may notice the emphasis. Still, unless she's conversant with supernatural powers, the individual is likely to attribute the utterance and the subsequent action to bizarre coincidence."
 						},
 						{
-							"title" : "Nível 2 - Hipnotizar", 
-							"description" : " Você pode implantar uma sugestão no inconsciente de um indivíduo. Isto requer concentração intensa e o uso preciso e cuidadoso de instruções para que as suas ordens sejam cumpridas apropriadamente. Você pode fazer a hipnose surtir efeito imediatamente, ou pode designar os eventos que o dispararão. É preciso manter contato visual durante todo o tempo que for necessário para completar o seu comando (se quiser, represente a cena). No entanto, pode-se realizar sugestões muito complicadas. É essencial proferir cuidadosamente as palavras, à medida que o alvo irá tentar inconscientemente perverter ao máximo o espírito da sugestão. Você pode dar comandos exatos a outra pessoa, como 'suba aquela escada' e 'finja que é um cachorro', ou o controle pode durar mais tempo e ser muito mais sutil. Depois que a sugestão inicial tenha sido implantada, não é mais preciso manter contato visual. A sugestão não pode forçar o indivíduo a fazer alguma coisa contra sua Natureza inata, e só se pode implantar uma sugestão de cada vez num indivíduo."
+							"title" : "Level 2 - Mesmerize", 
+							"description" : "With this power, a vampire can verbally implant a false thought or hypnotic suggestion in the subject's subconscious mind. Both Kindred and target must be free from distraction, since Mesmerize requires intense concentration and precise wording to be effective. The vampire may activate the imposed thought immediately or establish a stimulus that will trigger it later. The victim must be able to understand the vampire, though the two need to maintain eye contact only as long as it takes to implant the idea. Mesmerize allows for anything from simple, precise directives (handing over an item) to complex, highly involved ones (taking notes of someone's habits and relaying that information at an appointed time). It is not useful for planting illusions or false memories (such as seeing a rabbit or believing yourself to be on fire). A subject can have only one suggestion implanted at any time."
 						},
 						{
-							"title" : "Nível 3 - Ordenar Esquecimentos", 
-							"description" : "Com este poder pode-se roubar, criar ou remover memórias de um indivíduo. Esta é uma técnica bastante útil para fazer as pessoas esquecerem que você bebeu seu sangue ou mesmo que vocês se encontraram. Pode-se fazer um monte de travessuras com esse poder: é possível roubar praticamente qualquer memória de um indivíduo. O poder nem sempre é completamente eficaz. Por exemplo, o alvo pode saber que alguém o mordeu no pescoço, mas achar que foi um amante. Ocasionalmente um memória pode retornar anos depois, confundindo e aterrorizando o indivíduo."
+							"title" : "Level 3 - The Forgetful Mind", 
+							"description" : "After capturing the subject's gaze, the vampire delves into the subject's memories, stealing or re-creating them at his whim. The Forgetful Mind does not allow for telepathic contact; the Kindred operates much like a hypnotist, asking directed questions and drawing out answers from the subject. The degree of memory alteration depends on what the vampire desires. He may alter the subject's mind only slightly (quite effective for eliminating memories of the victim meeting or even being fed upon by the vampire) or utterly undo the victim's memories of her past. The degree of detail used has a direct bearing on how strongly the new memories take hold, since the victim's subconscious mind resists the alteration. A simplistic or incomplete false memory ('You went to the movies last night') crumbles much more quickly than does one with more attention to detail ('You thought about texting your girlfriend while you were in line at the new movie theater, but you knew you'd have to turn your phone off once you got inside. You liked the movie well enough, but the plot seemed weak. You were tired after it ended, so you went home, watched a little late-night television, and went to bed.'). Even in its simplest applications, The Forgetful Mind requires tremendous skill and finesse. It's a relatively simple matter to rifle through a victim's psyche and rip out the memories of the previous night without knowing what the subject did that evening. Doing so leaves a gap in the victim's mind, however -- a hole that can give rise to further problems down the road. The Kindred may describe new memories, but these recollections seldom have the same degree of realism that the subject's original thoughts held. As such, this power isn't always completely effective. The victim may remember being bitten, but believe it to be an animal attack. Greater memories may return in pieces as dreams, or through sensory triggers like a familiar odor or spoken phrase. Even so, months or years may pass before the subject regains enough of her lost memories to make sense of the fragments. A vampire can also sense when a subject's memories were altered through use of this power, and even restore them, as a hypnotist draws forth suppressed thoughts."
 						},
 						{
-							"title" : "Nível 4 - Condicionamento", 
-							"description" : "Com o tempo, um indivíduo pode ser Condicionado de modo a ficar incapaz de resistir ao Dominação, tornando- se também mais resistente à Dominação de outros. Os Membros costumam Condicionar seus servos para que se tornem lacaios leais. O procedimento funciona tendo por base o fato de que os mortais que tenham sido Dominados repetidamente sentem mais dificuldade em resistir a tentativas futuras. O Condicionamento não é alguma coisa que funcione num piscar de olhos. Demanda tempo cultivar com cuidado a mente do indivíduo para o tipo de Vontade que você irá exercer. O condicionamento pleno de um indivíduo pode levar semanas ou mesmo meses. Os lacaios condicionados possuem pouca imaginação, tendendo a obedecer ao pé da letra as ordens que lhes são dadas. O Condicionamento pleno de um indivíduo destrói um pouco de seu livre arbítrio, transformando-o num autômato."
+							"title" : "Level 4 - Conditioning", 
+							"description" : "Through sustained manipulation, the vampire can make a subject more pliant to the Kindred's will. Over time, the victim becomes increasingly susceptible to the vampire's influence while simultaneously growing more resistant to the corrupting efforts of other Kindred. Gaining complete control over a subject's mind is no small task, taking weeks or even months to accomplish. Kindred often fill their retainers' heads with subtle whispers and veiled urges, thereby ensuring these mortals' loyalty. Yet vampires must pay a high price for the minds they ensnare. Servants Dominated in this way lose much of their passion and individuality. They follow the vampire's orders quite literally, seldom taking initiative or showing any imagination. In the end, such retainers become like automatons or the walking dead."
 						},
 						{
-							"title" : "Nível 5 - Possessão", 
-							"description" : "Com este poder você é capaz de exercer Vontade absoluto sobre a mente e o corpo de outra pessoa. Entrando na mente da outra pessoa, pode controlar suas ações de uma forma muito precisa. O indivíduo é um autômato, completamente incapaz de uma ação independente. Enquanto estiver controlando a mente do indivíduo o seu corpo permanece tão imóvel quanto se estivesse em estado de torpor. Você não pode Possuir outros Membros da Família. O Vontade sobre outros vampiros é possível apenas através de um Laço de Sangue."
+							"title" : "Level 5 - Possession", 
+							"description" : "At this level of Dominate, the force of the Kindred's psyche is such that it can utterly supplant the mind of a mortal subject. Speaking isn't required, but the vampire must capture the victim's gaze. During the psychic struggle, the contestants' eyes are locked on one another. Once the Kindred overwhelms the subject's mind, the vampire moves his consciousness into the victim's body and controls it as easily as he uses his own. The mortal falls into a mental fugue while under possession. She is aware of events only in a distorted, dreamlike fashion. In turn, the vampire's mind focuses entirely on controlling his mortal subject. His own body lies in a torpid state, defenseless against any actions made toward it. Vampires cannot possess one another in this fashion, as even the weakest Kindred's mind is strong enough to resist such straightforward mental dominance. Only through a blood bond can one vampire control another to this degree. Supernatural creatures also cannot be possessed in this way, although ghouls that have drunk from the vampire using Possession can."
 						}
 					]
 				},
@@ -81,124 +81,124 @@
 					"title" : "Fortitude",
 					"itens" : [
 						{
-							"title" : "Nível 1 - Tolerância", 
-							"description" : "Enquanto a maioria dos cainitas ainda sofre da fatiga e da dor de seus ferimentos, você ignora estas dificuldades. mesm os ferimentos mais sérios como os de fogo e de luz solar não os pararão. O vampior não sofre nenhuma penalidade por ferimentos e até o nível Machucado. Eneuqnto a maioria dos vampiros perdem todos os empates enquanto Feridos ou permanecem Incapacitados, você sofre nestes casos apenas a penalidade de estar Machucado. Você entra em Torpor ou atinge a Morte Final normalmente."
+							"title" : "Level 1 - Endurance", 
+							"description" : "You can use your Soak against Aggravated Damage. You still suffer Aggravated wounds as normal, but generally suffer less damage than others would. You may endure 5 seconds of exposure to Sunlight without taking damage."
 						},
 						{
-							"title" : "Nível 2 - Têmpera", 
-							"description" : "Ferimentos que atrasariam outro vampiros não significam nada para você. Pode-se ignorar dano da maioroa das fontes, não sentindo dor e tampouco sendo ferido. Seu corpo resite danos com um vigor incrível. Uma vez atingido este poder, ganha um mínimo de vitalidade extra, que age exatamente como um novo nível Saudável. este nível é perdido e curado como qualquer outro."
+							"title" : "Level 2 - Resilience", 
+							"description" : "Your Health points increase by 5, and your Soak is increased by +1 bonus point. These points are applied immediately and permanently. You can now endure up to 15 seconds of exposure to sunlight."
 						},
 						{
-							"title" : "Nível 3 - Resiliência", 
-							"description" : "Mesmo as ameaças da maioria dos cainitas, o fogo e a luz solar raramente machucam. Você pode sobreviver ao que reduziria outros vampiros em cinzas, embora isso somente seja verdade por um curto período de tempo."
+							"title" : "Level 3 - Mettle", 
+							"description" : "You may now heal Aggravated Damage. It takes one minute to heal each point of Aggravated damage and costs 2 Blood Points per point healed. In addition, you can now endure up to 30 seconds of sunlight."
 						},
 						{
-							"title" : "Nível 4 - Resistência", 
-							"description" : "Seu vigor vampírico supera de longe o qde qualquer mortal ou da maioria dos vampiros. Golpes que matariam um mortal, podem nem mesmo arranhá-lo."
+							"title" : "Level 4 - Perseverance", 
+							"description" : "You now heal normal damage more efficiently. At the cost of one Blood Point, you may heal 2 normal wounds at the rate of one point every 5 seconds. Secondly, you receive another +1 bonus to your Soak and another +5 bonus to your Health. These bonuses are cumulative with the bonuses from Resilience. Finally, you may endure up to a minute of full sunlight."
 						},
 						{
-							"title" : "Nível 5 - Escudo", 
-							"description" : "Como uma barra de aço, uma montanha ou uma constante imutável, você resiste a qualquer dano e sobrevive a qualquer ataque> Apenas forças monumentais e persistentes podem destruí-lo completamente. Entretanto, uma vez que o fogo e a destruição tenham passado, você pode erguer-se do caos que restou."
+							"title" : "Level 5 - Aegis", 
+							"description" : "You can completely ignore one source of damage. This costs a permanent point of either Physical Attack or Physical Defence. You are protected against all the affects of an attack, such as an attempt to stake you; immune to the affects of sunlight or fire for five minutes; able to force a Diablerist to begin draining your Health points again during Diablerie and any other specific affects allowed by a Referee on a case-by-case basis."
 						}
 					]
 				},
 				"metamorfose" : {
-					"title" : "Metamorfose",
+					"title" : "Protean",
 					"itens" : [
 						{
-							"title" : "Nível 1 - Os olhos da besta", 
-							"description" : "No primeiro nível o vampiro pode transformar seus olhos em olhos bestiais que enxergam no escuro e tem uma coloração vermelha. Assim o vampiro pode atravessar a mais escura das florestas sem se preocupar com uma lanterna."
+							"title" : "Level 1 - Eyes Of The Beast", 
+							"description" : "The vampire sees perfectly well in pitch darkness, not requiring a light source to notice details in even the darkest basement or cave. The vampire's Beast is evident in his red glowing eyes, a sight sure to disturb most mortals."
 						},
 						{
-							"title" : "Nível 2 - Garras da besta", 
-							"description" : "Agora o vampiro pode fazer com que suas garras cresçam como as garras de uma besta feroz. Causando dano agravado de Força + 1. As garras podem sair nas mãos e pés."
+							"title" : "Level 2 -  Feral Claws", 
+							"description" : "The vampire's nails transform into long, bestial claws. These talons are wickedly sharp, able to rend flesh with ease and even carve stone and metal with little trouble. The Beast is prominent in the claws as well, making them fearsome weapons against other immortals. It's rumored that some Gangrel have modified this power to change their vampiric fangs into vicious tusks."
 						},
 						{
-							"title" : "Nível 3 - Fusão com a terra", 
-							"description" : "Agora o vampiro pode se tornar um com a terra. O vampiro só pode entrar na terra e não pode atravessar outros materiais como madeira ou asfalto. Apesar de não poder se mexer na terra, o vampiro não sofre dano de luz solar."
+							"title" : "Level 3 - Earth Meld", 
+							"description" : "One of the most prized powers within Protean, Earth Meld enables the vampire to become one with the earth. The immortal literally sinks into the bare ground, transmuting his substance to bond with the earth. Though a vampire can immerse himself fully into the ground, he cannot move around within it. Further, it is impossible to meld into earth through another substance. Wood slats, blacktop, even artificial turf blocks Earth Meld's effectiveness -- then again, it's a relatively simple matter for a vampire at this level of power to grow claws and rip apart enough of the flooring to expose the raw soil beneath. By interring himself in the ground, the vampire gains full protection from daylight when outdoors. It is also the method of choice for those Kindred who wish to sleep away the centuries; these vampires lock themselves in the earth's embrace, gaining strength and power as they rest. Superstitious and paranoid Kindred whisper that thousands of Ancients sleep within the ground and will awaken when Gehenna arrives. While so interred, the vampire is in a transitional state between flesh and earth. His physical presence exists between the physical world and the astral plane. As such, the vampire is difficult to sense, even through supernatural means. However, a disruption to the soil that the immortal occupies, or to his presence on the astral realm, returns him immediately to the physical world (and to full wakefulness), showering dirt outward as his body displaces the soil."
 						},
 						{
-							"title" : "Nível 4 - A forma da besta", 
-							"description" : "Neste nível, o vampiro pode se transformar lendariamente em lobo ou morcego. Assim, o vampiro pode ganhar os sentidos aguçados dos lobos ou o vôo dos morcegos. Alguns vampiros de outras regiões podem se transformar em outros animais."
+							"title" : "Level 4 - Shape Of The Beast", 
+							"description" : "This endows the vampire with the legendary ability to transform into a wolf or bat. A Kindred changed in this way is a particularly imposing representative of the animal kingdom. Indeed, he is far superior to normal animals, even ones possessed by Subsume the Spirit. He retains his own psyche and temperament, but can still call upon the abilities of the beast form -- increased senses for the wolf and flight for the bat. Gangrel are reputed to change to other animal forms better suited to their environment -- jackals in Africa, dholes in Asia, and even enormous rats in urban environments -- a feat that other Clans learning Protean cannot seem to duplicate."
 						},
 						{
-							"title" : "Nível 5 - Forma de névoa", 
-							"description" : "Este estranho poder dota o vampiro com o poder de se transformar em névoa. Nesta forma o vampiro pode passar por pequenas frestas e buracos, mas pode ser arrastado para longe de seu destino por um vento forte."
+							"title" : "Level 5 - Mist Form", 
+							"description" : "This truly unsettling power enables the vampire to turn into mist. His physical shape disperses into a hazy cloud, but one still subject entirely to the immortal's will. He floats at a brisk pace and may slip under doors, through screens, down pipes, and through other tiny openings. Although strong winds can blow the vampire from his chosen course, even hurricane-force winds cannot disperse his mist shape. Some Kindred feel that this power is an expression of the vampire's ultimate control over the material world, while others believe that it is the immortal's soul made manifest (damned though it may be)."
 						}
 					]
 				},
 				"ofuscacao" : {
-					"title" : "Ofuscação",
+					"title" : "Ofuscate",
 					"itens" : [
 						{
-							"title" : "Nível 1 - Manto das sombras", 
-							"description" : "Em seu nível mais básico, o vampiro usa as sombras para poder se esconder, indo em um local sem luzes diretas o vampiro entra na escuridão e não pode ser visto por olhos comuns. Ele só será visto se fizer barulho ou se alguém fizer uma vistoria minuciosa."
+							"title" : "Level 1 - Cloak Of Shadows", 
+							"description" : "At this level, the vampire must rely on nearby shadows and cover to assist in hiding his presence. He steps into an out-of-the-way, shadowed place and eases himself from normal sight. The vampire remains unnoticed as long as he stays silent, still, under some degree of cover (such as a curtain, bush, door frame, lamppost, or alley), and out of direct lighting. The immortal's concealment vanishes if he moves, attacks, or falls under direct light. Furthermore, the vampire's deception cannot stand up to concentrated observation without fading."
 						},
 						{
-							"title" : "Nível 2 - Presença invisível", 
-							"description" : "Neste nível de compreensão, o vampiro pode se mover livremente sem ser visto pelos outros. As pessoa evitam olhar em sua direção. Ele se manterá ofuscado a não ser que chame atenção com uma ação brusca ou que alguém esteja procurando por ele."
+							"title" : "Level 2 - Unseen Presence", 
+							"description" : "With experience, the vampire can move around without being seen. Shadows seem to shift to cover him, and people automatically avert their gazes as he passes by. Others move unconsciously to avoid contact with the cloaked creature; those with weak wills may even scurry away from the area in unacknowledged fear. The vampire remains ignored indefinitely unless someone deliberately seeks him out or he inadvertently reveals himself. Since the vampire fully retains his physical substance, he must be careful to avoid contact with anything that may disclose his presence (knocking over a vase, bumping into someone). Even a whispered word or the scuffing of a shoe against the floor can be enough to disrupt the power."
 						},
 						{
-							"title" : "Nível 3 - Mascara das mil faces", 
-							"description" : "Agora, o vampiro pode usar a ofuscação para mudar sua fisionomia da maneira que quiser. Este poder é muito usado pelos Nosferatu que querem sair de seus refúgios sem espantarem a população."
+							"title" : "Level 3 - Mask Of A Thousand Faces", 
+							"description" : "The vampire can influence the perception of others, causing them to see a face different from his. Although the Kindred's physical form does not change, any observer who cannot sense the truth sees whomever the vampire wishes her to see. The vampire must have a firm idea of the visage he wishes to project. The primary decision is whether to create an imaginary face or to superimpose the features of another person. Manufactured features are often more difficult to compose in believable proportions, but such a disguise is easier to maintain than having to impersonate someone else. Of course, things get simpler if the Kindred borrows the face but doesn't bother with the personality."
 						},
 						{
-							"title" : "Nível 4 - Desaparecimento do olho da mente", 
-							"description" : "Este nível é tão poderoso que o vampiro pode desaparecer mesmo estando frente a frente com o alvo."
+							"title" : "Level 4 - Vanish From The Mind's Eye", 
+							"description" : "This potent expression of Obfuscate enables the vampire to disappear from plain view. So profound is this vanishing that the immortal can fade away even if he stands directly in front of someone. While the disappearance itself is quietly subtle, its impact on those who see it is anything but. Most kine panic and flee in the aftermath. Especially weak-willed individuals wipe the memory of the Kindred from their minds. Although vampires are not shaken so easily, even Kindred may be momentarily surprised by a sudden vanishing."
 						},
 						{
-							"title" : "Nível 5 - Cobrindo o grupo", 
-							"description" : "Neste nível, o vampiro pode não só ofuscar a si mesmo como também a quem estiver com ele. Cobrindo assim seus amigos em uma situação de perigo. Se alguém chamar a atenção, só aquela pessoa aparece, se o vampiro chamar a atenção, todos aparecem."
+							"title" : "Level 5 -  Cloak The Gathering", 
+							"description" : "At this degree of power, the vampire may extend his concealing abilities to cover an area. The immortal may use any Obfuscate power upon those nearby as well as upon himself, if he wishes. Any protected person who compromises the cloak exposes himself to view. Further, if the one who invokes the power gives himself away, the cloak falls from everyone. This power is particularly useful if the vampire needs to bring his retinue through a secure location without drawing the notice of others."
 						}
 					]
 				},
 				"potencia" : {
-					"title" : "Potência",
+					"title" : "Potence",
 					"itens" : [
 						{
-							"title" : "Nível 1 - Intrepidez", 
-							"description" : "Você possui uma quantidade de força incomum para os vampiros. Onde outros falham, você redobra seus esforços. seus golpes possuem uma força que pode matar os mais resistentes dos mortais."
+							"title" : "Level 1 - Prowess", 
+							"description" : "You have unearthed a level of strength unusual even in Vampires. Where others would flag and fail, you redouble your efforts. Your mighty blows land with a force that kills even the hardiest of mortals. With Prowess all of your unarmed or clubbing attacks inflict lethal damage instead of bashing damage, if you so desire. Furthermore, once per game session you may recoup your lost strength restoring all used Physical Traits of Brawny, Ferocious, Stalwart, Tough and Wiry. You must restore all of them at once if you have some Traits of the appropriate type unused when you invoke Prowess, you cannot restore them later. Using Prowess costs nothing and it does not count az an action; it may be done at any time."
 						},
 						{
-							"title" : "Nível 2 - Força", 
-							"description" : "Sua força assusta até mesmo outros vampiros. poucos arriscariam entrar em um teste de poder físico com você. Você está além de um vampiro médio em desafios envolvendo força."
+							"title" : "Level 2 - Might", 
+							"description" : "Your strength daunts even other Cainites. Few would dare to cross you in a test of physical power. You are far more likely than the average Vampire to succeed in challenges of strength. With Might, you may make a single retest on any challenge of sheer physical strength. Thus if you are grappling, picking up a heavy object or breaking something, you can use Might as a retest. Once you invoke Might, it is the last test of the challenge; no further retests are allowed."
 						},
 						{
-							"title" : "Nível 3 - Vigor", 
-							"description" : "Sua força vampírica é realmente fenomenal. Você pode erguer centenas de quilogramas com facilidade, tendo força o suficiente para esmagar ossos com um único golpe e nocautear qualquer oponente inferior."
+							"title" : "Level 3 - Vigor", 
+							"description" : "Your Vampiric strength is truly monumental. You can heft hundreds of pounds with ease, deliver enough force to crush bones in a single blow and hammer down any opponent of lesser strength. When you possess Vigor, you may use the Bomb in challenges of strength. The Bomb is a closed fist with the thumb sticking up. The Bomb defeats Rock and Paper, ties with other Bombs and loses to Scissors (the fuse is cut). You are not required to use the Bomb, but you must always state before a Physical Challenge that you are capable of doing so. Using Vigor costs nothing. Your use of Vigor requires you to use only your strength; your opponent may try to defend with Stamina or Speed, but his doing so does not prevent you from using The Bomb."
 						},
 						{
-							"title" : "Nível 4 - Intensidade", 
-							"description" : "Sua força titânica nunca lhe falhou. A menos que pressionado ou ferido, você pode realizae feitos de força contínua."
+							"title" : "Level 4 - Intensity", 
+							"description" : "Your titanic strength never fails you. Unless sorely pressed or wounded, you can continue incredible feats indefinitely. Whenever you enter a challenge of strength, you may use Potence as your bid Trait. This Trait does not count toward totals when resolving ties or overbids, but it can never be lost; thus you may continuously use Potence in successive tests of strength. Only if you are forced to risk multiple Traits such as due to wounds or Negative Traits do you risk losing any of your other Physical Traits. If you run out of Physical Traits, you cannot use this Discipline. Once you have been completely exhausted, you can no longer enter challenges."
 						},
 						{
-							"title" : "Nível 5 - Pujança", 
-							"description" : "Nenum mortal pode lhe fazer frente e mesmo vampiros tremem ao seu ataque. A força de seus membros cadavéricos é realmente monumental, esmagando tudo que se opor a você."
+							"title" : "Level 5 - Puissance", 
+							"description" : "No mortal can match you, and even Vampires tremble at your touch. The strength of your dead limbs is truly monumental, crushing anything that stands before you. With Puissance, you win all ties in tests of strength automatically. You need not compare Traits at all, unless some other factor would cause you to lose ties (such as wounds) or give the opponent the ability to win all ties as well (such as Fleetness). Furthermore, your incredible strikes inflict an additional health level of damage in combat. This bonus applies to any attack in which your strength is a factor unarmed combat or combat with melee weapons. However, use of this incredible strength almost certainly breaks weapons that are not specially designed to stand it."
 						}
 					]
 				},
 				"presenca" : {
-					"title" : "Presença",
+					"title" : "Presence",
 					"itens" : [
 						{
-							"title" : "Nível 1 - Fascínio", 
-							"description" : "Neste nível o vampiro faz com que as pessoas a sua volta sintam uma vontade inexplicável de ficarem próximo a ele e serem as mais prestativas possíveis. O fascínio é muito eficaz na comunicação em massa."
+							"title" : "Level 1 - Awe", 
+							"description" : "Those near the vampire suddenly desire to be closer to her and become receptive to her point of view. Awe is extremely useful for mass communication. It matters little what is said -- the hearts of those affected lean toward the vampire's opinion. The weak want to agree with her; even if the strong-willed resist, they soon find themselves outnumbered. Awe can turn a chancy deliberation into a certain resolution in the vampire's favor almost before her opponents know that the tide has turned. Despite the intensity of this attraction, those so smitten do not lose their sense of self-preservation. Danger breaks the spell of fascination, as does leaving the area. Those subject to Awe will remember how they felt in the vampire's presence, however. This will influence their reactions should they ever encounter her again."
 						},
 						{
-							"title" : "Nível 2 - Olhar aterrorizante", 
-							"description" : "Com este poder, o vampiro eleva a imagem aterrorizante do vampiro a um nível absurdo, até mesmo os mais robustos e corajosos fogem apavorados do olhar de um vampiro usando o Olhar Aterrorizante."
+							"title" : "Level 2 - Dread Gaze", 
+							"description" : "While all Kindred can frighten others by physically revealing their true vampiric natures -- baring claws and fangs, glaring with malevolence, hissing loudly with malice -- this power focuses these elements to insanely terrifying levels. Dread Gaze engenders unbearable terror in its victim, stupefying him into madness, immobility, or reckless flight. Even the most stalwart individual will fall back from the vampire's horrific visage."
 						},
 						{
-							"title" : "Nível 3 - Transe", 
-							"description" : "Influenciando a emoção dos outros, o vampiro pode torna-las seus servos. Já que este poder é feito por livre vontade e amor e não por dominação cerebral, os alvos mantêm suas criatividades e habilidades."
+							"title" : "Level 3 - Entrancement", 
+							"description" : "This power bends others' emotions, making them the vampire's willing servants. Due to what these individuals see as true and enduring devotion, they heed the vampire's every desire. Since this is done willingly, instead of having their wills sapped, these servants retain their creativity and individuality. While these obedient minions are more personable and spirited than the mind-slaves created by Dominate, they're also somewhat unpredictable. Further, since Entrancement is of a temporary duration, dealing with a lapsed servant can be troublesome. A wise Kindred either disposes of those she Entrances after they serve their usefulness, or binds them more securely by a blood bond (made much easier by the minion's willingness to serve)."
 						},
 						{
-							"title" : "Nível 4 - Convocaçao", 
-							"description" : "Este poder incrível faz com que o vampiro convoque qualquer um que ele já tenha conhecido antes. Ele pode chamar qualquer pessoa de qualquer distância dentro do mundo físico e a pessoa sem ao menos saber porque virá ao vampiro o mais rápido possível."
+							"title" : "Level 4 - Summon", 
+							"description" : "This impressive power enables the vampire to call to herself any person whom she has ever met. This call can go to anyone, mortal or supernatural, across any distance within the physical world. The subject of the Summons comes as fast as he is able, possibly without even knowing why. He knows intuitively how to find his Summoner -- even if the vampire moves to a new location, the subject redirects his own course as soon as he can. After all, he's coming to the vampire herself, not to some predetermined site. Although this power allows the vampire to call someone across a staggering distance, it is most useful when used locally. Even if the desired person books the next available flight, getting to Kyoto from Milwaukee can still take far longer than the vampire needs. Obviously, the individual's financial resources are a factor; if he doesn't have the money to travel quickly, it will take him a far greater time to get there. The subject thinks mainly of reaching the vampire, but does not neglect his own well-being. This is less of a consideration if he only has to cross a room, unless he must get through a gang of gun-wielding punks to do so. The individual retains his survival instincts, and while he won't shirk physical violence to reach the vampire's side, he won't subject himself to suicidal situations. The Summoning dissipates at dawn. Unless the subject is trained to continue toward the vampire after the first call, the immortal must Summon each night until the target arrives. Still, as long as the vampire is willing and able, she is assured to greet her desired subject some night -- as long as nothing happens to him along the way, of course."
 						},
 						{
-							"title" : "Nível 5 - Majestade", 
-							"description" : "Neste nível de maestria, o vampiro se torna mil vezes mais atraente ou apavorante. Até mesmo os mais corajosos não conseguem resistir ao poder do vampiro. Sob esse poder todos a sua volta o seguem corajoso, forte, audaz e esperto, sem exceção."
+							"title" : "Level 5 - Majesty", 
+							"description" : "At this stage, the vampire can augment her supernatural mien a thousandfold. The attractive become paralyzingly beautiful; the homely become hideously twisted. Majesty inspires universal respect, devotion, fear -- or all those emotions at once -- in those around the vampire. The weak scramble to obey her every whim, and even the most dauntless find it almost impossible to deny her. People affected find the vampire so formidable that they dare not risk her displeasure. Raising their voices to her is difficult; raising a hand against her is unthinkable. Those few who shake off the vampire's potent mystique enough to oppose her are shouted down by the many under her thrall, before the immortal need even respond. Under Majesty's influence, hearts break, power trembles, and the bold shake. Wise Kindred use this power with caution against mortal and immortal alike. While Majesty can cow influential politicians and venerable Primogen, the vampire must be careful that doing so doesn't come back to haunt her. After all, a dignitary brought low before others loses his usefulness quickly, while a humiliated Kindred has centuries to plan revenge."
 						}
 					]
 				},
@@ -206,74 +206,74 @@
 					"title" : "Quietus",
 					"itens" : [
 						{
-							"title" : "Nível 1 - Silêncio mortal", 
-							"description" : "O Assamita pode fazer com que tudo a sua volta fique sem som nenhum, uma espécie de poder emudecedor emana do corpo do Assamita fazendo com que ninguém possa ouvir os gritos de morte da vitima."
+							"title" : "Level 1 - Silence Of Death", 
+							"description" : "Many Assamites claim never to have heard their targets' death screams. Silence of Death imbues the vampire with a mystical silence that radiates from her body, muting all noise within a certain vicinity. No sound occurs inside this zone, though sounds originating outside the area of effect may be heard by anyone in it. Rumors abound of certain skilled Assamite viziers who have the ability to silence a location rather than a circumference that follows them, but no proof of this has been forthcoming."
 						},
 						{
-							"title" : "Nível 2 - Toque do escorpião", 
-							"description" : "Ao mudar as propriedades de seu sangue, o vampiro transforma seu sangue em um veneno poderoso que destrói o vigor do alvo."
+							"title" : "Level 2 - Scorpion's Touch", 
+							"description" : "By changing the properties of her blood, a vampire may create powerful venom that strips her prey of his resilience. This power is greatly feared by other Kindred, and all manner of hideous tales concerning methods of delivery circulate among trembling coteries. Kindred with Quietus are known to deliver the poison by coating their weapons with it, blighting their opponents with a touch, or spitting it like a cobra. An apocryphal account speaks of a proud Prince who discovered an Assamite plotting her exsanguination and began to diablerize her would-be assassin. Halfway through the act, she learned that she had ingested a dire quantity of tainted blood and was then unable to resist the weakened hashashiyyin's renewed attack."
 						},
 						{
-							"title" : "Nível 3 - O chamado de dagon", 
-							"description" : "Com um simples toque o vampiro pode afogar a sua vítima com seu próprio sangue explodindo seus vasos sanguíneos."
+							"title" : "Level 3 - Dagon's Call", 
+							"description" : "This terrible power allows a vampire to drown her target in his own blood. By concentrating, the Kindred bursts her target's blood vessels and fills his lungs with vitae that strangles him from within. The blood actually constricts the target's body from the inside as it floods through his system; thus, it works even on unbreathing Kindred. Until the target collapses in agony or death throes, this power has no visible effect, and many Kindred like it because it leaves no trace of their presence."
 						},
 						{
-							"title" : "Nível 4 - A carícia de baal", 
-							"description" : "O vampiro transforma seu sangue em um liquido virulento que ao ser passado na arma do Assamita faz com que ela cause dano agravado."
+							"title" : "Level 4 - Baal's Caress", 
+							"description" : "The penultimate use of blood as a weapon (short of diablerie itself), Baal's Caress allows the Kindred to transmute her blood into a virulent ichor that destroys any living or undead flesh it touches. In nights of yore, when Assamites led the charges of Saracen legions, the Assassins were often seen licking their blades, slicing open their tongues and lubricating their weapons with this foul secretion. Baal's Caress may be used to augment any bladed weapon; everything from poisoned knives and swords to tainted fingernails and claws has been reported."
 						},
 						{
-							"title" : "Nível 5 - Gosto da morte", 
-							"description" : "O gosto da morte faz com que o vampiro seja capaz de cuspir sangue caustico em sua vítima. Este sangue coroe os ossos e carne da vítima."
+							"title" : "Level 5 - Taste Of Death", 
+							"description" : "A refinement of Baal's Caress, Taste of Death allows the Cainite to spit caustic blood at her target. The blood coughed forth with this power burns flesh and corrodes bone; some vampires have been reported to vomit voluminous streams of vitae that reduce their targets to heaps of sludge."
 						}
 					]
 				},
 				"quimerismo" : {
-					"title" : "Quimerismo",
+					"title" : "Chimestry",
 					"itens" : [
 						{
-							"title" : "Nível 1 - Ignis Fatuus", 
-							"description" : "Essas ilusões pequenas e estáticas afetam apenas um sentido. Qualquer indivíduo que se encontre na área pode detectar a ilusão com este sentido, mas não com os outros. Atenção: mesmo se uma ilusão puder ser detectada pelo toque, ela não estará onde parece. Portanto um muro invisível de Ignis Fatuus poderia ser atravessado (basta empurrá- lo — se uma pessoa a socasse, sentiria uma ilusão tátil, mas a sua mão a atravessaria)."
+							"title" : "Level 1 - Ignis Fatuus", 
+							"description" : "The vampire may conjure a minor, static mirage that confounds one sense. For instance, he may evoke a sulfurous stench, the appearance of stigmata, or the shatter of broken glass. Note that though tactile illusions can be felt, they have no real substance; an invisible but tactile wall cannot confine anyone, and invisible razor-wire causes no real damage. Similarly, the vampire must know the characteristics of what he's creating. While it's easy enough to estimate what a knife wound might look like, falsifying a person's voice or a photograph of a childhood home requires knowledge of the details."
 						},
 						{
-							"title" : "Nível 2 - Fata Morgana", 
-							"description" : "Uma ilusão criada com este poder pode ser detectada por qualquer ou todos os sentidos, conforme decidido pelo vampiro no momento em que ele criar a ilusão. Mais uma vez, a ilusão não se encontra realmente lá, podendo ser atravessada."
+							"title" : "Level 2 - Fata Morgana", 
+							"description" : "The Cainite can now create illusions that appeal to all the senses, though they remain static. For example, the vampire could make a filthy cellar appear as an opulent ballroom, though she could not create a glittering chandelier or a score of graceful dancers. Again, the illusion has no solid presence, though it's easy enough to fool an enraptured visitor with suggestions of what she might expect. A bucket of brackish water is as cool as chilled champagne, after all."
 						},
 						{
-							"title" : "Nível 3 - Aparição", 
-							"description" : "Este poder é usado em conjunto com um dos poderes acima e permite que a ilusão em questão se mova."
+							"title" : "Level 3 - Apparition", 
+							"description" : "Not really a power unto itself, Apparition allows a vampire to give motion to an illusion created with Ignis Fatuus or Fata Morgana. Thus, the Cainite could create the illusion of a living being, running water, fluttering drapes, or a roaring fire."
 						},
 						{
-							"title" : "Nível 4 - Permanência", 
-							"description" : "Este poder, também usado com Ignis Fatuus ou Fata Morgana, permite que uma ilusão continue existindo mesmo quando o vampiro não puder vê-la."
+							"title" : "Level 4 - Permanency", 
+							"description" : "This power, also used in conjunction with Ignis Fatuus or Fata Morgana, allows a mirage to persist even when the vampire cannot see it. In this way, Ravnos often cloak their temporary havens in false trappings of luxury, or ward off trespassers with illusory guard dogs."
 						},
 						{
-							"title" : "Nível 5 - Realidade Cruel", 
-							"description" : "Este poder é eficaz apenas em uma pessoa por vez. Essencialmente, a vítima da Cruel Realidade acredita completa e absolutamente que a ilusão de fato existe. Um fogo falso irá queimá-lo, uma parede falsa irá detê-lo, uma bala falsa poderá feri-lo."
+							"title" : "Level 5 - Horrid Reality", 
+							"description" : "Rather than create simple illusions, the vampire can now project hallucinations directly into a victim's mind. The target of these illusions believes completely that the images are real; a hallucinatory fire can burn him, an imaginary noose can strangle him, and an illusory wall can block him. This power affects only one person at a time; though others can see the illusion, it doesn't impact them in the same way. Other people can try to convince the victim that his terrors are not real, but he won't believe them. Note that targets with enough dots in Auspex can still attempt to roll for Seeing the Unseen."
 						}
 					]
 				},
 				"rapidez" : {
-					"title" : "Rapidez",
+					"title" : "Celerity",
 					"itens" : [
 						{
-							"title" : "Nível 1 - Alacridade", 
-							"description" : "Seus reflexos são muito aguçados. mesmo quando voCê observa os outros agirem, você ainda pode realizar uma ação, completando seus movimentos antes que eles possam responder."
+							"title" : "Level 1 - Alacrity", 
+							"description" : "Your reflexes are finely honed.  Even as you watch others act, you can spring into action, completing your movements before they can respond. You can gain the ability to preempt any physical actions taken against you, as long as you are aware of them (face to face mugging - yes; sniper attack - no).  Also, for example, if someone declares an attempt to pull out a hidden weapon and shoot at you, you can preempt that action to pull out your own gun and fire back (instead of being regulated to dodging). (The ability to use your reflexes to block or react to other's reactions)"
 						},
 						{
-							"title" : "Nível 2 - Explosão", 
-							"description" : "Com a velocidade assustadora, você move-se mais rápido do que seria possível para um ser humano. Enquanto os outros ainda se recuperam dos últimos acontecimentos, você já está fazendo seu próximo movimento."
+							"title" : "Level 2 - Swiftness", 
+							"description" : "With shocking speed, you move faster than humanly possible.  Even as others are recovering from events, you are making your next move.  For example, you can swing a sword twice, run twice as far as normal, fire a gun then duck behind cover, or otherwise perform multiple feats."
 						},
 						{
-							"title" : "Nível 3 - Velocidade", 
-							"description" : "Mesmo outros cainitas ficam fascinados com sua velocidade sobrenatural. Você facilmente cata objetos arremessados e a velocidade de sua corrida chicoteia roupas e levanta poeira."
+							"title" : "Level 3 - Rapidity", 
+							"description" : "Even other Vampires are dazzled by your superhuman speed.  You routinely catch dropped objects and the speed of your passing whips clothes and loose debris about. Declaring Rapidity, you can perform actions where speed is of the essence, such as dodging an attack, throwing a knife or grabbing something out of someone's hand."
 						},
 						{
-							"title" : "Nível 4 - Ligeireza", 
-							"description" : "Movendo-se mais rápido do que o olho humano pode acompanhar, você é um borrão que cruza a apaisagem com a velocidade de uma chita. Comparados com você, transeuntes são estátuas."
+							"title" : "Level 4 - Legerity", 
+							"description" : "Moving faster than the human eye can track, you blur across the landscape with the speed of a cheetah. Is this just a more advance form of Swiftness?"
 						},
 						{
-							"title" : "Nível 5 - Velocidade do vento", 
-							"description" : "Chamado o poder do sangue, você pode ser um redemoinho em movimento. Sua passagem extingue pequenas chamas, chicoteia o ar e causa confusão entre as entidades movimentano-se lentamente."
+							"title" : "Level 5 - Fleetness", 
+							"description" : "Calling on this discipline, you burst into a whirlwind of motion.  Your passing extinguishes small flames, whips up flurries of debris and confuses slower moving entities. Using Fleetness, causes you to perform all actions with the utmost speed."
 						}
 					]
 				},
@@ -281,74 +281,74 @@
 					"title" : "Serpentis",
 					"itens" : [
 						{
-							"title" : "Nível 1 - Os Olhos da Serpente", 
-							"description" : "Os olhos do Setista parecem ser dourados com grandes íris negras, e os mortais ao redor do personagem vêem-se estranhamente atraídos a ele. Os olhos do Setita são muitos sedutores, sendo capazes de imobilizar os humanos que os fitarem. Enquanto o personagem continuar fitando os olhos de suas vítimas mortais, elas permanecerão paradas no mesmo lugar."
+							"title" : "Level 1 - The Eyes Of The Serpent", 
+							"description" : "This power grants the vampire the legendary hypnotic gaze of the serpent. The Kindred's eyes become gold with large black irises, and mortals in the character's vicinity find themselves strangely attracted to him. A mortal who meets the vampire's beguiling gaze is immobilized. Until the character takes his eyes off his victim, the person is frozen in place."
 						},
 						{
-							"title" : "Nível 2 - A Língua da Serpente", 
-							"description" : "O Setita pode transformar sua língua numa longa e bifurcada língua de serpente. Esta língua costuma ter 44cm de comprimento, podendo ser usada em combate corpo a corpo."
+							"title" : "Level 2 - The Tongue Of The Asp", 
+							"description" : "The vampire may lengthen her tongue at will, splitting it into a fork like that of a serpent. The tongue may reach 18 inches or half a meter, and makes a terrifyingly effective weapon in close combat."
 						},
 						{
-							"title" : "Nível 3 - Mumificar", 
-							"description" : "Com este poder, um vampiro pode assumir uma forma praticamente invulnerável. O personagem entra num estado semelhante ao torpor. Neste estado as únicas coisas que podem feri-lo são a luz do sol e o fogo. Contudo, o personagem fica completamente incapacitado de qualquer ação, não podendo nem mesmo empregar as Disciplinas que ele ativaria normalmente durante o torpor. O personagem só poderá ser revivido deste estado bebendo um pouco de sangue."
+							"title" : "Level 3 - The Skin Of The Adder", 
+							"description" : "By calling upon her Blood, the vampire may transform her skin into a mottled, scaly hide. A vampire in this form becomes more supple and flexible."
 						},
 						{
-							"title" : "Nível 4 - Forma de Serpente", 
-							"description" : "O Setita é capaz de transformar-se numa grande cobra negra de dois metros de comprimento, 15cm de diâmetro e com o mesmo peso do personagem. Enquanto estiver nesta forma, o personagem adquire as vantagens dela: a capacidade de escorregar através de buracos estreitos, uma mordida venenosa (a mortais, pelo menos) e o mesmo olfato aguçado das cobras. O personagem é capaz de usar todas as suas outras Disciplinas enquanto estiver nesta forma (exceto aquelas que requeiram uso das mãos, como Garras de Lobo)."
+							"title" : "Level 4 - The Form Of The Cobra", 
+							"description" : "The Cainite may change his form into that of a huge black cobra. The serpent weighs as much as the vampire's human form, stretches over 10 feet or three meters long, and is about 20 inches (50 cm) around. The Form of the Cobra grants several advantages, including a venomous bite, the ability to slither through small spaces, and a greatly enhanced sense of smell. The character may use any Disciplines while in this form save those that require hands (such as Feral Claws)."
 						},
 						{
-							"title" : "Nível 5 - O Coração das Trevas", 
-							"description" : "Este poder permite ao Setita remover o seu próprio coração do corpo. Através de várias horas de cirurgia, a operação pode ser realizada em outro vampiro. Este poder só pode ser usado durante as noites de escuridão absoluta (as de lua nova). Depois de ser removido, o coração precisa ser colocado numa urna de barro, que deve ser enterrada. Este poder deixa o Setita completamente “a prova de estacas”, facilitando também resistir ao frenesi (afinal de contas, o coração é a fonte da emoção). As dificuldades de todos os testes para resistir ao Frenesi caem em dois pontos. O maior perigo inerente ao uso deste poder é a possibilidade de que alguma outra pessoa encontre o coração. Se isto acontecer, o Setita ficará inteiramente à mercê de quem descobri-lo. Se o coração for jogado numa fogueira ou exposto à luz, o Setita sofrerá uma morte horrível. Esta é a única forma de destruí-lo. Se empalado com uma estaca de madeira, o Setita entrará instantaneamente em torpor. Muitos Setitas levam seus corações para onde quer que vão ou enterram vários outros falsos em diversos lugares. A maioria dos Setitas são paranóicos demais para visitar os seus próprios corações, temerosos de que alguém possa segui-los até eles. Ao mesmo tempo, esses Setitas vivem aterrorizados com a incerteza de seus corações ainda estarem ou não escondidos em segurança. Há rumores de que os Setitas mais velhos controlam sua progênie retendo os corações de seus filhos. Se isto for verdade, ajudaria a explicar porque o clã é tão unido."
+							"title" : "Level 5 - The Heart Of Darkness", 
+							"description" : "A Kindred with mastery of Serpentis may pull her heart from her body. She can even use this ability on other Cainites, although this requires several hours of gruesome surgery. This power can only be invoked during a new moon. If performed under any other moon, the rite fails. Upon removing her heart, the vampire places it in a small clay urn, and then carefully hides or buries the urn. While her heart is hidden, she cannot be staked by any wood that pierces her breast. Moreover, because the heart is the seat of emotion, the difficulties of all her rolls to resist frenzy are two lower while this power is in effect. Cainites are careful to keep their hearts safe from danger. If someone seizes her heart, the vampire is completely at that person's mercy. The heart can be destroyed only by casting it into a fire or exposing it to sunlight. If this happens, the Kindred dies where she stands, boiling away into a blistering heap of ash and blackened bone. Plunging a wooden stake into an exposed heart drives the vampire into instant torpor. A vampire may carry her heart with her, or have several false hearts buried in different places. A smart Kindred often avoids her heart's hiding place, to deter discovery. Those wise in Setite lore whisper that the corrupt elders of the Clan often hold their underlings' hearts as yet another method of control."
 						}
 					]
 				},
 				"taumaturgia" : {
-					"title" : "Taumaturgia",
+					"title" : "Thaumaturgy",
 					"itens" : [
 						{
-							"title" : "Nível 1 - Um gosto por sangue", 
-							"description" : "Este poder foi desenvolvido como um meio de testar o poder de um inimigo — uma habilidade extremamente importante nas tumultuosas noites iniciais do Clã Tremere. Simplesmente provando do sangue do alvo, o taumaturgo pode determinar quanta vitae ainda resta em seu corpo e, se o alvo for um vampiro, quão recentemente ele se alimentou, sua geração (aproximadamente) e, com três ou mais sucessos, se ele cometeu diablerie recentemente."
+							"title" : "Level 1 - A Taste For Blood", 
+							"description" : "This power was developed as a means of testing a foe's might -- an extremely important ability in the tumultuous early nights of Clan Tremere. By merely touching the blood of his subject, the caster may determine how much vitae remains in the subject and, if the subject is a vampire, how recently he has fed, his approximate Generation and, with three or more successes, whether he has ever committed diablerie."
 						},
 						{
-							"title" : "Nível 2 - Fúria do sangue", 
-							"description" : "Este poder permite que um vampiro force outro Membro a usar pontos de sangue contra a sua vontade. O taumaturgo precisa tocar seu alvo para que este poder funcione, apesar do mais leve toque ser o suficiente. Um vampiro afetado por este poder pode sentir uma agitação física conforme o taumaturgo intensifica seus Atributos Físicos ou pode até mesmo se encontrar próximo do frenesi conforme seu estoque de vitae é misticamente esgotado."
+							"title" : "Level 2 -  Blood Rage", 
+							"description" : "This power allows a vampire to force another Kindred to expend blood against his will. The caster must touch her subject for this power to work, though only the lightest contact is necessary. A vampire affected by this power might feel a physical rush as the thaumaturge heightens his Physical Attributes, might find himself suddenly looking more human, or may even find himself on the brink of frenzy as his stores of vitae are mystically depleted."
 						},
 						{
-							"title" : "Nível 3 - Potência do sangue", 
-							"description" : "O taumaturgo ganha tamanho controle sobre o seu sangue que ele pode 'concentrá-lo', tornando-o mais forte por um curto período de tempo. Na verdade, ele pode temporariamente diminuir sua geração com este poder. Este poder pode ser usado somente uma vez por noite."
+							"title" : "Level 3 - Blood Of Potency", 
+							"description" : "The thaumaturge gains such control over his own blood that he may effectively 'concentrate' it, making it more powerful for a short time. In effect, he may temporarily lower his own Generation with this power. This power may be used only once per night."
 						},
 						{
-							"title" : "Nível 4 - Furto de vitae", 
-							"description" : "Usando este poder, um taumaturgo consegue extrair a vitae de suas vítimas. Ele não precisa entrar em contato com o seu alvo — o sangue literalmente flui em uma torrente fisica que vai do alvo at e o Membro (ela normalmente é absorvida misticamente e não precisa ser ingerida pela boca)."
+							"title" : "Level 4 - Theft Of Vitae", 
+							"description" : "A thaumaturge using this power siphons vitae from her subject. She need never come in contact with the subject -- blood literally streams out in a physical torrent from the subject to the Kindred (though it is often mystically absorbed and need not enter through the mouth)."
 						},
 						{
-							"title" : "Nível 5 - Caldeirão de sangue", 
-							"description" : "Um taumaturgo usando este poder, ferve o sangue do alvo em suas veias como água no fogão. O Membro precisa tocar o alvo e é este toque que faz com que o sangue do alvo ferva. Este poder é sempre fatal para os mortais e causa grandes danos até mesmo nos mais poderosos vampiros."
+							"title" : "Level 5 - Cauldron Of Blood", 
+							"description" : "A thaumaturge using this power boils her subject's blood in his veins like water on a stove. The Kindred must touch her subject, and it is this contact that simmers the subject's blood. This power is always fatal to mortals, and causes great damage to even the mightiest vampires."
 						}
 					]
 				},
 				"tenebrosidade" : {
-					"title" : "Tenebrosidade",
+					"title" : "Obtenebration",
 					"itens" : [
 						{
-							"title" : "Nível 1 - Jogo de Sombras", 
-							"description" : "No primeiro nível, o vampiro pode mexer com as sombras a sua volta, fazendo com que sua silhueta fique assustadora ou que a sombra de um objeto se mexa. Ou até mesmo transformando sombras em sombras de outros objetos que não estão realmente lá."
+							"title" : "Level 1 - Shadow Play", 
+							"description" : "This power grants the vampire limited control over shadows and other ambient darkness. Though the vampire cannot truly 'create' darkness, she can overlap and stretch existing shadows, creating patches of gloom. This power also allows Kindred to separate shadows from their casting bodies and even shape darkness into the shadows of things that are not there. Once a Kindred takes control of darkness or shadow, it gains a mystical tangibility. By varying accounts cold or hellishly hot and cloying, the darkness may be used to aggravate or even smother victims. Certain callous Lasombra claim to have choked mortals to death with their own shadows."
 						},
 						{
-							"title" : "Nível 2 - Mortalha das Trevas", 
-							"description" : "Agora, o vampiro pode criar uma espécie de sombra que cobre uma certa área a escolha do vampiro. Esta sombra obstrui totalmente a luz e até mesmo o som de certa forma."
+							"title" : "Level 2 - Shroud Of Night ", 
+							"description" : "The vampire can create a cloud of inky blackness. The cloud completely obscures light and even sound to some extent. Those who have been trapped within it (and survived) describe the cloud as viscous and unnerving. This physical manifestation lends credence to those Lasombra who claim that their darkness is something other than mere shadow. The tenebrous cloud may even move, if the creating Kindred wishes, though this requires complete concentration."
 						},
 						{
-							"title" : "Nível 3 - Braços do Abismo", 
-							"description" : "Ao refinar o controle sobre a escuridão, o vampiro pode criar braços de escuridão que podem esmagar os inimigos do vampiro."
+							"title" : "Level 3 - Arms Of The Abyss", 
+							"description" : "Refining his control over darkness, the Kindred can create prehensile tentacles that emerge from patches of dim lighting. These tentacles may grasp, restrain, and constrict foes."
 						},
 						{
-							"title" : "Nível 4 - Metamorfose Sombria", 
-							"description" : "Neste poder, o vampiro se funde com sua sombra criando uma criatura assustadora e bizarra."
+							"title" : "Level 4 - Black Metamorphosis", 
+							"description" : "The Cainite calls upon his inner darkness and infuses himself with it, becoming a monstrous hybrid of matter and shadow. His body becomes mottled with spots of tenebrous shade, and wispy tentacles extrude from his torso and abdomen. Though still humanoid, the vampire takes on an almost demonic appearance, as the darkness within him bubbles to the surface."
 						},
 						{
-							"title" : "Nível 5 - Corpo de Sombras", 
-							"description" : "O nível de compreensão é tão alto que o vampiro pode se transformar em uma sombra em forma de ameba. Podendo assim, deslizar por frestas e ser imune a ataques que não seja o fogo e o sol."
+							"title" : "Level 5 - Tenebrous Form", 
+							"description" : "At this level, the Kindred's mastery of darkness is so extensive that she may physically become it. Upon activation of this power, the vampire becomes an inky, amoeboid patch of shadow. Vampires in this form are practically invulnerable and may slither through cracks and crevices. In addition, the shadow-vampire gains the ability to see in natural darkness."
 						}
 					]
 				},
@@ -356,24 +356,24 @@
 					"title" : "Vicissitude",
 					"itens" : [
 						{
-							"title" : "Nível 1 - Aspecto maleável", 
-							"description" : "No nível inicial, o Tzimisce pode mudar seus aspectos superficiais como sua face, voz, altura, cor de pele, tamanho e outras características. Mas apenas em uma profundidade de 30 cm."
+							"title" : "Level 1 - Malleable Visage", 
+							"description" : "A vampire with this power may alter her own bodily parameters: Height, build, voice, facial features, and skin tone, among other things. Such changes are cosmetic and minor in scope -- no more than a foot (30 cm) of height gained or lost, for example. She must physically mold the alteration, literally shaping her flesh into the desired result."
 						},
 						{
-							"title" : "Nível 2 - Moldar carne", 
-							"description" : "Este nível é bem parecido com seu anterior, mas possibilita mudanças drásticas, os Tzimisce usam este poder para fazer de seus carniçais criaturas monstruosas."
+							"title" : "Level 2 - Fleshcraft", 
+							"description" : "This power is similar to Malleable Visage, above, but allows the vampire to perform drastic, grotesque alterations on other creatures. Tzimisce often use this power to transform their servitors into monstrous guards, the better to frighten foes. Only flesh (skin, muscle, fat, and cartilage, but not bone) may be transformed."
 						},
 						{
-							"title" : "Nível 3 - Moldar ossos", 
-							"description" : "Agora o Tzimisce pode até mesmo mudar os ossos do alvo transformando a vítima em coisas irreconhecíveis até mesmo para os melhores amigos da pessoa."
+							"title" : "Level 3 - Bonecraft", 
+							"description" : "This terrible power allows a vampire to manipulate bone in the same manner that flesh is shaped. In conjunction with Fleshcraft, above, this power enables a Vicissitude practitioner to deform a victim (or herself) beyond recognition. This power should be used in conjunction with the flesh-shaping arts, unless the vampire wants to inflict injury on the victim."
 						},
 						{
-							"title" : "Nível 4 - Forma horripilante", 
-							"description" : "O Tzimisce que usa este poder se transforma em uma criatura horrenda e assustadora que parece ter saído direto de um pesadelo. A estatura do vampiro aumenta em até dois metros de altura, sua cor muda para um verde gosmento ou cinza doentio, ossos crescem em suas costas e suas unhas ficam negras e grandes."
+							"title" : "Level 4 - Horrid Form", 
+							"description" : "Kindred use this power to become hideous and deadly monsters. The vampire's stature increases to a full eight feet (two and a half meters), the skin becomes a sickly greenish-gray or grayish-black chitin, the arms become apelike and ropy with ragged black nails, and the face warps into something out of a nightmare. A row of spines sprouts from the vertebrae, and the external carapace exudes a foul-smelling grease."
 						},
 						{
-							"title" : "Nível 5 - Forma sanguínea", 
-							"description" : "Um vampiro com este poder pode transformar total ou parcialmente o seu corpo em sangue consciente. Se todo seu sangue for absorvido o vampiro encara a Morte Final."
+							"title" : "Level 5 - Bloodform", 
+							"description" : "A vampire with this power can physically transform all or part of her body into sentient vitae. This blood is in all respects identical to the vampire's normal vitae; she can use it to nourish herself or others, create ghouls, or establish blood bonds. If all this blood is imbibed or otherwise destroyed, the vampire meets Final Death."
 						}
 					]
 				}
