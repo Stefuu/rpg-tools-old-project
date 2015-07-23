@@ -2,6 +2,8 @@
 /* jshint node:true */
 /* jshint browser:true */
 
+var React = require('react');
+
 var ConcertinaListItens = React.createClass({
   _toggleItem: function(e){
       this.state.open ? this.setState({open: false}) : this.setState({open: true});

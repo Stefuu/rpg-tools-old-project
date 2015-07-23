@@ -2,6 +2,7 @@
 /* jshint node:true */
 /* jshint browser:true */
 
+var React = require('react');
 var ConcertinaListItens = require('./ConcertinaListItens.jsx');
 
 var ConcertinaList = React.createClass({

@@ -1,4 +1,6 @@
 /** @jsx React.DOM */
+/* jshint node:true */
+/* jshint browser:true */
 
 var React = require('react');
 var DiceRoller = require('./DiceRoller.jsx');
