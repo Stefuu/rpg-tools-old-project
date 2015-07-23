@@ -1,12 +1,12 @@
 .dice-roller {
   font-size: 35px;
-  margin: 40px 0 0 0;
-  height: 100%;
+  display: block;
+  width: 100%;
+  z-index: -1;
 }
 
 .rollDiceContainer {
   text-align:center;
-  position: fixed;
   top: 40px;
   left: 0;
   right: 0;
@@ -24,7 +24,6 @@
 }
 
 .selectedDices{
-  position: absolute;
   top: 100px;
   bottom: 110px;
   left: 0;
@@ -34,7 +33,7 @@
 
 .rollDiceResult {
   position: absolute;
-  bottom: 0;
+  bottom: 70px;
   left: 0;
   right: 0;
 }
