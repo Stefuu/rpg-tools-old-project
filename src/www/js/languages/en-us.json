@@ -12,7 +12,51 @@
 						},
 						{
 							"title" : "Level 2 - Beckoning", 
-							"description" : "The vampire's connection to the Beast grows strong enough that he may call out in the voice of a specific type of animal -- howling like a wolf, shrilling like a raven, etc. This call mystically summons creatures of the chosen type. Since each type of animal has a different call, Beckoning works for only a single species at a time. All such animals within earshot are summoned, and some percentage of them will heed the Beckoning if it is successful. While the vampire has no further control over the beasts who answer, the animals who do are favorably disposed toward him and are at least willing to listen to the Kindred's concerns. (The vampire can then use Feral Whispers on individual animals to command them, which may be at a decreased difficulty at Storyteller discretion.)"
+							"description" : "The vampire's connection to the Beast grows strong enough that he may call out in the voice of a specific type of animal -- howling like a wolf, shrilling like a raven, etc. This call mystically summons creatures of the chosen type. Since each type of animal has a different call, Beckoning works for only a single species at a time. All such animals within earshot are summoned, and some percentage of them will heed the Beckoning if it is successful. While the vampire has no further control over the beasts who answer, the animals who do are favorably disposed toward him and are at least willing to listen to the Kindred's concerns. (The vampire can then use Feral Whispers on individual animals to command them, which may be at a decreased difficulty at Storyteller discretion.)",
+							"system" : "The player rolls Charisma + Survival (difficulty 6) to determine the response to the character's call; consult the table below. Only animals that can hear the cry will respond. If the Storyteller decides no animals of that type are within earshot, the summons goes unanswered. The call can be as specific as the player desires. A character could call for all bats in the area, for only the male bats nearby, or for only the albino bat with the notched ear he saw the other night.",
+							"tables" : [
+								{
+									"name" : "System Table",
+									"rows" : [
+										{
+											"cols" : [
+												"Successes",
+												"Result"
+											]
+										},
+										{
+											"cols" : [
+												"1",
+												"A single animal responds"
+											]
+										},
+										{
+											"cols" : [
+												"2",
+												"One-quarter of the animals within earshot respond"
+											]
+										},
+										{
+											"cols" : [
+												"3",
+												"Half of the animals respond"
+											]
+										},
+										{
+											"cols" : [
+												"4",
+												"Most of the animals respond"
+											]
+										},
+										{
+											"cols" : [
+												"5",
+												"All of the animals respond"
+											]
+										}
+									]
+								}
+							]
 						},
 						{
 							"title" : "Level 3 - Quell The Beast", 
@@ -20,11 +64,85 @@
 						},
 						{
 							"title" : "Level 4 - Subsume The Spirit", 
-							"description" : "By locking his gaze with that of an animal, the vampire may mentally possess the creature. Some elders believe that since animals don't have souls but spirits, the vampire can move his own soul into the animal's body. Many younger vampires think it a matter of transferring one's consciousness into the animal's mind. In either case, it's agreed that the beast's weaker spirit (or mind) is pushed aside by the Kindred's own consciousness. The vampire's body falls into a motionless state akin to torpor while his mind takes control of the animal's actions, remaining this way until the Kindred's consciousness returns. Some haughty Tzimisce eschew this power, considering it debasing to enter the body of a lesser creature. When they do stoop to using it, they possess only predators. Conversely, Gangrel revel in connecting to the natural world in this way. They delight in sampling different animals' natures."
+							"description" : "By locking his gaze with that of an animal, the vampire may mentally possess the creature. Some elders believe that since animals don't have souls but spirits, the vampire can move his own soul into the animal's body. Many younger vampires think it a matter of transferring one's consciousness into the animal's mind. In either case, it's agreed that the beast's weaker spirit (or mind) is pushed aside by the Kindred's own consciousness. The vampire's body falls into a motionless state akin to torpor while his mind takes control of the animal's actions, remaining this way until the Kindred's consciousness returns. Some haughty Tzimisce eschew this power, considering it debasing to enter the body of a lesser creature. When they do stoop to using it, they possess only predators. Conversely, Gangrel revel in connecting to the natural world in this way. They delight in sampling different animals' natures.",
+							"tables" : [
+								{
+									"name" : "System Table",
+									"rows" : [
+										{
+											"cols" : [
+												"Successes",
+												"Result"
+											]
+										},
+										{
+											"cols" : [
+												"1",
+												"Cannot use Disciplines"
+											]
+										},
+										{
+											"cols" : [
+												"2",
+												"Can use Auspex and other sensory"
+											]
+										},
+										{
+											"cols" : [
+												"3",
+												"Can also use Presence and other powers of emotional manipulation"
+											]
+										},
+										{
+											"cols" : [
+												"4",
+												"Can also use Dementation, Dominate, and other powers of mental manipulation"
+											]
+										},
+										{
+											"cols" : [
+												"5",
+												"Can also use Chimerstry, Necromancy, Thaumaturgy, and other mystical powers"
+											]
+										}
+									]
+								}
+							]
 						},
 						{
 							"title" : "Level 5 - Drawing Out The Beast", 
-							"description" : "At this level of Animalism, the Kindred has a keen understanding of the Beast Within, and is able to release his feral urges upon another mortal or vampire. The recipient of the vampire's Beast is instantly overcome by frenzy. This is an unnatural frenzy, however, as the victim is channeling the Kindred's own fury. As such, the vampire's own behavior, expressions, and even speech patterns are evident in the subject's savage actions. Gangrel and Tzimisce are especially fond of unleashing their Beasts onto others. Gangrel do so to stir their ghouls into inspired heights of savagery during combat. Tzimisce care less about who receives their Beast than retaining their own composure."
+							"description" : "At this level of Animalism, the Kindred has a keen understanding of the Beast Within, and is able to release his feral urges upon another mortal or vampire. The recipient of the vampire's Beast is instantly overcome by frenzy. This is an unnatural frenzy, however, as the victim is channeling the Kindred's own fury. As such, the vampire's own behavior, expressions, and even speech patterns are evident in the subject's savage actions. Gangrel and Tzimisce are especially fond of unleashing their Beasts onto others. Gangrel do so to stir their ghouls into inspired heights of savagery during combat. Tzimisce care less about who receives their Beast than retaining their own composure.",
+							"tables" : [
+								{
+									"name" : "System Table",
+									"rows" : [
+										{
+											"cols" : [
+												"Successes",
+												"Result"
+											]
+										},
+										{
+											"cols" : [
+												"1",
+												"The character transfers the Beast, but unleashes it upon a random individual"
+											]
+										},
+										{
+											"cols" : [
+												"2",
+												"The character is stunned by the effort and may not act next turn, but transfers the Beast successfully. Alternatively, the character may act normally during the turn, but must spend a Willpower point or suffer a single level of lethal damage"
+											]
+										},
+										{
+											"cols" : [
+												"3+",
+												"The character transfers the Beast successfully"
+											]
+										}
+									]
+								}
+							]
 						}
 					]
 				},

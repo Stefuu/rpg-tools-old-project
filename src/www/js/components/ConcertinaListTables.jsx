@@ -28,7 +28,7 @@ var ConcertinaListTables = React.createClass({
     return (
       <div className="containerTable"> 
         <div onClick={this._toggleItem} className={'itemTable ' + sistemClass + parentOpenClass}>
-          <span>Table</span>
+          <span>{table.name}</span>
         </div>
       	<table onClick={this._toggleItem} className={openClass + parentOpenClass}>
           {markup}
