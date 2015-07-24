@@ -12,6 +12,7 @@ var Fortitude = React.createClass({
       <div className="fortitude">
       	<h1>{Json.guias.vampiro.disciplinas.fortitude.title}</h1>
         <ConcertinaList itens={Json.guias.vampiro.disciplinas.fortitude.itens}/>
+        <ConcertinaList itens={Json.guias.vampiro.disciplinas.fortitude.tables}/>
       </div>
     );
   }

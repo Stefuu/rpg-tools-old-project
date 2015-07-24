@@ -10,7 +10,7 @@ var ConcertinaList = React.createClass({
   	var itens = this.props.itens;
   	var itensMarkup = [];
   	for(var i = 0; i < itens.length; i++){
-  		itensMarkup.push( <ConcertinaListItens item={itens[i]}/>);
+  		itensMarkup.push( <ConcertinaListItens tables={itens} item={itens[i]}/>);
   	}
     return (
     	<div>

@@ -158,7 +158,49 @@
 					"itens" : [
 						{
 							"title" : "Level 1 - Prowess", 
-							"description" : "You have unearthed a level of strength unusual even in Vampires. Where others would flag and fail, you redouble your efforts. Your mighty blows land with a force that kills even the hardiest of mortals. With Prowess all of your unarmed or clubbing attacks inflict lethal damage instead of bashing damage, if you so desire. Furthermore, once per game session you may recoup your lost strength restoring all used Physical Traits of Brawny, Ferocious, Stalwart, Tough and Wiry. You must restore all of them at once if you have some Traits of the appropriate type unused when you invoke Prowess, you cannot restore them later. Using Prowess costs nothing and it does not count az an action; it may be done at any time."
+							"description" : "You have unearthed a level of strength unusual even in Vampires. Where others would flag and fail, you redouble your efforts. Your mighty blows land with a force that kills even the hardiest of mortals. With Prowess all of your unarmed or clubbing attacks inflict lethal damage instead of bashing damage, if you so desire. Furthermore, once per game session you may recoup your lost strength restoring all used Physical Traits of Brawny, Ferocious, Stalwart, Tough and Wiry. You must restore all of them at once if you have some Traits of the appropriate type unused when you invoke Prowess, you cannot restore them later. Using Prowess costs nothing and it does not count az an action; it may be done at any time.",
+							"tables" : [
+								{
+									"rows" : [
+										{
+											"cols" : [
+												"Potence",
+												"Amplify Damage"
+											]
+										},
+										{
+											"cols" : [
+												"1",
+												"x2"
+											]
+										},
+										{
+											"cols" : [
+												"2",
+												"x3"
+											]
+										},
+										{
+											"cols" : [
+												"3",
+												"x4"
+											]
+										},
+										{
+											"cols" : [
+												"4",
+												"x5"
+											]
+										},
+										{
+											"cols" : [
+												"5",
+												"x6"
+											]
+										}
+									]
+								}
+							]
 						},
 						{
 							"title" : "Level 2 - Might", 
@@ -175,6 +217,52 @@
 						{
 							"title" : "Level 5 - Puissance", 
 							"description" : "No mortal can match you, and even Vampires tremble at your touch. The strength of your dead limbs is truly monumental, crushing anything that stands before you. With Puissance, you win all ties in tests of strength automatically. You need not compare Traits at all, unless some other factor would cause you to lose ties (such as wounds) or give the opponent the ability to win all ties as well (such as Fleetness). Furthermore, your incredible strikes inflict an additional health level of damage in combat. This bonus applies to any attack in which your strength is a factor unarmed combat or combat with melee weapons. However, use of this incredible strength almost certainly breaks weapons that are not specially designed to stand it."
+						},
+						{
+							"title" : "Sistema", 
+							"description" : "Descrição do sistema",
+							"tables" : [
+								{
+									"rows" : [
+										{
+											"cols" : [
+												"Potence",
+												"Amplify Damage"
+											]
+										},
+										{
+											"cols" : [
+												"1",
+												"x2"
+											]
+										},
+										{
+											"cols" : [
+												"2",
+												"x3"
+											]
+										},
+										{
+											"cols" : [
+												"3",
+												"x4"
+											]
+										},
+										{
+											"cols" : [
+												"4",
+												"x5"
+											]
+										},
+										{
+											"cols" : [
+												"5",
+												"x6"
+											]
+										}
+									]
+								}
+							]
 						}
 					]
 				},

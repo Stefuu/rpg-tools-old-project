@@ -1,0 +1,25 @@
+.itemTable {
+  box-sizing: border-box;
+  display: block;
+  margin: 0 30px;
+  padding: 10px 0;
+  background-color: #0099CC;
+  font-size: 18px;
+  font-weight: bold;
+  text-indent: 15px;
+  color: #fff;
+}
+.itemTable:after{
+  right: 30px;
+}
+table {
+  margin: 0px auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+table, th, td {
+    border: 1px solid;
+}
+td {
+  padding: 10px;
+}
