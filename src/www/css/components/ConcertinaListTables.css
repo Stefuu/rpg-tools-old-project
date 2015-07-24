@@ -1,10 +1,9 @@
 .containerTable{
-
+  margin: 0 30px;
 }
 .itemTable {
   box-sizing: border-box;
   display: block;
-  margin: 0 30px;
   padding: 10px 0;
   background-color: #0099CC;
   font-size: 18px;
@@ -17,7 +16,7 @@
   right: 30px;
 }
 table {
-  margin: 10px 30px;
+  margin: 10px auto;
   border-collapse: collapse;
   text-align: center;
 }
