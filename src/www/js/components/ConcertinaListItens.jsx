@@ -17,7 +17,7 @@ var ConcertinaListItens = React.createClass({
     var tablesMarkup = [];
 
     var titleClass = this.state.open ? 'seta-cima' : 'seta-baixo';
-    var descClass = this.state.open ? '' : 'hidden';
+    var descClass = this.state.open ? 'slidableVisible' : 'slidableHidden';
 
     if(item.tables){
       for( var i = 0; i < item.tables.length; i++ ){
@@ -27,8 +27,12 @@ var ConcertinaListItens = React.createClass({
 
     return (
     	<li>
-        <span onClick={this._toggleItem} className={'title ' + titleClass}>{item.title}</span>
-        <span className={'desc ' + descClass}>{item.description}</span> 
+        <div onClick={this._toggleItem} className={'title ' + titleClass}>
+          <span>{item.title}</span>
+        </div>
+        <div className={'desc ' + descClass}>
+          <span>{item.description}</span>
+        </div> 
         {tablesMarkup}   
       </li>
     );

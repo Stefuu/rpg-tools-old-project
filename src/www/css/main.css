@@ -82,6 +82,24 @@ body h1 {
   display: none !important;
 }
 
+.slidableHidden {
+  max-height: 0;
+  -webkit-transition:max-height, 0.3s linear;
+  -moz-transition: max-height, 0.3s linear;
+  -ms-transition: max-height, 0.3s linear;
+  -o-transition: max-height, 0.3s linear;
+  transition: max-height, 0.3s linear;
+}
+
+.slidableVisible {
+  max-height: 2000px;
+  -webkit-transition:max-height, 0.5s linear;
+  -moz-transition: max-height, 0.5s linear;
+  -ms-transition: max-height, 0.5s linear;
+  -o-transition: max-height, 0.5s linear;
+  transition: max-height, 0.5s linear;
+}
+
 /* Seta para CIMA */
 .seta-cima:after {
   content: "";

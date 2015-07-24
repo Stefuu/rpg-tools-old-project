@@ -1,3 +1,6 @@
+.containerTable{
+
+}
 .itemTable {
   box-sizing: border-box;
   display: block;
@@ -8,12 +11,13 @@
   font-weight: bold;
   text-indent: 15px;
   color: #fff;
+  margin-bottom: 10px;
 }
 .itemTable:after{
   right: 30px;
 }
 table {
-  margin: 0px auto;
+  margin: 10px auto;
   border-collapse: collapse;
   text-align: center;
 }

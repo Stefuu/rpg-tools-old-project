@@ -16,6 +16,10 @@
 .concertina .desc {
 	line-height: 25px;
 	font-size: 17px;
+	overflow: hidden;
+}
+
+.concertina .desc span{
 	padding: 10px;
 	display: block;
 }
