@@ -39,12 +39,172 @@
 							"description" : "Elders of the clan still orchestrate the Assassins' movements from the Eagle's Nest at Alamut, but more and more Assamites have been dispatched throughout the world, killing Kindred with or without sanction or contracts. Many of the clan's former 'rules of engagement' - such as the prohibition against hunting an opponent who'd already bested another Assamite - have been discarded. To those outside the clan, it appears as if the Assamites are running rampant. Assamites organise themselves into units similar to Sabbat packs; these bands are known as falaqi. A falaqi typically consists of two or three Kindred who infiltrate a city and gain a foothold there. Assamites in a city engage in activities common to many Kindred (establishing power bases, cultivating herds), but also weaken rival Kindred through selective assassinations, for they do not see the Sixth Tradition as applying to them."
 						},
 						{
-							"title" : "Bloodlines",
-							"description" : "The Assamite vizier bloodline specializes in the study of Thaumaturgy and Middle Eastern magic. Viziers almost never leave the confines of Alamut, and certainly never engage in assassination activities. They instead refine their - and accordingly, the clan's - knowledge of blood magic. Assamite viziers forsake Celerity, instead learning Thaumaturgy as a clan Discipline, but must spend an extra blood point on all Thaumaturgical invocations. Assamite antitribu of the Sabbat differ very little from their independent counterparts, their only variance being their nominal allegiance to the sect. Assamites and their antitribu relate very well, particularly since the parent clan's breaking of the Tremere curse."
+							"title" : "Sect",
+							"description" : "The Assamites hold Sabbat and Camarilla in equal contempt. Some Assamites remain among the Sabbat, and a scattered few exist as loners in the Camarilla."
+						}
+					]
+				},
+				"brujah" : {
+					"title" : "Brujah",
+					"itens" : [
+						{
+							"title" : "History",
+							"description" : "Clan Brujah is largely composed of rebels, both with and without causes. Individualistic, outspoken and turbulent, Brujah hold social change near to their undead hearts, and the clan's ranks contain some of the most violent of the Camarilla Kindred. Most other vampires perceive the Brujah as nothing more than punks and miscreants, but the truth of the matter is that genuine passion lies behind their polemics. Brujah Kindred adopt pet passions and causes, which they support with volume and vitriol. Some Brujah follow charismatic members of their clan, while others prefer stances of blatant, defiant individualism. The clan claims a history rich with warrior-poets, and it has adapted this concept into the modern night; many Brujah are glad to have an opportunity to speak their minds, then indulge in a bit of destruction afterward to illustrate their points. The Rabble's espousal of change unites them, albeit tenuously, in their nightly crusades. Given a common enemy, Brujah with vastly differing ideals will join side by side to oppose their foe. After that foe is defeated, however, all bets are off and it's back to business as usual. A common Brujah theme involves the foundation of a Kindred 'Utopia', or the re-creation of a mythical one from nights past, though each Brujah vampire has a different idea of what said Utopia is. Brujah rely on chaotic behavior and upheaval to get their ideas across, and the Rabble are allowed a certain leeway that other clans do not have. In fact, Brujah are almost expected to be incoherent and bellicose; this stereotype works to the advantage of many eloquent, well-spoken members of the clan, who have no need to resort to violence when making their arguments. Respected for their martialry and readiness to rally under a banner, the Brujah are the physical strength of the Camarilla. Of late, however, many Rabble neonates see their role in the Camarilla as an institution unto itself, and more than a little unrest circulates among the clan. Other Kindred believe that the Brujah would be the first to leave the Camarilla. The Brujah believe it, too."
+						},
+						{
+							"title" : "Disciplines",
+							"description" : "Celerity, Potence, Presence"
+						},
+						{
+							"title" : "Appearance",
+							"description" : "Brujah vary widely in appearance, though many adopt radical styles and bold looks. If dismissive stereotypes are to be believed, the typical Brujah wears a biker jacket, tattered jeans, combat boots and a fearsome array of high-maintenance hair. In truth, few Brujah fit this image. Youthful, fashion-forward dress and noteworthy hairstyles are indeed found among many Brujah, but others favor tasteful wardrobes that encourage others to take them seriously. In the end, a Brujah's appearance often suggests his attitudes: A skinhead bravo is likely an open rebel or anarchist, while a bespectacled pedant in a tweed suit is probably a reformationist or liberal. It should be noted, however, that given the Brujah penchant for nonconformity, any assumption of ideals based on appearance could be potentially dangerous. Brujah look how they want."
+						},
+						{
+							"title" : "Haven",
+							"description" : "Wherever they damn well please. Are you going to tell them to leave?"
+						},
+						{
+							"title" : "Background",
+							"description" : "Brujah prefer those who espouse change in one form or another, and often recruit from college campuses, political groups or oppressed minorities. Young Brujah may hail from any background and often have a pet cause or issue of burning personal importance. All types of dissidents find their way into the ranks of the Brujah, from bomb-throwing biker anarchists to vociferous fascists to nihilistic radicals. This is, of course, part of the reason the clan is so disorganized - hatred between Brujah is often more bitter than hatred for those whom they mutually oppose."
+						},
+						{
+							"title" : "Character Creation",
+							"description" : "Brujah often have violent, criminal concepts, but they are as likely to be intellectual or socially adept. Natures and Demeanors tend to be aggressive and similar, as Brujah wear their emotions on their sleeves (when they have sleeves). Physically predisposed characters are predominant among the clan, but some favor Mental Attributes. Likewise, Skills are favored, with Knowledges running a close second. Any Backgrounds may be appropriate to a Brujah character, though many in the clan cultivate Contacts, Allies and Herd. Very few Brujah claim Mentors."
+						},
+						{
+							"title" : "Weaknesses",
+							"description" : "Fiery passion is at once the Brujah's blessing and curse. Though they are quick to adopt a cause, they are equally as quick to fall to frenzy. Of course, the Brujah rabidly deny this penchant for excitement, and become quite hostile when the issue is raised. The difficulties of rolls to resist frenzy (p. 228) are two higher than normal for members of Clan Brujah."
+						},
+						{
+							"title" : "Organization",
+							"description" : "Clan Brujah is far too fractious and torn by internecine conflict to have true organization, and the clan never meets formally. Two conventions the clan does support universally are the Rant and the Rave. Rants are just that: informal meetings of Brujah (and other insurgents, Kindred and kine) at which anyone who can scream loudly enough can have her opinions heard. Raves, named after the all-night techno dance parties started in England, are social gatherings in the guise of huge-scale musical or entertainment events. One usually leads to another, and clues to the locations of the events are often hidden in the media of the gathering in progress. These meetings almost invariably degenerate into riots, further eroding the organizational base of the clan."
 						},
 						{
 							"title" : "Sect",
-							"description" : "The Assamites hold Sabbat and Camarilla in equal contempt. Some Assamites remain among the Sabbat, and a scattered few exist as loners in the Camarilla."
+							"description" : "Rhetoric aside, most Brujah are in the Camarilla. Brujah Kindred also support the anarchs, arguably more so than the Camarilla. Indeed, the anarchs have more Brujah than members of all other clans combined."
+						}
+					]
+				},
+				"gangrel" : {
+					"title" : "Gangrel",
+					"itens" : [
+						{
+							"title" : "History",
+							"description" : "Of all vampires, the Gangrel are perhaps closest to their inner nature.These nomadic loners spurn the constraints of society, preferring the comfort of the wilderness. How they avoid the wrath of the werewolves is unknown; perhaps it has something to do with the fact that the Gangrel are themselves shapeshifters. When a mortal speaks of a vampire changing into a wolf or a bat, she is probably speaking of a Gangrel. Like the Brujah, Gangrel are fierce warriors; unlike the Brujah, Gangrel ferocity does not stem from anarchic rage, but from animalistic instinct. They are among the most predatory Kindred, and love to lose themselves in the thrill of the hunt. Gangrel have a keen understanding of the Beast in their souls, and prefer to spend their nights in communion with the animals whom they so emulate. Indeed, Gangrel are so attuned to their Beasts that, after losing themselves to frenzy, animalistic features often appear on their bodies. The clan itself has little contact with, or regard for, the rest of the Kindred. This might be due to a desire to avoid the snares of the Jyhad, but is more likely the product of simple isinterest. Certainly, Gangrel are popularly viewed as quiet, taciturn and reclusive. Although there is no more truth to this than there is to any other stereotype, the clan as a whole displays little of the ostentation found among lines such as the Toreador or Ventrue. Gangrel are closely tied to the Rom, or Gypsies, adopting much of that culture's speech patterns and mannerisms. Rumors speculate that the Rom are in fact descended from the Antediluvian who founded the Gangrelline. As such, say the rumors, any Kindred who harms or Embraces a Gypsy will suffer the wrath of the Ancient. Obviously, the vampires of Clan Ravnos ignore this fabled prohibition, and Gangrel and Ravnos harbor an ages-old hatred for each other."
+						},
+						{
+							"title" : "Disciplines",
+							"description" : "Animalism, Fortitude, Protean"
+						},
+						{
+							"title" : "Appearance",
+							"description" : "Gangrel's harsh unlifestyle and lack of interest in fashion often make them seem rugged and wild. Couple this with the animal features common among the clan, and Gangrel sometimes appear downright frightening. Some mortals and Kindred find a certain predatory beauty in the Gangrel, though this can lead to a dangerous misjudgment of the Gangrel's intentions"
+						},
+						{
+							"title" : "Haven",
+							"description" : "Gangrel often make no permanent havens, sleeping wherever they can find shelter from the sun. Gangrel with sufficient maste[). of the Protean Discipline sleep in the very earth, la iring in parks and other spots of natural terrain. Although many Gangrel prefes to lair in the wild or travel from place to place, they are as vulnerable to attack by werewolves as other Kindred are, and so they are often forced to remain in the city's confines"
+						},
+						{
+							"title" : "Background",
+							"description" : "Gangrel Embrace for a variety of reasons, as do most Kindred, but do not pass on the Curse lightly or common.lf a generalization must be made, it could be said that Gangrel prefer to Embrace loners, those who have the physical and emotional resiliency to survive the shock of the Change. The sire', training, what little there is, tends to be gruff and harsh; most Gangrel must discover the vagaries of unlife largely on their Own."
+						},
+						{
+							"title" : "Character Creation",
+							"description" : "Gangrel often have similar Natures and Demeanors, as they rarely rely, on subterfuge to get their way.Physical Attributes and Talents or Skills are common among Gangrel. They often have Allies (Gypsies) or Mentor as Back, ground, but rarely have high levels of Influence or Resources."
+						},
+						{
+							"title" : "Weaknesses",
+							"description" : "Gangrel are very close to the Beast Within; as they succumb to it, it leaves its mark on their bodies. Every time a Gangrel frenzies, she gains an animalistic feature. This feature is determined by the player and Storyteller; it might be tufted ears, a pelt, a tail, catlike eyes, a snarling voice, tusks, even scales or feathers. Every five such features acquired pesmanently reduce one of the Gangrel's Social Attsibutes by one."
+						},
+						{
+							"title" : "Organization",
+							"description" : "Gangrel have no true organization to speak of. Vampires of great age and great deeds are typicall)' shown respect, though the young are b) no means subservient. Outlanders occasionally meet in groups known as 'Gathers'; at these festivals, vampires dance, feast and tell stories of their travels. Disputes between Gangrel are often settled through ritual combat to first blood or submission; while savage, these fights rarely result in the loser's Final Death. Gangrel commonly hunt alone, though occasionally two or more Gangrel unite in a coterie of Sorts (a 'pride' or 'pac')"
+						},
+						{
+							"title" : "Sect",
+							"description" : "Clan Gangrel is nominally in the Camarilla, though a fair number of Sabbat Gangrel exist as well. Most Gangrel care little for sect, and rumblings of outright secession from the Camarilla have made the rounds at recent Gangrel Gathers."
+						}
+					]
+				},
+				"giovanni" : {
+					"title" : "Giovanni",
+					"itens" : [
+						{
+							"title" : "History",
+							"description" : "No other clan is more intent on maintaining a front of respectability than the Giovanni, and none is more repulsive at heart. Giovanni vampires are rich merchants, speculators and investors who spend most of their nights manipulating their vast assets from skyscraper offices. They spend the rest of their nights in crypts and mausoleums carrying out their dark and morbid rites. Legend has it the clan founder hoped to bolster his own power by Embracing a coven of Venetian necromancers. This coven was actually a tightly knit family of Giovanni who had strong trade interests in the Mediterranean region. The Giovanni repaid their sire for his gift by slaying him and all his other descendants. Vampires from around the world reacted with fear and horror, and many joined together to hunt these Devil Kindred. After almost a century of intermittent warfare the clan made peace with its foes by promising to maintain a low profile and keep out of Kindred politics. The Giovanni clan has apparently maintained its pledge to this day. Still, suspicion of this clan has continued to the present day. By staying neutral in Cainite battles, the Giovanni has had free rein to build its merchant empire. Now the clan's wealth is undeniable, but no one knows the exact purpose for which it employs this wealth. Few outsiders have ever taken part in the clan's necromantic rituals, so the purpose of these is likewise a mystery. Instead, suspicions and innuendoes have taken the places of facts and truths. Every member of this clan is also a member of the Giovanni family. By longstanding tradition Giovanni only Embrace those of their own family, and most of their Retainers and ghouls are also of the family. Three members of each generation are chosen as children to be Embraced when they are ready, and are carefully raised to prepare them for it. Others in the family may be Embraced later in their lives, as a reward for extraordinary service. Because all Giovanni are related by blood (in both senses), they are extremely loyal to one another, and betrayal by one of them is unthinkable. Certainly the Giovanni possesses the most reliable Retainers of any clan. Clan Giovanni is one of the more rigidly controlled clans, and contact is constantly maintained between members of the clan. It is still ruled with an iron hand by its patriarch, Augustus Giovanni, the original leader of the coven when it was first Embraced. Augustus sees his control over the line as similar to that of a prince's control over a city, and requires those below him to adhere to the Rule Of Creation: his permission must be obtained before the Giovanni Embrace can be gifted to anyone. However, some younger members of the clan are given significant leeway and freedom to pursue new control over corporations. Because the clan's influence in America is still limited, many of its members have been sent to the New World in recent years. If asked, most Giovanni would say they do what they do in order to gain a complete understanding and appreciation of the form they will have for all eternity. These Giovanni believe this form to be of one use - gaining power. Other Giovanni refer to the god-like feeling they get from having power over death."
+						},
+						{
+							"title" : "Disciplines",
+							"description" : "Dominate, Necromancy, Potence"
+						},
+						{
+							"title" : "Appearance",
+							"description" : "Despite (or perhaps because of) their horrid underground practices, Giovanni always try to maintain a front of respectability. They dress well, in conservative styles; the women frequently look matronly, while male Giovanni are often white-haired, bearded and look like favorite uncles"
+						},
+						{
+							"title" : "Haven",
+							"description" : "Giovanni generally dwell in mansions and condominiums in the finer parts of town; most also maintain at least one hideaway in a sewer or graveyard"
+						},
+						{
+							"title" : "Background",
+							"description" : "Giovanni Embrace only those from their own mortal family. Thus, all those in this clan are of Italian descent"
+						},
+						{
+							"title" : "Character Creation",
+							"description" : "Giovanni almost always have professional concepts. Their most common Natures are Deviant and Architect, though they may assume any Demeanor. Mental Attributes and Knowledge Abilities are almost always primary. They always have at least some Resources, but can have any other Backgrounds they desire. Most will also have Retainers, who are always siblings or cousins in the Giovanni family"
+						},
+						{
+							"title" : "Weaknesses",
+							"description" : "Living creatures upon whom the Giovanni feed take twice as much damage as they otherwise should. Thus, if a Giovanni drank one Blood Point, her victim would take two Health Levels of damage. For this reason, Giovanni are among the most prominent blood bankers and take vitae from people who have died moments before whenever possible"
+						},
+						{
+							"title" : "Organization",
+							"description" : "The Giovanni clan is based out of Venice, where the clan headquarters is located. Its members work together to advance the study of death, and can always call on their brethren should they be in trouble. This is a small clan, however, and physical assistance is usually hundreds of miles away"
+						},
+						{
+							"title" : "Sect",
+							"description" : "Independent"
+						}
+					]
+				},
+				"malkaviano" : {
+					"title" : "Malkavian",
+					"itens" : [
+						{
+							"title" : "History",
+							"description" : "Even other Damned fear the Malkavians. The cursed blood of their clan has polluted their minds, with the result that every last Malkavian across the world is incurably insane. What's worse, a Malkavian's madness can take nearly any form, from overpowering homicidal tendencies to near-catatonia. In many cases, there's no way to tell a Malkavian apart from the 'sane' members of other clans. Those few whose psychoses are immediately obvious are among the most terrifying vampires to stalk the streets. For as long as even the eldest Cainites can remember, the Malkavians have always stirred Kindred society with their passage. Although the clan has instigated no great wars nor toppled mortal governments (at least, to the best of their fellow vampires' knowledge), the very presence of a Malkavian works a subtle change on a city. Chaos nips at the Lunatics' heels, and those who associate with even the most well-meaning Malkavian often find their lives or unlives altered by the Cainite's madness. Recently, the Malkavians executed their grandest 'prank' of all. None can say whether it was worked in a great Malkavian Parliament held somewhere in an isolated European village, or on a bleak and forgotten moor somewhere far from the cities. A few stories speak of a epidemic of contagious dementia exploding among the use of Malkav's blood. Whatever the cause, Malkavians across the world have begun displaying a new, dangerous edge to their madness, accompanied by bizarre events in Kindred cities around the world. A longstanding Malkavian conceit holds the Jyhad to be a joke instigated by the founder of the clan; some Kindred wonder if, in fact, Malkavians have played the joke on them all along. None can say what exactly makes the Lunatics so dangerous. Certainly, their madness often frees them from fear of pain or Final Death. More than a few demonstrate horrifying murderous urges or a complete lack of emotion, including compassion. But most convincingly, the Malkavians are free from the confines of rationality and may do whatever they like - and this freedom is coupled with an uncanny insight, a strange wisdom that Cannot be perceived by the sane. The Malkavians possess a dark intellect that is often - and increasingly- set to frightening purposes"
+						},
+						{
+							"title" : "Disciplines",
+							"description" : "Auspex, Dementation, Obfuscate"
+						},
+						{
+							"title" : "Appearance",
+							"description" : "Malkavians run the gamut from terrifyingly psychotic to convincingly ordinary in every way - sometimes both at once. Just like serial killers, they could be anyone - the scruffy bum talking to himself, the pleasant but quiet neighbor, the borderline-suicidal musician. These vampires are capable of great subtlety, and rarely show anyone a face other than the one they want people to see"
+						},
+						{
+							"title" : "Haven",
+							"description" : "The Lunatics by and large take whatever shelter they like, although more than a few find aging hospitals and poorly funded asylums to their tastes. Many seem to enjoy the company of desperate mortals, and prefer slums and institutions to more secluded havens"
+						},
+						{
+							"title" : "Background",
+							"description" : "Malkavians take their childer from all walks of life and for all number of reasons. Anyone can be chosen to further a sire's twisted purposes, although most Lunatics prefer Embracing those already close to (or subject to) madness. Most other vampires believe that the Malkavians Embrace their childer on a whim; however, virtually all Lunatics discover themselves subtly championing some barely perceptible 'purpose', the full extent of which none - not even their sires -can properly fathom"
+						},
+						{
+							"title" : "Character Creation",
+							"description" : "Malkavians come in all shapes and flavors, but many have primary Mental Attributes, befitting the clan's reputation for wisdom and insight. Apart from that, it's anyone's guess just what Traits a Malkavian may manifest with the diversity of their concepts and backgrounds, these mad vampires could be anyone. Anywhere"
+						},
+						{
+							"title" : "Weaknesses",
+							"description" : "Every last vampire of Malkav's blood is irredeemably insane in some form or another. Some atrribute this to a curse of the blood, while other Lunatics actually call it a special blessing, a gift of insight. When a Malkavian character is created, the player must choose at least one derangement for that character at the time of the Embrace; this derangement can be temporarily fought with Willpower, but can never be permanently overcome"
+						},
+						{
+							"title" : "Organization",
+							"description" : "The hierarchy of the Malkavians, if it exists at all, defies description. Most are usually content to let one another do as they like from night to night. But now and again, in times of great need, Malkavians demonstrate an uncanny ability to act in unison, even without any apparent leadership - and sometimes even without any apparent communication. As one, they arise from their desolate haunts; as one, they fall on the problem at hand. And when it is a problem no longer, they drift back to their usual routines. If the Malkavians indulge in any form of machinations as a clan, they are incomprehensible to outsiders - which may be a blessing"
+						},
+						{
+							"title" : "Sect",
+							"description" : "The Malkavians as a clan have an. . .understanding. . . with the Camarilla. They also populate the Sabbat in lesser numbers, where they frighten even their packmates with their psychotic displays. But when it all comes down to it, their true loyalties likely transcend sects. When Gehenna arrives, nobody can say for sure where the Malkavians will stand."
 						}
 					]
 				}
