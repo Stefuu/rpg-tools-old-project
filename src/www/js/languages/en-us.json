@@ -2,6 +2,53 @@
 	"language" : "en-US",
 	"guias" : {
 		"vampiro" : {
+			"clans"	: {
+				"assamita" : {
+					"title" : "Assamite",
+					"itens" : [
+						{
+							"title" : "History",
+							"description" : "From the desert wastes of the East come the Assamites, and they bring with them a miasma of terror. The Assamites are known throughout vampire society as a clan of murderous assassins, working for whoever can pay their price. The price they charge for their work is the vitae of other Kindred; for the Assamites, diablerie is the greatest sacrament. Assamites tend to avoid the affairs of the Camarilla and the Sabbat, working for either or both sides in pursuit of their goals. They do circulate among sect-held cities; other Kindred find them useful for slaying rivals, enforcing blood hunts, scourging undesirable childer, and infiltrating rival's power bases. However, Assamites rarely form true alliances with other Kindred, for they consider other Children of Caine to be of inferior stock. Unlike other clans, the Assamites do not claim to have a founder of the Third Generation. Rather, they believe their founder to be a member of the Second Generation, making all other Cainites flawed copies of themselves. In nights prior to the formation of the Camarilla and the Sabbat, the Assamites practiced diablerie widely, always looking to bring themselves closer to 'the One', as they referred to their mythical founder. As the Anarch Revolt ensued, and the Sabbat and Camarilla rose from the ashes, many powerful elders grew uneasy at the cannibal assassins stalking their ranks. Calling upon the Tremere to curse the Assamites' blood, the Camarilla placed a yoke on the clan that rendered its members unable to consume the vitae of other Kindred. Unable to face the unified front the Camarilla represented, the Assamites submitted to this indignity. Those few who did not accept the curse went into hiding and joined the Sabbat. Those who deal regularly with Assamites have sensed great upheaval among the clan. The greatest sign of this is the clan's recent circumvention of the Tremere blood curse. Freed from the mystic shackles preventing it from engaging in diablerie, the clan has begun a campaign of murder and cannibalism once again. Assamites now kill other Kindred without provocation - indeed, without sanctioned contracts. The clan as a whole has assumed a more aggressive disposition. Whereas once the Assamites would take no further contracts on a victim who bested their assassins, the clan may now pursue that victim, and often does with unparalleled fervor. Similarly, Assamites no longer honor the age-old custom of tithing to their sires. In these nights of impending Gehenna there is no place for lazy Assamites who rest on their laurels. Precisely what the Assamites want, though, is unknown. Certainly, Assamites have flexed their muscle in both the physical and the political arenas, and hidden agents of the clan have come out of cover in cities where the ruling vampires have become lazy and fatuous. Their hold in the cities of India and the Middle East is much stronger than other Kindred had previously guessed. Whereas other Kindred once viewed the Assamites as honorable (i.e. relatively impotent), useful functionaries, they now hold the clan in dread."
+						},
+						{
+							"title" : "Disciplines",
+							"description" : "Celerity, Obfuscate, Quietus"
+						},
+						{
+							"title" : "Appearance",
+							"description" : "Assamites tend to dress stylish but practically. Aquiline noses, dark hair and slim, graceful builds dominate the clan's membership, though African members obviously bear more Nubian characteristics. Recently, a number of Westerners have been introduced into the clan, though they remain in the minority. These individuals may have almost any appearance, as they are chosen for their skill, not their looks. Also, Assamites' skin grows darker as they age (as opposed to other vampires, whose skin gets paler with age); particularly ancient Assamites are almost ebony in complexion."
+						},
+						{
+							"title" : "Haven",
+							"description" : "Most clan elders make their homes at Alamut, the clan stronghold, which is located high atop a mountain thought to be somewhere in modern Turkey. Neonates and operatives abroad typically select remote, inaccessible locations to ensure that they receive no unexpected guests."
+						},
+						{
+							"title" : "Background",
+							"description" : "Many Assamites fida'i (newly Embraced apprentices) hail from Asia Minor or northern Africa. Most members of the clan have been involved with assassination, wet work or terrorist activities for some portion of their mortal lives, though this is less true among the Assamite vizier bloodline. Recently, the clan has Embraced many neonates from the Western stock among which it moves, particularly soldiers, criminals and street gangsters."
+						},
+						{
+							"title" : "Character Creation",
+							"description" : "Assamites favor Physical Attributes, with Mental Attributes a close second. The Assassins favor Skills and Talents equally. Assamites typically have similar Natures and Demeanors, as subterfuge isn't their style, but rarely are they the exact same. Popular Backgrounds include Mentor, Contacts, and, of course, Generation."
+						},
+						{
+							"title" : "Weaknesses",
+							"description" : "In light of their recent circumvention of the Tremere blood-curse, the Assamites have reacquired their appreciable taste for vitae, particularly that of other Kindred. Having been forced to rely on alchemic blood potions for much of its modern history, the clan is easily addicted to the blood of other vampires. Any time an Assamite drinks or even tastes the blood of another Kindred, she must make a Self-Control roll (difficulty equal to the number of blood points ingested +3). If this roll is failed, she is addicted, and she must make another Self-Control roll the next time she comes in contact with Kindred vitae. Failing this roll sends the vampire into a sanguinary frenzy, in which she will do anything physically possible to partake of as much blood as possible. When (not if) the character's addiction manifests, the consuming need for blood should be roleplayed - Clan Assamite no longer sees the need to hide its vampiric nature."
+						},
+						{
+							"title" : "Organization",
+							"description" : "Elders of the clan still orchestrate the Assassins' movements from the Eagle's Nest at Alamut, but more and more Assamites have been dispatched throughout the world, killing Kindred with or without sanction or contracts. Many of the clan's former 'rules of engagement' - such as the prohibition against hunting an opponent who'd already bested another Assamite - have been discarded. To those outside the clan, it appears as if the Assamites are running rampant. Assamites organise themselves into units similar to Sabbat packs; these bands are known as falaqi. A falaqi typically consists of two or three Kindred who infiltrate a city and gain a foothold there. Assamites in a city engage in activities common to many Kindred (establishing power bases, cultivating herds), but also weaken rival Kindred through selective assassinations, for they do not see the Sixth Tradition as applying to them."
+						},
+						{
+							"title" : "Bloodlines",
+							"description" : "The Assamite vizier bloodline specializes in the study of Thaumaturgy and Middle Eastern magic. Viziers almost never leave the confines of Alamut, and certainly never engage in assassination activities. They instead refine their - and accordingly, the clan's - knowledge of blood magic. Assamite viziers forsake Celerity, instead learning Thaumaturgy as a clan Discipline, but must spend an extra blood point on all Thaumaturgical invocations. Assamite antitribu of the Sabbat differ very little from their independent counterparts, their only variance being their nominal allegiance to the sect. Assamites and their antitribu relate very well, particularly since the parent clan's breaking of the Tremere curse."
+						},
+						{
+							"title" : "Sect",
+							"description" : "The Assamites hold Sabbat and Camarilla in equal contempt. Some Assamites remain among the Sabbat, and a scattered few exist as loners in the Camarilla."
+						}
+					]
+				}
+			},
 			"disciplinas" : {
 				"animalismo" : {
 					"title" : "Animalism",

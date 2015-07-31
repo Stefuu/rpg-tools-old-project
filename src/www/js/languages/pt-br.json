@@ -2,6 +2,53 @@
 	"language" : "pt-BR",
 	"guias" : {
 		"vampiro" : {
+			"clans"	: {
+				"assamita" : {
+					"title" : "Assamita",
+					"itens" : [
+						{
+							"title" : "Histórico",
+							"description" : "Os Assamitas vêm dos desolados desertos do Leste e trazem consigo miasmas de terror. Os Assamitas são conhecidos dentro da sociedade dos vampiros como um clã de assassinos sanguinários, trabalhando para quem quer que possa pagar seu preço. O preço que eles cobram por seus serviços é a vitale de outros Membros, pois para os Assamitas, a diablerie é o maior dos sacramentos. Os Assamitas tentam evitar os assuntos da Camarilla e do Sabá, trabalhando para um ou ambos os lados em busca de seus objetivos. Eles circulam entre cidades controladas pelas duas seitas; os outros Membros os consideram úteis para matar rivais, executarem caçadas de sangue, açoitar crianças indesejáveis e para se infiltrar em bases rivais de poder. Contudo, os Assamitas raramente formam verdadeiras alianças com outros Membros, pois eles consideram as demais crianças de Cain como sendo de origem inferior. Ao contrário dos outros clãs, os Assamitas não clamam ter um fundador da Terceira Geração. Eles acreditam que seu fundador era um membro da Segunda Geração, fazendo de todos os outros Cainítas, meras cópias imperfeitas deles. Nas noites anteriores à formação da Camarilla e do Sabá, os Assamitas praticavam abertamente a diablerie, sempre em busca de uma maior proximidade com 'Ele', como eles se referem ao seu místico fundador. Com o fim da Revolta Anarquista, e com o Sabá e a Camarilla se erguendo das cinzas, muitos anciões poderosos tornaram-se inquietos com os assassinos canibais que espreitavam entre suas hierarquias. Convocando os Tremere para amaldiçoar o sangue dos Assamitas, a Camarilla colocou uma coleira no clã, tornando seus membros incapazes de consumir a vitale; de outros Membros. Sem condições de combater a frente representada pela Camarilla, os Assamitas se sujeitaram a esta indignação. Os poucos que não aceitaram a maldição se esconderam e juntaram-se ao Sabá. Aqueles que lidam freqüentemente com os Assamitas perceberam a grande revolta que existe dentro do clã. O maior sinal disso é a recente superação da maldição de sangue lançada pelos Tremere. Livres dos grilhões místicos que impediam o clã de cometer diablerie, os Assamitas começaram novamente uma campanha de assassinatos e canibalismo. Atualmente, os Assamitas matam outros Membros sem nenhuma provocação — e, de fato sem contratos sancionados. O clã como um todo assumiu uma postura mais violenta. Enquanto antes os Assamitas não aceitavam novos contratos contra vítimas que superavam seus assassinos, agora o clã pode perseguir estas vítimas livremente, e freqüentemente o faz com fervor sem igual. Da mesma forma, os Assamitas não respeitam mais o antigo costume de pagar o dízimo aos seus senhores. Nestas noites de Gehenna iminente, não há lugar para Assamitas preguiçosos que descansam sobre os louros alheios. Precisamente o quê os Assamitas desejam, contudo, é desconhecido. Certamente, os Assamitas atuam tanto na área física como na política e agentes secretos do clã foram descobertos em cidades onde os vampiros governantes se tornaram muito preguiçosos e presunçosos. Sua influência sobre cidades da índia e do Oriente Médio é muito mais forte do que os Membros supunham anteriormente. Apesar dos Membros já terem visto os Assamitas como empregados honráveis e úteis (e relativamente impotentes), atualmente eles têm pavor do clã."
+						},
+						{
+							"title" : "Disciplinas",
+							"description" : "Rapidez, Ofuscaçao, Quietus"
+						},
+						{
+							"title" : "Aparência",
+							"description" : "Os Assamitas tendem a se vestir com o estilo mais pratico possível. Narizes aquilinos, cabelos pretos e corpos graciosos e esbeltos são características predominantes entre os membros do clã, apesar de membros africanos terem características mais núbias. Recentemente, alguns ocidentais foram introduzidos ao clã, mas eles continuam sendo uma minoria. Estes indivíduos podem ser de quase qualquer aspecto, pois são escolhidos por suas habilidades e não por sua aparência. Além disso, a pele dos Assamitas se torna cada vez mais escura conforme eles envelhecem (ao contrario dos outros vampiros, cuja pele fica mais pálida com a idade); Assamitas particularmente mais antigos tem a pele quase da cor do ébano."
+						},
+						{
+							"title" : "Refúgio",
+							"description" : "Muitos dos anciões do clã vivem em Alamut, a mística fortaleza do clã, localizada no alto de uma montanha em algum lugar na Turquia. Neófitos e agentes no estrangeiro normalmente selecionam locais remotos e inacessíveis para terem certezas de que não receberão visitas inesperadas."
+						},
+						{
+							"title" : "Antecedentes",
+							"description" : "Muitos Assamitas Fida’i (Aprendizes Recém Abraçados) são originários da Ásia menor ou do norte da África. A maioria dos membros do clã já esteve envolvida em assassinatos, trabalhos ilegais ou atividades terroristas em alguma parte de suas vidas, apesar disso não ser certo na linguagem do vizir. Recentemente, o clã tem abraçado muitos Neófitos de origem ocidental (principalmente soldados, criminosos e bandidos de Rua)."
+						},
+						{
+							"title" : "Criação de personagem",
+							"description" : "Os Assamitas favorecem os Atributos Físicos, com os Atributos Mentais perdendo por pouco. Os assassinos dão igual preferência às Perícias e Talentos. Normalmente, os Assamitas têm Naturezas e Comportamentos semelhantes, pois o subterfúgio não é seu estilo, mas eles raramente são exatamente iguais. Entre os antecedentes são mais populares Mentor, Contatos e, é claro, Geração."
+						},
+						{
+							"title" : "Fraqueza",
+							"description" : "Devido à superação da maldição Tremere sobre o sangue, os Assamitas readquiriram o seu apreciável gosto por vitale, principalmente a de outros Membros. Tendo sido forçados a depender de poções químicas de sangue por grande parte de sua história moderna, o clã se vicia facilmente no sangue de outros vampiros. Sempre que um Assamita beber ou simplesmente experimentar do sangue de um Membro, ele precisa fazer um teste de Autocontrole (dificuldade igual ao número de pontos de sangue ingeridos +3). Se a jogada falhar, ele está viciado e precisará fazer outro teste de Autocontrole da próxima vez que entrar em contato com vitale de Membros. Uma falha nesta tentativa coloca o vampiro em um frenesi sanguinário, no qual ele fará qualquer coisa fisicamente possível para tomar tanto sangue quanto possível. Quando o vício do personagem se manifestar, a necessidade de consumir sangue deve ser representada — o Clã Assamita não vê mais necessidade em esconder sua natureza vampírica."
+						},
+						{
+							"title" : "Organização",
+							"description" : "Do alto do Ninho da Águia, em Alamut, os anciões do clã ainda orquestram os movimentos dos assassinos, mas cada vez mais os Assamitas tem sido despachado por todo o mundo, matando membros com ou sem contato ou sanções. Muitas das antigas “regras de compromisso” do clã tais como a de caçar um oponente que já sobrepujou um Assamita, foram descartadas. Para aqueles de fora do clã, parece que os Assamitas estão se excedendo. Os Assamitas se organizam em unidades similares aos bandos do Sabá, estes grupos são conhecidos como Falaqi. Um Falaqi normalmente consiste em 2 ou 3 membros que se infiltram em uma cidade e ali estabelecem uma posição segura. Em uma cidade, os Assamitas realizam atividades comuns a muitos dos membros (estabelecer base de poder, cultivar rebanho), mas também enfraquecem seus rivais através de assassinatos coletivos; aparentemente a Sexta Tradição não se aplica a eles."
+						},
+						{
+							"title" : "Linhagens",
+							"description" : "A linhagem dos Vizires Assamitas se especializou na taumatugia e de magias do Oriente Médio. Os Vizires quase nunca deixam os limites do Alamut e certamente nunca se envolvem em assassinatos. Ao invés disso, eles apuram seus conhecimentos (e conseqüentemente os do clã) sobre a magia do sangue.Os Vizires Assamitas abandonaram a rapidez, tendo em troca a Taumaturgia como Disciplina de clã. Feitiçaria Assamita - Ofuscação - Quietus Os Assamitas Anti-Tribo se diferenciam muito pouco de seus parentes independentes, sendo a submissão nominal ao Sabá sua única variante. Os Assamitas e sua Anti-Tribo se dão muito bem, especialmente depois que a maldição foi quebrada."
+						},
+						{
+							"title" : "Seita",
+							"description" : "Os Assamitas encaram o Sabá e a Camarilla com o mesmo desprezo. Alguns ainda se mantêm no Sabá e outros poucos vivem isolados dentro da Camarilla."
+						}
+					]
+				}
+			},
 			"disciplinas" : {
 				"animalismo" : {
 					"title" : "Animalismo",
