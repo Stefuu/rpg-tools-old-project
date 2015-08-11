@@ -10,10 +10,12 @@ var Giovanni = React.createClass({
   render: function() {
     return (
       <div className="giovanni">
-        <h1>{Json.guias.vampiro.clans.giovanni.title}</h1>
-        <div className="img-container">
-        	<img src="assets/img/giovanni.png" />
-        </div>
+        <header>
+          <h1>{Json.guias.vampiro.clans.giovanni.title}</h1>
+          <div className="img-container">
+          	<img src="assets/img/giovanni.png" />
+          </div>
+        </header>
         <ConcertinaList itens={Json.guias.vampiro.clans.giovanni.itens}/>
       </div>
     );

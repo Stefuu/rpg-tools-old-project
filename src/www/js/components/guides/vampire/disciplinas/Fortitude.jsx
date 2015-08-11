@@ -10,9 +10,13 @@ var Fortitude = React.createClass({
   render: function() {
     return (
       <div className="fortitude">
-      	<h1>{Json.guias.vampiro.disciplinas.fortitude.title}</h1>
+      	<header>
+      		<h1>{Json.guias.vampiro.disciplinas.fortitude.title}</h1>
+          <div className="img-container">
+            <img src="assets/img/fortitude.png" />
+          </div>
+      	</header>
         <ConcertinaList itens={Json.guias.vampiro.disciplinas.fortitude.itens}/>
-        <ConcertinaList itens={Json.guias.vampiro.disciplinas.fortitude.tables}/>
       </div>
     );
   }

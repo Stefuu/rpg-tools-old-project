@@ -6,6 +6,7 @@
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1;
 }
 
 .main-header .appName {
@@ -73,4 +74,8 @@
   top: 40px;
   width: 50%;
   font-size: 28px;
+}
+
+.content header {
+  padding-bottom: 15px;
 }

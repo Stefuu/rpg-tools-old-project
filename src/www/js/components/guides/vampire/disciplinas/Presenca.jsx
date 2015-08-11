@@ -10,7 +10,12 @@ var Presenca = React.createClass({
   render: function() {
     return (
       <div className="presenca">
-      	<h1>{Json.guias.vampiro.disciplinas.presenca.title}</h1>
+      	<header>
+      		<h1>{Json.guias.vampiro.disciplinas.presenca.title}</h1>
+          <div className="img-container">
+            <img src="assets/img/presenca.png" />
+          </div>
+      	</header>
         <ConcertinaList itens={Json.guias.vampiro.disciplinas.presenca.itens}/>
       </div>
     );

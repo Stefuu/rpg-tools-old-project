@@ -10,7 +10,12 @@ var Quimerismo = React.createClass({
   render: function() {
     return (
       <div className="quimerismo">
-      	<h1>{Json.guias.vampiro.disciplinas.quimerismo.title}</h1>
+      	<header>
+      		<h1>{Json.guias.vampiro.disciplinas.quimerismo.title}</h1>
+          <div className="img-container">
+            <img src="assets/img/quimerismo.png" />
+          </div>
+      	</header>
         <ConcertinaList itens={Json.guias.vampiro.disciplinas.quimerismo.itens}/>
       </div>
     );

@@ -10,10 +10,12 @@ var Brujah = React.createClass({
   render: function() {
     return (
       <div className="brujah">
-        <h1>{Json.guias.vampiro.clans.brujah.title}</h1>
-        <div className="img-container">
-        	<img src="assets/img/brujah.jpg" />
-        </div>
+        <header>
+          <h1>{Json.guias.vampiro.clans.brujah.title}</h1>
+          <div className="img-container">
+          	<img src="assets/img/brujah.jpg" />
+          </div>
+        </header>
         <ConcertinaList itens={Json.guias.vampiro.clans.brujah.itens}/>
       </div>
     );

@@ -10,7 +10,12 @@ var Auspicios = React.createClass({
   render: function() {
     return (
       <div className="auspicios">
-      	<h1>{Json.guias.vampiro.disciplinas.auspicios.title}</h1>
+      	<header>
+      		<h1>{Json.guias.vampiro.disciplinas.auspicios.title}</h1>
+          <div className="img-container">
+            <img src="assets/img/auspicios.png" />
+          </div>
+      	</header>
         <ConcertinaList itens={Json.guias.vampiro.disciplinas.auspicios.itens}/>
       </div>
     );

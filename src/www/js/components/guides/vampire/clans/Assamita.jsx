@@ -10,10 +10,12 @@ var Assamita = React.createClass({
   render: function() {
     return (
       <div className="assamita">
-        <h1>{Json.guias.vampiro.clans.assamita.title}</h1>
-        <div className="img-container">
-        	<img src="assets/img/assamita.png" />
-        </div>
+        <header>
+          <h1>{Json.guias.vampiro.clans.assamita.title}</h1>
+          <div className="img-container">
+          	<img src="assets/img/assamita.png" />
+          </div>
+        </header>
         <ConcertinaList itens={Json.guias.vampiro.clans.assamita.itens}/>
       </div>
     );

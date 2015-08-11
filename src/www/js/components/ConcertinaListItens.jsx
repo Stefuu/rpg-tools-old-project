@@ -6,34 +6,30 @@ var React = require('react');
 var ConcertinaListTables = require('./ConcertinaListTables.jsx');
 
 var ConcertinaListItens = React.createClass({
-  _toggleItem: function(e){
-      this.state.open ? this.setState({open: false}) : this.setState({open: true});
-  },
-  getInitialState: function() {
-    return {open: false};
-  },
+
   render: function(){
     var item = this.props.item;
-    var tablesMarkup = [];
-
-    var titleClass = this.state.open ? 'seta-cima' : 'seta-baixo';
-    var descClass = this.state.open ? 'slidableVisible' : 'slidableHidden';
+    
+    var titleClass = this.props.active ? 'seta-cima' : 'seta-baixo';
+    var descClass = this.props.active ? 'slidableVisible' : 'slidableHidden';
 
     if(item.tables){
-      for( var i = 0; i < item.tables.length; i++ ){
-        tablesMarkup.push(<ConcertinaListTables parentOpen={this.state.open} table={item.tables[i]}/>)
-      }
+      var tables = item.tables.map(function(table,i){
+        return(
+            <ConcertinaListTables key={i} parentOpen={this.props.active} table={table}/>
+          );
+      }, this);
     }
 
     return (
     	<li>
-        <div onClick={this._toggleItem} className={'title ' + titleClass}>
+        <div onClick={this.props.onClick} className={'title ' + titleClass}>
           <span>{item.title}</span>
         </div>
         <div className={'desc ' + descClass}>
           <span>{item.description}</span>
         </div> 
-        {tablesMarkup}   
+        {tables}   
       </li>
     );
   }

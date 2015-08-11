@@ -61,14 +61,7 @@ button:focus {
 body h1 { 
   text-align: center;
   font-size: 34px;
-  padding: 15px;
-  font-weight: bold;
-  font-family: Arial;
-}
-
-body h1 { 
-  text-align: center;
-  font-size: 34px;
+  margin: 0;
   padding: 15px;
   font-weight: bold;
   font-family: Arial;
@@ -84,20 +77,20 @@ body h1 {
 
 .slidableHidden {
   max-height: 0;
-  -webkit-transition:max-height, 0.3s linear;
-  -moz-transition: max-height, 0.3s linear;
-  -ms-transition: max-height, 0.3s linear;
-  -o-transition: max-height, 0.3s linear;
-  transition: max-height, 0.3s linear;
-}
-
-.slidableVisible {
-  max-height: 3000px;
   -webkit-transition:max-height, 0.5s linear;
   -moz-transition: max-height, 0.5s linear;
   -ms-transition: max-height, 0.5s linear;
   -o-transition: max-height, 0.5s linear;
   transition: max-height, 0.5s linear;
+}
+
+.slidableVisible {
+  max-height: 3000px;
+  -webkit-transition:max-height, 1.5s linear;
+  -moz-transition: max-height, 1.5s linear;
+  -ms-transition: max-height, 1.5s linear;
+  -o-transition: max-height, 1.5s linear;
+  transition: max-height, 1.5s linear;
 }
 
 /* Seta para CIMA */
@@ -134,7 +127,6 @@ body h1 {
 
 .img-container {
   text-align: center;
-  margin-bottom: 15px;
 }
 .img-container img {
   height: 250px;

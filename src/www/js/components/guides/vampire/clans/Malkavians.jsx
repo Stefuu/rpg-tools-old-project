@@ -10,10 +10,12 @@ var Malkavians = React.createClass({
   render: function() {
     return (
       <div className="malkavians">
-        <h1>{Json.guias.vampiro.clans.malkaviano.title}</h1>
-        <div className="img-container">
-        	<img src="assets/img/malkaviano.png" />
-        </div>
+        <header>
+          <h1>{Json.guias.vampiro.clans.malkaviano.title}</h1>
+          <div className="img-container">
+          	<img src="assets/img/malkaviano.png" />
+          </div>
+        </header>
         <ConcertinaList itens={Json.guias.vampiro.clans.malkaviano.itens}/>
       </div>
     );

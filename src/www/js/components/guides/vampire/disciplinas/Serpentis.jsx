@@ -10,7 +10,12 @@ var Serpentis = React.createClass({
   render: function() {
     return (
       <div className="serpentis">
-      	<h1>{Json.guias.vampiro.disciplinas.serpentis.title}</h1>
+      	<header>
+      		<h1>{Json.guias.vampiro.disciplinas.serpentis.title}</h1>
+          <div className="img-container">
+            <img src="assets/img/serpentis.png" />
+          </div>
+      	</header>
         <ConcertinaList itens={Json.guias.vampiro.disciplinas.serpentis.itens}/>
       </div>
     );

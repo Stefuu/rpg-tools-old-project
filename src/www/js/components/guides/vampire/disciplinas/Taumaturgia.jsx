@@ -10,7 +10,12 @@ var Taumaturgia = React.createClass({
   render: function() {
     return (
       <div className="taumaturgia">
-      	<h1>{Json.guias.vampiro.disciplinas.taumaturgia.title}</h1>
+      	<header>
+      		<h1>{Json.guias.vampiro.disciplinas.taumaturgia.title}</h1>
+          <div className="img-container">
+            <img src="assets/img/taumaturgia.png" />
+          </div>
+      	</header>
         <ConcertinaList itens={Json.guias.vampiro.disciplinas.taumaturgia.itens}/>
       </div>
     );

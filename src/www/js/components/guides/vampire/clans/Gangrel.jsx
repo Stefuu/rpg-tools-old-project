@@ -10,10 +10,12 @@ var Gangrel = React.createClass({
   render: function() {
     return (
       <div className="gangrel">
-        <h1>{Json.guias.vampiro.clans.gangrel.title}</h1>
-        <div className="img-container">
-        	<img src="assets/img/gangrel.png" />
-        </div>
+        <header>
+          <h1>{Json.guias.vampiro.clans.gangrel.title}</h1>
+          <div className="img-container">
+          	<img src="assets/img/gangrel.png" />
+          </div>
+        </header>
         <ConcertinaList itens={Json.guias.vampiro.clans.gangrel.itens}/>
       </div>
     );

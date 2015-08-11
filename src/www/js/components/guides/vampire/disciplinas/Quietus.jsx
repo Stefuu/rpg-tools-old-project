@@ -10,7 +10,12 @@ var Quietus = React.createClass({
   render: function() {
     return (
       <div className="quietus">
-      	<h1>{Json.guias.vampiro.disciplinas.quietus.title}</h1>
+      	<header>
+      		<h1>{Json.guias.vampiro.disciplinas.quietus.title}</h1>
+          <div className="img-container">
+            <img src="assets/img/quietus.png" />
+          </div>
+      	</header>
         <ConcertinaList itens={Json.guias.vampiro.disciplinas.quietus.itens}/>
       </div>
     );

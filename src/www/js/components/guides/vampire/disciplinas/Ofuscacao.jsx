@@ -10,7 +10,12 @@ var Ofuscacao = React.createClass({
   render: function() {
     return (
       <div className="ofuscacao">
-      	<h1>{Json.guias.vampiro.disciplinas.ofuscacao.title}</h1>
+      	<header>
+      		<h1>{Json.guias.vampiro.disciplinas.ofuscacao.title}</h1>
+          <div className="img-container">
+            <img src="assets/img/ofuscacao.jpg" />
+          </div>
+      	</header>
         <ConcertinaList itens={Json.guias.vampiro.disciplinas.ofuscacao.itens}/>
       </div>
     );

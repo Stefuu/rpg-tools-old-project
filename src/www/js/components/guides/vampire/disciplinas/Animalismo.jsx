@@ -10,7 +10,12 @@ var Animalismo = React.createClass({
   render: function() {
     return (
       <div className="animalismo">
-      	<h1>{Json.guias.vampiro.disciplinas.animalismo.title}</h1>
+      	<header>	
+      		<h1>{Json.guias.vampiro.disciplinas.animalismo.title}</h1>
+          <div className="img-container">
+            <img src="assets/img/animalismo.jpg" />
+          </div>
+      	</header>	
         <ConcertinaList itens={Json.guias.vampiro.disciplinas.animalismo.itens}/>
       </div>
     );
