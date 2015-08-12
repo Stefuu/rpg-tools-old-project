@@ -5,6 +5,9 @@
 var React = require('react');
 var ConcertinaListTables = require('./ConcertinaListTables.jsx');
 
+var Internationalization = require('./../modules/Internationalization.js');
+var Json = Internationalization.chooseLanguage();
+
 var ConcertinaListItens = React.createClass({
 
   render: function(){
@@ -12,6 +15,10 @@ var ConcertinaListItens = React.createClass({
     
     var titleClass = this.props.active ? 'seta-cima' : 'seta-baixo';
     var descClass = this.props.active ? 'slidableVisible' : 'slidableHidden';
+
+    if(item.system){
+      var systemMArkup = <span><b>{Json.commonWords.system}:<br /></b>{item.system}</span>;
+    }
 
     if(item.tables){
       var tables = item.tables.map(function(table,i){
@@ -28,6 +35,9 @@ var ConcertinaListItens = React.createClass({
         </div>
         <div className={'desc ' + descClass}>
           <span>{item.description}</span>
+        </div>
+        <div className={'desc ' + descClass}> 
+          {systemMArkup}
         </div> 
         {tables}   
       </li>

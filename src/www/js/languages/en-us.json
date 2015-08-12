@@ -1,5 +1,8 @@
 {
 	"language" : "en-US",
+	"commonWords" : {
+		"system" : "System"
+	},
 	"guias" : {
 		"title" : "Guides",
 		"vampiro" : {
@@ -415,6 +418,88 @@
 							"description" : "Most Toreador are in the Camarilla, as only that august organization promotes 'culture' and allows the Toreador to live among the mortals they so favor. Those in the Sabbat pursue bizarre 'artistic' pastimes, such as torture and blood-painting, or are the rulers of the most decadent underground movements."
 						}
 					]
+				},
+				"tremere" : {
+					"title" : "Tremere",
+					"itens" : [
+						{
+							"title" : "History",
+							"description" : "Whether dreaded, mistrusted, feared or reviled, the insular vampires of Clan Tremere are anything but ignored. Those who have heard of the clan's doings are typically suspicious of the Tremere, and with good reasons -- for the Warlocks are aptly named. Through their own artifice, they have mastered a form of vampiric sorcery, complete with rituals and spells, that is as potent -- if not more so -- than any other power of the Blood. Paired with the clan's rigid hierarchy and the smoldering ambition so common among Warlocks, this power is an unsettling thing indeed to those who know what the Tremere are capable of doing. According to some Kindred records, the Tremere came into being as a clan very recently, at least by an immortal's standards. Legend has it that, during Europe's Dark Ages, a cabal of human wizards enacted a great ritual over the slumbering body of an Antediluvian and thereby wrested for themselves the gift of vampirism. War followed soon thereafter -- the fledgling clan found itself besieged by enraged Kindred of every side. But the Tremere are nothing if not survivors. Their human magicks lost, they nonetheless managed to alter their rituals and wardings to utilize the power of their vitae. These magical skills, now practiced as the Discipline of Thaumaturgy, have ensured the Tremere's place among the Kindred ever since. The Warlocks gladly play the games of diplomacy and intrigue with their newfound brethren. However, their dealings and always tinged with a touch of paranoia, for the Tremere know that the elders of new fewer than three clans bear them a terrible grudge that has yet to be repaid. Therefore, the Tremere work to cultivate what allies they can, even as they strive to heighten their magical mastery. No less is required for their survival. As a result, the childer of Clan Tremere are among the most driven and learned of all Cainites; few cross these undead sorcerers and escape unscarred. The Tremere are vampires of the Old World, but have traveled across the continents to establish footholds elsewhere. The clan's seat of power lies in Vienna, where the Tremere elders convene in council and discuss the clan's future direction. But many larger cities across the globe house Tremere 'chantries' -- well-defended houses that are equal parts university, monastery and stronghold. There the Warlocks gather to exchange information and study their vampiric witchcraft, safe from the attentions of their rivals."
+						},
+						{
+							"title" : "Disciplines",
+							"description" : "Auspex, Dominate, Thaumaturgy."
+						},
+						{
+							"title" : "Appearance",
+							"description" : "The sorcerous Tremere are typically imposing or sinister in mien. Some favor classic suits; others prefer slightly more antiquated look, dressing in the 1940s-cut suits, Edwardian finery or the simple black turtlenecks of the Beat era. Many wear charms or amulets inscribed with cabalistic or other arcane symbols, as a sign of their learning. Although individual Warlocks may run the gamut from immaculately precise to disheveled and eccentric, the vampiric sorcerers' eyes always gleam with hidden insight and frightening acuity."
+						},
+						{
+							"title" : "Haven",
+							"description" : "While Warlocks may maintain their own individual havens (often complete with extensive libraries), the clan maintains a chantry in every city that harbors a strong Tremere presence. A chantry is open to any of Tremere's bloodline and absolutely forbidden to all others. The Warlocks are infamous for their well-guarded havens; almost all board mystical wards that even other Tremere would find difficult to circumvent."
+						},
+						{
+							"title" : "Background",
+							"description" : "Many Tremere dabbled in occult or other scholarly pursuits in life. However, a fascination with the unknown is hardly enough to draw a Warlock's attention; clan members seek 'apprentices' with aggressive natures and clean thinking, and care little for muddle-headed New Agers or befuddled conspiracy theorists. Clan Tremere has an unspoken tradition of sexism, and most of its elders are male. Tremere ancillae have become rather more open-minded of late, though, and draw ample numbers of suitably ambitious and persistent acolytes from both sexes."
+						},
+						{
+							"title" : "Character Creation",
+							"description" : "Tremere typically have strong Mental Attributes and high Willpower to match; dilettantes and churls cannot meet the grueling demands of sorcery. Many have Knowledges as their primary Abilities, although Skills are also highly in demand. Although a few Tremere specialize in one particular area of excellence, many more prefer a more well-rounded approach to personal aptitudes; after all, a Warlock can typically rely on no one other than himself."
+						},
+						{
+							"title" : "Weaknesses",
+							"description" : "By clan law, all neonate Tremere must drink the blood of the clan's seven elders when they are created. All Tremere are at least one step towards being blood bound to their elders, and therefore usually act with great clan loyalty -- in order to avoid having such loyalty forced on them. What's more, this arrangement means that Tremere are hard-pressed to resist the will of their elders; the difficulty of any Dominate attempt from a clan superior is one less."
+						},
+						{
+							"title" : "Organization",
+							"description" : "No tighter internal structure exists among the clans. No clan binds its neonates so strictly. And no clan acts with such unity of purpose as the Tremere. Although younger clan members generally are free to do more or less as they wish, occasionally they receive instructions from their elders that they may not ignore. Paranoia keeps the clan well-oiled and unified. Of course, the Tremere do encourage individual achievement among the group, seeing it as a Darwinian method of ensuring the clan's strength. With such ambitious, powerful young vampires cooperating with such commendable clan unity, it's no wonder the Warlocks have plenty of envious and spiteful enemies among the Kindred. The Tremere's pyramidal hierarchy contains several ranks, each divided into seven mystical 'circles' that an aspirant must master if he desires to advance in rank (and nearly every Tremere desires that very thing). The lowest rank, that of apprentice, belongs to neonates. Above the apprentices are the regents, each one the master of a chantry; then the lords, whose domains include several chantries for each. Forty-nine Tremere hold the title of pontifex, each bearing great responsibilities. And at the top of the pyramid sits the Inner Council of Seven, some the masters of entire continents, and all whispered to be in constant mental communication with the others."
+						},
+						{
+							"title" : "Sect",
+							"description" : "The Tremere were more than glad to join the fledgling Camarilla when the sect was forming, and they quickly made themselves invaluable there. In fact, the Tremere are one of the linchpins of the sect. They have a marked interest in keeping the Camarilla strong, of course - I with their hated Tzimisce enemies directing their Sabbat minions against any Tremere they find, the Warlocks require allies. And with the valuable magical power they offer, the Tremere find the Camarilla glad to provide the support they require. With the Camarilla's protection, the Tremere are free to pursue the arcane mastery they so avidly desire."
+						}
+					]
+				},
+				"ventrue" : {
+					"title" : "Ventrue",
+					"itens" : [
+						{
+							"title" : "History",
+							"description" : "The Kindred of Clan Ventrue have a reputation for being honorable, genteel and of impeccable taste. From time out of mind, Ventrue has been the clan of leadership, enforcing the ancient traditions and seeking to shape the destiny of the Kindred. In nights of old, Ventrue were chosen from nobles, merchant princes or other wielders of power. In modern times the clan recruits from wealthy 'old money' families, ruthless corporate climbers, and politicians. Whatever their origin, Ventrue vampires preserve stability and maintain order for the Camarilla. Other Kindred often mistake this for arrogance or avarice, but to the Ventrue their shepherd's role is more burden than honor. Ventrue suppose the Masquerade wholeheartedly, feeling that under its auspices the best existence for all vampires may be obtained. To the Ventrue mind, other clans are brash and impetuous. Too concerned with their short-term comfort, other vampires gladly give up an eternity tomorrow for a bit of vitae tonight. Without the Ventrue, there would be no Masquerade; without the Masquerade, there would be no vampires. Thus, the Ventrue have the weight of Atlas upon their shoulders. They bear their burden with a stiff upper lip and just a hint of noblesse oblige. No other clan could lead the Children of Caine in the nights of imminent Gehenna -- or so the Ventrue are apt to say. After all, their reputation rests on it. Ventrue see themselves as nobles in a classical sense of the word, fighting to uphold the station of those below them. They are the kings, knights and barons of the modern night. Although the struggle has moved from battlefields to boardrooms and from jousting lists to voting districts, Clan Ventrue continues the duel. Young Ventrue rally and lead the troops with their cellular phones and limousines, while the clan elders watch the horizons for threats that loom like storm clouds. Many holdings under Camarilla control are overseen by Ventrue, and the Blue Bloods are loath to relax their grip over endeavors they so desperately struggle to maintain. Reputation and achievement take a Kindred far in the Ventrue clan, but none of that counts if the vampire cannot maintain his influence. Other vampires often cast aspersions on the Ventrue, vilifying them as sanctimonious, pompous or even tyrannical -- and yet it is the Blue Bloods to whom those other vampires turn when something goes wrong. Ventrue cultivate influence and -- when they can -- control the kine's media, police, politics, health and medicine, organized crime, industry, finance, transportation and even the Church. When another vampire requires aid, the Ventrue can often provide it -- for a price. Naturally, Ventrue gravitate to the upper crust of kine society, where their sophistication serves them in good stead. Although Ventrue move in the same social circles as the Toreador, they do not fritter away their existences in frivolity and idle chatter. The Ventrue proudly wear the privileges of leadership, and stoically bear its burdens. Thus has it always been; thus shall it always be."
+						},
+						{
+							"title" : "Disciplines",
+							"description" : "Dominate, Fortitude, Presence."
+						},
+						{
+							"title" : "Appearance",
+							"description" : "Ventrue cultivate classical, traditional appearances. Set in their ways, Ventrue vampires often affect the styles of their breathing days, and one may frequently guess a Ventrue's age by determining from which period of history her clothing dates. Young members of the clan tend toward fashions ranging from 'preppy' styles to omnipresent suit-and-tie wardrobes. Ventrue are elegant and stylish, but rarely on the cutting edge of couture or haberdashery trends. After all, one must stand out, not stick out. "
+						},
+						{
+							"title" : "Haven",
+							"description" : "Only the best will do. Ventrue commonly make their havens in mansions or valuable estates. Ventrue vampires often come from wealthy families, and their havens may even be ancestral homes. An old Ventrue tradition holds that any member of the clan may take sanctuary with any other member of the clan, and cannot be refused. This tradition is rarely invoked, for the vampire seeking refuge subsequently owes a great debt to the vampire who provided succor. Nonetheless, the custom has saved the unlife of more than one Blue Blood."
+						},
+						{
+							"title" : "Background",
+							"description" : "Ventrue traditionally hail from professional or high-society stock, though in modern nights the clan may claim any noteworthy person. Age, wisdom and experience play great parts in Ventrue Embraces, and a Blue Blood never Embraces capriciously. Some Ventrue create neonates exclusively along family lines, in a twisted progression of gentrification. Other Kindred joke that the Ventrue are inbred, while the Ventrue themselves maintain that only the cream of the crop is suitable for membership in their clan."
+						},
+						{
+							"title" : "Character Creation",
+							"description" : "Social and Mental Attributes are equally important, and illustrious members of the clan cultivate both aspects. Skills and Knowledges share similar importance, as the clan places great emphasis on being well-rounded and capable. Ventrue Kindred greatly prize Backgrounds, and high levels of Fame, Influence, Mentor, Resources, Retainers and Status go far towards establishing a Blue Blood's precedence."
+						},
+						{
+							"title" : "Weaknesses",
+							"description" : "Ventrue taste is rarefied to the point of exclusivity, and each Blue Blood may partake of only a certain type of mortal blood. This type is chosen at character creation. For example, a particular Ventrue may feed exclusively from virgins, blond men, naked children or clergy. The character will feed on no other type of blood, even if starving or under duress. Ventrue may feed on vampire blood normally."
+						},
+						{
+							"title" : "Organization",
+							"description" : "The Ventrue in a given region meet often, though their convocations resemble salons or debates and rend to result in more talk than action. Of course, this ponderous discourse in the only 'civilized' way to resolve an issue, and impulsive or rash Kindred often chafe under the clan's rigidity. Younger, impatient Ventrue have been known to mount direct challenge to an 'olds boy`s' holdings and position, which is considered the height of treachery or rudeness -- unless, of course, the upstart wins."
+						},
+						{
+							"title" : "Sect",
+							"description" : "Elegant, aristocratic and regal, the Ventrue are the lords of the Camarilla. It was Clan Ventrue that provided the cornerstone of the Camarilla, and it is Clan Ventrue that directs and coaxes the Camarilla in its darkest hours. Even in the modem age, the majority of princes descend from Clan Ventrue. The Ventrue would, of course, have things no other way."
+						}
+					]
 				}
 			},
 			"disciplinas" : {
@@ -424,7 +509,8 @@
 					"itens" : [
 						{
 							"title" : "Level 1 - Feral Whispers", 
-							"description" : "This power is the basis from which all other Animalism abilities grow. The vampire creates an empathic connection with a beast, thereby allowing him to communicate or issue simple commands. The Kindred locks eyes with the animal, transmitting his desires through sheer force of will. Although it isn't necessary to actually 'speak' in chirps, hisses, or barks, some vampires find that doing so helps strengthen the connection with the animal. Eye contact must be maintained the entire time; if it's broken, the Kindred must re-establish contact to continue communication. The simpler the creature, the more difficult it becomes to connect with the animal's Beast. Mammals, predatory birds, and larger reptiles are relatively easy to communicate with. Insects, invertebrates, and most fish are just too simple to connect with. Feral Whispers provides no guarantees that an animal will want to deal with the vampire, nor does it ensure that the animal will pursue any requests the vampire makes of it. Still, it does at least make the creature better disposed toward the Kindred. The manner in which the vampire presents his desires to the animal often depends on the type of creature. A Kindred can often bully smaller beasts into heeding commands, but he's better off couching orders for large predators as requests. If the vampire successfully uses the power, the animal performs the command to the best of its ability and intellect. Only the very brightest creatures understand truly complex directives (orders dealing with conditional situations or requiring abstract logic). Commands that the animal does understand remain deeply implanted, however, and guide its behavior for some time."
+							"description" : "This power is the basis from which all other Animalism abilities grow. The vampire creates an empathic connection with a beast, thereby allowing him to communicate or issue simple commands. The Kindred locks eyes with the animal, transmitting his desires through sheer force of will. Although it isn't necessary to actually 'speak' in chirps, hisses, or barks, some vampires find that doing so helps strengthen the connection with the animal. Eye contact must be maintained the entire time; if it's broken, the Kindred must re-establish contact to continue communication. The simpler the creature, the more difficult it becomes to connect with the animal's Beast. Mammals, predatory birds, and larger reptiles are relatively easy to communicate with. Insects, invertebrates, and most fish are just too simple to connect with. Feral Whispers provides no guarantees that an animal will want to deal with the vampire, nor does it ensure that the animal will pursue any requests the vampire makes of it. Still, it does at least make the creature better disposed toward the Kindred. The manner in which the vampire presents his desires to the animal often depends on the type of creature. A Kindred can often bully smaller beasts into heeding commands, but he's better off couching orders for large predators as requests. If the vampire successfully uses the power, the animal performs the command to the best of its ability and intellect. Only the very brightest creatures understand truly complex directives (orders dealing with conditional situations or requiring abstract logic). Commands that the animal does understand remain deeply implanted, however, and guide its behavior for some time.",
+							"system" : "No roll is necessary to talk with an animal, but the character must establish eye contact first. Issuing commands requires a Manipulation + Animal Ken roll. The difficulty depends on the creature: Predatory mammals (wolves, cats, insectivorous/vampire bats) are difficulty 6, other mammals and predatory birds (rats, owls) are difficulty 7, other birds and reptiles (pigeons, snakes) are difficulty 8. This difficulty is reduced by one if the character speaks to the animal in its 'native tongue,' and can be adjusted further by circumstances and roleplaying skill (we highly recommend that all communication between characters and animals be roleplayed). The number of successes the player achieves dictates how strongly the character's command affects the animal. One success is sufficient to have a cat follow someone and lead the character to the same location, three successes are enough to have a raven spy on a target for weeks, and five successes ensure that a grizzly ferociously guards the entrance to the character's wilderness haven for some months. The character's Nature plays a large part in how he approaches these conversations. The character might try intimidation, teasing, cajoling, rationality or emotional pleading. The player should understand that he does not simply play his character in these situations, but the Beast Within as well."
 						},
 						{
 							"title" : "Level 2 - Beckoning", 

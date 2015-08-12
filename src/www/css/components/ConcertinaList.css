@@ -19,7 +19,7 @@
 	overflow: hidden;
 }
 
-.concertina .desc span{
+.concertina .desc > span{
 	padding: 10px;
 	display: block;
 }

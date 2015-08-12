@@ -93,7 +93,7 @@ a:active {
 }
 
 .slidableVisible {
-  max-height: 3000px;
+  max-height: 6000px;
   -webkit-transition:max-height, 1.5s linear;
   -moz-transition: max-height, 1.5s linear;
   -ms-transition: max-height, 1.5s linear;

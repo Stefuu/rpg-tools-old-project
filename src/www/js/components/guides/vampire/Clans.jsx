@@ -50,10 +50,10 @@ var Clans = React.createClass({
             <li className="itemBtn seta-direita">{Json.guias.vampiro.clans.toreador.title}</li>
           </Link>
           <Link to="tremere">
-            <li className="itemBtn seta-direita">{Json.guias.vampiro.clans.ravnos.title}</li>
+            <li className="itemBtn seta-direita">{Json.guias.vampiro.clans.tremere.title}</li>
           </Link>
           <Link to="ventrue">
-            <li className="itemBtn seta-direita">{Json.guias.vampiro.clans.ravnos.title}</li>
+            <li className="itemBtn seta-direita">{Json.guias.vampiro.clans.ventrue.title}</li>
           </Link>
         </ul>
       </div>

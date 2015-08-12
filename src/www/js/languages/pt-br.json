@@ -1,5 +1,8 @@
 {
 	"language" : "pt-BR",
+	"commonWords" : {
+		"system" : "Sistema"
+	},
 	"guias" : {
 		"title" : "Guias",
 		"vampiro" : {
@@ -415,6 +418,88 @@
 							"description" : "A maioria dos Toreadores estão na Camarilla, pois esta é a única organização respeitável que promove a 'cultura' e permite que eles vivam entre os mortais de quem tanto gostam. Aqueles que fazem parte do Sabá procuram bizarros passatempos 'artísticos', como a tortura e a pintura com sangue, ou são os líderes dos mais decadentes movimentos 'underground'."
 						}
 					]
+				},
+				"tremere" : {
+					"title" : "Tremere",
+					"itens" : [
+						{
+							"title" : "Histórico",
+							"description" : "Vistos como pavorosos, pouco confiáveis, temíveis ou ultrajados, os vampiros do Clã Tremere são tudo, menos ignorados. Aqueles que já ouviram falar dos afazeres do clã, normalmente suspeitam dele, e por uma boa razão — os Feiticeiros são chamados assim corretamente. Através de seus próprios artifícios, eles aprenderam a dominar uma forma de feitiçaria vampírica, completa com rituais e magias, que são tão potentes — se não mais — do que qualquer outro poder derivado do Sangue. Somados à rígida hierarquia do clã e à latente ambição comum entre os Feiticeiros, este poder é de fato algo perturbador para aqueles que sabem do que um Tremere é capaz. De acordo com os registros de alguns Membros, os Tremere só se tornaram um clã recentemente, pelo menos para os padrões dos imortais. Lendas contam que, na Europa da Idade das Trevas, um grupo de magos humanos realizou um grande ritual sobre o corpo dormente de um Antediluviano e desta forma arrancaram para si o dom do vampirismo. Uma guerra foi iniciada pouco depois disso — o inexperiente clã se viu cercado de Membros enfurecidos por todos os lados. Mas os Trernere não são nada mais do que sobreviventes. Tendo perdido a mágika humana, eles conseguiram alterar seus rituais e proteções, passando a utilizar o poder da sua vitae. Desde então, estas habilidades mágicas, agora praticadas através da Disciplina Taumaturgia, têm assegurado o lugar dos Tremere entre os Membros. Os Feiticeiros se comprazem com seus joguetes de diplomacia e intriga contra seus novos irmãos. Contudo, suas ações são sempre marcadas por um toque de paranóia, pois os Tremere sabem que os anciões de não menos do que três clãs carregam contra eles um terrível rancor, que ainda há de ser vingado. Desta forma, os Tremere tentam cultivar tantos aliados quanto possível, ao mesmo tempo em que se esforçam para ampliar seu domínio sobre a magia. E o mínimo que podem fazer para sobreviver. Como resultado, as crianças do Clã Tremere estão entre os mais esforçados e instruídos de todos os Cainitas; pois são poucos os que interferem com estes magos mortos-vivos e saem ilesos. Os Tremere são vampiros do Velho Mundo, mas têm viajado através dos continentes em busca de novos postos de segurança. A sede de poder do clã está em Viena, onde os anciões Tremere se reúnem em conselhos para discutir as futuras diretrizes do clã. Mas existem muitas metrópoles através do globo que abrigam as 'capelas' Tremere — universidades, monastérios e fortalezas bem defendidas. Lá, os Feiticeiros trocam informações e estudam suas bruxarias vampíricas, longe da atenção de seus rivais."
+						},
+						{
+							"title" : "Disciplinas",
+							"description" : "Auspícios, Dominação, Taumaturgia"
+						},
+						{
+							"title" : "Aparência",
+							"description" : "Os mágicos Tremere geralmente adotam imagens imponentes ou sinistras. Alguns preferem ternos clássicos; outros preferem aparências mais antiquadas, vestindo os ternos com cortes dos anos 40, o elegante vestuário Eduardiano ou simplesmente as roupas de colarinho alto da era dos Beatles. Muitos deles usam amuletos e talismãs gravados com símbolos cabalísticos ou arcanos como sinal de seu aprendizado. Apesar de individualmente os Feiticeiros poderem se transformar de imaculados meticulosos em desordenados e excêntricos, os olhos - destes magos vampíricos sempre brilham com uma perspicácia misteriosa e uma acuidade assustadora."
+						},
+						{
+							"title" : "Refúgio",
+							"description" : "Apesar dos Feiticeiros poderem manter individualmente seus próprios refúgios (freqüentemente completos com uma extensa biblioteca), o clã mantém uma capela em todas as cidades que abrigam sempre uma forte presença dos Tremere. As capelas são abertas a todas as linhagens Tremere e absolutamente proibidas a todas as demais. Os Feiticeiros são notórios por seus bem guardados refúgios; praticamente todos possuem proteções místicas que até mesmo outros Tremere teriam dificuldade em evitar."
+						},
+						{
+							"title" : "Antecedentes",
+							"description" : "Muitos Tremere dedicam suas não-vidas a buscas ocultas ou de natureza erudita. Contudo, a fascinação pelo desconhecido dificilmente é o suficiente para chamar a atenção de um Feiticeiro; os membros do clã procuram por 'aprendizes' de natureza agressiva e mente consciente e pouco se importam com rebeldes da Nova Era ou rocambolescas teorias de conspiração. O Clã Tremere tem uma oculta tradição sexista e a maioria dos anciões são homens. Contudo, ultimamente os Tremere Ancillae estão se tornando mais liberais e atraem grandes números de Acólitos satisfatoriamente ambiciosos e persistentes de ambos os sexos."
+						},
+						{
+							"title" : "Criação de personagem",
+							"description" : "Os Tremere normalmente possuem fortes Atributos Mentais e uma grande Força de Vontade para acompanhar; os diletantes e os simplórios dificilmente toleram as horríveis exigências da feitiçaria. Muitos têm os Conhecimentos como Habilidades primárias, apesar das Perícias serem altamente exigidas. Apesar de alguns Tremere se especializarem em áreas particulares de excelência, a maioria deles prefere um conhecimento mais amplo sobre aptidões pessoais; afinal, um Feiticeiro normalmente não pode depender de ninguém, a não ser de si mesmo."
+						},
+						{
+							"title" : "Fraqueza",
+							"description" : "Os Toreador são sobrenaturalmente ligados à estética e à beleza mas esta sensibilidade pode ser perigosa. Quando um Toreador vê, ouve ou até mesmo cheira algo realmente maravilhoso — uma pessoa, pintura, música, um pôr do sol particularmente lindo — ele precisa ser bem sucedido num teste de Autocontrole (dificuldade 6) ou se encantará com a sensação. O Toreador será tomado por um êxtase de fascinação durante uma cena ou até que o alvo de sua atenção se retire. Um Toreador arrebatado desta forma não pode nem ao menos se defender se atacado. Mas se for ferido, ele poderá fazer uma nova jogada de Autocontrole para 'querar o encanto'."
+						},
+						{
+							"title" : "Organização",
+							"description" : "Não existe nenhuma estrutura interna mais rígida que a dos Tremere. Nenhum clã une seus neófitos tão severamente. E nenhum clã age com tanta unidade de propósito como os Tremere. Apesar dos membros mais jovens estarem livres para fazer mais, ou menos o que quiserem, eles ocasionalmente recebem, de seus anciões, ordens que não podem ser ignoradas. A paranóia mantém o clã lubrificado e unido. Obviamente, os Tremere encorajam realizações individuais dentro do grupo, vendo isso como um método darwinista de assegurar a força do clã. Com estes vampiros jovens, poderosos e ambiciosos cooperando com tal meritória unidade, não é de se espantar que os Feiticeiros tenham tantos inimigos rancorosos e invejosos entre os Membros. A hierarquia piramidal dos Tremere contém vários níveis, cada um deles dividido em sete 'círculos' místicos que um aspirante tem que dominar se deseja avançar para o próximo nível (e praticamente todos os Tremere têm este mesmo desejo). O nível mais baixo, os Aprendizes, pertence aos neófitos. Acima dos aprendizes está os Regentes, cada um deles sendo mestre de uma capela; depois os senhores, cujos domínios são compostos de várias capelas. Quarenta e nove Tremere detêm o título de Pontífices, cada um assumindo grandes responsabilidades. E no topo da pirâmide se senta o Círculo Interno dos Sete, sendo alguns deles mestres de continentes inteiros; acredita-se que cada um deles está em comunicação constante com os outros."
+						},
+						{
+							"title" : "Seita",
+							"description" : "Os Tremere ficaram mais do que felizes em se juntar à jovem Camarilla quando a seita estava se formando, e rapidamente se tomaram inestimáveis dentro desta. Na verdade, os Tremere são uma das chaves da seita. Eles têm um forte interesse em manter a força da Camarilla, obviamente com seus odiados inimigos Tzimisce mandando seus súditos do Sabá contra qualquer Tremere que eles encontrem, os Feiticeiros necessitam de aliados. E com o valioso poder mágico que eles oferecem, os Tremere mantêm a Camarilla feliz em fornecer a eles o que necessitam. Com a proteção da Camarilla, os Tremere estão livres para perseguir os mistérios enigmáticos que buscam tão avidamente."
+						}
+					]
+				},
+				"ventrue" : {
+					"title" : "Ventrue",
+					"itens" : [
+						{
+							"title" : "Histórico",
+							"description" : "Os Membros do Clã Ventrue têm a reputação de serem honrados, gentil e de gosto impecável. Desde os tempos remotos, os Ventrue têm sido um clã de liderança, reforçando as tradições antigas e procurando moldar o destino dos Membros. Nas noites ancestrais, os Ventrue eram escolhidos entre nobres, príncipes mercantes ou outros controladores do poder. Nos tempos modernos, o clã recruta seus membros de ricas famílias tradicionais, impiedosos executivos emergentes e políticos. Qualquer que seja a origem, os vampiros Ventrue preservam a estabilidade e mantêm a ordem da Camarilla. Outros Membros freqüentemente confundem isso com arrogância ou avareza, mas para o Ventrue, seu papel de pastor é mais uma responsabilidade do que uma honra. Os Ventrue apóiam a Camarilla com todo o coração, sentindo que sob a sua liderança uma melhor existência para todos os vampiros pode ser obtida. Na mente dos Ventrue, os outros clãs são imprudentes e impetuosos. Muito preocupados com o conforto imediato, os outros vampiros alegremente dariam um pedaço da eternidade em troca de um pouco de víte imediato. Sem os Ventrue, não existiria a Máscara; sem a Máscara, não existiriam vampiros. Portanto, os Ventrue carregam o peso do mundo sobre os seus ombros. Eles carregam o fardo sem desanimar e com apenas um toque de noblesse oblige. Nenhum outro clã seria capaz de liderar as crianças de Cain através das noites da iminente Gehenna — ou assim os Ventrue gostam de dizer. Afinal, sua reputação depende disso. Os Ventrue se consideram nobres, no sentido clássico da palavra, lutando para manter a posição daqueles abaixo deles. Eles são os reis, cavaleiros e barões das noites modernas. Apesar da luta ter passado dos campos de batalha para as salas de planejamento e das justas para as urnas distritais, o Clã Ventrue continua o duelo. Jovens Ventrue reúnem e comandam suas tropas de telefones celulares e limusines, enquanto os anciões do clã observam o horizonte em busca de ameaças que avultam como as nuvens de uma tempestade. Muitas propriedades sob o controle da Camarilla são supervisionadas pelos Ventrue e os de Sangue Azul são relutantes em afrouxar o domínio sobre os assuntos que eles tão desesperadamente se esforçam para manter. Reputação e determinação levam um Membro longe dentro do clã Ventrue, mas nada disso importa se o vampiro não for capaz de manter sua influência. Os outros vampiros freqüentemente lançam farpas sobre os Ventrue, caluniando-os como santimoniais, pomposos ou até mesmo tirânicos — e mesmo assim, é para os de Sangue Azul que os outros vampiros se voltam quando algo sai errado. Os Ventrue cultivam a influência e — sempre que podem — o controle sobre a mídia, polícia, política, saúde e medicina, crime organizado, indústria, finanças, transporte e até mesmo a Igreja dos mortais. Quando um vampiro precisa de ajuda, os Ventrue normalmente podem fornecê-la — por um preço. Naturalmente, os Ventrue gravitam nos altos níveis da sociedade mortal, onde sua sofisticação lhes serve bem. Apesar de estarem no mesmo círculo social dos Toreador, os Ventrue não esbanjam sua existência com frivolidades e fofocas fúteis. Os Ventrue orgulhosamente desfrutam do privilégio da liderança e calmamente carregam seu fardo. Assim tem sido; e assim sempre deve ser."
+						},
+						{
+							"title" : "Disciplinas",
+							"description" : "Dominação, Fortitude, Presença"
+						},
+						{
+							"title" : "Aparência",
+							"description" : "Os Ventrue cultivam aparências clássicas e tradicionais. Ao seu modo, os Ventrue fazem uso frequente do estilo dos seus dias ativos; uma pessoa consegue adivinhar a idade de um Ventrue determinando o período da história ao quais suas roupas pertencem. Jovens membros do clã tendem a usar modas que variam entre estilos 'tradicionais' e onipresentes ternos e gravatas. Os Ventrue são elegantes e requintados, mas raramente adotam fortes tendências masculinas pós-modernas. Afinal, é preciso se destacar sem destoar."
+						},
+						{
+							"title" : "Refúgio",
+							"description" : "Apenas os melhores. Os Ventrue comumente se abrigam em mansões ou propriedades valiosas. Os vampiros Ventrue são freqüentemente de famílias ricas e seus refúgios podem até serem casas ancestrais. Uma antiga tradição Ventrue diz que qualquer membro do clã pode buscar proteção com outro membro do clã, e não pode ser recusado. Essa tradição é raramente invocada, pois o vampiro que procura refúgio subseqüentemente fica em grande débito com o vampiro que fornece abrigo. Todavia, este costume já salvou a não-vida de vários dos de Sangue Azul."
+						},
+						{
+							"title" : "Antecedentes",
+							"description" : "Os Ventrue são tradicionalmente procedentes de profissionais ou de famílias de alto nível social, apesar de nas noites modernas o clã poder recrutar qualquer pessoa notável. Idade, sabedoria e experiência são indícios relevantes ao Abraço Ventrue e os de Sangue Azul nunca Abraçam por capricho. Alguns Ventrue criam neófitos exclusivamente de uma mesma linha familiar, em uma distorcida imitação da nobreza. Outros Membros brincam que os Ventrue são todos consangüíneos, enquanto os próprios Ventrue defendem que somente a nata pode se associar ao clã."
+						},
+						{
+							"title" : "Criação de personagem",
+							"description" : "Os Atributos Sociais e Mentais são igualmente importantes, e os membros ilustres do clã cultivam ambos os aspectos. Perícias e Conhecimentos dividem uma importância similar, pois o clã dá ênfase à amplitude e capacidade. Membros Ventrue valorizam muito os Antecedentes, e altos níveis de Fama, Influência, Mentor, Recursos, Lacaios, e Status são importantes para se estabelecer a precedência de um Sangue Azul."
+						},
+						{
+							"title" : "Fraqueza",
+							"description" : "O gosto dos Ventrue é exigente a ponto da exclusividade, e cada Sangue Azul só pode se alimentar de um tipo de sangue mortal. Este tipo deve ser escolhido quando da criação do personagem. Por exemplo, um Ventrue em particular pode se alimentar exclusivamente do sangue de virgens, homens loiros, crianças nuas ou do clero. O personagem não irá se alimentar com nenhum outro tipo de sangue, mesmo que esteja faminto ou sob compulsão. Os Ventrue podem se alimentar normalmente do sangue de outros vampiros."
+						},
+						{
+							"title" : "Organização",
+							"description" : "Os Ventrue de uma certa região se encontram com freqüência, apesar de suas convenções se parecerem mais com palestras ou debates e tenderem mais a resultar em falatórios do que em ações. Obviamente, o discurso ponderado é a única maneira 'Civilizada' de se resolver um assunto, e Membros impulsivos ou precipitados freqüentemente entram em atrito com a rigidez do clã. Sabe-se de Ventrue jovens e impacientes que levantaram desafios contra a posição e posses de 'Velhos Garotos', o que é considerado a mais alta das traições e grosserias (a não ser, é claro, que o jovem pretensioso vença)."
+						},
+						{
+							"title" : "Seita",
+							"description" : "Elegantes, aristocratas e realistas, os Ventrue são os senhores da Camarilla. Foi o Clã Ventrue que forneceu a base da Camarilla e é o Clã Ventrue que orienta e comanda a Camarilla nos tempos sombrios. Até mesmo na era moderna, a maioria dos príncipes é descendente do Clã Ventrue. Os Ventrue obviamente não aceitariam se fosse de outro jeito."
+						}
+					]
 				}
 			},
 			"disciplinas" : {
@@ -423,8 +508,9 @@
 					"title" : "Animalismo",
 					"itens" : [
 						{
-							"title" : "Nível 1 - Sussuros Portuguess", 
-							"description" : "Embora a maioria dos animais não possuam a inteligência necessária para manterem um discurso inteiro sobre qualquer assunto, com esta disciplina você poderá tentar estabelecer uma forma limitada de comunicação empática e dar ordens específicas às criaturas. Esses intercursos ocorrem mentalmente — não há necessidade de que você chie ou lata para comunicar suas idéias ao animal. Para iniciar o diálogo, você precisa apenas olhar nos olhos do animal. O contato visual precisa ser mantido durante o diálogo inteiro. Se o contato for rompido, será preciso restabelecê-lo para 'falar' novamente com ele. Obviamente, não há nenhuma garantia de que um determinado animal deseje falar ou, caso fale, seja honesto. Depois de estabelecer o contato visual você estará apto a transmitir comandos complexos a um único animal, que obedecerá de acordo com o máximo de sua capacidade. Contudo, o comando deve ser proferido em termos de um pedido, e o animal deve ser convencido a atender o pedido. (Em outras palavras, será preciso representar o diálogo). O 'favor' não pode ser complexo demais para o intelecto do animal. Por exemplo, um rato seria incapaz de distinguir pessoas, enquanto um cachorro não saberia o que é um telefone. Certamente nenhum animal poderia ser instruído a investir contra a pessoa 'que me atacar com más intenções'. No entanto, esses comandos podem ser implantados profundamente, de modo que afetam o animal durante algum tempo. Por exemplo, um gato poderia ser instruído a vir até você quando alguém entrar no porão, fazendo isso durante dias ou mesmo semanas."
+							"title" : "Nível 1 - Sussuros", 
+							"description" : "Embora a maioria dos animais não possuam a inteligência necessária para manterem um discurso inteiro sobre qualquer assunto, com esta disciplina você poderá tentar estabelecer uma forma limitada de comunicação empática e dar ordens específicas às criaturas. Esses intercursos ocorrem mentalmente — não há necessidade de que você chie ou lata para comunicar suas idéias ao animal. Para iniciar o diálogo, você precisa apenas olhar nos olhos do animal. O contato visual precisa ser mantido durante o diálogo inteiro. Se o contato for rompido, será preciso restabelecê-lo para 'falar' novamente com ele. Obviamente, não há nenhuma garantia de que um determinado animal deseje falar ou, caso fale, seja honesto. Depois de estabelecer o contato visual você estará apto a transmitir comandos complexos a um único animal, que obedecerá de acordo com o máximo de sua capacidade. Contudo, o comando deve ser proferido em termos de um pedido, e o animal deve ser convencido a atender o pedido. (Em outras palavras, será preciso representar o diálogo). O 'favor' não pode ser complexo demais para o intelecto do animal. Por exemplo, um rato seria incapaz de distinguir pessoas, enquanto um cachorro não saberia o que é um telefone. Certamente nenhum animal poderia ser instruído a investir contra a pessoa 'que me atacar com más intenções'. No entanto, esses comandos podem ser implantados profundamente, de modo que afetam o animal durante algum tempo. Por exemplo, um gato poderia ser instruído a vir até você quando alguém entrar no porão, fazendo isso durante dias ou mesmo semanas.",
+							"System" : "Nenhum teste é necessário para se falar com o animal, mas primeiro o personagem tem que estabelecer contato visual. Para dar suas ordens, é necessário um teste de Manipulação   Empatia com Animais. A dificuldade depende da criatura: mamíferos predadores (lobos, felinos, morcegos vampiros ou insetívoros) têm Dificuldade 6, outros mamíferos e aves de rapina (ratos, corujas) têm Dificuldade 7, outros pássaros e répteis (pombos, cobras) têm Dificuldade 8. Essa dificuldade é reduzida em l ponto se o personagem 'falar' com o animal em sua 'linguagem natural' e pode ser ajustada mais ainda pelas circunstâncias e a habilidade de interpretação do jogador (é recomendável que toda a comunicação entre os personagens e os animais seja interpretada). O número de sucessos obtidos pelo jogador determina o quão poderoso será o efeito dos comandos do personagem sobre o animal. Um sucesso é suficiente para que um gato siga alguém e conduza o personagem ao mesmo local, três sucessos são o bastante para que um corvo espione alguém por algumas semanas, e cinco sucessos garantem que um urso guarde com muita ferocidade a entrada do refúgio rural de um personagem por alguns meses. A Natureza do personagem tem um papel importante na maneira pela qual ele inicia essas conversas. O personagem pode tentar intimidar, incitar, bajular, argumentar logicamente ou usar chantagem emocional. O jogador deve compreender que ele não interpreta apenas o seu personagem nessas ocasiões, mas também a sua Besta Interior."
 						},
 						{
 							"title" : "Nível 2 - O Chamado", 
