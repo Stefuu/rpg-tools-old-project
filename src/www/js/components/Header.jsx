@@ -22,13 +22,13 @@ var Header = React.createClass({
             <span>&#9776;</span>
             <ul className={menuVisibility}>
               <Link to="diceroller">
-                <li>Dice Roller &#62;</li>
+                <li>Dice Roller</li>
               </Link>
               <Link to="battlemap">
-                <li>Battle Map &#62;</li>
+                <li>Battle Map</li>
               </Link>
               <Link to="guides">
-                <li>Guides &#62;</li>
+                <li>Guides</li>
               </Link>
             </ul>
           </div>

@@ -21,7 +21,7 @@ var ConcertinaList = React.createClass({
     var liBtnHeight = document.querySelector('.concertina li .title').clientHeight;
     var fixHeaderHeight = document.querySelector('.main-header .top').clientHeight;
     setTimeout(function(){
-      document.body.scrollTop = parseInt(headerHeight - fixHeaderHeight + (liBtnHeight * (value + 1)) - 1);
+      document.body.scrollTop = parseInt( headerHeight - fixHeaderHeight + (liBtnHeight * (value + 1)) + (value -1) );
     }, 500); 
      
   },

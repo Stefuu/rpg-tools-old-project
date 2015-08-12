@@ -1,8 +1,11 @@
 {
 	"language" : "pt-BR",
 	"guias" : {
+		"title" : "Guias",
 		"vampiro" : {
+			"title" : "Vampiro: A Mascara",
 			"clans"	: {
+				"title" : "Clans",
 				"assamita" : {
 					"title" : "Assamita",
 					"itens" : [
@@ -207,9 +210,215 @@
 							"description" : "Os Malkavianos, como um clã, possuem um... Acordo... Com a Camarilla. Eles também participam do Sabá, em pequeno número, ondeassustam até mesmo seus companheiros com seus surtos psicóticos. Mas quando tudo depende deles, sua verdadeira lealdade transcende a seita. Quando a Gehenna chegar, ninguém sabe com certeza de que lado os Malkavianos vão estar"
 						}
 					]
+				},
+				"sombra" : {
+					"title" : "La Sombra",
+					"itens" : [
+						{
+							"title" : "Histórico",
+							"description" : "O clã Lasombra caiu em desgraça — e os seus membros gostam disso. Ao mesmo tempo graciosos e predatórios, os Lasombra guiam — se necessário com o chicote — o Sabá a ser uma força implacável. Voltando suas costas aos humanos que um dia foram, os Lasombra se entregaram por inteiro à sombria majestade do Abraço. Assassinatos, frenesi, depredação: por que temer essas coisas, muitos Lasombra se perguntam, quando se é um vampiro? Ao contrário dos Tzimisce, contudo, os Lasombra não procuram rejeitar tudo o que é mortal, mas sim moldar o mundo ao seu prazer. Os Lasombra estão envolvidos com a Igreja desde o início, e alguns Membros murmuram que o clã foi fundamental na difusão da fé Cristã. Nas noites modernas, contudo, os Lasombra viraram suas costas à instituição divina. Existem exceções, é claro, mas em sua maioria, o Clã Lasombra sustenta apenas desprezo pela noção de salvação. Na verdade, os Lasombra trouxeram muitos dos ritos e rituais da Igreja para dentro do Sabá, distorcendo-os em zombarias à doutrina Cristã. Os Lasombra estabeleceram muitos dos auctoritas e ignoblis ritae da seita, para que os vampiros do Sabá não se esqueçam do que realmente são. Os Lasombra são bem conhecidos por sua Disciplina Tenebrosidade, maneira pela qual eles invocam a tangível escuridão 'viva', manipulando-a conforme seus caprichos. A doutrina do clã sustenta que.esta 'escuridão' é na verdade o material do qual a alma do vampiro é feita, que foi ao mesmo tempo fortalecida e corrompida pelo Abraço. Através da Maldição de Cain, alguns Lasombra acreditam, Deus os abandonou, e portanto, é dever deles construir uma nova ordem na Terra, através do Sabá. Os Lasombra mais racionais zombam desta superstição, mas até mesmo eles tendem a acreditar que, como vampiros, eles representam uma nova e mais avançada raça inteligente, que ignora as petulantes noções de ética humanas. Deixe que os covardes do clã Ventrue queimem com o fogo solar do martírio; os Lasombra estão felizes com o que são. Naturalmente, a imagem de vilão não é geral dentro do clã, mas muitos dos Lasombra Abraçados recentemente sentem grande prazer com a destruição arbitrária e a vulgar depravação que esta filosofia lhes permite. Em um notável contraste, alguns anciões Lasombra ainda mantêm seus laços com a Igreja, mesmo que eles considerem a si mesmos 'ferramentas do Demônio'. Em uma coisa os dois grupos concordam: os membros do clã Lasombra, como manipuladores contumazes que são, inflexivelmente recusam-se a se submeter aos caprichos antiquados dos Antediluvianos. Eles lutam com orgulho contra a Jyhad, mas ao contrário de muitos Membros, acreditam fortemente que podem vencer. O Lasombra típico possui o dom da manipulação, assim como aguçadas habilidades de liderança. Os Lasombra são os líderes mais comuns nos bandos do Sabá, pois suas motivações e naturezas maquiavélicas os tornam perfeitos para orquestrar os movimentos da seita. Infelizmente, o orgulho é comum entre esta obscura nobreza e pouquíssimos Lasombra reconhecem os outros vampiros como iguais, que dirá como superiores."
+						},
+						{
+							"title" : "Disciplinas",
+							"description" : "Dominação, Tenebrosidade, Potência"
+						},
+						{
+							"title" : "Aparência",
+							"description" : "Muitos Lasombra de gerações antigas são descendentes de espanhóis ou italianos e alguns deles ainda mostram heranças mouras ou berberes. Lasombra Neófitos e Ancillae, contudo, carregam traços culturais e étnicos variados. A maioria dos Lasombra são razoavelmente atraentes, com belas características raciais aristocráticas. Lasombra proletários são raros e dificilmente se encontra entre os Guardiões, as mãos calejadas e narizes quebrados comuns às classes trabalhadoras."
+						},
+						{
+							"title" : "Refúgio",
+							"description" : "Muitos jovens Lasombra desprezam os refúgios privados, dormindo junto do bando e mantendo lares comunitários, 'Para o Bem da Seita'. Contudo, velhos hábitos dificilmente morrem entre os Guardiões; certos anciões mantêm mansões antigas e outros refúgios pomposos."
+						},
+						{
+							"title" : "Antecedentes",
+							"description" : "Os Lasombra podem vir de qualquer antecedente, mas são normalmente profissionais de inclinação política ou instruída. Os Lasombra tendem a ser agressivos, tanto física quanto socialmente; o clã tem pouco interesse pelos fracos e não hesita em separar os indignos dentre os seus pares. Os Lasombra são universalmente hábeis em discursos e em manipular os outros hábitos rudes são vistos com desgosto, pois os Lasombra são monstros refinados."
+						},
+						{
+							"title" : "Criação de personagem",
+							"description" : "Um Lasombra pode possuir qualquer Comportamento. Muitos Lasombra favorecem Atributos Sociais, apesar dos Atributos Mentais serem valorizados quase tão intensamente. Muitos Guardiões cultivam altos níveis de Influência, Status (Sabá) ou Recursos e preferem Antecedentes ao invés de Disciplinas ou Habilidades Adicionais. Os Lasombra fundaram a Trilha da Noite; e esta Trilha tem alguns seguidores dentro do clã dos Guardiões (apesar de muitos decidirem seguir outras Trilhas da Sabedoria e alguns Lasombra ainda manterem vestígios de Humanidade)."
+						},
+						{
+							"title" : "Fraqueza",
+							"description" : "Os vampiros Lasombra não têm reflexo. Eles não aparecem em espelhos, espelhos d' água, janelas refletoras, metais polidos, fotografias e câmaras de segurança, etc. Esta anomalia curiosa também se estende às roupas que usam e objetos que carregam. Muitos Membros acreditam que os Lasombra foram amaldiçoados desta maneira devido à sua vaidade. Além disso, devido à sua propensão para as trevas, os Lasombra sofrem um nível extra de dano da luz do sol."
+						},
+						{
+							"title" : "Organização",
+							"description" : "A estrutura do clã Lasombra é tanto formal quanto aberta. Respeito e homenagem são proporcionados aos Guerreiros Anciões que ajudaram a fundar o Sabá, membros mais jovens operam praticamente sem nenhuma liderança do clã como um todo. Encontros trimestrais, conhecidos como Convcntículos, servem para manter os Lasombra atualizados sobre o Status uns dos outros, e rituais de beber sangue são realizados nestes encontros. Apesar de não se dizer a nenhum Lasombra 'Você não pode fazer isso'(ou pelo menos não publicamente), quase todos os Guardiões têm grande respeito pelas tradições. Um círculo Lasombra secreto, conhecido como Lês Amies Noir, supostamente distribui 'Sentenças de Morte' aos Guardiões que trazem vergonha, atenção ou ignomínia sobre o clã ou seus membros."
+						},
+						{
+							"title" : "Seita",
+							"description" : "Os Malkavianos, como um clã, possuem um... Acordo... Com a Camarilla. Eles também participam do Sabá, em pequeno número, ondeassustam até mesmo seus companheiros com seus surtos psicóticos. Mas quando tudo depende deles, sua verdadeira lealdade transcende a seita. Quando a Gehenna chegar, ninguém sabe com certeza de que lado os Malkavianos vão estar"
+						}
+					]
+				},
+				"nosferatu" : {
+					"title" : "Nosferatu",
+					"itens" : [
+						{
+							"title" : "Histórico",
+							"description" : "As crianças de Cain são chamadas de 'Os Amaldiçoados' e nenhum vampiro personifica tão completamente este nome quanto os miseráveis do Clã Nosferatu. Enquanto os outros vampiros continuam com a aparência humana e podem participar da sociedade humana, os Nosferatu são distorcidos e deformados pela maldição do vampirismo. Outros Membros falam com horror sobre a marca que Cain colocou sobre todo o clã devido às horrorosas façanhas realizadas pelo seu fundador Antediluviano. Por causa disso, os Nosteratu são desprezados e ignorados pelas outras crianças de Cain, que os consideram asquerosos e só interagem com eles quando necessário. Após o Abraço, as crianças Nosferatu sofrem uma transformação agonizante, e durante as semanas subseqüentes, eles se transformam de humanos em monstros horripilantes. O horror da decomposição física é freqüentemente acompanhado por um trauma psicológico. Impossibilitados de andar entre os mortais, os Nosferatu precisam viver em esgotos subterrâneos e catacumbas para todo o sempre. Os Nosferatu freqüentemente escolhem mortais física ou mentalmente distorcidos para o Abraço, vendo a maldição do vampirismo como uma possível maneira de redenção para os mortais. Incrivelmente, esta crença parece possuir algum mérito. Muitos Nosferatu são surpreendentemente razoáveis e práticos, evitando as obsessões, conveniências e acessos de fúria comuns a seus irmãos legítimos. Não que isso faça dos Ratos de Esgoto uma companhia agradável; de fato, alguns Nosferatu aprenderam a ter prazer com o choque e o horror que suas aparências inspiram nas pessoas. Os Nosferatu são sobreviventes par excellence. Poucas criaturas, mortais ou vampiros, conhecem as vielas e esquinas sombrias de uma cidade como os Nosferatu. Além disso, os Nosferatu dominam a arte da furtividade e espionagem; eles se mantêm a par das fofocas e assuntos, não apenas por prazer, mas para sobreviverem. Negociantes inigualáveis de informações, eles podem exigir altos preços por seus conhecimentos. Usando sua Disciplina de Ofuscação, os Nosferatu são bons em ouvir conversas alheias em lugares escondidos ou se intrometer em reuniões 'secretas'. Se um Membro deseja saber sobre os afazeres dos cidadãos de uma cidade, seria aconselhável consultar um Nosferatu. Finalmente, os milênios compartilhando abusos e deformidades fizeram nascer fortes laços entre os monstros. Os Nosteratu estão além das disputas e rixas onipresentes em outros clãs, preferindo trabalhar em união. Eles tratam uns aos outros com uma cortesia meticulosa e trocam informações livremente entre si. Provocar um Nosferatu é provocar a todos — e nesse caso, a coisa pode acabar ficando bem feia."
+						},
+						{
+							"title" : "Disciplinas",
+							"description" : "Animalismo, Ofuscação, Potência"
+						},
+						{
+							"title" : "Aparência",
+							"description" : "Dois Nosferatu nunca serão precisamente iguais, mas todos são horrorosos. Mandíbulas repletas de caninos espaçados, pálidos, cheio de tumores, com buracos ao invés de um nariz, orelhas de morcego, cabeças oblíquas e carecas, espinhas retorcidas, garras, pele enrugada, feridas cheias de pus e dedos membranosos são apenas algumas das possíveis deformidades que um Nosferatu pode possuir. Uma existência nos esgotos e criptas tende a assegurar que um Nosferatu cheire tão bem quanto sua aparência."
+						},
+						{
+							"title" : "Refúgio",
+							"description" : "As deformidades forçam a maioria dos Nosferatu a buscar refúgio longe dos olhos dos mortais, em cemitérios, depósitos e porões abandonados. Em grandes cidades, ninhadas de Nosferatu se abrigam nas galerias do metro ou nos esgotos. Estes 'reinos', particularmente os mais antigos, são freqüentemente maiores do que muitos mortais ou membros podem imaginar (labirintos subterrâneos que penetram fundo na escuridão e são guardado por monstruosos carniçais). Até mesmo os príncipes são cautelosos nos domínios dos Nosferatu."
+						},
+						{
+							"title" : "Antecedentes",
+							"description" : "Os Nosferatu escolhem a sua progénie entre os rejeitados da sociedade: desamparados, mentalmente doentes e os desesperadamente anti-sociais. Ocasionalmente, Nosferatu vingativos escolhem Abraçar mortais belos e vaidosos e então, observá-los"
+						},
+						{
+							"title" : "Criação de personagem",
+							"description" : "Os Nosferatu podem adotar qualquer conceito, mas freqüentemente são solitários, forasteiros ou rejeitados. Os Atributos Mentais e Físicos são normalmente os primários (os Sociais raramente escapam de serem os terciários). A Furtividade é altamente valorizada pelo clã, enquanto a Sobrevivência permite que ó Rato de Esgoto encontre abrigo em lugares arruinados, os preferidos dos Nosferatu. Os Nosferatu ocasionalmente possuem lacaios na forma de animais carniçais ou até mesmo um ou dois aliados humanos, mas Antecedentes raramente são predominantes dentro do clã"
+						},
+						{
+							"title" : "Fraqueza",
+							"description" : "Os Nosferatu são absolutamente repugnantes de se encarar. Todos os Nosferatu têm um nível de Aparência igual a 0 que não pode melhorar nem mesmo através do uso de pontos de experiência. A maioria das ações Sociais baseadas na primeira impressão, exceto intimidação e outras semelhantes, falham automaticamente."
+						},
+						{
+							"title" : "Organização",
+							"description" : "Apesar de não possuírem os rígidos protocolos que caracterizam clãs como o Toreador e o Ventrue, compartilhar de suas horríveis aparências criou uma excepcional união no clã. Isolados e desprezados por outras criaturas, os Nosferatu se unem tanto por necessidade quanto por solidão."
+						},
+						{
+							"title" : "Seita",
+							"description" : "Surpreendentemente, o clã como um todo pertence à Camarilla, apesar das dificuldades óbvias de manterem a Máscara. Talvez eles dêem valor à seita; talvez queiram simplesmente manter os outros clãs à vista. Ainda assim, um numero considerável de Nosferatu fazem parte do Sabá ou são apenas autarcas (Sem Seita)."
+						}
+					]
+				},
+				"ravnos" : {
+					"title" : "Ravnos",
+					"itens" : [
+						{
+							"title" : "Histórico",
+							"description" : "Se um clã pode ser conhecido por seu malicioso senso de humor negro, este clã é o Ravnos. Estes Cainitas são enganadores de primeira, tramando ilusões e mentiras em esquemas elaborados para afastar os tolos do caminho do que quer que os Ravnos estejam ambicionando — seja riqueza, sangue ou até mesmo a liberdade de suas vítimas. Como Mefistófeles, os Ravnos exercem seus negócios demoníacos com quem bem entendem e afligem os que não se capazes de pagar os custos sombrios. Apesar de muitos Ravnos verem a si mesmos como grandes trapaceiros, os truques geralmente benevolentes do Coiote e do Corvo não são bem o seu estilo. Na verdade, eles carregam a tradição de ilusão e farsa inerentes dos rakshasas e carniçais do Oriente Médio e da Ásia. Os Ravnos são seres perigosos para se barganhar. E mesmo assim, estes demônios vêm fazendo suas apostas e barganhas há muito tempo. Os Ravnos são essencialmente nómades e dão pouca importância a refúgios permanentes ou posições dentro da estrutura de poder estabelecida em uma cidade. Mesmo aqueles que escolheram uma cidade como suas casas tendem a estabelecer e abandonar refúgios conforme o humor que os atinge, tomando os refúgios que gostem e fazendo o que bem entendem, mudando-se quando entediados. Este hábito enfurece príncipes ao redor do mundo, que se ofendem com a desconsideração dos Ravnos pela Tradição da Hospitalidade. Poucos punem os violadores, contudo, por medo de atraírem a malícia do clã como um todo. Apesar do clã ter ligações antigas com os Ciganos, poucos Ravnos desfrutam da hospitalidade dos mortais. Talvez os Ciganos conheçam muito bem a natureza destes vampiros e sejam relutantes em oferecer amizade aos não-vivos. Talvez os próprios Ravnos tenham colocado em risco sua família mortal através de seus perigosos truques. Qualquer que seja a razão, os Ravnos normalmente não possuem aliados nos quais se apoiar. O seu charme pode conquistar companhias temporárias e a lealdade do clã pode atrair companheiros Ravnos ao seu lado em tempos de extrema necessidade, mas no fim das contas, a trilha destes vampiros é solitária. Naturalmente, os príncipes de muitas cidades são astutos ao garantirem o livre acesso desses pregadores de peças aos seus domínios. O excêntrico código de honra dos Ravnos é forte, mas raramente coincide com a definição do termo dos outros clãs. Os Ravnos podem quebrar sua palavra à vontade, a não ser que cuspam em suas palmas e validem o acordo com um aperto de mãos. Eles defenderão seu 'bom nome' por tudo que ele vale — dependendo do que consideram calúnia. E eles normalmente tentarão defender seus companheiros de clã, e vice-versa; os Ravnos podem tirar vantagem uns dos outros, mas consideram isso privilégio dos membros do clã. Estranhos não têm esse mesmo direito. Talvez a coisa mais preocupante dos Ravnos como um clã seja o fato deles terem sobrevivido na Ásia durante tanto tempo, onde a maioria dos Membros é rapidamente caçada e devorada pêlos impiedosos Cataianos. Nenhum outro Cainita sabe exatamente como eles fazem isso — mas uma possibilidade está emergindo. Rumores chegam até a Europa e à América falando de coisas antigas despertando, vampiros ancestrais remexendo a terra de milénios e lançando as Cortes Cainitas em desordem. Estes anciões Ravnos — se os rumores falam corretamente — demonstraram poderes místicos terríveis, incluindo um talento para ilusões tão poderoso que poderia afetar o mundo físico. Só o tempo dirá que papel estes emergentes 'reis demônios' terão dentro da Jyhad."
+						},
+						{
+							"title" : "Disciplinas",
+							"description" : "Animalismo, Quimerismo, Fortitude"
+						},
+						{
+							"title" : "Aparência",
+							"description" : "Muitos dos jovens Ravnos ocidentais são descendentes de ciganos, normalmente de compleições escuras, com cabelos e olhos ainda mais escuros. Um pouco mais raros são os de características asiáticas, africanas ou nórdicas e ainda mais raro são os que não possuem sangue cigano. Na verdade, os Ravnos europeus nunca abraçam Gorgios (não-ciganos). A porção oriental do clã é principalmente de sangue indiano, apesar de alguns Ravnos estarem abraçando sem se importar com etnias. Assim como seus primos ocidentais, eles preferem roupas coloridas e vistosas, e gostam de praticar sua persuasão sobre os mortais."
+						},
+						{
+							"title" : "Refúgio",
+							"description" : "Os Ravnos são nômades por natureza; até mesmo suas crianças orientais sentem a vontade de viajar de tempos em tempos. Os membros do clã normalmente viajam em furgões ou jipes, abrigando-se onde quer que possam. Aqueles com parentesco mortal, particularmente os Ciganos, freqüentemente permanecem algum tempo com suas famílias. Mas quando os Membros locais se tomam muito curiosos, os Ravnos colocam novamente o pé na estrada."
+						},
+						{
+							"title" : "Antecedentes",
+							"description" : "Estes vampiros nômades Abraçam poucas crianças, apesar do aumento do rebanho da humanidade. Os mais jovens Ravnos, contudo, são bastante indiscriminados ao gerar suas crianças e a última geração tem visto Ravnos de todas as culturas e etnias. Os Ravnos neófitos sem sangue indiano ou cigano normalmente demonstram uma imensa facilidade em levar vidas desregradas, cheias de troças e descaminhos."
+						},
+						{
+							"title" : "Criação de personagem",
+							"description" : "Os Ravnos normalmente possuem conceitos nômades e seus Comportamentos podem mudar conforme a situação em que se encontram. Eles preferem os Atributos Sociais, assim como os Talentos. Muitos deles têm altos níveis de Recursos, seja na forma de tesouros ancestrais ou do acúmulo de montes de objetos de arte e mercadorias roubadas."
+						},
+						{
+							"title" : "Fraqueza",
+							"description" : "Os Ravnos cederam aos seus vícios particulares na mesma medida em que se devotaram a eles. Cada Ravnos tem uma fraqueza por algum tipo de truque, travessura ou farsa, seja ela o jogo, a mentira, o roubo, a chantagem ou até mesmo assassinatos inteligentemente planejados. Quando a oportunidade de ceder a seus vícios surgir, os Ravnos têm que fazer uma jogada de Autocontrole (dificuldade 6) ou sucumbir à sua compulsão."
+						},
+						{
+							"title" : "Organização",
+							"description" : "A maioria dos Ravnos não confia em ninguém, nem mesmo em seus próprios companheiros de clã, mas trabalham juntos quando necessário para realizar uma trapaça, roubo ou enfrentar um inimigo estrangeiro. Eles freqüentemente fazem juras grandiosas de lealdade uns aos outros, apesar de nenhuma das partes esperarem muito dos votos realizados. Os recentemente despertos anciões do clã, contudo, estão começando a contatar os Ravnos de vários continentes. Apesar da estrutura tipicamente caótica do clã ainda não ter sofrido mudanças concretas, pode ser somente uma questão de tempo antes da vontade dos Anciões se manifestarem através dos jovens Ravnos."
+						},
+						{
+							"title" : "Seita",
+							"description" : "Os Ravnos vão onde quiserem e lidam com quem bem entenderem, danem-se as seitas. Os anciões do clã, particularmente são sediados na Ásia, zombam da Camarilla e do Sabá como sendo, na melhor das hipóteses, clubes sociais temporários, instituições vazias onde vampiros paranóicos podem se reunir e se assegurar de serem o topo da cadeia alimentar. Os mais jovens rejeitam a idéia de entregarem a estranhos até mesmo a menor parcela de poder sobre eles. A maioria dos Ravnos vê as promessas de liberdade do Sabá e as ofertas de proteção da Camarilla como nada mais do que doces iscas, e educadamente (ou não tão educadamente) se recusam."
+						}
+					]
+				},
+				"seguidores" : {
+					"title" : "Seguidores de Set",
+					"itens" : [
+						{
+							"title" : "Histórico",
+							"description" : "Os Seguidores de Set, chamados de 'Setitas', talvez sejam o menos confiável de todos os clãs. Seus laços com o arquétipo mitológico da Serpente são bem conhecidos e apoiados por seus perturbadores poderes. Eles são guardiões do conhecimento que, de acordo com suas reivindicações, antecedem até mesmo a Primeira Cidade. Quando eles chegam a uma cidade, a estrutura de poder dos Cainitas quase que inevitavelmente desmorona. Porém, o mais enervante de tudo é que eles, como um clã, compartilham de uma fé poderosa e negra — a crença de que o sangue de deuses pulsa em suas veias geladas. Ó próprio nome do clã é indicação desta crença. De acordo com os Setitas, o fundador do clã foi ninguém menos do que o deus negro do Egito antigo, o caçador das noites do deserto. Outros contos narram que Set era um Antediluviano — ou talvez alguém ainda mais poderoso — que se auto-consagrou como um deus entre os egípcios. O poder de Set era inquestionável até que ele foi desafiado por um ser chamado Osíris — a quem alguns chamam de vampiro e outros, de algo mais. A guerra entre eles durou séculos, até que Set foi finalmente expulso do Egito, em direção à escuridão. Mesmo assim, foi da escuridão que o sábio e antigo Set começou o seu zeloso domínio. Apesar de Set ter desaparecido do mundo, suas crianças trabalham para se assegurar de que o mundo estaria adequado para a sua volta — obviamente, levando adiante seus próprios planos durante o processo. Para alcançar seus objetivos, os Setitas dominam várias ferramentas poderosas. Para eles, o vício, a sedução e a decadência são os melhores meios de alcançar seu fim. Os Setitas usam as drogas, o sexo, o dinheiro e o poder — e até mesmo a vitale e alguns conhecimentos sobrenaturais — para atrair suas vítimas ao bote. Até hoje, o método dos Seguidores tem se provado terrivelmente eficiente. Tanto Membros quanto mortais sucumbem ao charme dos Setitas, fazendo alegremente o que quer que seu novos mestres peçam, em troca do patronato das serpentes. Na verdade, em algumas cidades, sub-culturas e camadas econômicas inteiras estão sob o controle e influência de um ou mais Setitas. Os Seguidores de Set misteriosamente referem-se a si mesmos como o 'clã primogênito', o que quer que essa frase signifique para eles. Os historiadores Cainitas descartam essa possibilidade como sendo uma fanfarronice sem fundamentos, mostrando a ascensão dos Setitas como sendo bem posterior à destruição da Primeira Cidade. Contudo, aqueles que cuidadosamente ouvem os murmúrios Setitas são de alguma forma menos impertinentes, pois o Clã das Serpentes parece ter acesso a conhecimentos antigos, que alguns apuram, podem datar da primeira e maior de todas as noites. Alguns dentre as Serpentes sugerem que Set foi jogado na escuridão antes mesmo de Cain receber sua maldição — uma teoria que a maioria dos membros descarta, mas que não deixa de ter implicações assustadoras. Qualquer que seja a origem do clã é fato que sua influência já se encontra bastante dispersa. Apesar de serem raros em territórios vampíricos 'tradicionais' como a Europa, os Seguidores de Set rondam por muitas outras áreas do mundo. Eles têm uma potente presença na África, particularmente no Cairo e nas áreas ao sul do Saara. Eles se aninham na índia, na extremidade das zonas de caça dos Cataianos, buscando a sabedoria dos deuses destruídos e reunindo cultos ao redor de si mesmos. Eles dormem sob as areias do Oriente Médio e governam as noites do Caribe. Eles entram sem medo nos piores buracos urbanos da América. Suas teias se estendem de continente a continente e os outros clãs ainda estão por descobrir a extensão do mundo que está sob as garras dos Setitas."
+						},
+						{
+							"title" : "Disciplinas",
+							"description" : "Ofuscação, Presença, Serpentis"
+						},
+						{
+							"title" : "Aparência",
+							"description" : "A maioria dos anciões Setitas é de sangue egípcio, norte-africano ou do Oriente Médio. Contudo as Serpentes têm adotado uma abordagem mais igualitária e vêm Abraçando homens e mulheres de todas as etnias. Cabelos vermelhos são considerados favoritos pelo clã e alguns Neófitos estão dispostos a tingir seus cabelos todas as noites para provar sua devoção. Os Setitas normalmente têm gostos apurados para roupas e acessórios e têm comportamentos convidativos e dominantes que fascinam seus espectadores."
+						},
+						{
+							"title" : "Refúgio",
+							"description" : "Apesar dos jovens Setitas estarem sujeitos a se entocar em qualquer buraco, os anciões tratam a construção de refúgios com reverência. Muitos usam Antigos Rituais para consagrar seus refúgios, sejam eles templos, bibliotecas secretas ou criptas. A maioria treina Carniçais com a “missão sagrada” de proteger o refúgio, mas alguns deles são conhecidos por deixarem várias cobras no interior de seus lares. Seus refúgios são freqüentemente decorados com motivos do Egito Antigo, mas os Setitas tem se tornado bastante multicultural nos últimos anos. Um Setita pode adornar seu refúgio com esculturas de Gana, tapetes marroquinos ou o que quer que se adapte a seus gostos ou antecedentes."
+						},
+						{
+							"title" : "Antecedentes",
+							"description" : "Muitos Setitas serviram como Lacaios de outros membros do clã antes do Abraço. Em noites anteriores, o clã só escolhia aqueles de descendência egípcia, mas ultimamente o pragmatismo os levou a incluir membros de todas as etnias. Os Serpentes tendem a selecionar suas crianças entre os que se provam manipuladores ou mentalmente elásticos (a manipulação para melhor induzir os humanos ao serviço do clã e a mente elástica para que a criança possa aprender os conhecimentos mantidos pelos Setitas). Os Setitas só escolhem os melhores; os que são menos do que isso não podem esperar ser mais do que peões."
+						},
+						{
+							"title" : "Criação de personagem",
+							"description" : "Os Setitas tendem a priorizar os Atributos Mentais e Sociais mas suas Habilidades variam de acordo com a concepção do personagem. O conhecimento do Ocultismo é comum entre os membros do clã. Suas Naturezas podem ser eruditas ou bestiais, enquanto seus Comportamentos se adéquam à situação. Muitos possuem grandes cadeias de Contatos, Rebanho (cultistas) e Lacaios como peões, dispostos a cumprir suas solicitações; exatamente o que os Setitas oferecem por seus serviços pode variar imensamente, desde chantagens até simples amizade."
+						},
+						{
+							"title" : "Fraqueza",
+							"description" : "Os Setitas, como criaturas das trevas ancestrais, têm uma severa alergia a todos os tipos de luz, principalmente a solar. Adicione 2 níveis de Vitalidade a qualquer dano infligido pela exposição à luz solar. Os Seguidores de Set também subtraem um dos dados de todas as paradas quando expostos a luzes excessivamente brilhantes (holofotes, sinalizadores, etc.)."
+						},
+						{
+							"title" : "Organização",
+							"description" : "Individualmente, os Seguidores de Set agem de forma semelhante aos outros vampiros, mantendo rebanhos, adquirindo poderes e instigando rivais. Os Setitas também não são imunes à depredação de seus rivais – o clã tem uma maneira darwinista de encara às coisas, mesmo dentro da própria hierarquia. Comunalmente, contudo, as Serpentes se organizam em templos onde possam trocar conhecimentos e praticar seus ritos. Sua hierarquia tende a ser organizada pela idade, onde os mais velhos e sábios entre eles exercem suas funções. Rumores relatam que em algum lugar da África exista o Grande Templo de Set, o lugar onde habita o Hierofante Negro do Clã. Dizem que este Matusalém é o mais poderoso dos filhos diretos de Set o primeiro vampiro a ser abraçado pelo clã; seu conhecimento não tem igual e o seu controle sobre o clã é absoluto."
+						},
+						{
+							"title" : "Seita",
+							"description" : "A neutralidade é valorosa demais para os Setitas para que se importem com seitas. Eles vêem a Camarilla e o Sabá como idealistas pretensiosos. E preferem trocar seus segredos com ambos os lados, reservando suas descobertas realmente importantes para uso exclusivo do clã."
+						}
+					]
+				},
+				"toreador" : {
+					"title" : "Toreador",
+					"itens" : [
+						{
+							"title" : "Histórico",
+							"description" : "Para o Toreador, a vida eterna deve ser saboreada. Muitos Toreador foram artistas, músicos ou poetas em suas vidas; e outros tantos têm passado séculos frustrantes produzindo cômicas tentativas artísticas, musicais ou poéticas. Os Toreador consideram-se os cultivadores de tudo o que é bom na humanidade.Ocasionalmente, artistas particularmente bem dotados ou inspirados são Abraçados pelo clã, para preservar seu talento por toda eternidade. Desta maneira, o clã Toreador já introduziu alguns dos maiores artistas, músicos e poetas da humanidade em seus escalões; é claro que se existe algo a ser dito sobre os Toreador, é que dois deles nunca concordariam precisamente com o significado de 'talentoso' ou 'inspirado'. De todos os clãs, os Toreador são os que mais estão ligados ao mundo dos mortais. Enquanto outros vampiros vêem os mortais como peões ou sustento, os Toreador deslizam graciosamente e com facilidade através da sociedade dos Canaille, provando as delícias de cada era como gastrônomos saboreiam raras iguarias. Os Toreador são os Membros mais propensos a se apaixonarem por mortais, eles se cercam com as melhores, mais elegante e mais luxuosas coisas (e pessoas) que o mundo pode oferecer. Por isso, é intensamente trágico quando um Toreador sucumbe ao tédio e descarta suas buscas estéticas em prol de um hedonismo insensato. Esses Membros tornam-se síbaritas decadentes, preocupados unicamente em ceder aos seus caprichos e vícios pessoais. Os Toreador são compromissados com a Camarilla e compartilham do amor dos Ventrue pela alta sociedade, mas não pelo tedioso trabalho de realmente controlar as coisas — é para isso que servem os funcionários. Os Toreador sabem que seu lugar é o de cativar e inspirar — através de seus discursos engenhosos, feitos graciosos e existências simples e brilhantes."
+						},
+						{
+							"title" : "Disciplinas",
+							"description" : "Auspícios, Rapidez, Presença"
+						},
+						{
+							"title" : "Aparência",
+							"description" : "Os Toreador Abraçam pela paixão tanto quanto por qualquer outra razão; por esse motivo, muitos Toreador são criaturas de beleza extrema. De todos os Membros, os Toreador são os vampiros mais ligados às tendências da moda humana; Degenerados de vários séculos de idade são muitas vezes mais elegantes do que mortais de 30 anos. Se alguma coisa vira moda, as chances são que pelo menos um Toreador irá adotá-la."
+						},
+						{
+							"title" : "Refúgio",
+							"description" : "Os Toreador se asseguram de que seus refúgios sejam confortáveis, adequados para se socializar e acima de tudo de acordo com os seus gostos estéticos. Vampiros de inclinação mais artística podem manter sótãos espaçosos para exibir seus trabalhos, enquanto que outros mais superficiais amam apartamentos opulentos, perfeitos para a hospedagem de grupos inteiros."
+						},
+						{
+							"title" : "Antecedentes",
+							"description" : "Os Toreador abrangem todo um espectro de conceitos, desde artistas torturados e solitários até compositores debochados. Alguns Toreador são Abraçados apenas por sua aparência ou estilo de vida pessoal, quando um senhor apaixonado simplesmente decide que eles devem ser preservados por toda a eternidade."
+						},
+						{
+							"title" : "Criação de personagem",
+							"description" : "Atributos e Habilidades Sociais são valorizados no clã, apesar dos Toreador serem tipicamente menos preocupados com o controle do que com dar uma boa impressão. A Percepção também é importante, tanto para a criação quanto para a crítica. Os artistas favorecem Habilidades como Expressão e Performance, frequentemente desfrutando de níveis altíssimos nestas Características; seus irmãos mais superficiais fazem melhor uso de Habilidades como Subterfúgio e Etiqueta. Os Toreador são criaturas muito sociáveis que adoram ser adorados tanto pêlos Membros quanto pêlos mortais; por isso, Antecedentes como Aliados, Contatos, Fama, Rebanho, Recursos e Status são comuns."
+						},
+						{
+							"title" : "Fraqueza",
+							"description" : "Os Toreador são sobrenaturalmente ligados à estética e à beleza mas esta sensibilidade pode ser perigosa. Quando um Toreador vê, ouve ou até mesmo cheira algo realmente maravilhoso — uma pessoa, pintura, música, um pôr do sol particularmente lindo — ele precisa ser bem sucedido num teste de Autocontrole (dificuldade 6) ou se encantará com a sensação. O Toreador será tomado por um êxtase de fascinação durante uma cena ou até que o alvo de sua atenção se retire. Um Toreador arrebatado desta forma não pode nem ao menos se defender se atacado. Mas se for ferido, ele poderá fazer uma nova jogada de Autocontrole para 'querar o encanto'."
+						},
+						{
+							"title" : "Organização",
+							"description" : "Os Toreador têm pouca organização prática, apesar de uma cadeia social e uma privacidade legendária. O clã se reúne freqüentemente, mais como desculpa para festas depravadas e exibições do que para realizar ou decidir alguma coisa. O Status entre os Toreador é um constante vendaval onde um sorriso súbito ou crítica maldosa pode levar à sorte ou à desgraça; um prodígio pode ser adorado em uma noite, cometer um 'faux pas' quase imperceptível e ser banido na noite seguinte."
+						},
+						{
+							"title" : "Seita",
+							"description" : "A maioria dos Toreadores estão na Camarilla, pois esta é a única organização respeitável que promove a 'cultura' e permite que eles vivam entre os mortais de quem tanto gostam. Aqueles que fazem parte do Sabá procuram bizarros passatempos 'artísticos', como a tortura e a pintura com sangue, ou são os líderes dos mais decadentes movimentos 'underground'."
+						}
+					]
 				}
 			},
 			"disciplinas" : {
+				"title" : "Disciplinas",
 				"animalismo" : {
 					"title" : "Animalismo",
 					"itens" : [

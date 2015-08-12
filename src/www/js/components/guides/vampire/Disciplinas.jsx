@@ -4,56 +4,65 @@ var React = require('react');
 var Router = require('react-router');
 var Link = Router.Link;
 
+var Internationalization = require('./../../../modules/Internationalization.js');
+var Json = Internationalization.chooseLanguage();
+
 var Disciplinas = React.createClass({
 
   render: function() {
     return (
       <div className="disciplinas">
+        <header>
+          <h1>{Json.guias.vampiro.disciplinas.title}</h1>
+          <div className="img-container">
+            <img src="assets/img/disciplinas.jpg" />
+          </div>
+        </header>
         <ul>
         	<Link to="animalismo">
-            <li>Animalismo</li>
+            <li className="itemBtn seta-direita">{Json.guias.vampiro.disciplinas.animalismo.title}</li>
           </Link>
           <Link to="auspicios">
-            <li>Auspicios</li>
+            <li className="itemBtn seta-direita">{Json.guias.vampiro.disciplinas.auspicios.title}</li>
           </Link>
           <Link to="dominacao">
-            <li>Dominação</li>
+            <li className="itemBtn seta-direita">{Json.guias.vampiro.disciplinas.dominacao.title}</li>
           </Link>
           <Link to="fortitude">
-            <li>Fortitude</li>
+            <li className="itemBtn seta-direita">{Json.guias.vampiro.disciplinas.fortitude.title}</li>
           </Link>
           <Link to="metamorfose">
-            <li>Metamorfose</li>
+            <li className="itemBtn seta-direita">{Json.guias.vampiro.disciplinas.metamorfose.title}</li>
           </Link>
           <Link to="ofuscacao">
-            <li>Ofuscação</li>
+            <li className="itemBtn seta-direita">{Json.guias.vampiro.disciplinas.ofuscacao.title}</li>
           </Link>
           <Link to="potencia">
-            <li>Potencia</li>
+            <li className="itemBtn seta-direita">{Json.guias.vampiro.disciplinas.potencia.title}</li>
           </Link>
           <Link to="presenca">
-            <li>Presença</li>
+            <li className="itemBtn seta-direita">{Json.guias.vampiro.disciplinas.presenca.title}</li>
           </Link>
           <Link to="quietus">
-            <li>Quietus</li>
+            <li className="itemBtn seta-direita">{Json.guias.vampiro.disciplinas.quietus.title}</li>
           </Link>
           <Link to="quimerismo">
-            <li>Quimerismo</li>
+            <li className="itemBtn seta-direita">{Json.guias.vampiro.disciplinas.quimerismo.title}</li>
           </Link>
           <Link to="rapidez">
-            <li>Rapidez</li>
+            <li className="itemBtn seta-direita">{Json.guias.vampiro.disciplinas.rapidez.title}</li>
           </Link>
           <Link to="serpentis">
-            <li>Serpentis</li>
+            <li className="itemBtn seta-direita">{Json.guias.vampiro.disciplinas.serpentis.title}</li>
           </Link>
           <Link to="taumaturgia">
-            <li>Taumaturgia</li>
+            <li className="itemBtn seta-direita">{Json.guias.vampiro.disciplinas.taumaturgia.title}</li>
           </Link>
           <Link to="tenebrosidade">
-            <li>Tenebrosidade</li>
+            <li className="itemBtn seta-direita">{Json.guias.vampiro.disciplinas.tenebrosidade.title}</li>
           </Link>
           <Link to="vicissitude">
-            <li>Vicissitude</li>
+            <li className="itemBtn seta-direita">{Json.guias.vampiro.disciplinas.vicissitude.title}</li>
           </Link>
         </ul>
       </div>

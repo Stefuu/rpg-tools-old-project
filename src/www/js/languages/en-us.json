@@ -1,8 +1,11 @@
 {
 	"language" : "en-US",
 	"guias" : {
+		"title" : "Guides",
 		"vampiro" : {
+			"title" : "Vampire: The Masquerade",
 			"clans"	: {
+				"title" : "Clans",
 				"assamita" : {
 					"title" : "Assamite",
 					"itens" : [
@@ -207,9 +210,215 @@
 							"description" : "The Malkavians as a clan have an. . .understanding. . . with the Camarilla. They also populate the Sabbat in lesser numbers, where they frighten even their packmates with their psychotic displays. But when it all comes down to it, their true loyalties likely transcend sects. When Gehenna arrives, nobody can say for sure where the Malkavians will stand."
 						}
 					]
+				},
+				"sombra" : {
+					"title" : "La Sombra",
+					"itens" : [
+						{
+							"title" : "History",
+							"description" : "The Lasombra clan has fallen from grace - and its members enjoy it. Simultaneously graceful and predatory, the Lasombra guide - and, when necessary, whip - the Sabbat into an implacable force. Turning their backs upon the humans they once were, Lasombra give themselves wholly over to the dark majesty of the Embrace. Murder, frenzy, predation: Why fear these things, many Lasombra ask, if one is meant to be a vampire? In contrast to the Tzimisce, though, Lasombra generally seek not to reject all things mortal, but to shape them for their own pleasure. The Lasombra have been involved with the Church since its inception, and some Kindred whisper that the clan was instrumental in the spread of the Christian faith. In modern nights, however, Lasombra have turned their backs on that divine institution. There are exceptions, of course, but for the most part, Clan Lasombra bears only contempt for the notion of salvation. In fact, the Lasombra brought many of the Church's rites and rituals into the Sabbat sect, twisting them into mockeries of Christian doctrine. The Lasombra ordained many of the sect's auctoritas and ignoblis ritae, so that the vampires of the Sabbat might never forget who and what they are. Lasombra are best known for their Discipline of Obtenebration, a means by which they call forth a tangible 'living' darkness, manipulating it at their whim. Clan doctrine holds that this 'darkness' is in fact the stuff of the vampiric soul, which has been simultaneously strengthened and corrupted by the Embrace. Through the Curse of Caine, some Lasombra believe, God has cast them out, and thus it is their duty to build a new order on Earth via the Sabbat. More scientific Lasombra scoff at this superstition, but even they tend to believe that, as vampires, they represent a new and more advanced breed of sentience, one unconcerned with petty human notions of ethics. Let the milksops of Clan Ventrue burn in the solar fires of martyrdom; the Lasombra are happy with what they are. Naturally, this villainous outlook is not universal among the clan, but many newly Embraced Sabbat Lasombra take great glee in the wanton destruction and vulgar depravity that such a philosophy allows. In striking contrast, some elder Lasombra still maintain their ties to the Church, though even they seem to consider themselves 'tools of the Devil.' The two groups do see eye to eye on one matter: Members of Clan Lasombra, as consummate manipulators themselves, adamantly refuse to submit to the antiquated whims of the Antediluvians. They fight the Jyhad proudly, but unlike many Kindred, they firmly believe they can win. The typical Lasombra possesses a gift for manipulation, as well as keen leadership skills. Lasombra are the most common leaders of Sabbat packs, as their motivational and Machiavellian natures make them ideal for orchestrating the movements of the sect. Unfortunately, pride goes hand in hand with this dark nobility, and very few Lasombra acknowledge other vampires as equal, let alone superior."
+						},
+						{
+							"title" : "Disciplines",
+							"description" : "Dominate, Obtenebration, Potence"
+						},
+						{
+							"title" : "Appearance",
+							"description" : "Many Lasombra of elder generations hail from Spanish or Italian stock, and some still show their Moorish or Berber heritage. Lasombra neonates and ancillae, however, run the gamut of cultures and ethnicities. Almost all Lasombra are reasonably attractive, with well-bred, aristocratic features - blue-collar Lasombra are rare, and one hardly sees the callused hands or broken noses of the working class among the Keepers."
+						},
+						{
+							"title" : "Haven",
+							"description" : "Many young Lasombra disdain private havens, sleeping with the pack and maintaining communal lairs 'for the good of the sect.' Old habits die hard among the Keepers, though; certain elders maintain ancestral manses or other ostentatious havens."
+						},
+						{
+							"title" : "Background",
+							"description" : "Lasombra may come from any background, but are typically professionals, politically inclined or well educated. Lasombra tend to be aggressive, both physically and socially; the clan has little interest in weaklings and does not hesitate to cull unworthy vampires from its ranks. Lasombra are universally skilled at social discourse and pulling the strings of others - coarse manners are viewed poorly, for the Lasombra are refined monsters."
+						},
+						{
+							"title" : "Character Creation",
+							"description" : "A Lasombra may have any Demeanor (the better to hide her true Nature!). Most Lasombra favor Social Attributes, though Mental Attributes are prized almost as greatly. Many Keepers cultivate extensive Influence, Status (Sabbat) or Resources, and favor Backgrounds more than additional Disciplines or Abilities. Lasombra founded the Path of Night, and this Path has a number of followers in the Keepers' clan (though many choose to follow other Paths of Enlightenment, and some Lasombra keep vestiges of Humanity)."
+						},
+						{
+							"title" : "Weaknesses",
+							"description" : "Lasombra vampires cast no reflections. They cannot be seen in mirrors, bodies of water, reflective windows, polished metals, photographs and security cameras, etc. This curious anomaly even extends to the clothes they wear and objects they carry. Many Kindred believe that the Lasombra have been cursed in this manner for their vanity. Additionally, due to their penchant for darkness, Lasombra take an extra level of damage from sunlight."
+						},
+						{
+							"title" : "Organization",
+							"description" : "Clan Lasombra's structure is simultaneously formal and open. Respect and homage are afforded to the elder warriors who helped found the Sabbat, but younger members operate with almost no guidance from the clan as an entity. Quarterly meetings, known as conventicles, serve to keep the Lasombra informed as to each other's status, and blood-drinking rituals are performed at these meetings. While no Lasombra is ever told 'You may not do that' (at least not publicly), almost all Keepers have a profound respect for tradition. A secret Lasombra coterie known as Les Amies Noir is rumored to hand down 'death sentences' on those Keepers who bring undue shame, attention or ignominy to the clan or its members."
+						},
+						{
+							"title" : "Sect",
+							"description" : "The Lasombra are the ruling clan of the Sabbat, as much as any clan can be said to 'rule' that chaotic body. A few elder Lasombra hold membership in the Camarilla or Inconnu, but such creatures lead lonely and perilous existences."
+						}
+					]
+				},
+				"nosferatu" : {
+					"title" : "Nosferatu",
+					"itens" : [
+						{
+							"title" : "History",
+							"description" : "Caine's childer are called 'The Damned,' and no vampires embody this more fully than the wretches of Clan Nosferatu. While other vampires still look human and may travel in mortal society, N osferatu are twisted and deformed by the curse of vampirism. Other Kindred speak shudderingly of Caine placing a mark upon the entire clan for the monstrous deeds of its Antediluvian founder. As such, Nosferatu find themselves loathed and osrracized by the other Children of Caine, who consider them disgusting and interact with them only when they must. Following the Embrace, Nosferatu childer suffer an agonizing transformation as, over the subsequent weeks, they warp from humans into hideous monsters. The horror ' of the physical devolution often produces an accompanying psychological trauma. Unable to walk among the kine, Nosferatu must dwell in subterranean sewers and catacombs forever after. Nosferatu often choose physically or emotionally twisted mortals for the Embrace, seeing in the curse of vampirism a possible means of redemption for the mortals. Amazingly, there seems to be some merit to this belief. Many Nosferatu are surprisingly levelheaded and practical, avoiding the obsessions, fits and rages of their fairer brethren. Not that this makes the Sewer Rats particularly pleasant to be around; indeed, some Nosferatu come to delight in the shock and horror their grotesque appearances inspire in others. Nosferatu are survivors par excellence. Few creatures, mortal or vampire, know a city's back alleys and dark corners like the Nosferatu do Additionally, Nosferatu have mastered the crafts of sneaking and eavesdropping; they make a point of keeping up with current gossip and affairs, not merely for pleasure, but for survival. Information brokers without peer, they can command high prices for their knowledge. Using their Obfuscate Discipline, Nosferatu make a point of listening to others' conversations from hiding, or sitting in on 'secret' meetings. If a Kindred wishes to learn about the doings and denizens of the city, she would do well to consult the Nosferatu. Finally, millennia of shared deformity and abuse have fostered strong bonds among the monsters. Nosferatu forego the squabbling and feuds ubiquitous to the other clans, preferring to work in unison. They treat each other with meticulous politeness and freely share information among themselves. T o mess with one Nosferatu is t( mess with them all- and that can get messy indeed...."
+						},
+						{
+							"title" : "Disciplines",
+							"description" : "Animalism, Obfuscate, Potence"
+						},
+						{
+							"title" : "Appearance",
+							"description" : "No two Nosferatu look precisely alike, but all are hideous. Gaping fang-filled maws, discolorations, tumors, holes in place of noses, bat like ears, sloping bald heads, twisted spines, claws, wrinkled hides, pustulent sores and webbed fingers are just a few possible deformities possessed by Nosferatu. An existence in sewers and crypts tends to ensure that most Nosferatu smell about as good as they look."
+						},
+						{
+							"title" : "Haven",
+							"description" : "Their disfigurement forces most Nosferatu to take havens far from the eyes of mortals, in graveyards, abandoned warehouses and cellars. In large cities, entire broods of Nosferatu lair in sewers and subway systems. These 'kingdoms' particularly the older ones, are often much more extensive than mortals or Kindred are aware - subterranean labyrinths stretching deep into the darkness and guarded by monstrous ghouls. Even princes treat warily with the Nosferatu kingdoms."
+						},
+						{
+							"title" : "Background",
+							"description" : "Nosferatu choose their progeny from society's castoffs: derelicts, the mentally ill and the hopelessly antisocial. Occasionally, a vindictive Nosferatu chooses to Embrace a beautiful, vain mortal, then watch gleefully as the Curse takes hold."
+						},
+						{
+							"title" : "Character Creation",
+							"description" : "Nosferatu can have any concept, but often come from loner, outsider or drifter stock. Physical or Mental Attributes are often primary (Social are rarely anything other than tertiary!). Stealth is highly prized among the clan, while Survival allows a Sewer Rat to find shelter in the blighted zones Nosferatu favor. Nosferatu occasionally have retainers in the form of ghoul animals, or even a human ally or two, but Backgrounds are rarely predominant among the clan."
+						},
+						{
+							"title" : "Weaknesses",
+							"description" : "As mentioned, Nosferatu are absolutely loathsome to look at. All Nosferatu have Appearance ratings of zero - CroSS the automatic dot right off the character sheet. Nor may they improve Appearance with experience points. Most Social actions based on first impressions, except intimidation and the like, fail automatically."
+						},
+						{
+							"title" : "Organization",
+							"description" : "While Nosferatu do not have the rigid protocols that mark clans such as the Tremere and Ventrue, their shared deformIty creates an exceptional clan unity. Shunned and reviled by other creatures, Nosferatu stick together out of equal parts necessity and loneliness."
+						},
+						{
+							"title" : "Sect",
+							"description" : "Surprisingly, the clan as a whole belongs to the Camarilla, despite obvious difficulties with upholding the Masquerade. Perhaps they value the safety of membership; perhaps they simply want the other clans within observing distance. Still, a fair number of Nosferatu are in the Sabbat or simply consider themselves autarkis (of no sect)."
+						}
+					]
+				},
+				"ravnos" : {
+					"title" : "Ravnos",
+					"itens" : [
+						{
+							"title" : "History",
+							"description" : "If ever a clan was renowned for a wickedly black sense of humor, the Ravnos would be that clan. These Cainite are deceives of the first order, weaving illusion and lies into elaborate schemes to part the foolish from whatever it is the Ravnos might fancy -- be it wealth, blood or even their victims' freedom. Like Mephistopheles or Old Scratch, the Ravnos ply their devil's deals with whomever they choose, be it human or Kindred, and woe to those who wind up unable to pay the hidden costs. Although many Ravnos see themselves as great tricksters, the generally benevolent tricks of Coyote and Raven aren't their style. Instead, they draw on a tradition of illusion and deceit inherited from the rakshasas and ghuls of the Middle and Far East. A Ravnos is a highly dangerous being with whom to sup or bargain. And these devils have been making their wagers and bargains for a long time indeed. The Ravnos are nomadic to the core and care little for permanent havens or positions in a city's established power structure. Even those who have chosen a given city for their home tend to establish and abandon havens as the mood strikes them, taking whatever lairs they like, doing as they please, and moving on when bored. This habit infuriates princes across the world, who resent the Ravnos' disregard for the Tradition of Hospitality. Few punish violators, though, for fear of drawing the malice of the clan as a whole. Although the clan has long-standing ties with the Gypsies, few Ravnos enjoy the hospitality of their mortal kin. Perhaps the Gypsies know these vampires' true natures too well, and are loath to offer friendship to the undying. Perhaps the Ravnos themselves alienated their mortal families through their dangerous tricks. Whatever the reason, a Ravnos typically has no allies he can rely on regularly. His charm may win him a few temporary companions, and clan loyalty may draw fellow Ravnos to his side in times of dire need, but the vampire's path ultimately lies alone. Naturally, the princes of many cities are leery of allowing such tricksters free rein in their domains. The Ravnos eccentric code of honor is strong, but rarely coincides with another Kindred's definition of the term. A Ravnos may break her word at will, unless she's spit in her palm and shaken on the deal. She'll defend her 'good name' for all it's worth -- depending on what she considers slander. And she'll usually come to the defense of a clanmate, and vice versa; the Ravnos may take advantage of one another, but they consider it their privilege. Outsiders aren't allowed the same.Perhaps the most worrisome thing about the Ravnos is that as a clan, they managed to survive for centuries in Asia, where most Kindred are quickly hunted down and devoured by the ruthless Cathayans. No other Cainites know exactly how they managed this -- but now a possible reason is emerging. Rumors filter back to Europe and the Americas of elder things awakening, of ancient vampires shrugging off the earth of millennia and throwing the Cainite courts into disorder. These elder Ravnos -- if rumor speaks correctly -- have demonstrated terrifying mystical powers, including a talent for illusions so powerful they can affect the physical world. Time can only tell what part the reemergence of these 'demon kings' will play in the Jyhad."
+						},
+						{
+							"title" : "Disciplines",
+							"description" : "Animalism, Chimerstry, Fortitude"
+						},
+						{
+							"title" : "Appearance",
+							"description" : "Many younger Western Ravnos are of Gypsy descent, usually of dark complexion, with darker hair and eyes. Slightly rarer are those with Asian, African or Nordic features, and rarer still are those without even a trace of Gypsy blood. In fact, European Ravnos do not Embrace gorgio (non-Gypsies) at all. The Eastern half of the clan is mostly of Indian blood, although members have Embraced promising men and women of other ethnicities. Like their Western cousins, they favor colorful and beautiful clothing, and enjoying practicing their allure on mortals. "
+						},
+						{
+							"title" : "Haven",
+							"description" : "Ravnos are nomadic by nature; even their Eastern childer feel the wanderlust upon them from time to time. Members of the clan often travel in vans or RVs, taking shelter wherever they may. Those with mortal relatives, particularly Gypsies, often stay with their families for a while. But when the local Kindred start getting uncomfortable curious, the Ravnos are on the road again. "
+						},
+						{
+							"title" : "Background",
+							"description" : "These nomadic vampires Embrace few childer, despite the swelling herds of humanity. The youngest Ravnos, however, are fairly indiscriminate in siring childer, and the latest generations have seen Ravnos from all cultures and ethnicities. Those Ravnos neonates without Indian or Gypsy blood typically demonstrated great facility for misdirection, barter and mischief in life. The Devil has a sharp eye for his own."
+						},
+						{
+							"title" : "Character Creation",
+							"description" : "Ravnos typically have nomadic concepts and their Demeanors change as required by the situation. They tend towards primary Social Attributes, as well as primary Talents. Many have high Resources, either in the form of ancestral treasures or as accumulated hoards of ill-gotten rare goods and objects of art."
+						},
+						{
+							"title" : "Weaknesses",
+							"description" : "The Ravnos have indulged in their particular vices so long that they have become addicted to them. Each Ravnos has a weakness for some form of trickery, deceit or mischief, whether it be gambling, lying, theft, blackmail or even cleverly framed murder. When the opportunity to indulge presents itself, a Ravnos must make a Self-Control roll (difficulty 6) or succumb to her compulsion."
+						},
+						{
+							"title" : "Organization",
+							"description" : "Most Ravnos trust nobody, not even their own clanmates, but work together when necessary to bilk, rob or topple an outside enemy. They often make grandiose pledges of family loyalty to one another, although neither party expects very much to come of the vows. The recently awakened clan elders, however, are beginning to contact Ravnos on all continents. Although the typically chaotic clan structure has yet to see any real change, it may be only a matter of time before the Ancients' will becomes manifest through the younger Ravnos."
+						},
+						{
+							"title" : "Sect",
+							"description" : "The Ravnos go where they will and deal with whomever they will, and sects be damned. The elders of the clan, particularly those centered in India, scoff at the Camarilla and Sabbat as temporary social clubs at best, hollow institutions where paranoid vampires can gather in numbers and reassure themselves that they are the apex of the food chain. The younger ones simply reject the idea of giving any outsider even a fraction of authority over them. Most Ravnos look at the Sabbat's promises of freedom and the Camarilla's offer of protection as nothing more than honeyed bait for the trap, and politely (or not so politely) decline."
+						}
+					]
+				},
+				"seguidores" : {
+					"title" : "Followers of Set",
+					"itens" : [
+						{
+							"title" : "History",
+							"description" : "The Followers of Set, more commonly referred to as 'Setites,' are mistrusted perhaps more than any other clan. Their ties with the archetypal Serpent of myth are well-known, and bolstered by their disturbing powers. They are custodians of knowledge that, according to their claims, predates even the First City. When they enter a city, the Cainite power structure almost inevitably erodes. But most unnerving of all, they share a dark and powerful faith as a clan -- a faith that the blood of gods pulses in their cold veins. Of course, the clan's very name is proof of such faith. According to most Setites, their clan founder was none other than the dark god of ancient Egypt, a hunter without equal in the desert night. Other tales state that Set was an Antediluvian -- at least -- who enshrined himself as a god among the Egyptians. In either case, Set's rule went unquestioned until he was challenged by a being named Osiris -- whom some call a vampire, and others something else. Their war lasted for centuries, but ultimately Set was cast out of Egypt, into the darkness. And yet, his followers claim, it was in the darkness that wise, ancient Set began his rule in earnest. Although great Set has vanished from the world, his childer work to ensure that the world will be in a suitable state for his return -- advancing their own schemes in the process, of course. To achieve their goals, Setites master several potent tools. To their thinking, the weapons of addition, seduction and decay are the oldest and finest of means to an end. Setites use drugs, sex, money, power -- even vitae and supernatural lore -- to draw others into their coils. To date, the Followers' methods have proved terribly effective. Kindred and kine alike succumb to the Setites' charms, gladly doing whatever their new masters bid in return for the Serpents' reptilian patronage. Indeed, in some cities, entire subcultures and economic strata are under one or more Setites' sway. The Followers of Set cryptically refer to themselves as the 'eldest among clans,' whatever that phrase may mean to them. Cainite historians dismiss this as groundless braggadocio, citing Set's rise as well past the time of the First City. However, those who listen carefully to the Setites' whispering are somewhat less flippant, as the Snake Clan seems to have access to hoary lore that, some worry, might date back to the first and longest nights of all. A few Serpents have even hinted that Set was thrown into the darkness before Caine himself received his own curse -- a theory that most Kindred dismiss, but one with frightening implications nonetheless. Whatever the clan's origins, it is a fact that its influence is widespread indeed. Although they are rare in 'traditional' vampiric haunting grounds such as Europe, the Followers of Set prowl many other areas of the world. They have a potent presence in Africa, particularly in Cairo and the sub-Saharan area of the continent. They nest in India, just on the edge of the Cathayan hunting grounds, pursuing the wisdom of destroyer gods and gathering cults to themselves. They sleep under Middle Eastern sands and rule the Caribbean night. And they go unafraid into the worst urban hellholes in America. Their web stretches from continent to continent, and the other clans have yet to realize just how much of the world the Setites have in their clutches."
+						},
+						{
+							"title" : "Disciplines",
+							"description" : "Obfuscate, Presence, Serpentis"
+						},
+						{
+							"title" : "Appearance",
+							"description" : "Most elder Setites are of Egyptian, North African or Middle Eastern blood. However, the Snakes have adopted a more egalitarian approach in recent years, and have Embraced men and women of all ethnicities. Red hair is considered a mark of Set's favor, and some neonates are not above hennaing their hair nightly to prove their devotion. Setites usually have impeccable taste in clothing and accessories, and have an inviting, commanding demeanor that transfixes onlookers."
+						},
+						{
+							"title" : "Haven",
+							"description" : "Although many younger Setites aren't above snatching the most practical crashspaces possible, the elders of the clan treat haven-building as a reverential process. Many use ancient alchemical rituals to consecrate their havens, be they temples, hidden libraries or simple crypts. Most train cadres of ghouls for the 'sacred duty' of guarding the master's haven, and some are fond of letting various snakes roam the interior of their lairs. Their havens are often decorated in ancient Egyptian fashion, but the Followers of Set have become quite multicultural in recent years. An individual Setite may adorn his haven with Ghanan sculpture, Moroccan rugs or Hopi kachinas -- whatever suits his tastes of background."
+						},
+						{
+							"title" : "Background",
+							"description" : "Many Setites served as retainers to other Followers of Set prior to receiving the Embrace. In former nights, the clan chose only those of Egyptian descent, but pragmatism has led them to include those from all ethnicities of late. The Serpents tend to select childer who prove themselves manipulative and mentally resilient -- the former to better sway mortals into the clan's service, the latter so that the childe can safely learn the knowledge kept by the Follower. The Setites choose only the best, those who are anything less cannot hope to rise above the status of pawn."
+						},
+						{
+							"title" : "Character Creation",
+							"description" : "Setites tend to focus on Social and Mental Attributes, but their Abilities vary with the character concept. The Occult Knowledge is common among the clan. Their Natures can be scholarly or bestial, while their Demeanors are whatever they find appropriate for the occasion. Many have great networks of Contacts, Herd (cultists), Retainers and other pawns willing to do their bidding, exactly what the Setites offer for such service may vary greatly, from blackmail to simple friendship."
+						},
+						{
+							"title" : "Weaknesses",
+							"description" : "The Setites, as creatures of the most ancient darkness, have a severe allergy to bright lights of all sorts, and sunlight in particular. Add two health levels to any damage inflicted by exposure to the sun. Followers of Set also subtract one from all dice pools while in overly bright light (spotlights, magnesium flares, etc.)."
+						},
+						{
+							"title" : "Organization",
+							"description" : "Individually, Followers of Set act much like other vampires, maintaining herds, acquiring power and suborning rivals. Nor is one Setite automatically immune to the predation of a rival -- the clan takes a Darwinian approach even among its own ranks. Communally, though, Serpents usually organize themselves into temples where they can exchange lore and practice their rites. Their hierarchy tends to be organized by age, with the eldest and wised among them officiating. Rumor has it that somewhere in Africa exists the Grand Temple of Set, the dwelling place of the clan's Dark Hierophant. This Methuselah is said to be the most powerful of Set's personal childer and the first vampire Embraced into the clan; if rumor is correct, his knowledge has no equal, and his authority over the clan is absolute."
+						},
+						{
+							"title" : "Sect",
+							"description" : "Neutrality is far too valuable for the Followers of Set to bother with sects. They find the Camarilla pretentiously idealistic, and the Sabbat exactly the same. Setites prefer to barter their secrets to both sides, but reserve their truly significant finds for the clan's exclusive use."
+						}
+					]
+				},
+				"toreador" : {
+					"title" : "Toreador",
+					"itens" : [
+						{
+							"title" : "History",
+							"description" : "The Toreador are call many things -- 'degenerates,' 'artistes,' 'poseurs' and 'hedonists' being but a few. But any such lumpen categorization does the clan a disservice. Depending on individual and her mood, toreador are alternately elegant and flamboyant, brilliant and ludicrous, visionary and dissipated. Perhaps the only truism that can be applied to the clan is its members' aesthetic zeal. Whatever a Toreador does, she does with passion. Whatever a Toreador is, she is with passion. To the Toreador, eternal life is to be savored. Many Toreador were artists, musicians or poets in life; many more have spent frustrating centuries producing laughable attempts at art, music or poetry. Toreador tout themselves as cultivators of all that is best about humanity. Occasionally, a particularly gifted or inspired creator is Embraced into the clan, to preserve her talent for eternity. In this manner, Clan Toreador has inducted some of humanity's greatest artists, poets and musicians into its ranks; of course, if one thing can be said about the Toreador, it is that no two of them agree on precisely what 'gifted' or 'inspired' means. Of all clans, Toreador are the vampires most connected to the mortal world. While other vampires view the kine as pawns or simple sustenance, Toreador glide gracefully and effortlessly through the society of Canaille, sampling the delights of each age as gourmand savors rare delicacies. Toreador are the Kindred most likely to fall in love with mortals, and the surround themselves with the best, most elegant and luxurious things -- and people -- that the world has to offer. It is, thus, acutely tragic when a Toreador succumbs to ennui and discards aesthetic pursuits in favor of pointless hedonism. Such Kindred become decadent sybarites, concerned only with indulging personal whims and vices. Toreador are committed to the Camarilla and share the Ventrue's love of high society, though not for them the tedium of actually running things -- that's what functionaries are for, after all. Toreador know that their place is to captivate and inspire -- through their witty speech, graceful deeds and simple, scintillating existence. "
+						},
+						{
+							"title" : "Disciplines",
+							"description" : "Auspex, Celerity, Presence."
+						},
+						{
+							"title" : "Appearance",
+							"description" : "Toreador Embrace out of passion as much as any other reason; accordingly, many Toreador are creatures of surpassing beauty. Of all Kindred, Toreador are the vampires most attuned to human fashion trends; centuries-old Degenerates are often more stylish than some 30-yead-ole mortals. If it's in, chances are that as least one Toreador will adopt it."
+						},
+						{
+							"title" : "Haven",
+							"description" : "Toreador take care to ensure that their havens are comfortable, convenient for socializing and -- above all -- conform to their aesthetic tastes. Vampires of a more artistic bent might maintain spacious lofts to display their works, while their 'poseur' counterparts love opulent suites perfect for hosting parties."
+						},
+						{
+							"title" : "Background",
+							"description" : "Toreador range across a spectrum of concepts, from lonely, tortured artists to debauched jetsetters. Some Toreador are Embraced for no reason other than their beauty or personal style, as a passionate sire decides that they simply must be 'preserved' for eternity."
+						},
+						{
+							"title" : "Character Creation",
+							"description" : "Social Attributes and Abilities are prized among the clan, though Toreador are typically concerned less with outright control than with making a good impression. Perception is also favored, both for creation and for critiquing. Artistes favor Abilities such as Expression and Performance, often enjoying very high levels in these aesthetic Traits; their poseur brethren must make do with abilities like Subterfuge and Etiquette. Toreador are very social creatures, and love adoration from both Kindred and kine, as such, Background like Allies, Contacts, Fame, Herd, Resources and Status are common."
+						},
+						{
+							"title" : "Weaknesses",
+							"description" : "Toreador are preternaturally attuned to the aesthetic and beautiful, but this sensitivity can prove dangerous. When a Toreador views, hears or even smells something that is truly beautiful -- a person, a painting, a song, a particularly lovely sunrise -- he must make a Self-Control roll (difficulty 6) or become entranced by the sensation. The Toreador will stand in rapt fascination for a scene or until the beautiful thing withdraws. Enraptured Toreador may not even defend themselves if attacked, though being wounded allows them to make another Self-Control roll to 'break the spell.'"
+						},
+						{
+							"title" : "Organization",
+							"description" : "Toreador have little practical organization, though their cliquishness and social networks are legendary. The clan meets frequently, but more as an excuse to host lavish parties and showing than to accomplish anything. Status among the Toreador is a tempestuous whirlwind in which on subtle smile or carry critique can lead to fortune of disaster; a prodigy may be adored one night, commit a barely perceptive faux pas, and be ostracized the next."
+						},
+						{
+							"title" : "Sect",
+							"description" : "Most Toreador are in the Camarilla, as only that august organization promotes 'culture' and allows the Toreador to live among the mortals they so favor. Those in the Sabbat pursue bizarre 'artistic' pastimes, such as torture and blood-painting, or are the rulers of the most decadent underground movements."
+						}
+					]
 				}
 			},
 			"disciplinas" : {
+				"title" : "Disciplines",
 				"animalismo" : {
 					"title" : "Animalism",
 					"itens" : [
