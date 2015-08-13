@@ -108,10 +108,10 @@ var BattleMap = React.createClass({
         </table>
         <div className="controls">
         	<div className="friend" onClick={function(){ this._addChar('friend'); }.bind(this)}>
-        		Add Friend
+        		+ Friend
         	</div>
         	<div className="enemy" onClick={function(){ this._addChar('enemy'); }.bind(this)}>
-        		Add Enemy
+        		+ Enemy
         	</div>
         	<div className="clear" onClick={this._clear}>
         		Delete All

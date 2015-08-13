@@ -23,12 +23,23 @@
 	background-color: green;
 }
 
+.battle-map .char span {
+	color: #fff;
+}
+
 .battle-map td span {
 	color: #fff;
 }
 
-.battle-map .controls {
-	margin-left: 10px;
+.battle-map .controls,
+.battle-map select {
+	margin: 10px auto;
+	display: table;
+}
+
+.battle-map select {
+	background-color: #fff;
+  	height: 40px;
 }
 
 .battle-map .controls .enemy,
