@@ -24,8 +24,16 @@ var Char = React.createClass({
   	},
 
   	render: function(){
+  		var headerTam = document.querySelector('.main-header').clientHeight;
+  		var topTranslate = parseInt(this.props.num * 5) + headerTam;
+
+  		if( this.props.type == 'enemy' ){
+			topTranslate += 200;  			
+  		}
+
+  		var charClass = 'char ' + this.props.type;
     	return (
-        	<div onTouchMove={this._touchMove} className="char"></div>    
+        	<div onTouchMove={this._touchMove} className={charClass} style={ {top: topTranslate} }></div>    
     	);
   }
 });
