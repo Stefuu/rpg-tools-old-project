@@ -9,6 +9,8 @@
 	height: 30px;
 	display: block;
 	background-color: green;
+	border: 1px solid #fff;
+	left: 25px
 }
 
 .battle-map .char.enemy {
@@ -16,9 +18,25 @@
 }
 
 .battle-map .char.friend {
-	background-color: blue;
+	background-color: green;
 }
 
 .battle-map td span {
 	color: #fff;
+}
+
+.battle-map .controls {
+	margin-left: 10px;
+}
+
+.battle-map .controls .enemy,
+.battle-map .controls .friend,
+.battle-map .controls .clear {
+	display: inline-block;
+	font-weight: bold;
+	color: #fff;
+	padding: 10px;
+	background-color: gray;
+	border: 1px solid;
+	margin-right: 10px;
 }
