@@ -3,6 +3,9 @@
 	"commonWords" : {
 		"system" : "System"
 	},
+	"battlemap" : {
+		"confirm" : "Are you sure? this will delete all characters in the map"
+	},
 	"guias" : {
 		"title" : "Guides",
 		"vampiro" : {
