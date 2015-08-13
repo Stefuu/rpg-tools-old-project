@@ -10,7 +10,9 @@
 	display: block;
 	background-color: green;
 	border: 1px solid #fff;
-	left: 25px
+	left: 25px;
+	text-align: center;
+  	line-height: 30px;
 }
 
 .battle-map .char.enemy {
@@ -39,4 +41,11 @@
 	background-color: gray;
 	border: 1px solid;
 	margin-right: 10px;
+}
+
+.battle-map .dragContainer {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 0;
 }

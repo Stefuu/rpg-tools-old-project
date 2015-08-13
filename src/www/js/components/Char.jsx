@@ -5,8 +5,7 @@ var React = require('react');
 var Char = React.createClass({
 	getInitialState: function() {
     	return {
-    		x: 0,
-    		y: 0
+        letter: ''
     	};
   	},
 
@@ -15,13 +14,26 @@ var Char = React.createClass({
   		
   		e.preventDefault();
 
-  		el.offsetTop = e.touches[0].clientY - 15;
-  		el.offsetLeft = e.touches[0].clientX - 15;
-
-  		el.style.top = e.touches[0].clientY - 15;
-  		el.style.left = e.touches[0].clientX - 15;
+  		el.parentNode.style.top = e.touches[0].clientY - 15;
+  		el.parentNode.style.left = e.touches[0].clientX - 15;
   		
   	},
+    _showInput: function(e){
+      var el = e.target.parentNode;
+      if(el.querySelector('label')){  
+        el.querySelector('label').style.display = 'block';
+      }
+    },
+
+    _changeInitials: function(e){
+      var el = e.target;
+      
+      el.parentNode.style.display = 'none';
+
+      this.setState({
+        letter: el.value
+      });
+    },
 
   	render: function(){
   		var headerTam = document.querySelector('.main-header').clientHeight;
@@ -33,7 +45,13 @@ var Char = React.createClass({
 
   		var charClass = 'char ' + this.props.type;
     	return (
-        	<div onTouchMove={this._touchMove} className={charClass} style={ {top: topTranslate} }></div>    
+        	<div className={charClass} style={ {top: topTranslate} }>
+            <label style={{display: 'none'}}>
+              Type initials:<input onBlur={this._changeInitials} type="text"/>
+            </label>
+            <span>{this.state.letter}</span>
+            <div className="dragContainer" onTouchMove={this._touchMove} onClick={this._showInput}></div>
+          </div>    
     	);
   }
 });

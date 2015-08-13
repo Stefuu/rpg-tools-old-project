@@ -11,6 +11,7 @@ var Char = require('./Char.jsx');
 var BattleMap = React.createClass({
 	getInitialState: function() {
     	return {
+    		matrix: '8x12',
     		totChars: 0
     	};
   	},
@@ -21,7 +22,6 @@ var BattleMap = React.createClass({
 
 		for( i = 0; i < sizeX; i++ ){
 			matrix.push([]);
-
 			for( j = 0; j < sizeY; j++ ){
 				matrix[i].push( i.toString() + j);				
 			}
@@ -78,9 +78,19 @@ var BattleMap = React.createClass({
 		}
 	},
 
+	_changeMatrix: function(e) {
+		var el = e.target;
+		this.setState({
+			matrix: el.value.toString()
+		});
+	},
+
 	render: function() {
     
-	var matrix = this._tiles(12,7);
+    var matrixRows = this.state.matrix.split('x')[0];
+    var matrixCols = this.state.matrix.split('x')[1];
+
+	var matrix = this._tiles(matrixRows,matrixCols);
 	var chars = this._createChars();
 
     return (
@@ -89,7 +99,9 @@ var BattleMap = React.createClass({
         	{chars}
         </div>
         <table>
-        	{matrix}
+        	<tbody>
+        		{matrix}
+        	</tbody>
         </table>
         <div className="controls">
         	<div className="friend" onClick={function(){ this._addChar('friend'); }.bind(this)}>
@@ -100,6 +112,17 @@ var BattleMap = React.createClass({
         	</div>
         	<div className="clear" onClick={this._clear}>
         		Delete All
+        	</div>
+        	<div className="map">
+        		<select onChange={this._changeMatrix}>
+        			<option value="">Choose map size</option>
+        			<option value="12x8">Small - Portrait</option>
+        			<option value="15x10">Medium - Portrait</option>
+        			<option value="18x13">Large - Portrait</option>
+        			<option value="8x12">Small - Landscape</option>
+        			<option value="10x15">Medium - Landscape</option>
+        			<option value="13x18">Large - Landscape</option>
+        		</select>
         	</div>
         </div>
       </div>
