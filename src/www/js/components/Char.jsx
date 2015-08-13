@@ -5,7 +5,7 @@ var React = require('react');
 var Char = React.createClass({
 	getInitialState: function() {
     	return {
-        letter: ''
+        letter: this.props.num + 1
     	};
   	},
 
@@ -22,6 +22,8 @@ var Char = React.createClass({
       var el = e.target.parentNode;
       if(el.querySelector('label')){  
         el.querySelector('label').style.display = 'block';
+        el.querySelector('label').parentNode.style.zIndex = '1';
+        el.querySelector('label').nextElementSibling.display = 'none';
       }
     },
 
@@ -29,7 +31,8 @@ var Char = React.createClass({
       var el = e.target;
       
       el.parentNode.style.display = 'none';
-
+      el.parentNode.parentNode.style.zIndex = '0';
+      el.parentNode.nextElementSibling.display = 'block';
       this.setState({
         letter: el.value
       });
@@ -47,7 +50,7 @@ var Char = React.createClass({
     	return (
         	<div className={charClass} style={ {top: topTranslate} }>
             <label style={{display: 'none'}}>
-              Type initials:<input onBlur={this._changeInitials} type="text"/>
+              <input placeholder="Type initials:" onBlur={this._changeInitials} type="text"/>
             </label>
             <span>{this.state.letter}</span>
             <div className="dragContainer" onTouchMove={this._touchMove} onClick={this._showInput}></div>
