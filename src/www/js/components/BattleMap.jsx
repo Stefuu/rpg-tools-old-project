@@ -43,15 +43,18 @@ var BattleMap = React.createClass({
 	},
 
 	_createChars: function(){
-		var i;
+		var i,j,keyCount;
 		
 		var chars = [];
 		
-		for( i = 0; i < this.state.totChars; i++ ){
-			if( this._charOrder[i] == 'friend' ){	
-				chars.push(<Char type={'friend'} key={i} num={i} />);
+		for( i = 0, j = 0, keyCount = 0; keyCount < this.state.totChars; keyCount++ ){
+
+			if( this._charOrder[keyCount] == 'friend' ){	
+				chars.push(<Char type={'friend'} key={keyCount} num={i} />);
+				i++;
 			}else{
-				chars.push(<Char type={'enemy'} key={i} num={i} />);
+				chars.push(<Char type={'enemy'} key={keyCount} num={j} />);
+				j++;
 			}
 		}
 		
@@ -63,7 +66,7 @@ var BattleMap = React.createClass({
 
 	_addChar: function(type){
 		this._charOrder.push(type);
-
+		console.log(this._charOrder);
 		this.setState({
 			totChars: this.state.totChars + 1
 		});
