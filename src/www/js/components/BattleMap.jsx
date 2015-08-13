@@ -3,6 +3,9 @@
 var React = require('react');
 var DynamicRow = require('./DynamicRow.jsx');
 
+var Internationalization = require('./../modules/Internationalization.js');
+var Json = Internationalization.chooseLanguage();
+
 var Char = require('./Char.jsx');
 
 var BattleMap = React.createClass({
@@ -60,15 +63,19 @@ var BattleMap = React.createClass({
 
 	_addChar: function(type){
 		this._charOrder.push(type);
+
 		this.setState({
 			totChars: this.state.totChars + 1
 		});
 	},
 
 	_clear: function(type){
-		this.setState({
-			totChars: 0
-		});
+		if (confirm(Json.battlemap.confirm) == true) {
+			this.setState({
+				totChars: 0
+			});
+			this._charOrder = [];    
+		}
 	},
 
 	render: function() {

@@ -3,6 +3,9 @@
 	"commonWords" : {
 		"system" : "Sistema"
 	},
+	"battlemap" : {
+		"confirm" : "Tem certeza que quer deletar todos os personagens do mapa?"
+	},
 	"guias" : {
 		"title" : "Guias",
 		"vampiro" : {
