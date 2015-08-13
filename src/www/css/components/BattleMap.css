@@ -18,3 +18,7 @@
 .battle-map .char.friend {
 	background-color: blue;
 }
+
+.battle-map td span {
+	color: #fff;
+}

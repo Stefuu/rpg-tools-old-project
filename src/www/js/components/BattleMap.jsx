@@ -3,6 +3,8 @@
 var React = require('react');
 var DynamicRow = require('./DynamicRow.jsx');
 
+var Char = require('./Char.jsx');
+
 var BattleMap = React.createClass({
 	getInitialState: function() {
     	return {qtdChars: 0};
