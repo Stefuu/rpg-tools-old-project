@@ -9,9 +9,24 @@ var Char = React.createClass({
     		y: 0
     	};
   	},
-    return (
-        <div className="char"></div>    
-    );
+
+  	_touchMove: function(e){
+  		var el = e.target;
+  		
+  		e.preventDefault();
+
+  		el.offsetTop = e.touches[0].clientY - 15;
+  		el.offsetLeft = e.touches[0].clientX - 15;
+
+  		el.style.top = e.touches[0].clientY - 15;
+  		el.style.left = e.touches[0].clientX - 15;
+  		
+  	},
+
+  	render: function(){
+    	return (
+        	<div onTouchMove={this._touchMove} className="char"></div>    
+    	);
   }
 });
 

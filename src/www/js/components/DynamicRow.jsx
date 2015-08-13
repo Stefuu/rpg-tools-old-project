@@ -10,7 +10,7 @@ var DynamicRow = React.createClass({
     var rows = [];
 
     for(var i = 0; i < itens.length; i++){
-      rows.push(<td>{itens[i]}</td>)
+      rows.push(<td><span>{itens[i]}</span></td>)
     }    
     return (
     	<tr>
