@@ -1,3 +1,20 @@
 .battle-map {
-  font-size: 50%;
+
+}
+
+.battle-map .char {
+	border-radius: 50% 50%;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	display: block;
+	background-color: green;
+}
+
+.battle-map .char.enemy {
+	background-color: red;
+}
+
+.battle-map .char.friend {
+	background-color: blue;
 }
