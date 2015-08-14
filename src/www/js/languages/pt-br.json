@@ -517,19 +517,142 @@
 						},
 						{
 							"title" : "Nível 2 - O Chamado", 
-							"description" : "A essência do animal fortaleceu-se dentro de você, e agora os animais atendem quando você os chama. Você está apto a chamar praticamente qualquer espécie de animais, atraindo-os até você. O personagem precisa te cantar na voz dos animais que deseja convocar — uivando como um lobo ou grasnando como um pássaro. A limitação básica é que você não pode convocar animais de espécies diferentes. Apenas uma convocação poderá ser realizada por vez, e não existe forma de cancelar um chamado depois que ele tiver sido feito. Portanto é preciso acertar de primeira. Os animais convocados desta forma não ficam sob qualquer obrigação imediata de atender aos seus comandos, embora costumem reagir com presteza e curiosidade ao seu chamado."
+							"description" : "A essência do animal fortaleceu-se dentro de você, e agora os animais atendem quando você os chama. Você está apto a chamar praticamente qualquer espécie de animais, atraindo-os até você. O personagem precisa te cantar na voz dos animais que deseja convocar — uivando como um lobo ou grasnando como um pássaro. A limitação básica é que você não pode convocar animais de espécies diferentes. Apenas uma convocação poderá ser realizada por vez, e não existe forma de cancelar um chamado depois que ele tiver sido feito. Portanto é preciso acertar de primeira. Os animais convocados desta forma não ficam sob qualquer obrigação imediata de atender aos seus comandos, embora costumem reagir com presteza e curiosidade ao seu chamado.",
+							"system" : "O jogador testa Carisma + Sobrevivência (Dificuldade 6) para determinar a resposta ao chamado do personagem; consulte a tabela a seguir. Somente os animais capazes de ouvir o Chamado poderão respondê-lo. Se o Narrador decidir que não existe nenhum animal daquele tipo ao alcance do som, o chamado não obterá resposta. O Chamado pode ser tão específico quanto o jogador desejar. Um personagem pode convocar todos os morcegos de uma área, somente os morcegos machos das redondezas ou apenas o morcego albino com a orelha cortada que ele viu na noite anterior.",
+							"tables" : [
+								{
+									"name" : "Tabela de sistema",
+									"rows" : [
+										{
+											"cols" : [
+												"Sucesso",
+												"Resultado"
+											]
+										},
+										{
+											"cols" : [
+												"1",
+												"Um único animal responde."
+											]
+										},
+										{
+											"cols" : [
+												"2",
+												"Um quarto dos animais ao alcance, do som respondem."
+											]
+										},
+										{
+											"cols" : [
+												"3",
+												"Metade dos animais respondem."
+											]
+										},
+										{
+											"cols" : [
+												"4",
+												"A maior parte dos animais respondem."
+											]
+										},
+										{
+											"cols" : [
+												"5",
+												"Todos os animais respondem."
+											]
+										}
+									]
+								}
+							]
 						},
 						{
 							"title" : "Nível 3 - Canção da Serenidade", 
-							"description" : "Este poder lhe permite extrair a selvageria de um animal ou humano, tornando o alvo passivo e moroso. Simplesmente tocando o indivíduo ao qual deseja afetar, e cantando uma canção de conforto e consolo para a Besta interior, pode-se extrair dele aquilo que lhe confere a chama da individualidade e da criatividade. Quando a Besta tiver sido removida de um indivíduo, este perde a vontade de lutar ou de se defender. Ele perde momentaneamente o atributo Vontade, não podendo resistir a qualquer tipo de ataque. Os Membros são imunes a este poder. Os mortais e as criaturas que estiverem desprovidos de uma Besta tendem a aceitar praticamente qualquer coisa que lhes ocorra como completamente normal e natural, não esboçando qualquer tipo de reação. Mais tarde eles poderão se perguntar porque não reagiram, mas na maioria das vezes evitam pensar na situação."
+							"description" : "Este poder lhe permite extrair a selvageria de um animal ou humano, tornando o alvo passivo e moroso. Simplesmente tocando o indivíduo ao qual deseja afetar, e cantando uma canção de conforto e consolo para a Besta interior, pode-se extrair dele aquilo que lhe confere a chama da individualidade e da criatividade. Quando a Besta tiver sido removida de um indivíduo, este perde a vontade de lutar ou de se defender. Ele perde momentaneamente o atributo Vontade, não podendo resistir a qualquer tipo de ataque. Os Membros são imunes a este poder. Os mortais e as criaturas que estiverem desprovidos de uma Besta tendem a aceitar praticamente qualquer coisa que lhes ocorra como completamente normal e natural, não esboçando qualquer tipo de reação. Mais tarde eles poderão se perguntar porque não reagiram, mas na maioria das vezes evitam pensar na situação.",
+							"system" : "O jogador testa Manipulação + Intimidação se quiser forçar a Besta através do medo ou Manipulação   Empatia se quiser levá-la à complacência. A dificuldade será 7 para ambos os casos. Esta é uma Ação Prolongada, que exige tantos sucessos quanto o alvo possui de Força de Vontade. Uma Falha indica que o jogador deve começar tudo de novo, enquanto uma Falha Crítica indica que o vampiro jamais poderá afetar a Besta deste alvo novamente. Quando a Besta de um mortal for intimidada ou acalmada, ele não poderá mais usar ou recuperar Força de Vontade. Ele deve cessar qualquer luta, seja mental ou física. Ele não se defenderá se for atacado, mas o Narrador pode permitir um teste de Força de Vontade se a vida do mortal for ameaçada. Para se recuperar deste poder, o mortal deve testar sua Força de Vontade (Dificuldade 6) uma vez por dia até que ele acumule sucessos suficientes para igualar a Força de Vontade do vampiro. Os Membros não podem ser afetados por este poder."
 						},
 						{
 							"title" : "Nível 4 - Compartilhar o Espírito", 
-							"description" : "Fitando os olhos de um animal, o seu espírito ou consciente move-se para dentro do animal e encarna nele. Isto lhe permite controlar as ações do animal como se você fosse o próprio. O seu corpo se torna inconsciente e permanece imóvel durante esse tempo, como se você estivesse num estado de torpor."
+							"description" : "Fitando os olhos de um animal, o seu espírito ou consciente move-se para dentro do animal e encarna nele. Isto lhe permite controlar as ações do animal como se você fosse o próprio. O seu corpo se torna inconsciente e permanece imóvel durante esse tempo, como se você estivesse num estado de torpor.",
+							"system" : "O jogador testa Manipulação + Empatia com Animais (Dificuldade 8 ) enquanto o personagem olha fixamente nos olhos do animal (somente animais que tenham olhos podem ser possuídos). O número de sucessos obtidos determina o quanto o personagem suprime o espírito do animal. Menos do que 3 sucessos significam que o personagem deve gastar pontos de Força de Vontade para realizar qualquer ação que viole diretamente os instintos do animal em questão. Com menos do que 5 sucessos, o personagem passa a se comportar como o animal, sua alma se torna manchada pelos desejos e impulsos do corpo e do espírito do animal. Múltiplos sucessos permitem que o personagem utilize algumas Disciplinas mentais enquanto estiver possuindo o corpo do animal, como determinado pela tabela a seguir.",
+							"tables" : [
+								{
+									"name" : "Usar disciplina",
+									"rows" : [
+										{
+											"cols" : [
+												"Sucesso",
+												"Resultado"
+											]
+										},
+										{
+											"cols" : [
+												"1",
+												"Não pode usar Disciplinas"
+											]
+										},
+										{
+											"cols" : [
+												"2",
+												"Pode usar Auspícios"
+											]
+										},
+										{
+											"cols" : [
+												"3",
+												"Também pode usar Presença"
+											]
+										},
+										{
+											"cols" : [
+												"4",
+												"Também pode usar Demência e Dominação"
+											]
+										},
+										{
+											"cols" : [
+												"5",
+												"Também pode usar Quimerismo, Necromancia e Taumaturgia"
+											]
+										}
+									]
+								}
+							],
+							"additionalSystem" : "Este poder cria uma ligação entre a consciência do personagem e o espírito do animal, a tal ponto que o personagem pode continuar a se sentir e pensar como o animal mesmo após romper a conexão. Este efeito continua até que o personagem gaste um total de sete pontos de Força de Vontade para resistir e finalmente sobrepujar a natureza do animal. Isso deve ser interpretado, mas a interpretação deve ser suavizada à medida que os pontos de Força de Vontade forem gastos. Caso ocorra algum incidente especialmente emocionante durante a possessão, o jogador deve testar Raciocínio   Empatia (Dificuldade 8 ) para que o personagem consiga manter sua consciência. Uma falha indica que a mente do personagem retorna imediatamente ao seu corpo, mas ainda se comporta em termos puramente animalescos. Uma falha crítica leva o personagem a um frenesi, mandando-o de volta para o seu corpo. Enquanto durar a possessão, o personagem pode se mover a qualquer distância que seja fisicamente possível para o animal. No entanto, o personagem não mantém nenhuma conexão com seu corpo vampírico durante esse tempo. O vampiro também pode se aventurar A luz do dia, ainda que seja apenas no corpo do animal. Entretanto, o corpo do personagem deve estar 'acordado' para que isso seja possível, o que exige um sucesso num teste para se manter acordado. Se o personagem deixar o corpo do animal (por escolha, porque seu corpo adormeceu, ou após sofrer um ferimento considerável), a consciência do vampiro retorna ao seu corpo físico instantaneamente. Apesar do vampiro não manter nenhuma ligação consciente com seu corpo enquanto durar a possessão, ele forma uma espécie de laço empático. Qualquer coisa que o corpo do animal experimentar, o vampiro também sente, seja dor ou prazer. Na verdade, qualquer dano sofrido pelo corpo do animal também atinge o corpo do personagem, apesar do vampiro poder absorvê-lo normalmente. Se o animal morrer antes que a alma do vampiro possa retomar a seu corpo, o personagem entrará em torpor. Imagina-se que essa seja a resposta empática ao enorme trauma da morte, apesar de alguns Membros acreditarem que a alma do vampiro se perde durante esse tempo e deve encontrar seu caminho de volta ao corpo."
 						},
 						{
 							"title" : "Nível 5 - Expulsando a Besta", 
-							"description" : "Você alcançou um entendimento profundo dos mistérios dos primos selvagens do homem. Armado com este conhecimento, estará apto a lidar melhor com a Besta interior. Quando a Besta tornar-se poderosa demais para ser controlada, você poderá transferir suas necessidades bestiais para outra criatura. Em termos práticos, você induz a um estado de frenesi outro animal, homem ou vampiro, como uma forma de evitar que o mesmo venha a ocorrer com você. O receptor desta energia vasta e selvagem precisa ser capaz de agüentá-la. Apenas seres com nível 7 ou menos de Humanidade são suficientemente selvagens para abrigar sua Besta. Esta criatura infeliz realmente recebe a sua Besta, e portanto a sua personalidade estará visível na natureza do frenesi sofrido pela vítima. O frenesi progredirá exatamente como se você fosse a criatura naquele estado."
+							"description" : "Você alcançou um entendimento profundo dos mistérios dos primos selvagens do homem. Armado com este conhecimento, estará apto a lidar melhor com a Besta interior. Quando a Besta tornar-se poderosa demais para ser controlada, você poderá transferir suas necessidades bestiais para outra criatura. Em termos práticos, você induz a um estado de frenesi outro animal, homem ou vampiro, como uma forma de evitar que o mesmo venha a ocorrer com você. O receptor desta energia vasta e selvagem precisa ser capaz de agüentá-la. Apenas seres com nível 7 ou menos de Humanidade são suficientemente selvagens para abrigar sua Besta. Esta criatura infeliz realmente recebe a sua Besta, e portanto a sua personalidade estará visível na natureza do frenesi sofrido pela vítima. O frenesi progredirá exatamente como se você fosse a criatura naquele estado.",
+							"system" : "O vampiro deve estar em frenesi ou perto dele para poder usar este poder. O jogador deve anunciar sua vítima escolhida (já que tem que ser alguém dentro do campo de visão. Expulsando a Besta não pode ser usado quando o vampiro estiver sozinho), e depois testar Manipulação +  Autocontrole (Dificuldade 8 ). Consulte a tabela a seguir para saber os resultados",
+							"tables" : [
+								{
+									"name" : "Tabela de sistema",
+									"rows" : [
+										{
+											"cols" : [
+												"Sucesso",
+												"Resultado"
+											]
+										},
+										{
+											"cols" : [
+												"1",
+												"O personagem transfere a Besta, mas a libera numa vítima aleatória."
+											]
+										},
+										{
+											"cols" : [
+												"2",
+												"O personagem fica atordoado com o esforço e não pode agir na próxima rodada, mas consegue transferir sua Besta como desejava."
+											]
+										},
+										{
+											"cols" : [
+												"3",
+												"O personagem transfere sua Besta como desejava."
+											]
+										}
+									]
+								}
+							],
+							"additionalSystem" : "Se a tentativa falhar, a intensidade do frenesi aumenta ainda mais. Quando o personagem relaxa na expectativa e liberar seus instintos selvagens, a Besta aproveita a oportunidade para cravar suas garras mais profundamente. Nesses casos, o frenesi dura duas vezes mais que o normal e é duas vezes mais difícil se livrar dele; a sua gravidade também aumenta exponencialmente. Uma falha crítica nesse teste é ainda mais catastrófica; o Frenesi agravado se torna tão extremo que nem mesmo o gasto de pontos de Força de Vontade diminui sua duração ou efeitos. O personagem se torna uma vítima indefesa da terrível fúria da Besta. Se o personagem se afastar da vítima antes que o frenesi acabe, o vampiro perderá sua Besta, talvez para sempre. Apesar de não ser mais vulnerável ao frenesi, o personagem não é capaz de recuperar pontos de Força de Vontade e se torna cada vez mais letárgico. Para recuperar a Besta, ele deve encontrar a pessoa que a carrega (que também não deve estar muito satisfeita com a situação) e recapturar a Besta. A maneira mais eficiente de fazer isso é assumir atitudes que façam com que a Besta deseje retornar ao seu corpo, apesar disso não ser uma garantia de que ela deseje voltar. Como alternativa, o personagem pode simplesmente matar o hospedeiro (o que faria a Besta retomar ao seu corpo instantaneamente), mas um ato assim custaria pelo menos um ponto de Humanidade."
 						}
 					]
 				},
@@ -538,23 +661,269 @@
 					"itens" : [
 						{
 							"title" : "Nível 1 - Sentidos Aguçados", 
-							"description" : "Você pode aguçar todos os seus sentidos a um grau extraordinário. Isto é feito à vontade, e dura o tempo que você quiser. Isto lhe possibilita duplicar seus alcances normais de audição e visão, em termos de distância e das condições pelas quais esses sentidos sejam eficazes. Os seus outros sentidos tornam-se igualmente úteis. Com um aumento da sensibilidade olfativa, pode-se rastrear mesmo se não tiverem sido deixadas pistas, e identificar praticamente qualquer objeto apenas pelo toque. No entanto há um lado negativo em ter os sentidos aguçados; ruídos altos ou luzes fortes podem perturbá-lo neste estado. Você pode até mesmo tornar-se 'cego' nesse sentido específico durante um período curto de tempo (dependendo do grau do ruído ou da luminosidade, esse período pode estender-se por dias). Portanto, se você for exposto à luz do sol enquanto estiver empregando Sentidos Aguçados, pode ficar cego por uma semana, mesmo depois do dano agravado ter sido curado. Você é ocasionalmente alertado para o perigo iminente por premonições perturbadoras. Essas premonições costumam ser confusas, mas seu valor é inestimável."
+							"description" : "Você pode aguçar todos os seus sentidos a um grau extraordinário. Isto é feito à vontade, e dura o tempo que você quiser. Isto lhe possibilita duplicar seus alcances normais de audição e visão, em termos de distância e das condições pelas quais esses sentidos sejam eficazes. Os seus outros sentidos tornam-se igualmente úteis. Com um aumento da sensibilidade olfativa, pode-se rastrear mesmo se não tiverem sido deixadas pistas, e identificar praticamente qualquer objeto apenas pelo toque. No entanto há um lado negativo em ter os sentidos aguçados; ruídos altos ou luzes fortes podem perturbá-lo neste estado. Você pode até mesmo tornar-se 'cego' nesse sentido específico durante um período curto de tempo (dependendo do grau do ruído ou da luminosidade, esse período pode estender-se por dias). Portanto, se você for exposto à luz do sol enquanto estiver empregando Sentidos Aguçados, pode ficar cego por uma semana, mesmo depois do dano agravado ter sido curado. Você é ocasionalmente alertado para o perigo iminente por premonições perturbadoras. Essas premonições costumam ser confusas, mas seu valor é inestimável.",
+							"system" : "Normalmente, este poder não requer o uso dos dados, e ao contrário disso, deve ser definido de acordo com as descrições do Narrador e a imaginação do jogador. Mas em algumas circunstâncias, a utilização deste poder exige o uso de dados: por exemplo, um teste normal de Percepção (o Narrador pode subtrair o nível de Auspícios do personagem da dificuldade) para perceber alguém usando Ofuscação, ou para perceber uma ameaça (o Narrador testa em segredo, usando o nível básico de Auspícios do personagem contra a dificuldade que ele julgar mais apropriada para a situação). Em última instância, para que um personagem pressinta que há uma pistola apontada para a sua nuca pode ser que um 5 seja suficiente, enquanto a repentina descoberta de que um rival está planejando assassiná-lo pode exigir uma dificuldade de 9. Este poder não permite que o personagem enxergue em áreas de completa escuridão, como é possível com Olhos da Besta, mas ele reduz os modificadores de dificuldade por agir na escuridão de 2 para l, e o personagem pode realizar ataques à distância em escuridão completa, desde que seja capaz de ouvir, farejar ou detectar de outra forma o seu alvo."
 						},
 						{
 							"title" : "Nível 2 - Percepção da Aura", 
-							"description" : "Você pode ver as auras dos outros seres, cujas cores indicam seus humores, identidades e níveis de hostilidade. Este poder também lhe possibilita reconhecer outros vampiros (eles possuem auras pálidas). Mesmo a pessoa mais superficial e apática costuma possuir diversas cores compondo sua aura. A aura pode variar entre cores diferentes num ciclo predizível, ou pode mudar de forma completamente aleatória. As cores mudam segundo o presente estado emocional do personagem, e como as pessoas costumam sentir emoções contraditórias com freqüência, a aura costuma assumir uma coloração mesclada."
+							"description" : "Você pode ver as auras dos outros seres, cujas cores indicam seus humores, identidades e níveis de hostilidade. Este poder também lhe possibilita reconhecer outros vampiros (eles possuem auras pálidas). Mesmo a pessoa mais superficial e apática costuma possuir diversas cores compondo sua aura. A aura pode variar entre cores diferentes num ciclo predizível, ou pode mudar de forma completamente aleatória. As cores mudam segundo o presente estado emocional do personagem, e como as pessoas costumam sentir emoções contraditórias com freqüência, a aura costuma assumir uma coloração mesclada.",
+							"system" : "O jogador testa Percepção Empátia (Dificuldade 8 ); cada sucesso indica o quanto da aura do alvo foi vista e entendida pelo personagem (veja a tabela a seguir). Uma falha crítica indica uma interpretação falsa ou errônea. O Narrador deve fazer este teste, para que o jogador fique 'no escuro', sem saber o quão bem (ou mal) foi à percepção do personagem. A tabela de cores da aura mostra alguns exemplos de cores comuns e dos estados emocionais a que se referem. O personagem pode visualizar a aura de um alvo apenas uma vez para cada grau de clareza. Qualquer tentativa posterior que resulte numa falha deve ser considerada como uma falha crítica. É muito natural que o personagem imagine ter visto aquilo que deseja quando está julgando as intenções de outra pessoa. Depois de pelo menos um mês, o personagem pode tentar novamente sem nenhuma penalidade. Apesar de ser muito difícil, é possível sentir-se a aura de um ser que é de outra forma invisível à visão normal. Veja a seção 'Vendo o Invisível', para mais detalhes.",
+							"tables" : [
+								{
+									"name" : "Reconhecimento cores",
+									"rows" : [
+										{
+											"cols" : [
+												"Sucesso",
+												"Resultado"
+											]
+										},
+										{
+											"cols" : [
+												"1",
+												"Distingue apenas a tonalidade (pálida ou brilhante)"
+											]
+										},
+										{
+											"cols" : [
+												"2",
+												"Distingue a cor principal"
+											]
+										},
+										{
+											"cols" : [
+												"3",
+												"Reconhece os padrões de cores"
+											]
+										},
+										{
+											"cols" : [
+												"4",
+												"Detecta mudanças sutis"
+											]
+										},
+										{
+											"cols" : [
+												"5",
+												"Identifica misturas de cores e padrões"
+											]
+										}
+									]
+								},
+								{
+									"name" : "Significado das cores",
+									"rows" : [
+										{
+											"cols" : [
+												"Amedontrado",
+												"Laranja"
+											]
+										},
+										{
+											"cols" : [
+												"Agressivo",
+												"Púrpura"
+											]
+										},
+										{
+											"cols" : [
+												"Zangado",
+												"Vermelho"
+											]
+										},
+										{
+											"cols" : [
+												"Armagurado",
+												"Marrom"
+											]
+										},
+										{
+											"cols" : [
+												"Calmo",
+												"Azul Claro"
+											]
+										},
+										{
+											"cols" : [
+												"Piedoso",
+												"Rosa"
+											]
+										},
+										{
+											"cols" : [
+												"Conservador",
+												"Lavanda"
+											]
+										},
+										{
+											"cols" : [
+												"Deprimido",
+												"Cinza"
+											]
+										},
+										{
+											"cols" : [
+												"Desejoso ou Lascivo",
+												"Vermelho Vivo"
+											]
+										},
+										{
+											"cols" : [
+												"Descrente",
+												"Verde Claro"
+											]
+										},
+										{
+											"cols" : [
+												"Invejoso",
+												"Verde Escuro"
+											]
+										},
+										{
+											"cols" : [
+												"Excitado",
+												"Violeta"
+											]
+										},
+										{
+											"cols" : [
+												"Generoso",
+												"Mageta"
+											]
+										},
+										{
+											"cols" : [
+												"Feliz",
+												"Escarlate"
+											]
+										},
+										{
+											"cols" : [
+												"Maligno",
+												"Negro"
+											]
+										},
+										{
+											"cols" : [
+												"Idealista",
+												"Amarelo"
+											]
+										},
+										{
+											"cols" : [
+												"Inocente",
+												"Branco"
+											]
+										},
+										{
+											"cols" : [
+												"Apaixonado",
+												"Azul"
+											]
+										},
+										{
+											"cols" : [
+												"Obececado",
+												"Verde"
+											]
+										},
+										{
+											"cols" : [
+												"Triste",
+												"Prata"
+											]
+										},
+										{
+											"cols" : [
+												"Espiritual",
+												"Dourado"
+											]
+										},
+										{
+											"cols" : [
+												"Desconfiado",
+												"Azul Escuro"
+											]
+										},
+										,
+										{
+											"cols" : [
+												"Confuso",
+												"Cores piscando e trocando"
+											]
+										},
+										{
+											"cols" : [
+												"Diablerista",
+												"Veios Negros na Aura"
+											]
+										},
+										{
+											"cols" : [
+												"Sonhador",
+												"Cores Faiscantes"
+											]
+										},
+										{
+											"cols" : [
+												"Em Frenesi",
+												"Cores em Ondulação Rápida"
+											]
+										},
+										{
+											"cols" : [
+												"Psicótico",
+												"Cores Hipnóticas e Rodopiantes"
+											]
+										},
+										{
+											"cols" : [
+												"Vampiro",
+												"Cores Pálidas"
+											]
+										},
+										{
+											"cols" : [
+												"Uso de Magia",
+												"Miríades de Faíscas"
+											]
+										},
+										{
+											"cols" : [
+												"Metamorfo",
+												"Aura brilhante, Vibrante"
+											]
+										},
+										{
+											"cols" : [
+												"Fantasma",
+												"Aura fraca, Intemitente"
+											]
+										},
+										{
+											"cols" : [
+												"Fada",
+												"Lampejos de arco-íris na aura"
+											]
+										}
+									]
+								}
+							],
 						},
 						{
 							"title" : "Nível 3 - O Toque do Espírito", 
-							"description" : "Com este poder você pode tocar um objeto e adquirir impressões de um dos últimos indivíduos que o tocaram. Esta leitura de objeto costuma limitar-se a lampejos de imagens fixas, mas ocasionalmente coisas como raça, sexo e até mesmo a aura da pessoa em questão pode ser discernida. O Toque do Espírito pode revelar também como o proprietário veio a adquirir o objeto, ou o que aconteceu durante os últimos momentos em que o indivíduo o esteve manipulando."
+							"description" : "Com este poder você pode tocar um objeto e adquirir impressões de um dos últimos indivíduos que o tocaram. Esta leitura de objeto costuma limitar-se a lampejos de imagens fixas, mas ocasionalmente coisas como raça, sexo e até mesmo a aura da pessoa em questão pode ser discernida. O Toque do Espírito pode revelar também como o proprietário veio a adquirir o objeto, ou o que aconteceu durante os últimos momentos em que o indivíduo o esteve manipulando.",
+							"system" : "O jogador testa a Percepção Empada. A dificuldade é determinada pela idade das impressões e da força espiritual e mental da pessoa ou evento que o envolveu. Sentir as impressões de uma pistola usada em um assassinato que ocorreu há horas atrás pode exigir um 5, enquanto descobrir quem é o dono de um molho de chaves encontrado há dias pode ser um 9. Quanto mais as emoções de um indivíduo estiverem conectadas ao objeto, maiores serão as impressões deixadas sobre ele; e maiores são as informações que o Membro pode obter dele. Além disso, eventos que envolvam grandes emoções (dar presentes, uma tortura, uma antiga história de família) também deixam impressões mais fortes do que contatos curtos e casuais. Assuma que cada sucesso revele uma parte de informação. Enquanto l sucesso irá dizer ao jogador que 'a última pessoa a segurar o objeto era um homem', 3 irão revelar que ele era um assustado homem mesquinho de meia-idade. Quatro sucessos revelam o nome do homem e 5 ou mais sucessos revelam a sua conexão com o relógio bem como algumas das coisas que ele fez com o objeto, enquanto em sua posse."
 						},
 						{
 							"title" : "Nível 4 - Telepatia", 
-							"description" : "Você pode sondar os pensamentos superficiais de qualquer indivíduo próximo e escutá-los como se estivesse ouvindo a pessoa falar. Dispondo de tempo, você pode aprender praticamente qualquer coisa sobre o indivíduo. Por exemplo, você pode conseguir descobrir o senhor de outro vampiro através da Telepatia."
+							"description" : "Você pode sondar os pensamentos superficiais de qualquer indivíduo próximo e escutá-los como se estivesse ouvindo a pessoa falar. Dispondo de tempo, você pode aprender praticamente qualquer coisa sobre o indivíduo. Por exemplo, você pode conseguir descobrir o senhor de outro vampiro através da Telepatia.",
+							"system" : "O jogador testa Inteligência Lábia (Dificuldade igual à Força de Vontade do alvo). Projetar imagens na mente do alvo requer um sucesso. O alvo reconhece que os pensamentos vêm de algum lugar que não sua própria consciência, apesar de não poder distinguir sua verdadeira origem. Para ler mentes, um sucesso precisa ser obtido para cada informação colhida ou camada da mente perfurada. Segredos profundos ou memórias enterradas são mais difíceis de se obter do que emoções superficiais ou comentários não ditos, exigindo cinco ou mais sucessos para obter acesso. A telepatia normalmente não funciona sobre a mente morta-viva. Um personagem pode usar um ponto de Força de Vont ade para realizar uma tentativa, fazendo a jogada normalmente depois disso. Da mesma forma, é igualmente difícil ler os pensamentos de outras criaturas sobrenaturais."
 						},
 						{
 							"title" : "Nível 5 - Projeção Psíquica", 
-							"description" : "Você está apto a expandir a sua consciência a um grau tão elevado que pode separar a sua mente do corpo. Enquanto estiver neste estado poderá viajar sem fazer uso de seu corpo, projetando-se até qualquer lugar da Terra. Porém, quando o seu eu astral atingir o ponto mais afastado da órbita da Lua, irá encontrar o que convencionou-se chamar Limite da Esfera Lunar — uma barreira intransponível. O corpo físico deixado para trás mantém-se imóvel como se estivesse em estado de torpor. A sua mente permanece com o seu eu astral, e você não tem como saber o que está acontecendo em torno de seu corpo. Na verdade, até onde você sabe, ele poderia estar em chamas. Um cordão de prata — uma linha diáfana que prende a consciência ao corpo — conecta o seu eu astral ao seu corpo real. Se este cordão for rompido durante um incidente astral, você irá perder-se, entrando completamente no plano astral, o reino dos fantasmas e das sombras. Para reencontrar seu corpo precisará primeiro passar por uma jornada dura e aterrorizante."
+							"description" : "Você está apto a expandir a sua consciência a um grau tão elevado que pode separar a sua mente do corpo. Enquanto estiver neste estado poderá viajar sem fazer uso de seu corpo, projetando-se até qualquer lugar da Terra. Porém, quando o seu eu astral atingir o ponto mais afastado da órbita da Lua, irá encontrar o que convencionou-se chamar Limite da Esfera Lunar — uma barreira intransponível. O corpo físico deixado para trás mantém-se imóvel como se estivesse em estado de torpor. A sua mente permanece com o seu eu astral, e você não tem como saber o que está acontecendo em torno de seu corpo. Na verdade, até onde você sabe, ele poderia estar em chamas. Um cordão de prata — uma linha diáfana que prende a consciência ao corpo — conecta o seu eu astral ao seu corpo real. Se este cordão for rompido durante um incidente astral, você irá perder-se, entrando completamente no plano astral, o reino dos fantasmas e das sombras. Para reencontrar seu corpo precisará primeiro passar por uma jornada dura e aterrorizante.",
+							"system" : "A jornada no plano astral exige que o jogador use um ponto de Força de Vontade e faça um teste de Percepção Ocultismo. A dificuldade varia dependendo da distância e complexidade da viagem planejada; 7 é médio, enquanto 10 indica jornadas para territórios nada familiares (uma primeira jornada da América do Norte até o Oriente Distante; cortar o caminho através da terra). Quanto maior o número de sucessos obtidos, mais concentrada será a presença astral do personagem e ele alcançará o destino desejado com mais facilidade. Uma talha significa que o personagem não conseguiu separar a consciência do seu corpo, enquanto falhas críticas podem ter conseqüências sórdidas — lançando sua forma astral para um destino aleatório na Terra ou no reino dos espíritos ou rumando na direção que e dada tão rapidamente que o cordão de prata se rompe. Mudar a direção ou continuar para outro destino requer o uso de mais um ponto de Força de Vontade e um novo teste. Uma Falha indica que o vampiro perdeu sua direção e precisa retornar pela trilha do cordão de prata. Um Falha Crítica neste ponto indica o rompimento do cordão, lançando a forma psíquica do personagem no misterioso plano astral. Uma forma astral pode viajar em grandes velocidades (o Narrador pode usar 1600 km,'h como um padrão) mas não leva roupas ou objetos materiais de nenhum tipo. Diz-se que existem alguns artefatos no mundo espiritual e o personagem pode tentar usar estas ferramentas se encontrá-las. Contudo, o personagem não pode levar tais relíquias para o mundo físico ao retornar para o seu corpo. A interação com o mundo físico é impossível enquanto se usa a Projeção Psíquica. O personagem pode, contudo, usar um ponto de Força de Vontade para manifestar uma forma fantasmagórica. Esta aparição dura por um turno antes de se desfazer; apesar de não poder afetar nada que seja físico durante este tempo, o personagem pode falar. Mesmo sem possuir substância física, um personagem astral pode usar Auspícios normalmente. De acordo com o Narrador, tais personagens podem se utilizar de quaisquer poderes de Animalismo, Demência, Dominação, Necromancía, Tenebrosidade, Presença e/ou Taumaturgia que possuírem, mas isso normalmente requer mais de três sucessos no teste inicial de Projeção Psíquica. Se duas formas astrais se encontrarem, elas interagem como se fossem sólidas. Elas podem falar, tocar e até mesmo lutar como se estivessem no mundo material. Como não possuem corpos físicos, personagens astrais procurando interagir 'fisicamente' substituem os Atributos Físicos pelos Mentais e Sociais (o Raciocínio substitui a Destreza, a Manipulação suplanta a Força e a Inteligência substitui o Vigor). Devido à ausência de uma forma física, a única verdadeira maneira de ferir uma entidade psíquica é romper o seu cordão de prata. Ao lutar desta maneira, considere que os pontos de Força de Vontade são níveis de Vitalidade; quando um combatente perde todos os seus pontos de Força de Vontade, seu cordão se rompe. Apesar de um personagem projetado astralmente permanecer no reflexo do mundo mortal (que leva o nome de Penumbra em outros jogos do Mundo das Trevas), ele pode se aventurar mais profundamente no reino dos espíritos, especialmente se ele se perder. Outros seres, como fantasmas, lobisomens e até mesmo raros magos, também viajam através do plano astral e podem interagir normalmente com a presença psíquica dos vampiros."
 						}
 					]
 				},
@@ -563,23 +932,115 @@
 					"itens" : [
 						{
 							"title" : "Nível 1 - Comandar Mentes Fracas", 
-							"description" : "Você está apto a proferir comandos de uma palavra a outro indivíduo. Esses comandos devem ser obedecidos instantaneamente. Eles precisam ser palavras simples e concisas que possuam apenas um significado — pule, sente, levante, pare, ria, chore, corra, salte, pisque, sorria, carranqueie, tussa. Se a palavra for ambígüa o indivíduo irá reagir com confusão temporária. Você pode incluir a palavra de comando numa sentença, ressaltando-a apenas levemente, desta forma escondendo dos outros o que você está fazendo."
+							"description" : "Você está apto a proferir comandos de uma palavra a outro indivíduo. Esses comandos devem ser obedecidos instantaneamente. Eles precisam ser palavras simples e concisas que possuam apenas um significado — pule, sente, levante, pare, ria, chore, corra, salte, pisque, sorria, carranqueie, tussa. Se a palavra for ambígüa o indivíduo irá reagir com confusão temporária. Você pode incluir a palavra de comando numa sentença, ressaltando-a apenas levemente, desta forma escondendo dos outros o que você está fazendo.",
+							"system" : "O jogador testa Manipulação + Intimidação (Dificuldade igual à Força de Vontade da vítima). Um maior número de sucessos faz com que a vítima aja com maior vigor ou por mais tempo (continua correndo por vários turnos, começara rir desenfreadamente, espirrar sem controle)."
 						},
 						{
 							"title" : "Nível 2 - Hipnotizar", 
-							"description" : " Você pode implantar uma sugestão no inconsciente de um indivíduo. Isto requer concentração intensa e o uso preciso e cuidadoso de instruções para que as suas ordens sejam cumpridas apropriadamente. Você pode fazer a hipnose surtir efeito imediatamente, ou pode designar os eventos que o dispararão. É preciso manter contato visual durante todo o tempo que for necessário para completar o seu comando (se quiser, represente a cena). No entanto, pode-se realizar sugestões muito complicadas. É essencial proferir cuidadosamente as palavras, à medida que o alvo irá tentar inconscientemente perverter ao máximo o espírito da sugestão. Você pode dar comandos exatos a outra pessoa, como 'suba aquela escada' e 'finja que é um cachorro', ou o controle pode durar mais tempo e ser muito mais sutil. Depois que a sugestão inicial tenha sido implantada, não é mais preciso manter contato visual. A sugestão não pode forçar o indivíduo a fazer alguma coisa contra sua Natureza inata, e só se pode implantar uma sugestão de cada vez num indivíduo."
+							"description" : " Você pode implantar uma sugestão no inconsciente de um indivíduo. Isto requer concentração intensa e o uso preciso e cuidadoso de instruções para que as suas ordens sejam cumpridas apropriadamente. Você pode fazer a hipnose surtir efeito imediatamente, ou pode designar os eventos que o dispararão. É preciso manter contato visual durante todo o tempo que for necessário para completar o seu comando (se quiser, represente a cena). No entanto, pode-se realizar sugestões muito complicadas. É essencial proferir cuidadosamente as palavras, à medida que o alvo irá tentar inconscientemente perverter ao máximo o espírito da sugestão. Você pode dar comandos exatos a outra pessoa, como 'suba aquela escada' e 'finja que é um cachorro', ou o controle pode durar mais tempo e ser muito mais sutil. Depois que a sugestão inicial tenha sido implantada, não é mais preciso manter contato visual. A sugestão não pode forçar o indivíduo a fazer alguma coisa contra sua Natureza inata, e só se pode implantar uma sugestão de cada vez num indivíduo.",
+							"system" : "O jogador testa Manipulação + Liderança (Dificuldade igual à Força de Vontade permanente do alvo). O número de sucessos determina quão bem a sugestão será fixada no subconsciente da vítima. Se o vampiro obtiver um ou dois sucessos, o alvo não pode ser forçado a fazer qualquer coisa que lhe pareça estranha (ele pode se retirar de um local, mas dificilmente agirá como uma galinha). Com três ou quatro sucessos, a sugestão será efetiva a não ser que segui-la coloque o alvo em risco. Com cinco ou mais sucessos, o vampiro pode implantar praticamente qualquer ordem. Não importa quão forte seja a vontade do Membro, sua ordem não pode fazer com que a vítima se prejudique diretamente ou despreze sua Natureza interior. Portanto, apesar de um vampiro com cinco sucessos poder obrigar um fracote de 45 kg a atacar um brutamentes de 150 kg, ele não pode fazer com que um mortal atire em sua própria cabeça. Se um vampiro tentar Hipnotizar um alvo antes que ele cumpra uma ordem previamente implantada, compare os sucessos obtidos com os sucessos da primeira indução. Qualquer que tenha sido o implante que obteve um maior número de sucessos, esta será a ordem que permanecerá alojada no subconsciente do alvo; a outra sugestão será varrida de lá. Se o número de sucessos for igual, a nova ordem suplanta a antiga"
 						},
 						{
 							"title" : "Nível 3 - Ordenar Esquecimentos", 
-							"description" : "Com este poder pode-se roubar, criar ou remover memórias de um indivíduo. Esta é uma técnica bastante útil para fazer as pessoas esquecerem que você bebeu seu sangue ou mesmo que vocês se encontraram. Pode-se fazer um monte de travessuras com esse poder: é possível roubar praticamente qualquer memória de um indivíduo. O poder nem sempre é completamente eficaz. Por exemplo, o alvo pode saber que alguém o mordeu no pescoço, mas achar que foi um amante. Ocasionalmente um memória pode retornar anos depois, confundindo e aterrorizando o indivíduo."
+							"description" : "Com este poder pode-se roubar, criar ou remover memórias de um indivíduo. Esta é uma técnica bastante útil para fazer as pessoas esquecerem que você bebeu seu sangue ou mesmo que vocês se encontraram. Pode-se fazer um monte de travessuras com esse poder: é possível roubar praticamente qualquer memória de um indivíduo. O poder nem sempre é completamente eficaz. Por exemplo, o alvo pode saber que alguém o mordeu no pescoço, mas achar que foi um amante. Ocasionalmente um memória pode retornar anos depois, confundindo e aterrorizando o indivíduo.",
+							"system" : "O jogador declara que tipo de alterações ele deseja realirar, e então, testa Raciocínio + Lábia (Dificuldade igual à pontuação de Força de Vontade do alvo). Qualquer número de sucessos paci fica a vítima pelo tempo que o vampiro levar para realizar as alterações verbais, contanto que ele não a j a de forma agressiva cont ra a vítima. A tabela a seguir indica o grau em que a memória da vítima pode ser modificada, dependendo do número de sucessos obtidos. Se os sucessos obtidos não permitirem que o jogador real ize as mudanças desejadas, o narrador diminui o impacto resultante sobre a mente da vítima.",
+							"additionalSystem" : "Para restaurar memórias removidas ou perceber memórias falsas em um alvo, o nível de Dominação do personagem precisa ser maior ou igual ao do vampiro que realizou as alterações. Nestes casos, o jogador precisa testar Raciocínio + Empada (Dificuldade igual à Força de Vontade permanente do vampiro original) e obter mais sucessos que o seu antecessor.",
+							"tables" : [
+								{
+									"name" : "Alteração de memórias",
+									"rows" : [
+										{
+											"cols" : [
+												"Sucesso",
+												"Resultado"
+											]
+										},
+										{
+											"cols" : [
+												"1",
+												"Pode remover uma única memória; dura um dia."
+											]
+										},
+										{
+											"cols" : [
+												"2",
+												"Pode remover — mas não alterar — permanente as memórias."
+											]
+										},
+										{
+											"cols" : [
+												"3",
+												"Pode mudar levemente a memória."
+											]
+										},
+										{
+											"cols" : [
+												"4",
+												"Pode alterar ou remover cenas completas da memória do alvo."
+											]
+										},
+										{
+											"cols" : [
+												"5",
+												"Pode reconstruir períodos inteiros da vida do alvo."
+											]
+										}
+									]
+								}
+							]
 						},
 						{
 							"title" : "Nível 4 - Condicionamento", 
-							"description" : "Com o tempo, um indivíduo pode ser Condicionado de modo a ficar incapaz de resistir ao Dominação, tornando- se também mais resistente à Dominação de outros. Os Membros costumam Condicionar seus servos para que se tornem lacaios leais. O procedimento funciona tendo por base o fato de que os mortais que tenham sido Dominados repetidamente sentem mais dificuldade em resistir a tentativas futuras. O Condicionamento não é alguma coisa que funcione num piscar de olhos. Demanda tempo cultivar com cuidado a mente do indivíduo para o tipo de Vontade que você irá exercer. O condicionamento pleno de um indivíduo pode levar semanas ou mesmo meses. Os lacaios condicionados possuem pouca imaginação, tendendo a obedecer ao pé da letra as ordens que lhes são dadas. O Condicionamento pleno de um indivíduo destrói um pouco de seu livre arbítrio, transformando-o num autômato."
+							"description" : "Com o tempo, um indivíduo pode ser Condicionado de modo a ficar incapaz de resistir ao Dominação, tornando- se também mais resistente à Dominação de outros. Os Membros costumam Condicionar seus servos para que se tornem lacaios leais. O procedimento funciona tendo por base o fato de que os mortais que tenham sido Dominados repetidamente sentem mais dificuldade em resistir a tentativas futuras. O Condicionamento não é alguma coisa que funcione num piscar de olhos. Demanda tempo cultivar com cuidado a mente do indivíduo para o tipo de Vontade que você irá exercer. O condicionamento pleno de um indivíduo pode levar semanas ou mesmo meses. Os lacaios condicionados possuem pouca imaginação, tendendo a obedecer ao pé da letra as ordens que lhes são dadas. O Condicionamento pleno de um indivíduo destrói um pouco de seu livre arbítrio, transformando-o num autômato.",
+							"system" : "O jogador testa Carisma + Liderança (Dificuldade igual à Força de Vontade permanente do alvo) . O Condicionamento é uma ação prolongada; o Narrador secretamente determina o número de sucessos necessários. Normalmente este número é igual a 5 a 10 vezes a pontuação de Autocontrole da vítima. Alvos com Naturezas mais enfáticas podem exigir um menor número de sucessos, enquanto aqueles com Naturezas mais voluntariosas exigem um total maior. A única maneira de discernir se uma pessoa foi condicionada com sucesso é através da representação. Um alvo pode se tornar mais dócil mesmo antes de estar totalmente condicionado. Uma vez que o vampiro acumule metade do número de sucessos, o Narrador pode usar uma dificuldade menor para os usos subsequentes da Dominação sobre o mesmo alvo. Depois de condicionado, o alvo está tão profundamente sob a influência do vampiro que o Membro não precisa manter o contato olho-a-olho ou mesmo estar presente para manter o controle absoluto. O alvo faz exatamente o que lhe é dito, contanto que seu mestre possa se comunicar verbalmente com ele. Nenhum teste de comando é necessário a não ser que o alvo esteja totalmente isolado do vampiro (em um aposento diferente, pelo telefone). Mesmo se a jogada de comando falhar, o alvo provavelmente ainda irá realizar parte das ordens que lhe foram dadas. Depois do alvo estar totalmente condicionado, ele se torna muitomais difícil de ser Dominado por outros Membros. Tais condições aumentam a dificuldade dos testes em dois (até um máximo de 10). E possível, apesar de difícil, abalar um condicionamento. O alvo precisa estar inteiramente separado do vampiro a quem ele serve. Este período de isolamento varia dependendo do indivíduo, mas o Narrador deve estipular uma base de seis meses menos um número de semanas igual à pontuação de Força de Vontade do alvo (portanto, uma pessoa com Força de Vontade 5 precisa se manter longe do vampiro por pouco menos de 5 meses). O alvo recupera sua personalidade lentamente durante este tempo, apesar de ainda sofrer leves recaídas de desânimo. Se o vampiro encontrar seu alvo antes que o tempo se passe, um simples teste de Carisma + Liderança (Dificuldade igual à pontuação de Força de Vontade do alvo) da parte do vampiro reafirma a dominação. Se o alvo completar o período de tempo sem a intervenção da parte do seu mestre, o personagem recupera sua antiga individualidade. Mesmo assim, o vampiro pode restabelecer o condicionamento com mais facilidade do que da primeira vez, sendo que o personagem está para sempre predisposto a cair sob o controle mental do Membro. Novas tentativas requerem metade do número total de sucessos do que as necessárias na última vez."
 						},
 						{
 							"title" : "Nível 5 - Possessão", 
-							"description" : "Com este poder você é capaz de exercer Vontade absoluto sobre a mente e o corpo de outra pessoa. Entrando na mente da outra pessoa, pode controlar suas ações de uma forma muito precisa. O indivíduo é um autômato, completamente incapaz de uma ação independente. Enquanto estiver controlando a mente do indivíduo o seu corpo permanece tão imóvel quanto se estivesse em estado de torpor. Você não pode Possuir outros Membros da Família. O Vontade sobre outros vampiros é possível apenas através de um Laço de Sangue."
+							"description" : "Com este poder você é capaz de exercer Vontade absoluto sobre a mente e o corpo de outra pessoa. Entrando na mente da outra pessoa, pode controlar suas ações de uma forma muito precisa. O indivíduo é um autômato, completamente incapaz de uma ação independente. Enquanto estiver controlando a mente do indivíduo o seu corpo permanece tão imóvel quanto se estivesse em estado de torpor. Você não pode Possuir outros Membros da Família. O Vontade sobre outros vampiros é possível apenas através de um Laço de Sangue.",
+							"system" : "O vampiro precisa arrancar totalmente a Força de Vontade de sua vítima antes de possuí-la. O jogador usa um ponto de Força de Vontade, e então, testa Carisma Int imidação, enquanto o alvo testa sua Força de Vontade em uma ação resistida (Dificuldade de 7 para ambos). Para cada sucesso obtido pelo vampiro além do número total de sucessos da vítima, o alvo perde um ponto temporário de Força de Vontade. Cada sucesso que o alvo obtiver sobre o total do vampiro, adiciona um dado à sua jogada no próximo turno. Frequentemente é só uma questão de tempo antes que a vítima caia sobre o controle do vampiro. Apenas se o agressor obtiver uma falha crítica, o alvo escapará de seu destino, sendo que isso o torna permanentemente imune a quaisquer tentativas futuras de Dominação feitas pelo mesmo vampiro. Uma vez que o alvo perca todos os seus pontos de Força de Vontade, sua mente está aberta para o vampiro. O vampiro testa Manipulação + Intimidação (Dificuldade 7) para determinar quão totalmente ele assume o controle da carcaça mortal. Simi lar ao poder do Animalismo, Dominar o Espírito, sucessos múltiplos permitem que o personagem se utilize de algumas Disciplinas, como mostrado no quadro abaixo.",
+							"tables" : [
+								{
+									"name" : "Uso de disciplinas",
+									"rows" : [
+										{
+											"cols" : [
+												"Sucesso",
+												"Resultado"
+											]
+										},
+										{
+											"cols" : [
+												"1",
+												"Não pode usar Disciplinas"
+											]
+										},
+										{
+											"cols" : [
+												"2",
+												"Pode usar Auspícios"
+											]
+										},
+										{
+											"cols" : [
+												"3",
+												"Também pode usar Dominação e Presença"
+											]
+										},
+										{
+											"cols" : [
+												"4",
+												"Também pode usar Quimerismo e Demência"
+											]
+										},
+										{
+											"cols" : [
+												"5",
+												"Também pode usar Necromancia e Taumaturgia"
+											]
+										}
+									]
+								}
+							]
 						}
 					]
 				},
@@ -588,23 +1049,28 @@
 					"itens" : [
 						{
 							"title" : "Nível 1 - Tolerância", 
-							"description" : "Enquanto a maioria dos cainitas ainda sofre da fatiga e da dor de seus ferimentos, você ignora estas dificuldades. mesm os ferimentos mais sérios como os de fogo e de luz solar não os pararão. O vampior não sofre nenhuma penalidade por ferimentos e até o nível Machucado. Eneuqnto a maioria dos vampiros perdem todos os empates enquanto Feridos ou permanecem Incapacitados, você sofre nestes casos apenas a penalidade de estar Machucado. Você entra em Torpor ou atinge a Morte Final normalmente."
+							"description" : "Enquanto a maioria dos cainitas ainda sofre da fatiga e da dor de seus ferimentos, você ignora estas dificuldades. mesm os ferimentos mais sérios como os de fogo e de luz solar não os pararão. O vampior não sofre nenhuma penalidade por ferimentos e até o nível Machucado. Eneuqnto a maioria dos vampiros perdem todos os empates enquanto Feridos ou permanecem Incapacitados, você sofre nestes casos apenas a penalidade de estar Machucado. Você entra em Torpor ou atinge a Morte Final normalmente.",
+							"system" : "O nível do personagem em Fortitude é adicionado ao seu Vigor com o propósito de absorver o dano normal contusão ou letal). Um personagem com esta Disciplina também pode usar seus pontos em Fortitude para absorver dano agravado (os Membros normalmente não absorvem danos de mordidas de vampiros, garras de lobisomens, efeitos mágicos, fogo, luz do sol ou traumas físicos maciços). Portanto, um vampiro com Fortitude 3 tem três dados para absorver ferimentos agravados."
 						},
 						{
 							"title" : "Nível 2 - Têmpera", 
-							"description" : "Ferimentos que atrasariam outro vampiros não significam nada para você. Pode-se ignorar dano da maioroa das fontes, não sentindo dor e tampouco sendo ferido. Seu corpo resite danos com um vigor incrível. Uma vez atingido este poder, ganha um mínimo de vitalidade extra, que age exatamente como um novo nível Saudável. este nível é perdido e curado como qualquer outro."
+							"description" : "Ferimentos que atrasariam outro vampiros não significam nada para você. Pode-se ignorar dano da maioroa das fontes, não sentindo dor e tampouco sendo ferido. Seu corpo resite danos com um vigor incrível. Uma vez atingido este poder, ganha um mínimo de vitalidade extra, que age exatamente como um novo nível Saudável. este nível é perdido e curado como qualquer outro.",
+							"system" : "O nível do personagem em Fortitude é adicionado ao seu Vigor com o propósito de absorver o dano normal contusão ou letal). Um personagem com esta Disciplina também pode usar seus pontos em Fortitude para absorver dano agravado (os Membros normalmente não absorvem danos de mordidas de vampiros, garras de lobisomens, efeitos mágicos, fogo, luz do sol ou traumas físicos maciços). Portanto, um vampiro com Fortitude 3 tem três dados para absorver ferimentos agravados."
 						},
 						{
 							"title" : "Nível 3 - Resiliência", 
-							"description" : "Mesmo as ameaças da maioria dos cainitas, o fogo e a luz solar raramente machucam. Você pode sobreviver ao que reduziria outros vampiros em cinzas, embora isso somente seja verdade por um curto período de tempo."
+							"description" : "Mesmo as ameaças da maioria dos cainitas, o fogo e a luz solar raramente machucam. Você pode sobreviver ao que reduziria outros vampiros em cinzas, embora isso somente seja verdade por um curto período de tempo.",
+							"system" : "O nível do personagem em Fortitude é adicionado ao seu Vigor com o propósito de absorver o dano normal contusão ou letal). Um personagem com esta Disciplina também pode usar seus pontos em Fortitude para absorver dano agravado (os Membros normalmente não absorvem danos de mordidas de vampiros, garras de lobisomens, efeitos mágicos, fogo, luz do sol ou traumas físicos maciços). Portanto, um vampiro com Fortitude 3 tem três dados para absorver ferimentos agravados."
 						},
 						{
 							"title" : "Nível 4 - Resistência", 
-							"description" : "Seu vigor vampírico supera de longe o qde qualquer mortal ou da maioria dos vampiros. Golpes que matariam um mortal, podem nem mesmo arranhá-lo."
+							"description" : "Seu vigor vampírico supera de longe o qde qualquer mortal ou da maioria dos vampiros. Golpes que matariam um mortal, podem nem mesmo arranhá-lo.",
+							"system" : "O nível do personagem em Fortitude é adicionado ao seu Vigor com o propósito de absorver o dano normal contusão ou letal). Um personagem com esta Disciplina também pode usar seus pontos em Fortitude para absorver dano agravado (os Membros normalmente não absorvem danos de mordidas de vampiros, garras de lobisomens, efeitos mágicos, fogo, luz do sol ou traumas físicos maciços). Portanto, um vampiro com Fortitude 3 tem três dados para absorver ferimentos agravados."
 						},
 						{
 							"title" : "Nível 5 - Escudo", 
-							"description" : "Como uma barra de aço, uma montanha ou uma constante imutável, você resiste a qualquer dano e sobrevive a qualquer ataque> Apenas forças monumentais e persistentes podem destruí-lo completamente. Entretanto, uma vez que o fogo e a destruição tenham passado, você pode erguer-se do caos que restou."
+							"description" : "Como uma barra de aço, uma montanha ou uma constante imutável, você resiste a qualquer dano e sobrevive a qualquer ataque> Apenas forças monumentais e persistentes podem destruí-lo completamente. Entretanto, uma vez que o fogo e a destruição tenham passado, você pode erguer-se do caos que restou.",
+							"system" : "O nível do personagem em Fortitude é adicionado ao seu Vigor com o propósito de absorver o dano normal contusão ou letal). Um personagem com esta Disciplina também pode usar seus pontos em Fortitude para absorver dano agravado (os Membros normalmente não absorvem danos de mordidas de vampiros, garras de lobisomens, efeitos mágicos, fogo, luz do sol ou traumas físicos maciços). Portanto, um vampiro com Fortitude 3 tem três dados para absorver ferimentos agravados."
 						}
 					]
 				},
@@ -613,23 +1079,28 @@
 					"itens" : [
 						{
 							"title" : "Nível 1 - Os olhos da besta", 
-							"description" : "No primeiro nível o vampiro pode transformar seus olhos em olhos bestiais que enxergam no escuro e tem uma coloração vermelha. Assim o vampiro pode atravessar a mais escura das florestas sem se preocupar com uma lanterna."
+							"description" : "No primeiro nível o vampiro pode transformar seus olhos em olhos bestiais que enxergam no escuro e tem uma coloração vermelha. Assim o vampiro pode atravessar a mais escura das florestas sem se preocupar com uma lanterna.",
+							"system" : "O personagem precisa declarar sua intenção de invocar os Olhos. Nenhum teste é necessário, mas a mudança requer um turno completo para ser completada. Enquanto manifesta os Olhos, o personagem sofre uma penalidade de l na dificuldade de testes Sociais que interajam com mortais, a não ser que ele cubra seus olhos (óculos escuros são uma solução simples). Um vampiro submetido à escuridão total sem este poder sofre uma penalidade de 2 na dificuldade da maioria de suas ações. De acordo com o Narrador, ataques de longa distância, ações prolongadas e tarefas precisas (as que requerem mais do que um sucesso para funcionarem) não podem de forma alguma serem realizados com sucesso."
 						},
 						{
 							"title" : "Nível 2 - Garras da besta", 
-							"description" : "Agora o vampiro pode fazer com que suas garras cresçam como as garras de uma besta feroz. Causando dano agravado de Força + 1. As garras podem sair nas mãos e pés."
+							"description" : "Agora o vampiro pode fazer com que suas garras cresçam como as garras de uma besta feroz. Causando dano agravado de Força + 1. As garras podem sair nas mãos e pés.",
+							"system" : "As garras crescem automaticamente em resposta ao desejo do personagem e podem surgir de ambas as mãos e pés. A transformação requer o uso de um ponto de sangue e demora um turno para ser completada. O personagem ataca normalmente nos combates, mas as garras infligem Força l em dano agravado. Outros seres sobrenaturais não podem absorver este dano, mas um poder como Fortitude pode ser usado. Além disso, a dificuldade de todas as jogadas de escalada são reduzidas em dois."
 						},
 						{
 							"title" : "Nível 3 - Fusão com a terra", 
-							"description" : "Agora o vampiro pode se tornar um com a terra. O vampiro só pode entrar na terra e não pode atravessar outros materiais como madeira ou asfalto. Apesar de não poder se mexer na terra, o vampiro não sofre dano de luz solar."
+							"description" : "Agora o vampiro pode se tornar um com a terra. O vampiro só pode entrar na terra e não pode atravessar outros materiais como madeira ou asfalto. Apesar de não poder se mexer na terra, o vampiro não sofre dano de luz solar.",
+							"system" : "Nenhum teste é necessário, mas o personagem precisa usar um ponto de sangue. Submergir na terra é automático e demora um turno. Durante este tempo, o personagem cai em um estado um degrau acima do torpor, sentindo o ambiente de forma distante. O jogador precisa fazer um teste de Humanidade (Dificuldade 6) para que o personagem, em resposta a algum perigo, desperte antes do tempo previsto. já que o personagem está em um estado intermediário, qualquer tentativa de localizá-lo (capturar seu cheiro, procurar por sua aura, viajar no plano astral) é feita com uma dificuldade de 2. Indivíduos astrais não podem afetar diretamente o vampiro, encontrando uma resistência esponjosa conforme suas mãos passam sobre o vampiro. De forma similar, quem cava no mundo real encontra uma terra incrivelmente compacta, virtualmente tão densa quanto a pedra. Tentativas de atacar o vampiro submergido de ambos os mundos, fazem com que ele volte ao seu estado físico, expelindo o solo com o qual estava ligado em um borrifo ofuscante (todos os testes baseados na Percepção são feitos com uma dificuldade de 2 neste turno). O próprio personagem subtrai dois de sua jogada de iniciativa no primeiro turno depois de ter se restaurado, devido à desorientação de sua memória. Uma vez expelido da terra, o vampiro pode agir normalmente."
 						},
 						{
 							"title" : "Nível 4 - A forma da besta", 
-							"description" : "Neste nível, o vampiro pode se transformar lendariamente em lobo ou morcego. Assim, o vampiro pode ganhar os sentidos aguçados dos lobos ou o vôo dos morcegos. Alguns vampiros de outras regiões podem se transformar em outros animais."
+							"description" : "Neste nível, o vampiro pode se transformar lendariamente em lobo ou morcego. Assim, o vampiro pode ganhar os sentidos aguçados dos lobos ou o vôo dos morcegos. Alguns vampiros de outras regiões podem se transformar em outros animais.",
+							"system" : "O personagem usa um ponto de sangue para assumir a forma desejada. A transformação requer três turnos para ser completada (usar pontos de sangue reduz o tempo em um turno por ponto gasto, até um mínimo de um). O vampiro permanece na forma animal até a próxima aurora, a não ser que deseje voltar ao normal antes. Roupas e pequenas posses se transformam com o vampiro. Enquanto estiver na forma animal, o vampiro pode usar quaisquer Disciplinas que possuir, exceto Necromancia, Serpentis, Taumaturgia e Vicissitude. Além disso, cada forma garante ao personagem as habilidades da criatura em questão. Na forma de lobo. os dentes e garras do vampiro infligem Força l de dano agravado, ele pode correr com o dobro da velocidade e as dificuldades de todos testes de Percepção são reduzidas em dois. Na forma de morcego, a Força do vampiro é reduzida em l, ele pode voar com uma velocidade de 30 km por hora, as dificuldades de todos os testes de Percepção baseados na audição são reduzidas em 3 e ataques feitos contra ele são feitos com 2 na dificuldade devido ao tamanho reduzido. O Narrador pode permitir que o vampiro assuma uma forma animal diferente, mas deve estabelecer as habilidades naturais que serão conferidas ao personagem."
 						},
 						{
 							"title" : "Nível 5 - Forma de névoa", 
-							"description" : "Este estranho poder dota o vampiro com o poder de se transformar em névoa. Nesta forma o vampiro pode passar por pequenas frestas e buracos, mas pode ser arrastado para longe de seu destino por um vento forte."
+							"description" : "Este estranho poder dota o vampiro com o poder de se transformar em névoa. Nesta forma o vampiro pode passar por pequenas frestas e buracos, mas pode ser arrastado para longe de seu destino por um vento forte.",
+							"system" : "Nenhum teste é necessário, mas um ponto de sangue precisa ser usado. A transformação demora três turnos para terminar, mas o vampiro pode reduzir este tempo por um turno para cada ponto de sangue adicional usado (até um mínimo de um). Ventos fortes podem esbofetear o vampiro um pouco e apenas o seu nível de Potência (se tiver ) pode ser usado para resistir a essa influência. O vampiro é imune a todos os ataques físicos mundanos enquanto estiver na forma de névoa, embora ataques sobrenaturais o atinjam normalmente. Além disso, o vampiro sofre uma menor quantidade de dano do fogo e da luz solar. O personagem não pode atacar outras pessoas enquanto estiver neste estado — isso inclui outros vampiros na forma de névoa. Contudo, ele pode usar Disciplinas que não necessitem da substância física."
 						}
 					]
 				},
@@ -638,23 +1109,71 @@
 					"itens" : [
 						{
 							"title" : "Nível 1 - Manto das sombras", 
-							"description" : "Em seu nível mais básico, o vampiro usa as sombras para poder se esconder, indo em um local sem luzes diretas o vampiro entra na escuridão e não pode ser visto por olhos comuns. Ele só será visto se fizer barulho ou se alguém fizer uma vistoria minuciosa."
+							"description" : "Em seu nível mais básico, o vampiro usa as sombras para poder se esconder, indo em um local sem luzes diretas o vampiro entra na escuridão e não pode ser visto por olhos comuns. Ele só será visto se fizer barulho ou se alguém fizer uma vistoria minuciosa.",
+							"system" : "Nenhum teste é necessário se o personagem cumprir os critérios descritos acima. Contanto que ele se mantenha quieto e imóvel, virtualmente ninguém, a não ser outro Membro com um maior nível de Auspícios, irá vê-lo."
 						},
 						{
 							"title" : "Nível 2 - Presença invisível", 
-							"description" : "Neste nível de compreensão, o vampiro pode se mover livremente sem ser visto pelos outros. As pessoa evitam olhar em sua direção. Ele se manterá ofuscado a não ser que chame atenção com uma ação brusca ou que alguém esteja procurando por ele."
+							"description" : "Neste nível de compreensão, o vampiro pode se mover livremente sem ser visto pelos outros. As pessoa evitam olhar em sua direção. Ele se manterá ofuscado a não ser que chame atenção com uma ação brusca ou que alguém esteja procurando por ele.",
+							"system" : "Nenhum teste é necessário para que personagem use este poder a não ser que ele fale, ataque ou de alguma forma atraia atenção sobre si mesmo. O Narrador deve pedir um teste de Raciocínio Furtividade em quaisquer circunstâncias que possam fazer com que o personagem revele a si mesmo. A dificuldade da jogada depende da si tuação; pisar em um assoalho que range pode ser 5, enquanto andar por uma grande poça d'água pode ser 9. Outras ações podem exigir um certo número de sucessos; falar baixo sem revelar sua posição, por exemplo, exige pelo menos três sucessos. Algumas coisas estão além do poder da Presença Invisível. Apesar de um vampiro estar invisível, ao falar através de uma janela, gritar histericamente ou jogar alguém através de um aposento, ele certamente se tornará visível. Os espectadores rompem o estado de fuga que lhes foi imposto pela Ofuscação. Ainda pior, cada espectador pode testar Raciocínio Prontidão (Dificuldade 7); se bem sucedidos, a névoa mental clareia totalmente, fazendo com que estes indivíduos se lembrem de cada movimento que o personagem realizou até aquele momento, como se ele estivesse visível durante todo o tempo."
 						},
 						{
 							"title" : "Nível 3 - Mascara das mil faces", 
-							"description" : "Agora, o vampiro pode usar a ofuscação para mudar sua fisionomia da maneira que quiser. Este poder é muito usado pelos Nosferatu que querem sair de seus refúgios sem espantarem a população."
+							"description" : "Agora, o vampiro pode usar a ofuscação para mudar sua fisionomia da maneira que quiser. Este poder é muito usado pelos Nosferatu que querem sair de seus refúgios sem espantarem a população.",
+							"system" : "O jogador testa Manipulação + Performance (Dificuldade 7) para determinar quão bem ele cria o disfarce. Se o personagem tentar personificar alguém, ele precisa dar uma boa olhada no alvo antes de criar a máscara. O Narrador pode aumentar a dificuldade se o personagem só tiver um vislumbre. O quadro abaixo lista o grau de sucesso na fabricação de outras aparências. Realmente, posar como outra pessoa tem seus próprios problemas. O personagem deve saber pelo menos algumas informações básicas sobre o indivíduo; ilusões especialmente difíceis (enganar um amante ou amigo íntimo) requerem pelo menos alguma familiaridade com o alvo se a tentativa pretende ser bem sucedida.",
+							"tables" : [
+								{
+									"name" : "Mudança de aparência",
+									"rows" : [
+										{
+											"cols" : [
+												"Sucesso",
+												"Resultado"
+											]
+										},
+										{
+											"cols" : [
+												"1",
+												"O vampiro mantém a mesma altura e constituição, com algumas pequenas alterações nas características básicas. Um Nosferam pode se assemelhar com um mortal normal, apesar de feio."
+											]
+										},
+										{
+											"cols" : [
+												"2",
+												"A ilusão não se parece com o alvo; as pessoas não o reconhecem facilmente ou concordam sobre sua aparência."
+											]
+										},
+										{
+											"cols" : [
+												"3",
+												"Ele aparenta o que quer aparentar."
+											]
+										},
+										{
+											"cols" : [
+												"4",
+												"Transformação completa, incluindo gestos, maneirismos, aparência e voz."
+											]
+										},
+										{
+											"cols" : [
+												"5",
+												"Alteração profunda (pode se parecer com um membro do sexo oposto, de idade vastamente diferente, com extremas diferenças de tamanho)."
+											]
+										}
+									]
+								}
+							]
 						},
 						{
 							"title" : "Nível 4 - Desaparecimento do olho da mente", 
-							"description" : "Este nível é tão poderoso que o vampiro pode desaparecer mesmo estando frente a frente com o alvo."
+							"description" : "Este nível é tão poderoso que o vampiro pode desaparecer mesmo estando frente a frente com o alvo.",
+							"system" : "O jogador testa Carisma + Furtividade; dificuldade igual ao Raciocínio Prontidão do alvo (use o maior total do grupo, se o vampiro desaparecer na frente de uma multidão). Com três sucessos ou menos, o personagem esmaece mas não desaparece, se tornando uma confusa figur a fantasmagórica. Com mais de três sucessos, ele desaparece completamente. Se o jogador obtiver mais sucessos do que a pontuação de Força de Vontade de um observador, a pessoa esquece que o vampiro esteve lá. Rastrear o personagem com precisão enquanto ele aparenta ser um fantasma requer um teste de Percepção Prontidão (Dificuldade 8 ). Um sucesso nesta jogada indica que o indivíduo pode interagir normalmente com o vampiro (apesar do imortal parecer com uma forma fantasmagórica profundamente perturbadora). Uma falha resulta em uma penalidade de 2 (máximo de 10) na dificuldade de atuar ou interagir com o vampiro. O Narrador pode exigir novos testes de observação se o vampiro se mover para um lugar onde ele seja mais difícil de se ver (andar sob sombras, atravessar por trás de um obstáculo, prosseguir através de uma multidão). Quando totalmente invisível, deve-se l idar com o vampiro como se estivesse sob o efeito de Presença Invisível, acima. Uma pessoa submetida ao desaparecimento testa Raciocínio Coragem (Dificuldade 9 para mortais e 5 para imortais). Um reste bem sucedido significa que o indivíduo reage imediatamente (contudo, somente depois do vampiro realizar a sua ação do turno); uma falha indica que a pessoa permanece confusa por dois turnos, enquanto sua mente tenta entender o que experimentou."
 						},
 						{
 							"title" : "Nível 5 - Cobrindo o grupo", 
-							"description" : "Neste nível, o vampiro pode não só ofuscar a si mesmo como também a quem estiver com ele. Cobrindo assim seus amigos em uma situação de perigo. Se alguém chamar a atenção, só aquela pessoa aparece, se o vampiro chamar a atenção, todos aparecem."
+							"description" : "Neste nível, o vampiro pode não só ofuscar a si mesmo como também a quem estiver com ele. Cobrindo assim seus amigos em uma situação de perigo. Se alguém chamar a atenção, só aquela pessoa aparece, se o vampiro chamar a atenção, todos aparecem.",
+							"system" : "O personagem pode ocultar uma pessoa para cada ponto de Furtividade que ele possuir. Ele pode conferir qualquer poder de Ofuscação, em um dado momento, para todo o grupo. Apesar do poder se estender para todos que estão sob o disfarce do personagem, o jogador só precisa real izar uma única jogada. Cada jogador precisa s egui r as exigências descritas sob o poder de Ofuscação relevante para se manter sob seus efeitos; qualquer um que não seja capaz de cumpri-las perde a proteção do disfarce, mas não revela os outros. Somente se o próprio vampiro cometer algum erro, o dom se desfaz para todos."
 						}
 					]
 				},
@@ -663,23 +1182,28 @@
 					"itens" : [
 						{
 							"title" : "Nível 1 - Intrepidez", 
-							"description" : "Você possui uma quantidade de força incomum para os vampiros. Onde outros falham, você redobra seus esforços. seus golpes possuem uma força que pode matar os mais resistentes dos mortais."
+							"description" : "Você possui uma quantidade de força incomum para os vampiros. Onde outros falham, você redobra seus esforços. seus golpes possuem uma força que pode matar os mais resistentes dos mortais.",
+							"system" : "+1 sucesso automático em testes relacionados a força."
 						},
 						{
 							"title" : "Nível 2 - Força", 
-							"description" : "Sua força assusta até mesmo outros vampiros. poucos arriscariam entrar em um teste de poder físico com você. Você está além de um vampiro médio em desafios envolvendo força."
+							"description" : "Sua força assusta até mesmo outros vampiros. poucos arriscariam entrar em um teste de poder físico com você. Você está além de um vampiro médio em desafios envolvendo força.",
+							"system" : "+2 sucesso automático em testes relacionados a força."
 						},
 						{
 							"title" : "Nível 3 - Vigor", 
-							"description" : "Sua força vampírica é realmente fenomenal. Você pode erguer centenas de quilogramas com facilidade, tendo força o suficiente para esmagar ossos com um único golpe e nocautear qualquer oponente inferior."
+							"description" : "Sua força vampírica é realmente fenomenal. Você pode erguer centenas de quilogramas com facilidade, tendo força o suficiente para esmagar ossos com um único golpe e nocautear qualquer oponente inferior.",
+							"system" : "+3 sucesso automático em testes relacionados a força."
 						},
 						{
 							"title" : "Nível 4 - Intensidade", 
-							"description" : "Sua força titânica nunca lhe falhou. A menos que pressionado ou ferido, você pode realizae feitos de força contínua."
+							"description" : "Sua força titânica nunca lhe falhou. A menos que pressionado ou ferido, você pode realizae feitos de força contínua.",
+							"system" : "+4 sucesso automático em testes relacionados a força."
 						},
 						{
 							"title" : "Nível 5 - Pujança", 
-							"description" : "Nenum mortal pode lhe fazer frente e mesmo vampiros tremem ao seu ataque. A força de seus membros cadavéricos é realmente monumental, esmagando tudo que se opor a você."
+							"description" : "Nenum mortal pode lhe fazer frente e mesmo vampiros tremem ao seu ataque. A força de seus membros cadavéricos é realmente monumental, esmagando tudo que se opor a você.",
+							"system" : "+5 sucesso automático em testes relacionados a força."
 						}
 					]
 				},
@@ -688,23 +1212,158 @@
 					"itens" : [
 						{
 							"title" : "Nível 1 - Fascínio", 
-							"description" : "Neste nível o vampiro faz com que as pessoas a sua volta sintam uma vontade inexplicável de ficarem próximo a ele e serem as mais prestativas possíveis. O fascínio é muito eficaz na comunicação em massa."
+							"description" : "Neste nível o vampiro faz com que as pessoas a sua volta sintam uma vontade inexplicável de ficarem próximo a ele e serem as mais prestativas possíveis. O fascínio é muito eficaz na comunicação em massa.",
+							"system" : "O jogador testa Carisma + Performance (Dificuldade 7). O número de sucessos determina o número de pessoas afetadas, segundo o quadro abaixo. Se existirem mais pessoas presentes do que o número de pessoas que o personagem pode influenciar, o Fascínio afetará primeiramente as pessoas com menores pontuações de Força de Vontade. O poder permanece em efeito pelo resto da cena ou até que o personagem deseje cancelá-lo.",
+							"tables" : [
+								{
+									"name" : "Fascinar",
+									"rows" : [
+										{
+											"cols" : [
+												"Sucesso",
+												"Resultado"
+											]
+										},
+										{
+											"cols" : [
+												"1",
+												"Uma pessoa"
+											]
+										},
+										{
+											"cols" : [
+												"2",
+												"Duas pessoas"
+											]
+										},
+										{
+											"cols" : [
+												"3",
+												"Seis pessoas"
+											]
+										},
+										{
+											"cols" : [
+												"4",
+												"Vinte pessoas"
+											]
+										},
+										{
+											"cols" : [
+												"5",
+												"Todas as pessoas próximas ao vampiro (um auditório, uma turba)."
+											]
+										}
+									]
+								}
+							],
+							"additionalSystem" : "As pessoas afetadas podem usar pontos de Força de Vontade para superar os efeitos, mas a maioria tem que continuar gastando Força de Vontade durante todos os turnos até deixar a presença do vampiro. Tão logo um indivíduo use pontos de Força de Vontade igual ao número de sucessos obtidos, ele espanta o Fascínio completamente e permanece sem ser afetado pelo restante da cena."
 						},
 						{
 							"title" : "Nível 2 - Olhar aterrorizante", 
-							"description" : "Com este poder, o vampiro eleva a imagem aterrorizante do vampiro a um nível absurdo, até mesmo os mais robustos e corajosos fogem apavorados do olhar de um vampiro usando o Olhar Aterrorizante."
+							"description" : "Com este poder, o vampiro eleva a imagem aterrorizante do vampiro a um nível absurdo, até mesmo os mais robustos e corajosos fogem apavorados do olhar de um vampiro usando o Olhar Aterrorizante.",
+							"system" : "O jogador testa Carisma + Intimidação (Dificuldade igual ao Raciocínio + Coragem da vítima). Um sucesso indica que a vítima foi acovardada, enquanto que uma falha significa que o alvo está surpreso pelo olhar, mas não apavorado. Três ou mais sucesso. -. Indicam que a vítima foge com um medo miserável; e as vítimas que não têm para onde fugir, escalam as paredes, esperando cavar um caminho ao invés de enfrentar o vampiro. Além disso, cada sucesso subtrai um dado da parada de dados da vítima no próximo turno. O personagem pode tentar usar o Olhar Aterrorizante uma vez a cada turno, embora também possa usá-lo como uma ação prolongada, adicionando seus sucessos a fim de subjugar totalmente sua vítima. Uma vez que o alvo perca todos os dados de sua parada de dados, ele estará tão abalado e apavorado que se enrolará no chão e começará a soluçar. Uma falha durante a ação prolongada indica que a tentativa falhou. O personagem perde todos os sucessos acumulados e pode começar novamente no próximo turno e a vítima pode agir normalmente. Uma falha crítica em qualquer momento significa que o alvo não está nem um pouco impressionado — e talvez ache as excentricidades do vampiro engraçadas — e fica, pelo resto da história, imune à futuras tentativas do uso da Presença feitas pelo personagem."
 						},
 						{
 							"title" : "Nível 3 - Transe", 
-							"description" : "Influenciando a emoção dos outros, o vampiro pode torna-las seus servos. Já que este poder é feito por livre vontade e amor e não por dominação cerebral, os alvos mantêm suas criatividades e habilidades."
+							"description" : "Influenciando a emoção dos outros, o vampiro pode torna-las seus servos. Já que este poder é feito por livre vontade e amor e não por dominação cerebral, os alvos mantêm suas criatividades e habilidades.",
+							"system" : "O jogador testa Aparência + Empatia (Dificuldade igual à pontuação permanente de Força de Vontade do alvo); o número de sucessos determina por quanto tempo o alvo fica em transe (veja no quadro abaixo). O Narrador pode querer fazer esta jogada, já que o personagem nunca está certo de quão forte é o seu controle sobre a vítima. O personagem pode tentar fazer com que o alvo fique sob sua influência, mas só pode fazê-lo depois que o Transe original for rompido. A tentativa de usar este poder sobre um alvo que já está sob o efeito do Transe não surge efeito.",
+							"tables" : [
+								{
+									"name" : "Colocar em transe",
+									"rows" : [
+										{
+											"cols" : [
+												"Sucesso",
+												"Resultado"
+											]
+										},
+										{
+											"cols" : [
+												"1",
+												"Uma hora"
+											]
+										},
+										{
+											"cols" : [
+												"2",
+												"Um dia"
+											]
+										},
+										{
+											"cols" : [
+												"3",
+												"Uma semana"
+											]
+										},
+										{
+											"cols" : [
+												"4",
+												"Um mês"
+											]
+										},
+										{
+											"cols" : [
+												"5",
+												"Um ano"
+											]
+										}
+									]
+								}
+							]
 						},
 						{
 							"title" : "Nível 4 - Convocaçao", 
-							"description" : "Este poder incrível faz com que o vampiro convoque qualquer um que ele já tenha conhecido antes. Ele pode chamar qualquer pessoa de qualquer distância dentro do mundo físico e a pessoa sem ao menos saber porque virá ao vampiro o mais rápido possível."
+							"description" : "Este poder incrível faz com que o vampiro convoque qualquer um que ele já tenha conhecido antes. Ele pode chamar qualquer pessoa de qualquer distância dentro do mundo físico e a pessoa sem ao menos saber porque virá ao vampiro o mais rápido possível.",
+							"system" : "O jogador testa Carisma + Lábia. A dificuldade padrão é 5; que pode aumentar para 7 se o alvo for virtualmente um desconhecido. Se o alvo chegou a usar sua Presença sobre a vítima com sucesso no passado, a dificuldade chega a 4 — contudo, se a Presença falhou anteriormente, a dificuldade será de 8. O numero de sucessos indica a velocidade da resposta",
+							"tables" : [
+								{
+									"name" : "Convocar",
+									"rows" : [
+										{
+											"cols" : [
+												"Sucesso",
+												"Resultado"
+											]
+										},
+										{
+											"cols" : [
+												"1",
+												"O alvo se dirige lenta e hesitantemente."
+											]
+										},
+										{
+											"cols" : [
+												"2",
+												"O alvo se dirige relutantemente e é facilmente obstruído por obstáculos."
+											]
+										},
+										{
+											"cols" : [
+												"3",
+												"O alvo se dirige com uma velocidade razoável."
+											]
+										},
+										{
+											"cols" : [
+												"4",
+												"O alvo se dirige com pressa, superando todos os obstáculos colocados em seu caminho."
+											]
+										},
+										{
+											"cols" : [
+												"5",
+												"O alvo corre para o vampiro, fazendo de tudo para alcançar seu destino"
+											]
+										}
+									]
+								}
+							]
 						},
 						{
 							"title" : "Nível 5 - Majestade", 
-							"description" : "Neste nível de maestria, o vampiro se torna mil vezes mais atraente ou apavorante. Até mesmo os mais corajosos não conseguem resistir ao poder do vampiro. Sob esse poder todos a sua volta o seguem corajoso, forte, audaz e esperto, sem exceção."
+							"description" : "Neste nível de maestria, o vampiro se torna mil vezes mais atraente ou apavorante. Até mesmo os mais corajosos não conseguem resistir ao poder do vampiro. Sob esse poder todos a sua volta o seguem corajoso, forte, audaz e esperto, sem exceção.",
+							"system" : "Nenhum teste é necessário da parte do vampiro, mas ele precisa usar um ponto de Força de Vontade. Um alvo tem que testar sua Coragem (Dificuldade igual a Carisma + Intimidação do personagem) se desejar ser rude ou simplesmente contrariar o vampiro. Um sucesso permite que o vampiro aja normalmente durante aquele momento, apesar de sentir o peso do desgosto do vampiro esmagando-o. Um alvo que falhe no teste aborta sua ação e pode chegar ao absurdo de se humilhar perante o vampiro, não importa quem esteja olhando. Os efeitos da Majestade duram por uma cena."
 						}
 					]
 				},
@@ -713,23 +1372,72 @@
 					"itens" : [
 						{
 							"title" : "Nível 1 - Silêncio mortal", 
-							"description" : "O Assamita pode fazer com que tudo a sua volta fique sem som nenhum, uma espécie de poder emudecedor emana do corpo do Assamita fazendo com que ninguém possa ouvir os gritos de morte da vitima."
+							"description" : "O Assamita pode fazer com que tudo a sua volta fique sem som nenhum, uma espécie de poder emudecedor emana do corpo do Assamita fazendo com que ninguém possa ouvir os gritos de morte da vitima.",
+							"system" : "Este poder custa um ponto de sangue para se ativar, o que mantém um raio de seis metros de silêncio completo ao redor do Assamita durante uma hora."
 						},
 						{
 							"title" : "Nível 2 - Toque do escorpião", 
-							"description" : "Ao mudar as propriedades de seu sangue, o vampiro transforma seu sangue em um veneno poderoso que destrói o vigor do alvo."
+							"description" : "Ao mudar as propriedades de seu sangue, o vampiro transforma seu sangue em um veneno poderoso que destrói o vigor do alvo.",
+							"system" : "Para converter um pouco do seu sangue em veneno, o jogador do Assamita usa pelo menos um ponto de sangue e testa sua Força de Vontade (Dificuldade 6). Se a jogada for bem sucedida e o Assamita atingir (não necessariamente ferir) seu oponente com sucesso, o alvo perde um número de pontos de Vigor igual ao número de pontos de sangue convertidos em veneno. A vítima pode resistir ao veneno com um teste de Vigor + Fortitude (Dificuldade 6) os sucessos alcançados no teste de resistência são subtraídos dos sucessos obtidos pelo Assamita na jogada para afetar o alvo. O número máximo de pontos de sangue que um Assamita pode converter de uma única vez é igual ao seu nível de Vigor. O numero de sucessos obtidos indica a duração da perda de Vigor",
+							"tables" : [
+								{
+									"name" : "Abalar vigor",
+									"rows" : [
+										{
+											"cols" : [
+												"Sucesso",
+												"Resultado"
+											]
+										},
+										{
+											"cols" : [
+												"1",
+												"Um turno"
+											]
+										},
+										{
+											"cols" : [
+												"2",
+												"Uma hora"
+											]
+										},
+										{
+											"cols" : [
+												"3",
+												"Uma dia"
+											]
+										},
+										{
+											"cols" : [
+												"4",
+												"Um mês"
+											]
+										},
+										{
+											"cols" : [
+												"5",
+												"Permanentemente (embora o Vigor possa ser aumentado através do uso da experiência)"
+											]
+										}
+									]
+								}
+							],
+							"additionalSystem" : "Se o Vigor de um mortal cair até zero devido ao uso do Toque do Escorpião, ele se torna terminantemente doente e perde sua imunidade contra doenças, seu corpo sucumbindo dentro de um ano a não ser que de alguma forma ele recupere seus pontos de Vigor. Se um Membro tem seu Vigor permanentemente reduzido a zero, ele só pode se recuperar do torpor através de meios místicos. Para afligir seu alvo com o veneno, o Assamita precisa tocar a pele da vítima ou atingi-la com algo que carregue o veneno. Muitos Assamitas lubrificam suas armas com a excreção, enquanto outros concentram a toxina em suas mãos (ou mancham seus lábios com o veneno, para um 'beijo da morte') e o pressionam contra seus oponentes. Armas envenenadas desta forma precisam ser brancas — flechas, fundas, balas e semelhantes não podem carregar uma quantidade suficiente para causar dano e o veneno pode pingar durante o vôo. Jogadores que desejam que seus Assamitas cuspam sobre seus alvos precisam testar Vigor + Esportes (Dificuldade 6). Não mais do que o equivalente a dois pontos de sangue em veneno podem ser lançados a uma distância de 3 metros para cada ponto de Força e/ ou Potência que o personagem possuir. Os Assamitas são imunes ao seu próprio veneno, mas não ao sangue venenoso de outros Assamitas."
 						},
 						{
 							"title" : "Nível 3 - O chamado de dagon", 
-							"description" : "Com um simples toque o vampiro pode afogar a sua vítima com seu próprio sangue explodindo seus vasos sanguíneos."
+							"description" : "Com um simples toque o vampiro pode afogar a sua vítima com seu próprio sangue explodindo seus vasos sanguíneos.",
+							"system" : "O Assamita precisa tocar em sua vítima antes de usar O Chamado de Dagon. Uma hora depois, o Assamita pode emitir o chamado, não precisando estar na presença ou mesmo na linha de visão de seu alvo. Invocar o poder custa um ponto de Força de Vontade. O jogador do Assamita realiza um teste resistido de Vigor contra o Vigor de seu alvo; a dificuldade de cada jogada é igual ao nível permanente de Força de Vontade do oponente. O número de sucessos alcançados pelo Assamita é igual à quantidade de dano, em níveis de Vitalidade, sofridos pela vítima. Por um ponto adicional de Força de Vontade usado durante o próximo turno, o Assamita pode continuar usando O Chamado de Dagon, entrando em uma outra competição de Vigor. O dano causado pelo Chamado de Dagon é considerado letal. Por tanto tempo quanto o jogador continuar a usar pontos de Força de Vontade, o personagem pode continuar a rasgar seu oponente por dentro."
 						},
 						{
 							"title" : "Nível 4 - A carícia de baal", 
-							"description" : "O vampiro transforma seu sangue em um liquido virulento que ao ser passado na arma do Assamita faz com que ela cause dano agravado."
+							"description" : "O vampiro transforma seu sangue em um liquido virulento que ao ser passado na arma do Assamita faz com que ela cause dano agravado.",
+							"system" : "A Carícia de Baal não aumenta a quantidade de dano causado por uma arma, mas esta arma passa a causar dano agravado ao invés de normal. Nenhuma jogada é necessária para ativar este poder, mas um ponto de sangue é consumido a cada golpe. Por exemplo, se um Assamita envenenar sua faca e golpear seu oponente (mesmo se ele não causar nenhum dano), o equivalente a um ponto de sangue em lubrificação desaparece. Por esta razão, muitos Assamitas escolhem cobrir suas armas com uma quantidade significativa de sangue. Se o Assamita errar, o sangue envenenado não é consumido."
 						},
 						{
 							"title" : "Nível 5 - Gosto da morte", 
-							"description" : "O gosto da morte faz com que o vampiro seja capaz de cuspir sangue caustico em sua vítima. Este sangue coroe os ossos e carne da vítima."
+							"description" : "O gosto da morte faz com que o vampiro seja capaz de cuspir sangue caustico em sua vítima. Este sangue coroe os ossos e carne da vítima.",
+							"system" : "O vampiro pode cuspir até 3 metros para cada ponto de Força e/ou Potência que possuir. Atingir o alvo requer um teste de Vigor + Atletismo (Dificuldade 6). Cada ponto de sangue vomitado sobre o alvo inflige dois dados de dano agravado e não existem limites (outros que não a capacidade do vampiro e o máximo de pontos de sangue por turno) quanto à quantidade de sangue que pode ser jorrado sobre o alvo."
 						}
 					]
 				},

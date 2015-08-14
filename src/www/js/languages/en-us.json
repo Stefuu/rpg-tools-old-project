@@ -565,11 +565,13 @@
 						},
 						{
 							"title" : "Level 3 - Quell The Beast", 
-							"description" : "As the supreme predators of the natural world, Kindred are highly attuned to the bestial nature that dwells within every mortal heart. A vampire who develops this power may assert his will over a mortal (animal or human) subject, subduing the Beast within her. This quenches all powerful, strong emotions -- hope, fury, love, fear -- within the target. The Kindred must either touch his subject or stare into her eyes to channel his will effectively. Mortals who lack the fire of their inner Beasts are quite tractable, reacting to even stressful situations with indifference. Even the most courageous or maddened mortal becomes apathetic and listless, while an especially sensitive individual may suffer from a phobic derangement while under the power's influence. Different Clans evoke this power in different ways, though the effect itself is identical. Tzimisce call it Cowing the Beast, since they force the mortal's weaker spirit to shrivel in fear before the Kindred's own inner Beast. Nosferatu refer to it as Song of Serenity, since they soothe the subject's Beast into a state of utter complacency, thus allowing them to feed freely. Gangrel know the power as Quell the Beast, and force the mortal spirit into a state of fear or apathy as befits the individual vampire's nature."
+							"description" : "As the supreme predators of the natural world, Kindred are highly attuned to the bestial nature that dwells within every mortal heart. A vampire who develops this power may assert his will over a mortal (animal or human) subject, subduing the Beast within her. This quenches all powerful, strong emotions -- hope, fury, love, fear -- within the target. The Kindred must either touch his subject or stare into her eyes to channel his will effectively. Mortals who lack the fire of their inner Beasts are quite tractable, reacting to even stressful situations with indifference. Even the most courageous or maddened mortal becomes apathetic and listless, while an especially sensitive individual may suffer from a phobic derangement while under the power's influence. Different Clans evoke this power in different ways, though the effect itself is identical. Tzimisce call it Cowing the Beast, since they force the mortal's weaker spirit to shrivel in fear before the Kindred's own inner Beast. Nosferatu refer to it as Song of Serenity, since they soothe the subject's Beast into a state of utter complacency, thus allowing them to feed freely. Gangrel know the power as Quell the Beast, and force the mortal spirit into a state of fear or apathy as befits the individual vampire's nature.",
+							"system" : "The player rolls Manipulation + Intimidation if forcing out the Beast through fear, Manipulation + Empathy if soothing it into complacency. The roll is made versus difficulty 7 in either case. This is an extended action requiring as many total successes as the target has Willpower. Failure indicates that the player must start over from the beginning, while a botch indicates that the vampire may never again affect that subject's Beast. When a mortal's Beast is cowed or soothed, she can no longer use or regain Willpower. She ceases all struggles, whether mental or physical. She doesn't even defend herself if assaulted, though the Storyteller may allow a Willpower roll if the mortal's life is threatened. To recover from this power, the mortal rolls Willpower (difficulty 6) once per day until she accumulates enough successes to equal the vampire's Willpower. Kindred themselves cannot be affected by this power."
 						},
 						{
 							"title" : "Level 4 - Subsume The Spirit", 
 							"description" : "By locking his gaze with that of an animal, the vampire may mentally possess the creature. Some elders believe that since animals don't have souls but spirits, the vampire can move his own soul into the animal's body. Many younger vampires think it a matter of transferring one's consciousness into the animal's mind. In either case, it's agreed that the beast's weaker spirit (or mind) is pushed aside by the Kindred's own consciousness. The vampire's body falls into a motionless state akin to torpor while his mind takes control of the animal's actions, remaining this way until the Kindred's consciousness returns. Some haughty Tzimisce eschew this power, considering it debasing to enter the body of a lesser creature. When they do stoop to using it, they possess only predators. Conversely, Gangrel revel in connecting to the natural world in this way. They delight in sampling different animals' natures.",
+							"system" : "The player rolls Manipulation + Animal Ken (difficulty 8) as the character looks into the animal's eyes (only beasts with eyes can be possessed). The number of successes obtained determines how thoroughly the character overrides the animal's spirit. Fewer than three successes means the character must use Willpower points to take any action that directly violates the instincts of the animal in question. With fewer than five successes, the possessing character behaves much like the animal - his soul is clouded with needs and impulses from the animal's spirit and body. Multiple successes allow the character to utilize some mental Disciplines while possessing the animal, as noted on the chart below.",
 							"tables" : [
 								{
 									"name" : "System Table",
@@ -610,13 +612,15 @@
 												"Can also use Chimerstry, Necromancy, Thaumaturgy, and other mystical powers"
 											]
 										}
-									]
+									],
+									"additionalSystem" : "This power entwines the character's consciousness closely with the animal's spirit, so much so that the character may continue to think and feel like that animal even after breaking the connection. This effect continues until the character spends a total of seven Willpower points to resist and finally overcome the animal nature. This should be roleplayed, although to a lessening degree as Willpower is spent. At the end of any particularly exciting incident during possession, the player rolls Wits + Empathy (difficulty 8) for the character to retain his own mind. Failure indicates that the character's mind returns to his own body, but still thinks in purely animalistic terms. A botch sends the character into frenzy upon returning to his own body. The character may travel as far from his body as he is physically able while possessing the animal. The character retains no conscious connection with his vampire body during this time, though. The vampire may also venture out during the day, albeit in the animal's body. However, the character's own body must be awake to do so, requiring a successful roll to remain awake (see Chapter Six). If the character leaves the animal's body (by choice, if his body falls asleep, after sustaining significant injury), the vampire's consciousness returns to his physical form instantaneously. Although the vampire has no conscious link to his body while possessing the animal, he does form a sympathetic bond. Anything the animal feels, the vampire also experiences, from pleasure to pain. In fact, any damage the animal's body sustains is also applied to the character's body, although the Kindred may soak as normal. If the animal dies before the vampire's soul can flee from the body, the character's body falls into torpor. Presumably this is in sympathetic response to the massive trauma of death, although some Kindred believe that the vampire's soul is cast adrift during this time and must find its way back to the body."
 								}
 							]
 						},
 						{
 							"title" : "Level 5 - Drawing Out The Beast", 
 							"description" : "At this level of Animalism, the Kindred has a keen understanding of the Beast Within, and is able to release his feral urges upon another mortal or vampire. The recipient of the vampire's Beast is instantly overcome by frenzy. This is an unnatural frenzy, however, as the victim is channeling the Kindred's own fury. As such, the vampire's own behavior, expressions, and even speech patterns are evident in the subject's savage actions. Gangrel and Tzimisce are especially fond of unleashing their Beasts onto others. Gangrel do so to stir their ghouls into inspired heights of savagery during combat. Tzimisce care less about who receives their Beast than retaining their own composure.",
+							"system" : "The vampire must be in frenzy or close to it to use this power. The player must announce his preferred target (since it must be someone within sight, Drawing Out the Beast cannot he used if the vampire is alone), then roll Manipulation + Self-Control (difficulty 8). Refer to the table below for the results",
 							"tables" : [
 								{
 									"name" : "System Table",
@@ -647,7 +651,8 @@
 										}
 									]
 								}
-							]
+							],
+							"additionalSystem" : "If the attempt fails, the intensity of the frenzy actually increases. As the character relaxes in expectation of relieving his savage urges, the Beast takes that opportunity to dig deeper. In this case, the frenzy lasts twice as long as normal and is twice as difficult to shrug off; its severity also increases exponentially. Botching this roll is even more catastrophic; the heightened frenzy grows so extreme that not even expending Willpower curbs its duration or effects. The character is a hapless victim to the terrible fury of his Beast. If the character leaves the target's presence before the frenzy expends itself, the vampire loses his Beast, perhaps permanently. While no longer vulnerable to frenzy, the character cannot use or regain Willpower and becomes increasingly lethargic. To recover the Beast, he must find the person who now possesses it (who likely isn't enjoying herself very much) and retrap the Beast. The most effective way to do so is to behave in ways that make the Beast want to return - however, this isn't a guarantee that it will wish to do so. Alternatively, the character can simply kill the host (thus causing the Beast to return to the vampire immediately), but such an act costs at least one point of Humanity."
 						}
 					]
 				},
@@ -656,23 +661,268 @@
 					"itens" : [
 						{
 							"title" : "Level 1 - Heightened Senses", 
-							"description" : "This power increases the acuity of all of the vampire's senses, effectively doubling the clarity and range of sight, hearing, and smell. While her senses of taste and touch extend no farther than normal, they likewise become far more distinct; the vampire could taste the hint of liquor in a victim's blood or feel the give of the board concealing a hollow space in the floor. The Kindred may magnify her senses at will, sustaining this heightened focus for as long as she desires. At the Storyteller's option, this may make hunting easier. Occasionally, this talent provides extrasensory or even precognitive insights. These brief, unfocused glimpses may be odd premonitions, flashes of empathy, or eerie feelings of foreboding. The vampire has no control over these perceptions, but with practice can learn to interpret them with a fair degree of accuracy. Expanded senses come at a price, however. Bright lights, loud noises and strong smells present a hazard while the vampire uses this power. In addition to the possibility for distraction, an especially sudden or potent stimulus (like the glare of a spotlight or a clap of thunder) can blind or deafen the Kindred for an hour or more."
+							"description" : "This power increases the acuity of all of the vampire's senses, effectively doubling the clarity and range of sight, hearing, and smell. While her senses of taste and touch extend no farther than normal, they likewise become far more distinct; the vampire could taste the hint of liquor in a victim's blood or feel the give of the board concealing a hollow space in the floor. The Kindred may magnify her senses at will, sustaining this heightened focus for as long as she desires. At the Storyteller's option, this may make hunting easier. Occasionally, this talent provides extrasensory or even precognitive insights. These brief, unfocused glimpses may be odd premonitions, flashes of empathy, or eerie feelings of foreboding. The vampire has no control over these perceptions, but with practice can learn to interpret them with a fair degree of accuracy. Expanded senses come at a price, however. Bright lights, loud noises and strong smells present a hazard while the vampire uses this power. In addition to the possibility for distraction, an especially sudden or potent stimulus (like the glare of a spotlight or a clap of thunder) can blind or deafen the Kindred for an hour or more.",
+							"system" : "This power doesn't normally require the use of dice, instead being defined through the Storyteller's descriptions and the player's imagination. In certain circumstances, use of this power requires a die roll: for a normal Perception roll (the Storyteller may reduce the difficulty by the character's Auspex rating), to notice a subject using Obfuscate, or to perceive a threat (the Storyteller privately rolls the character's unmodified Auspex rating, applying whatever difficulty he feels best suits the circumstances). For example, in the last instance, sensing that a pistol is pointed at the back of the character's head may require a 5, while the sudden realization that a rival for primogen is planning her assassination may require a 9. This power does not let characters see in pitch darkness, as does Eyes of the Beast but it does reduce difficulty penalties to act in pitch darkness from +2 to +1, and the character may make ranged attacks in pitch darkness if she can hear, smell or otherwise detect her foe."
 						},
 						{
 							"title" : "Level 2 - Aura Perception", 
-							"description" : "Using this power, the vampire can perceive the psychic 'auras' that radiate from mortals and supernatural beings alike. These halos comprise a shifting series of colors that take practice to discern with clarity. Even the simplest individual has many shifting hues within his aura; strong emotions predominate, while momentary impressions or deep secrets flash through in streaks and swirls. The colors change in sympathy with the subject's emotional state, blending into new tones in a constantly dancing pattern. The stronger the emotions involved, the more intense the hues become. A skilled vampire can learn much from her subject by reading the nuances of color and brilliance in the aura's flow. Aside from perceiving emotional states, vampires use Aura Perception to detect supernatural beings. The colors in Kindred auras, while intense, are quite pale; mage halos often flare and crackle with arcane power; the race of shapeshifters has strikingly bright, almost frantic, auras; ghosts have weak auras that flicker fitfully like a dying flame; and faerie creatures' radiance is shot through with capricious rainbow hues."
+							"description" : "Using this power, the vampire can perceive the psychic 'auras' that radiate from mortals and supernatural beings alike. These halos comprise a shifting series of colors that take practice to discern with clarity. Even the simplest individual has many shifting hues within his aura; strong emotions predominate, while momentary impressions or deep secrets flash through in streaks and swirls. The colors change in sympathy with the subject's emotional state, blending into new tones in a constantly dancing pattern. The stronger the emotions involved, the more intense the hues become. A skilled vampire can learn much from her subject by reading the nuances of color and brilliance in the aura's flow. Aside from perceiving emotional states, vampires use Aura Perception to detect supernatural beings. The colors in Kindred auras, while intense, are quite pale; mage halos often flare and crackle with arcane power; the race of shapeshifters has strikingly bright, almost frantic, auras; ghosts have weak auras that flicker fitfully like a dying flame; and faerie creatures' radiance is shot through with capricious rainbow hues.",
+							"system" : "The player rolls Perception + Empathy (difficulty 8); each success indicates how much of the subject's aura the character sees and understands (see the table below). A botch indicates a false or erroneous interpretation. The Storyteller may wish to make this roll, thus keeping the player in the dark as to just how good (or bad) the character's interpretation is. The Aura Colors chart offers examples of some common colors and the emotions they reflect. The character may view a particular subject's aura only once with any degree of clarity. Any subsequent attempts that result in failure should be considered botches. It is very easy for the character to imagine seeing what she wants to see when judging someone's intentions. After a full month, the character may try again at no penalty. It is possible, though difficult, to sense the aura of a being who is otherwise invisible to normal sight. Refer to 'Seeing the Unseen.'",
+							"tables" : [
+								{
+									"name" : "Aura recognition",
+									"rows" : [
+										{
+											"cols" : [
+												"Successes",
+												"Results"
+											]
+										},
+										{
+											"cols" : [
+												"1",
+												"Can distinguish only the shade (pale or bright)."
+											]
+										},
+										{
+											"cols" : [
+												"2",
+												"Can distinguish the main color."
+											]
+										},
+										{
+											"cols" : [
+												"3",
+												"Can recognize the color patterns."
+											]
+										},
+										{
+											"cols" : [
+												"4",
+												"Can detect subtle shifts."
+											]
+										},
+										{
+											"cols" : [
+												"5",
+												"Can identify mixtures of color and pattern."
+											]
+										}
+									]
+								},
+								{
+									"name" : "Aura colors",
+									"rows" : [
+										{
+											"cols" : [
+												"Afraid",
+												"Orange"
+											]
+										},
+										{
+											"cols" : [
+												"Aggressive",
+												"Purple"
+											]
+										},
+										{
+											"cols" : [
+												"Angry",
+												"Red"
+											]
+										},
+										{
+											"cols" : [
+												"Bitter",
+												"Brown"
+											]
+										},
+										{
+											"cols" : [
+												"Calm",
+												"Light Blue"
+											]
+										},
+										{
+											"cols" : [
+												"Compassionate",
+												"Pink"
+											]
+										},
+										{
+											"cols" : [
+												"Conservative",
+												"Lavender"
+											]
+										},
+										{
+											"cols" : [
+												"Depressed",
+												"Grey"
+											]
+										},
+										{
+											"cols" : [
+												"Desirous or Lustful",
+												"Deep Red"
+											]
+										},
+										{
+											"cols" : [
+												"Distrustful",
+												"Light Green"
+											]
+										},
+										{
+											"cols" : [
+												"Envious",
+												"Dark Green"
+											]
+										},
+										{
+											"cols" : [
+												"Excited",
+												"Violet"
+											]
+										},
+										{
+											"cols" : [
+												"Generous",
+												"Rose"
+											]
+										},
+										{
+											"cols" : [
+												"Happy",
+												"Vermilion"
+											]
+										},
+										{
+											"cols" : [
+												"Hateful",
+												"Black"
+											]
+										},
+										{
+											"cols" : [
+												"Idealistic",
+												"Yellow"
+											]
+										},
+										{
+											"cols" : [
+												"Innocent",
+												"White"
+											]
+										},
+										{
+											"cols" : [
+												"Lovestruck",
+												"Blue"
+											]
+										},
+										{
+											"cols" : [
+												"Obsessed",
+												"Green"
+											]
+										},
+										{
+											"cols" : [
+												"Sad",
+												"Silver"
+											]
+										},
+										{
+											"cols" : [
+												"Spiritual",
+												"Gold"
+											]
+										},
+										{
+											"cols" : [
+												"Suspicious",
+												"Dark Blue"
+											]
+										},
+										{
+											"cols" : [
+												"Confused",
+												"Mottled, shifting colors"
+											]
+										},
+										{
+											"cols" : [
+												"Diablerist",
+												"Black veins in aura"
+											]
+										},
+										{
+											"cols" : [
+												"Daydreaming",
+												"Sharp flickering colors"
+											]
+										},
+										{
+											"cols" : [
+												"Frenzied",
+												"Rapidly rippling colors"
+											]
+										},
+										{
+											"cols" : [
+												"Psychotic",
+												"Hypnotic, swirling colors"
+											]
+										},
+										{
+											"cols" : [
+												"Vampire",
+												"Appropriate color is pale"
+											]
+										},
+										{
+											"cols" : [
+												"Magic",
+												"Use Myriad sparkles in aura"
+											]
+										},
+										{
+											"cols" : [
+												"Werebeast",
+												"Bright, vibrant aura"
+											]
+										},
+										{
+											"cols" : [
+												"Ghost",
+												"Weak, intermittent aura"
+											]
+										},
+										{
+											"cols" : [
+												"Faerie",
+												"Weak, intermittent aura"
+											]
+										}
+									]
+								}
+							]
 						},
 						{
 							"title" : "Level 3 - The Spirit's Touch", 
-							"description" : "When someone handles an object for any length of time, he leaves a psychic impression on the item. A vampire with this level of Auspex can 'read' these sensations, learning who handled the object, when he last held it, and what was done with it recently. (For these purposes, a corpse counts as an 'object' and can be read accordingly.) These visions are seldom clear and detailed, registering more like a kind of 'psychic snapshot.' Still, the Kindred can learn much even from such a glimpse. Although most visions concern the last person to handle the item, a long-time owner leaves a stronger impression than someone who held the object briefly. Gleaning information from the spiritual residue requires the vampire to hold the object and enter a shallow trance. She is only marginally aware of her surroundings while using The Spirit's Touch, but a loud noise or jarring physical sensation breaks the trance instantly. At the Storyteller's discretion, some impressions on objects may be so strong -- a knife plunged into Caesar's breast, the tip of the Spear of Destiny, a fang pulled from the maw of Dracula -- that any use of this power may be deemed a success."
+							"description" : "When someone handles an object for any length of time, he leaves a psychic impression on the item. A vampire with this level of Auspex can 'read' these sensations, learning who handled the object, when he last held it, and what was done with it recently. (For these purposes, a corpse counts as an 'object' and can be read accordingly.) These visions are seldom clear and detailed, registering more like a kind of 'psychic snapshot.' Still, the Kindred can learn much even from such a glimpse. Although most visions concern the last person to handle the item, a long-time owner leaves a stronger impression than someone who held the object briefly. Gleaning information from the spiritual residue requires the vampire to hold the object and enter a shallow trance. She is only marginally aware of her surroundings while using The Spirit's Touch, but a loud noise or jarring physical sensation breaks the trance instantly. At the Storyteller's discretion, some impressions on objects may be so strong -- a knife plunged into Caesar's breast, the tip of the Spear of Destiny, a fang pulled from the maw of Dracula -- that any use of this power may be deemed a success.",
+							"system" : "The player rolls Perception + Empathy. The difficulty is determined by the age of the impressions and the mental and spiritual strength of the person or event that left them. Sensing information from a pistol used for murder hours ago may require a 5, while learning who owned a set of keys found days ago might be a 9. The greater the individual's emotional connection to the object, the stronger the impression he leaves on it - and the more information the Kindred can glean from it. Also, events involving strong emotions (a gift-giving, a torture, a long family history) likewise leave stronger impressions than does short or casual contact. Assume that each success offers one piece of information. While one success tells the character only that 'a man held this pocket watch last' three reveal that he was petty, middle-aged and afraid. Four successes discover his name, and five or more reveal his connection to the watch as well as some of the things he did with it in his possession."
 						},
 						{
 							"title" : "Level 4 - Telepathy", 
-							"description" : "The vampire projects a portion of her consciousness into a nearby mortal's mind, creating a mental link through which she can communicate wordlessly or even read the target's deepest thoughts. The Kindred 'hears' in her own mind the thoughts plucked from a subject as if they were spoken to her. This is one of the most potent vampiric abilities, since, given time, a Kindred can learn virtually anything from a subject without him ever knowing. The Tremere and Tzimisce in particular find this power especially useful in gleaning secrets from others, or for directing their mortal followers with silent precision."
+							"description" : "The vampire projects a portion of her consciousness into a nearby mortal's mind, creating a mental link through which she can communicate wordlessly or even read the target's deepest thoughts. The Kindred 'hears' in her own mind the thoughts plucked from a subject as if they were spoken to her. This is one of the most potent vampiric abilities, since, given time, a Kindred can learn virtually anything from a subject without him ever knowing. The Tremere and Tzimisce in particular find this power especially useful in gleaning secrets from others, or for directing their mortal followers with silent precision.",
+							"system" : "The player rolls Intelligence + Subterfuge (difficulty of the subject's Willpower). Projecting thoughts into the target's mind requires one success. The subject recognizes that the thoughts come from somewhere other than his own consciousness, although he cannot discern their actual origin. To read minds, one success must be rolled for each item of information plucked or each layer of thought pierced. Deep secrets or buried memories are harder to obtain than surface emotions or unspoken comments, requiring five or more successes to access. Telepathy does not commonly work upon the undead mind. A character may expend a Willpower point to make the effort, making the roll normally afterward. Likewise, it is equally difficult to read the thoughts of other supernatural creatures. Storytellers are encouraged to describe thoughts as flowing streams of impressions and images, rather than as a sequence of prose. Instead of making flat statements like 'He's planning on killing his former lover's new boyfriend,' say 'You see a fleeting series of visions: A couple kissing passionately in a doorway, then the man walking alone at night; you suddenly see your hands, knuckles white, wrapped around a steering wheel, with a figure crossing the street ahead; your heart, mortal now and hammering with panic as you hear the engine rev wildly; and above all, a blazing anger coupled with emotional agony and a panicked fear of loss.'Such descriptions not only add to the story, they also force the player to decide for herself what her character reads. After all, understanding minds - especially highly emotional or deranged minds - is a difficult and often puzzling task.'"
 						},
 						{
 							"title" : "Level 5 - Psychic Projection", 
-							"description" : "The Kindred with this awesome ability projects her senses out of her physical shell, stepping from her body as an entity of pure thought. The vampire's astral form is immune to physical damage or fatigue, and can 'fly' with blinding speed anywhere across the earth -- or even underground -- so long as she remains below the moon's orbit. The Kindred's material form lies in a torpid state while her astral self is active, and the vampire isn't aware of anything that befalls her body until she returns to it. An ephemeral silver cord connects the Kindred's psyche to her body. If this cord is severed, her consciousness becomes stranded in the astral plane (the realm of ghosts, spirits, and shades). Attempting to return to the vampire's physical shell is a long and terrifying ordeal, especially since there is no guarantee that she will accomplish the journey successfully. This significant danger keeps many Kindred from leaving their bodies for long, but those who dare can learn much."
+							"description" : "The Kindred with this awesome ability projects her senses out of her physical shell, stepping from her body as an entity of pure thought. The vampire's astral form is immune to physical damage or fatigue, and can 'fly' with blinding speed anywhere across the earth -- or even underground -- so long as she remains below the moon's orbit. The Kindred's material form lies in a torpid state while her astral self is active, and the vampire isn't aware of anything that befalls her body until she returns to it. An ephemeral silver cord connects the Kindred's psyche to her body. If this cord is severed, her consciousness becomes stranded in the astral plane (the realm of ghosts, spirits, and shades). Attempting to return to the vampire's physical shell is a long and terrifying ordeal, especially since there is no guarantee that she will accomplish the journey successfully. This significant danger keeps many Kindred from leaving their bodies for long, but those who dare can learn much.",
+							"system" : "Journeying in astral form requires the player to expend a point of Willpower and make a Perception + Occult roll. Difficulty varies depending on the distance and complexity of the intended trip; 7 is average, with 10 reflecting a trip far from familiar territory (a first journey from North America to the Far East; trying to shortcut through the earth). The greater the number of successes rolled, the more focused the character's astral presence is and the easier it is for her to reach her desired destination. Failure means the character is unable to separate her consciousness from her body, while a botch can have nasty consequences - flinging her astral form to a random destination on Earth or in the spirit realm, or heading for the desired destination so forcefully that the silver cord snaps. Changing course or continuing to another destination requires another point of Willpower and a new roll. Failure indicates that the vampire has lost her way and must retrace the path of her silver cord. A botch at this stage means the cord snaps, stranding the character's psychic form in the mysterious astral plane. An astral form may travel at great speeds (the Storyteller can use 1000 miles per hour as a general guide) and carries no clothing or material objects of any kind. Some artifacts are said to exist in the spirit world, and the character can try to use one of these tools if she finds one. The character cannot bring such relics to the physical world when she returns to her body, however. Interaction with the physical world is impossible while using Psychic Projection. At best, the character may spend a Willpower point to manifest as a ghostlike shape. This apparition lasts one turn before fading away; while she can't affect anything physically during this time, the character can speak. Despite lacking physical substance, an astral character can use Auspex normally. At the Storyteller's discretion, such a character may employ any Animalism, Dementation, Dominate, Necromancy, Obtenebration, Presence and/or Thaumaturgy powers she has, though this typically requires a minimum of three successes on the initial Psychic Projection roll. If two astral shapes encounter one another, they interact as if they were solid. They may talk, touch and even fight as if both were in the material world. Since they have no physical bodies, astral characters seeking to interact 'physically' substitute Mental and Social Traits for Physical ones (Wits replaces Dexterity, Manipulation supplants Strength, and Intelligence replaces Stamina). Due to the lack of a material form, the only real way to damage another psychic entity is to cut its silver cord. When fighting this way, consider Willpower points to be health levels; when a combatant loses all of her Willpower, the cord is severed. Although an astrally projected character remains in the reflection of the mortal world (referred to as the Penumbra in other World of Darkness games), she may venture further into the spirit realms, especially if she becomes lost. Other beings, such as ghosts, werewolves and even rare magi, travel the astral plane as well, and can interact with a vampire's psychic presence normally. Storytellers are encouraged to make trips into the spirit world as bizarre, mysterious and dreamlike as possible. The world beyond is a vivid and fantastic place, where the true nature of things is stronger and often strikingly different from their earthly appearances. Note: For Storytellers familiar with White Wolf's other games, the 'astral plane' to which the vampire travels is a reflection of the Umbra in general, not one specific level."
 						}
 					]
 				},
@@ -681,23 +931,104 @@
 					"itens" : [
 						{
 							"title" : "Level 1 - Command", 
-							"description" : "The vampire locks eyes with the subject and speaks a one-word command, which the subject must be obey instantly. The order must be clear and straightforward: Run, agree, fall, yawn, jump, laugh, surrender, stop, scream, follow. If the command is at all confusing or ambiguous, the subject may respond slowly or perform the task poorly. The subject cannot be ordered to do something directly harmful to herself, so a command like 'die' is ineffective. The command may be included in a sentence, thereby concealing the power's use from others. This effort at subtlety still requires the Kindred to make eye contact at the proper moment and stress the key word slightly. An alert bystander -- or even the victim -- may notice the emphasis. Still, unless she's conversant with supernatural powers, the individual is likely to attribute the utterance and the subsequent action to bizarre coincidence."
+							"description" : "The vampire locks eyes with the subject and speaks a one-word command, which the subject must be obey instantly. The order must be clear and straightforward: Run, agree, fall, yawn, jump, laugh, surrender, stop, scream, follow. If the command is at all confusing or ambiguous, the subject may respond slowly or perform the task poorly. The subject cannot be ordered to do something directly harmful to herself, so a command like 'die' is ineffective. The command may be included in a sentence, thereby concealing the power's use from others. This effort at subtlety still requires the Kindred to make eye contact at the proper moment and stress the key word slightly. An alert bystander -- or even the victim -- may notice the emphasis. Still, unless she's conversant with supernatural powers, the individual is likely to attribute the utterance and the subsequent action to bizarre coincidence.",
+							"system" : "The player rolls Manipulation + Intimidation (difficulty of the target's permanent Willpower). More successes force the subject to act with greater vigor or for a longer duration (continue running for a number of turns, go off on a laughing jag, sneeze uncontrollably)."
 						},
 						{
 							"title" : "Level 2 - Mesmerize", 
-							"description" : "With this power, a vampire can verbally implant a false thought or hypnotic suggestion in the subject's subconscious mind. Both Kindred and target must be free from distraction, since Mesmerize requires intense concentration and precise wording to be effective. The vampire may activate the imposed thought immediately or establish a stimulus that will trigger it later. The victim must be able to understand the vampire, though the two need to maintain eye contact only as long as it takes to implant the idea. Mesmerize allows for anything from simple, precise directives (handing over an item) to complex, highly involved ones (taking notes of someone's habits and relaying that information at an appointed time). It is not useful for planting illusions or false memories (such as seeing a rabbit or believing yourself to be on fire). A subject can have only one suggestion implanted at any time."
+							"description" : "With this power, a vampire can verbally implant a false thought or hypnotic suggestion in the subject's subconscious mind. Both Kindred and target must be free from distraction, since Mesmerize requires intense concentration and precise wording to be effective. The vampire may activate the imposed thought immediately or establish a stimulus that will trigger it later. The victim must be able to understand the vampire, though the two need to maintain eye contact only as long as it takes to implant the idea. Mesmerize allows for anything from simple, precise directives (handing over an item) to complex, highly involved ones (taking notes of someone's habits and relaying that information at an appointed time). It is not useful for planting illusions or false memories (such as seeing a rabbit or believing yourself to be on fire). A subject can have only one suggestion implanted at any time.",
+							"system" : "The player rolls Manipulation + Leadership (difficulty equal to the target's permanent Willpower). The number of successes determines how well the suggestion takes hold in the victim's subconscious. If the vampire scores one or two successes, the subject cannot be forced to do anything that seems strange to her (she might walk outside, but is unlikely to act like a chicken). At three or four successes, the command is effective unless following it endangers the subject. At five successes or greater, the vampire can implant nearly any sort of command. No matter how strong the Kindred's will, his command cannot force the subject to harm herself directly or defy her innate Nature. So, while a vampire who scored five successes could make a 98-pound weakling attack a 300-pound bouncer, he could not make the mortal shoot herself in the head. If a vampire tries to Mesmerize a subject before the target fulfills a previously implanted directive, compare the successes rolled to those gained during the implanting of the first suggestion. Whichever roll had the greater number of successes is the command that now lodges in the target's subconscious; the other suggestion is wiped clean. If the successes rolled are equal, the newer command supplants the old one."
 						},
 						{
 							"title" : "Level 3 - The Forgetful Mind", 
-							"description" : "After capturing the subject's gaze, the vampire delves into the subject's memories, stealing or re-creating them at his whim. The Forgetful Mind does not allow for telepathic contact; the Kindred operates much like a hypnotist, asking directed questions and drawing out answers from the subject. The degree of memory alteration depends on what the vampire desires. He may alter the subject's mind only slightly (quite effective for eliminating memories of the victim meeting or even being fed upon by the vampire) or utterly undo the victim's memories of her past. The degree of detail used has a direct bearing on how strongly the new memories take hold, since the victim's subconscious mind resists the alteration. A simplistic or incomplete false memory ('You went to the movies last night') crumbles much more quickly than does one with more attention to detail ('You thought about texting your girlfriend while you were in line at the new movie theater, but you knew you'd have to turn your phone off once you got inside. You liked the movie well enough, but the plot seemed weak. You were tired after it ended, so you went home, watched a little late-night television, and went to bed.'). Even in its simplest applications, The Forgetful Mind requires tremendous skill and finesse. It's a relatively simple matter to rifle through a victim's psyche and rip out the memories of the previous night without knowing what the subject did that evening. Doing so leaves a gap in the victim's mind, however -- a hole that can give rise to further problems down the road. The Kindred may describe new memories, but these recollections seldom have the same degree of realism that the subject's original thoughts held. As such, this power isn't always completely effective. The victim may remember being bitten, but believe it to be an animal attack. Greater memories may return in pieces as dreams, or through sensory triggers like a familiar odor or spoken phrase. Even so, months or years may pass before the subject regains enough of her lost memories to make sense of the fragments. A vampire can also sense when a subject's memories were altered through use of this power, and even restore them, as a hypnotist draws forth suppressed thoughts."
+							"description" : "After capturing the subject's gaze, the vampire delves into the subject's memories, stealing or re-creating them at his whim. The Forgetful Mind does not allow for telepathic contact; the Kindred operates much like a hypnotist, asking directed questions and drawing out answers from the subject. The degree of memory alteration depends on what the vampire desires. He may alter the subject's mind only slightly (quite effective for eliminating memories of the victim meeting or even being fed upon by the vampire) or utterly undo the victim's memories of her past. The degree of detail used has a direct bearing on how strongly the new memories take hold, since the victim's subconscious mind resists the alteration. A simplistic or incomplete false memory ('You went to the movies last night') crumbles much more quickly than does one with more attention to detail ('You thought about texting your girlfriend while you were in line at the new movie theater, but you knew you'd have to turn your phone off once you got inside. You liked the movie well enough, but the plot seemed weak. You were tired after it ended, so you went home, watched a little late-night television, and went to bed.'). Even in its simplest applications, The Forgetful Mind requires tremendous skill and finesse. It's a relatively simple matter to rifle through a victim's psyche and rip out the memories of the previous night without knowing what the subject did that evening. Doing so leaves a gap in the victim's mind, however -- a hole that can give rise to further problems down the road. The Kindred may describe new memories, but these recollections seldom have the same degree of realism that the subject's original thoughts held. As such, this power isn't always completely effective. The victim may remember being bitten, but believe it to be an animal attack. Greater memories may return in pieces as dreams, or through sensory triggers like a familiar odor or spoken phrase. Even so, months or years may pass before the subject regains enough of her lost memories to make sense of the fragments. A vampire can also sense when a subject's memories were altered through use of this power, and even restore them, as a hypnotist draws forth suppressed thoughts.",
+							"system" : "The player states what sorts of alteration he wants to perform, then rolls Wits + Subterfuge (difficulty of the target's Willpower score). Any success pacifies the victim for the amount of time it takes the vampire to perform the verbal alteration, provided the vampire does not act aggressively toward the victim. The table below indicates the degree of modification possible to the subject's memory, depending on the number of successes gained. If the successes rolled don't allow for the extent of change the character desired, the Storyteller reduces the resulting impact on the victim's mind.",
+							"tables" : [
+								{
+									"name" : "System Table",
+									"rows" : [
+										{
+											"cols" : [
+												"Successes",
+												"Result"
+											]
+										},
+										{
+											"cols" : [
+												"1",
+												"The character transfers the Beast, but unleashes it upon a random individual"
+											]
+										},
+										{
+											"cols" : [
+												"2",
+												"The character is stunned by the effort and may not act next turn, but transfers the Beast successfully. Alternatively, the character may act normally during the turn, but must spend a Willpower point or suffer a single level of lethal damage"
+											]
+										},
+										{
+											"cols" : [
+												"3+",
+												"The character transfers the Beast successfully"
+											]
+										}
+									]
+								}
+							],
+							"additionalSystem" : "To restore removed memories or sense false ones in a subject, the character's Dominate rating must be equal to or higher than that of the vampire who made the alteration. If so, the player must make a Wits + Empathy roll (difficulty equal to the original vampire's permanent Willpower) and score more successes than his predecessor did."
 						},
 						{
 							"title" : "Level 4 - Conditioning", 
-							"description" : "Through sustained manipulation, the vampire can make a subject more pliant to the Kindred's will. Over time, the victim becomes increasingly susceptible to the vampire's influence while simultaneously growing more resistant to the corrupting efforts of other Kindred. Gaining complete control over a subject's mind is no small task, taking weeks or even months to accomplish. Kindred often fill their retainers' heads with subtle whispers and veiled urges, thereby ensuring these mortals' loyalty. Yet vampires must pay a high price for the minds they ensnare. Servants Dominated in this way lose much of their passion and individuality. They follow the vampire's orders quite literally, seldom taking initiative or showing any imagination. In the end, such retainers become like automatons or the walking dead."
+							"description" : "Through sustained manipulation, the vampire can make a subject more pliant to the Kindred's will. Over time, the victim becomes increasingly susceptible to the vampire's influence while simultaneously growing more resistant to the corrupting efforts of other Kindred. Gaining complete control over a subject's mind is no small task, taking weeks or even months to accomplish. Kindred often fill their retainers' heads with subtle whispers and veiled urges, thereby ensuring these mortals' loyalty. Yet vampires must pay a high price for the minds they ensnare. Servants Dominated in this way lose much of their passion and individuality. They follow the vampire's orders quite literally, seldom taking initiative or showing any imagination. In the end, such retainers become like automatons or the walking dead.",
+							"system" : "The player rolls Charisma + Leadership (difficulty of the target's permanent Willpower). Conditioning is an extended action; the Storyteller secretly determines the number of successes required. It typically requires between five and 10 times the subject's Self-Control score. Targets with more empathic Natures may require a lower number of successes, while those with willful Natures require a higher total. Only through roleplaying may a character discern whether his subject is conditioned successfully. A target may become more tractable even before becoming fully conditioned. Once the vampire accumulates half the required number of successes, the Storyteller may apply a lower difficulty to the vampire's subsequent uses of Dominate. After being conditioned, the target falls so far under the vampire's influence that the Kindred need not make eye contact or even be present to retain absolute control. The subject does exactly as she is told, so long as her master can communicate with her verbally. No command roll is necessary unless the subject is totally isolated from the vampire (in a different room, over the phone). Even if a command roll fails, the target will still likely carry out part of the orders given. After the subject is fully conditioned, other Kindred find her more difficult to Dominate. Such conditioning raises others' difficulties by two (to a maximum of 10). It is possible, though difficult, to shake conditioning. The subject must be separated entirely from the vampire to whom she was in thrall. This period of separation varies depending on the individual, but the Storyteller may set it at six months, less a number of weeks equal to the subject's Willpower score (so a person with 5 Willpower must stay away from the vampire for just under five months). The subject regains her personality slowly during this time, although she may still lapse into brief spells of listlessness. If the vampire encounters the target before that time passes, a single successful Charisma + Leadership roll (difficulty of the target's Willpower score) on the part of the vampire completely reasserts the dominance. If the subject makes it through the time period without intervention by her master, the target regains her former individuality. Even so, the vampire may reestablish conditioning more easily than the first time, since the subject is forever after predisposed to falling under the Kindred's mental control. New attempts require half the total number of successes that the last bout of conditioning did."
 						},
 						{
 							"title" : "Level 5 - Possession", 
-							"description" : "At this level of Dominate, the force of the Kindred's psyche is such that it can utterly supplant the mind of a mortal subject. Speaking isn't required, but the vampire must capture the victim's gaze. During the psychic struggle, the contestants' eyes are locked on one another. Once the Kindred overwhelms the subject's mind, the vampire moves his consciousness into the victim's body and controls it as easily as he uses his own. The mortal falls into a mental fugue while under possession. She is aware of events only in a distorted, dreamlike fashion. In turn, the vampire's mind focuses entirely on controlling his mortal subject. His own body lies in a torpid state, defenseless against any actions made toward it. Vampires cannot possess one another in this fashion, as even the weakest Kindred's mind is strong enough to resist such straightforward mental dominance. Only through a blood bond can one vampire control another to this degree. Supernatural creatures also cannot be possessed in this way, although ghouls that have drunk from the vampire using Possession can."
+							"description" : "At this level of Dominate, the force of the Kindred's psyche is such that it can utterly supplant the mind of a mortal subject. Speaking isn't required, but the vampire must capture the victim's gaze. During the psychic struggle, the contestants' eyes are locked on one another. Once the Kindred overwhelms the subject's mind, the vampire moves his consciousness into the victim's body and controls it as easily as he uses his own. The mortal falls into a mental fugue while under possession. She is aware of events only in a distorted, dreamlike fashion. In turn, the vampire's mind focuses entirely on controlling his mortal subject. His own body lies in a torpid state, defenseless against any actions made toward it. Vampires cannot possess one another in this fashion, as even the weakest Kindred's mind is strong enough to resist such straightforward mental dominance. Only through a blood bond can one vampire control another to this degree. Supernatural creatures also cannot be possessed in this way, although ghouls that have drunk from the vampire using Possession can.",
+							"system" : "The vampire must completely strip away the target's Willpower prior to possessing her. The player spends a Willpower point, then rolls Charisma + Intimidation, while the subject rolls Willpower in a resisted action (difficulty 7 for both). For each success the vampire obtains over the victim's total, the target loses a point of temporary Willpower. Each success the subject gains over the vampire's total equals another die she adds to her roll on the next turn. It's often only a matter of time before the victim falls under the vampire's power. Only if the attacker botches can the subject escape her fate, since this makes the target permanently immune to any further Dominate attempts by that vampire. Once the target loses all her temporary Willpower, her mind is open to the vampire. The vampire rolls Manipulation + Intimidation (difficulty 7) to determine how fully he assumes control of the mortal shell. Similar to the Animalism power Subsume the Spirit, multiple successes allow the character to utilize some mental Disciplines, noted on the chart below.",
+							"tables" : [
+								{
+									"name" : "Discipline usage",
+									"rows" : [
+										{
+											"cols" : [
+												"Successes",
+												"Result"
+											]
+										},
+										{
+											"cols" : [
+												"1",
+												"Cannot use Disciplines"
+											]
+										},
+										{
+											"cols" : [
+												"2",
+												"Can use Auspex"
+											]
+										},
+										{
+											"cols" : [
+												"3",
+												"Can also use Dominate, Presence"
+											]
+										},
+										{
+											"cols" : [
+												"4",
+												"Can also use Chimerstry, Dementation"
+											]
+										},
+										{
+											"cols" : [
+												"5",
+												"Can also use Necromancy, Thaumaturgy"
+											]
+										}
+									]
+								}
+							],
+							"additionalSystem" : "The character may travel as far from his body as he is physically able while possessing the mortal. The vampire may also venture out during the day, albeit in the mortal form. However, the vampire's own body must be awake to do so, requiring a successful roll to remain awake. If the vampire leaves the mortal shell (by choice, if his body falls asleep, through supernatural expulsion, after sustaining significant injury), his consciousness returns to his physical form in an instant. Once freed from possession, the mortal regains mental control of herself. This can happen in an instant, or the victim may lie comatose for. days while her psyche copes with the violation. The vampire experiences everything the mortal body feels during possession, from pleasure to pain. In fact, any damage the victim's body sustains is also applied to the character's body (although the Kindred may soak as normal). If the mortal dies before the vampire's soul can flee from the body, the character's body falls into torpor. Presumably this is in sympathetic response to the massive trauma of death, although some Kindred believe that the vampire's soul is cast adrift during this time and must find its way back to the body. The Kindred can remain in the mortal's body even if his own torpid form is destroyed, though such a pathetic creature is not likely to exist for long. At each sunrise, the vampire must roll Courage (difficulty 8) or be expelled from the body. If forced from the mortal body, the vampire tumbles into the astral plane, his soul permanently lost in the spirit world. Nor may a vampire trapped in a mortal body be 're-Embraced'; if the Embrace occurs to such a creature, he simply meets Final Death."
 						}
 					]
 				},
@@ -731,23 +1062,28 @@
 					"itens" : [
 						{
 							"title" : "Level 1 - Eyes Of The Beast", 
-							"description" : "The vampire sees perfectly well in pitch darkness, not requiring a light source to notice details in even the darkest basement or cave. The vampire's Beast is evident in his red glowing eyes, a sight sure to disturb most mortals."
+							"description" : "The vampire sees perfectly well in pitch darkness, not requiring a light source to notice details in even the darkest basement or cave. The vampire's Beast is evident in his red glowing eyes, a sight sure to disturb most mortals.",
+							"system" : "The character must declare his desire to call forth the Eyes. No roll is necessary, but the change requires a full turn to complete. While manifesting the Eyes, the character suffers a +1 difficulty to all Social rolls with mortals unless he takes steps to shield his eyes (sunglasses are the simplest solution). A vampire without this power who is immersed in total darkness suffers difficulty penalties of +2 to perform most feats. At the Storyteller's option, ranged attacks, extended actions and precision tasks (those requiring more than one success to succeed) cannot be performed successfully at all."
 						},
 						{
 							"title" : "Level 2 -  Feral Claws", 
-							"description" : "The vampire's nails transform into long, bestial claws. These talons are wickedly sharp, able to rend flesh with ease and even carve stone and metal with little trouble. The Beast is prominent in the claws as well, making them fearsome weapons against other immortals. It's rumored that some Gangrel have modified this power to change their vampiric fangs into vicious tusks."
+							"description" : "The vampire's nails transform into long, bestial claws. These talons are wickedly sharp, able to rend flesh with ease and even carve stone and metal with little trouble. The Beast is prominent in the claws as well, making them fearsome weapons against other immortals. It's rumored that some Gangrel have modified this power to change their vampiric fangs into vicious tusks.",
+							"system" : "The claws grow automatically in response to the character's desire, and can grow from both hands and feet. The transformation requires the expenditure of a blood point and takes a single turn to complete. The character attacks normally in combat, but the claws inflict Strength + 1 aggravated damage. Other supernaturals cannot soak this damage, although a power such as Fortitude may be used. Additionally, the difficulties of all climbing rolls are reduced by two."
 						},
 						{
 							"title" : "Level 3 - Earth Meld", 
-							"description" : "One of the most prized powers within Protean, Earth Meld enables the vampire to become one with the earth. The immortal literally sinks into the bare ground, transmuting his substance to bond with the earth. Though a vampire can immerse himself fully into the ground, he cannot move around within it. Further, it is impossible to meld into earth through another substance. Wood slats, blacktop, even artificial turf blocks Earth Meld's effectiveness -- then again, it's a relatively simple matter for a vampire at this level of power to grow claws and rip apart enough of the flooring to expose the raw soil beneath. By interring himself in the ground, the vampire gains full protection from daylight when outdoors. It is also the method of choice for those Kindred who wish to sleep away the centuries; these vampires lock themselves in the earth's embrace, gaining strength and power as they rest. Superstitious and paranoid Kindred whisper that thousands of Ancients sleep within the ground and will awaken when Gehenna arrives. While so interred, the vampire is in a transitional state between flesh and earth. His physical presence exists between the physical world and the astral plane. As such, the vampire is difficult to sense, even through supernatural means. However, a disruption to the soil that the immortal occupies, or to his presence on the astral realm, returns him immediately to the physical world (and to full wakefulness), showering dirt outward as his body displaces the soil."
+							"description" : "One of the most prized powers within Protean, Earth Meld enables the vampire to become one with the earth. The immortal literally sinks into the bare ground, transmuting his substance to bond with the earth. Though a vampire can immerse himself fully into the ground, he cannot move around within it. Further, it is impossible to meld into earth through another substance. Wood slats, blacktop, even artificial turf blocks Earth Meld's effectiveness -- then again, it's a relatively simple matter for a vampire at this level of power to grow claws and rip apart enough of the flooring to expose the raw soil beneath. By interring himself in the ground, the vampire gains full protection from daylight when outdoors. It is also the method of choice for those Kindred who wish to sleep away the centuries; these vampires lock themselves in the earth's embrace, gaining strength and power as they rest. Superstitious and paranoid Kindred whisper that thousands of Ancients sleep within the ground and will awaken when Gehenna arrives. While so interred, the vampire is in a transitional state between flesh and earth. His physical presence exists between the physical world and the astral plane. As such, the vampire is difficult to sense, even through supernatural means. However, a disruption to the soil that the immortal occupies, or to his presence on the astral realm, returns him immediately to the physical world (and to full wakefulness), showering dirt outward as his body displaces the soil.",
+							"system" : "No roll is necessary, although the character must spend a blood point. Subsuming into the earth is automatic and takes a turn to complete. The character falls into a state one step above torpor during this time, sensing his surroundings only distantly. The player must make a Humanity roll (difficulty 6) for the character to rouse himself in response to danger prior to his desired time of emergence. Since the character is in an in-between state, any attempts to locate him (catching his scent, scanning for his aura, traveling astrally) are made at +2 difficulty. Astral individuals cannot affect the vampire directly, instead meeting with a kind of spongy resistance as their hands pass through him. Similarly, digging in the material world encounters incredibly hardpacked earth, virtually as dense as stone. Attempts at violence upon the submerged vampire from either side return him to his physical nature, expelling the soil with which he bonded in a blinding spray (all Perception-based rolls are at +2 difficulty for the turn). The character himself subtracts two from his initiative for the first turn after his restoration, due to momentary disorientation. Once expelled from the earth, the vampire may act normally."
 						},
 						{
 							"title" : "Level 4 - Shape Of The Beast", 
-							"description" : "This endows the vampire with the legendary ability to transform into a wolf or bat. A Kindred changed in this way is a particularly imposing representative of the animal kingdom. Indeed, he is far superior to normal animals, even ones possessed by Subsume the Spirit. He retains his own psyche and temperament, but can still call upon the abilities of the beast form -- increased senses for the wolf and flight for the bat. Gangrel are reputed to change to other animal forms better suited to their environment -- jackals in Africa, dholes in Asia, and even enormous rats in urban environments -- a feat that other Clans learning Protean cannot seem to duplicate."
+							"description" : "This endows the vampire with the legendary ability to transform into a wolf or bat. A Kindred changed in this way is a particularly imposing representative of the animal kingdom. Indeed, he is far superior to normal animals, even ones possessed by Subsume the Spirit. He retains his own psyche and temperament, but can still call upon the abilities of the beast form -- increased senses for the wolf and flight for the bat. Gangrel are reputed to change to other animal forms better suited to their environment -- jackals in Africa, dholes in Asia, and even enormous rats in urban environments -- a feat that other Clans learning Protean cannot seem to duplicate.",
+							"system" : "The character spends one blood point to assume the desired shape. The transformation requires three turns to complete (spending additional blood points reduces the time of transformation by one turn per point spent, to a minimum of one). The vampire remains in his beast form until the next dawn, unless he wishes to change back sooner. Clothing and small personal possessions transform with the vampire.While in the animal's shape, the vampire can use any Discipline he possesses except Necromancy, Serpentis, Thaumaturgy or Vicissitude. Furthermore, each form gives the character the abilities of that creature. In wolf form, the vampire's teeth and claws inflict Strength + 1 aggravated damage, he can run at double speed, and the difficulties of all Perception rolls are reduced by two. In bat form, the vampire's Strength is reduced to 1, but he can fly at speeds of up to 20 miles per hour, difficulties for all hearing-based Perception rolls are reduced by three, and attacks made against him are at + 2 difficulty due to his small size. The Storyteller may allow a vampire to assume a different animal shape, but should establish the natural abilities it grants the character."
 						},
 						{
 							"title" : "Level 5 - Mist Form", 
-							"description" : "This truly unsettling power enables the vampire to turn into mist. His physical shape disperses into a hazy cloud, but one still subject entirely to the immortal's will. He floats at a brisk pace and may slip under doors, through screens, down pipes, and through other tiny openings. Although strong winds can blow the vampire from his chosen course, even hurricane-force winds cannot disperse his mist shape. Some Kindred feel that this power is an expression of the vampire's ultimate control over the material world, while others believe that it is the immortal's soul made manifest (damned though it may be)."
+							"description" : "This truly unsettling power enables the vampire to turn into mist. His physical shape disperses into a hazy cloud, but one still subject entirely to the immortal's will. He floats at a brisk pace and may slip under doors, through screens, down pipes, and through other tiny openings. Although strong winds can blow the vampire from his chosen course, even hurricane-force winds cannot disperse his mist shape. Some Kindred feel that this power is an expression of the vampire's ultimate control over the material world, while others believe that it is the immortal's soul made manifest (damned though it may be).",
+							"system" : "No roll is required, although a blood point must be spent. The transformation takes three turns to complete, although the character may reduce this time by one turn for each additional blood point spent (to a minimum of one turn). Strong winds may buffet the character about; only his rating in Potence (if any) may be used to resist this influence. The vampire is immune to all mundane physical attacks while in mist form, although supernatural attacks affect him normally. Also, the vampire takes one fewer level of damage from fire and sunlight. The character may not attack others physically while in this state - this includes encountering another vampire in mist form. He may use Disciplines that do not require physical substance, however."
 						}
 					]
 				},
@@ -756,23 +1092,71 @@
 					"itens" : [
 						{
 							"title" : "Level 1 - Cloak Of Shadows", 
-							"description" : "At this level, the vampire must rely on nearby shadows and cover to assist in hiding his presence. He steps into an out-of-the-way, shadowed place and eases himself from normal sight. The vampire remains unnoticed as long as he stays silent, still, under some degree of cover (such as a curtain, bush, door frame, lamppost, or alley), and out of direct lighting. The immortal's concealment vanishes if he moves, attacks, or falls under direct light. Furthermore, the vampire's deception cannot stand up to concentrated observation without fading."
+							"description" : "At this level, the vampire must rely on nearby shadows and cover to assist in hiding his presence. He steps into an out-of-the-way, shadowed place and eases himself from normal sight. The vampire remains unnoticed as long as he stays silent, still, under some degree of cover (such as a curtain, bush, door frame, lamppost, or alley), and out of direct lighting. The immortal's concealment vanishes if he moves, attacks, or falls under direct light. Furthermore, the vampire's deception cannot stand up to concentrated observation without fading.",
+							"system" : "No roll is required as long as the character fulfills the criteria described above. So long as he remains quiet and motionless, virtually no one but another Kindred with a high Auspex rating will see him."
 						},
 						{
 							"title" : "Level 2 - Unseen Presence", 
-							"description" : "With experience, the vampire can move around without being seen. Shadows seem to shift to cover him, and people automatically avert their gazes as he passes by. Others move unconsciously to avoid contact with the cloaked creature; those with weak wills may even scurry away from the area in unacknowledged fear. The vampire remains ignored indefinitely unless someone deliberately seeks him out or he inadvertently reveals himself. Since the vampire fully retains his physical substance, he must be careful to avoid contact with anything that may disclose his presence (knocking over a vase, bumping into someone). Even a whispered word or the scuffing of a shoe against the floor can be enough to disrupt the power."
+							"description" : "With experience, the vampire can move around without being seen. Shadows seem to shift to cover him, and people automatically avert their gazes as he passes by. Others move unconsciously to avoid contact with the cloaked creature; those with weak wills may even scurry away from the area in unacknowledged fear. The vampire remains ignored indefinitely unless someone deliberately seeks him out or he inadvertently reveals himself. Since the vampire fully retains his physical substance, he must be careful to avoid contact with anything that may disclose his presence (knocking over a vase, bumping into someone). Even a whispered word or the scuffing of a shoe against the floor can be enough to disrupt the power.",
+							"system" : "No roll is necessary to use this power unless the character speaks, attacks or otherwise draws attention to himself. The Storyteller should call for a Wits + Stealth roll under any circumstances that might cause the character to reveal himself. The difficulty of the roll depends on the situation; stepping on a squeaky floorboard might be a 5, while walking through a pool of water may require a 9. Other acts may require a certain number of successes; speaking quietly without giving away one's position, for instance, demands at least three successes. Some things are beyond the power of Unseen Presence to conceal. Although the character is cloaked from view while he smashes through a window, yells out or throws someone across the room, the vampire becomes visible to all in the aftermath. Bystanders snap out of the subtle fugue in which Obfuscate put them. Worse still, each viewer can make a Wits + Alertness roll (difficulty 7); if successful, the mental haze clears completely, so those individuals recall every move the character made up until then as if he were visible the entire time."
 						},
 						{
 							"title" : "Level 3 - Mask Of A Thousand Faces", 
-							"description" : "The vampire can influence the perception of others, causing them to see a face different from his. Although the Kindred's physical form does not change, any observer who cannot sense the truth sees whomever the vampire wishes her to see. The vampire must have a firm idea of the visage he wishes to project. The primary decision is whether to create an imaginary face or to superimpose the features of another person. Manufactured features are often more difficult to compose in believable proportions, but such a disguise is easier to maintain than having to impersonate someone else. Of course, things get simpler if the Kindred borrows the face but doesn't bother with the personality."
+							"description" : "The vampire can influence the perception of others, causing them to see a face different from his. Although the Kindred's physical form does not change, any observer who cannot sense the truth sees whomever the vampire wishes her to see. The vampire must have a firm idea of the visage he wishes to project. The primary decision is whether to create an imaginary face or to superimpose the features of another person. Manufactured features are often more difficult to compose in believable proportions, but such a disguise is easier to maintain than having to impersonate someone else. Of course, things get simpler if the Kindred borrows the face but doesn't bother with the personality.",
+							"system" : "The player rolls Manipulation + Performance (difficulty 7) to determine how well the disguise works. If the character tries to impersonate someone, he must get a good look at the subject before putting on the mask. The Storyteller may raise the difficulty if the character catches only a glimpse. The chart below lists the degrees of success in manufacturing another appearance. Actually posing as someone else carries its own problems. The character should know at least basic information about the individual; especially difficult deceptions (fooling a lover or close friend) require at least some familiarity with the target in order to succeed.",
+							"tables" : [
+								{
+									"name" : "System table",
+									"rows" : [
+										{
+											"cols" : [
+												"Successes",
+												"Result"
+											]
+										},
+										{
+											"cols" : [
+												"1",
+												"The vampire retains the same height and build, with a few slight alterations to his basic features. Nosferatu can appear as normal, albeit ugly, mortals."
+											]
+										},
+										{
+											"cols" : [
+												"2",
+												"He looks unlike himself; people don't easily recognize him or agree about his appearance."
+											]
+										},
+										{
+											"cols" : [
+												"3",
+												"He looks the way he wants to appear."
+											]
+										},
+										{
+											"cols" : [
+												"4",
+												"Complete transformation, including gestures, mannerisms, appearance and voice."
+											]
+										},
+										{
+											"cols" : [
+												"5",
+												"Profound alteration (appear as the opposite sex, a vastly different age, extreme change of size)."
+											]
+										}
+									]
+								}
+							],
 						},
 						{
 							"title" : "Level 4 - Vanish From The Mind's Eye", 
-							"description" : "This potent expression of Obfuscate enables the vampire to disappear from plain view. So profound is this vanishing that the immortal can fade away even if he stands directly in front of someone. While the disappearance itself is quietly subtle, its impact on those who see it is anything but. Most kine panic and flee in the aftermath. Especially weak-willed individuals wipe the memory of the Kindred from their minds. Although vampires are not shaken so easily, even Kindred may be momentarily surprised by a sudden vanishing."
+							"description" : "This potent expression of Obfuscate enables the vampire to disappear from plain view. So profound is this vanishing that the immortal can fade away even if he stands directly in front of someone. While the disappearance itself is quietly subtle, its impact on those who see it is anything but. Most kine panic and flee in the aftermath. Especially weak-willed individuals wipe the memory of the Kindred from their minds. Although vampires are not shaken so easily, even Kindred may be momentarily surprised by a sudden vanishing.",
+							"system" : "The player rolls Charisma + Stealth; the difficulty equals the target's Wits + Alertness (use the highest total in the group if the character disappears in front of a crowd). With three or fewer successes, the character fades but does not vanish, becoming an indistinct, ghostlike figure. With more than three, he disappears completely. If the player scores more successes than an observer's Willpower rating, that person forgets that the vampire was there in the first place. Tracking the character accurately while he appears ghost-like requires a Perception + Alertness roll (difficulty 8). A successful roll means the individual can interact normally with the vampire (although the immortal looks like a profoundly disturbing ghostly shape). A failed roll results in +2 difficulties (maximum 10) when attempting to act upon, or interact with, the vampire. The Storyteller may call for new observation checks if the vampire moves to an environment in which he's difficult to see (heads into shadows, crosses behind an obstacle, proceeds through a crowd). When fully invisible, the vampire is handled as described under Unseen Presence, above. A person subject to the vanishing makes a Wits + Courage roll (mortals at difficulty 9, immortals at difficulty 5). A successful roll means the individual reacts immediately (although after the vampire performs his action for that turn); failure means the person stands uncomprehending for two turns while her mind tries to make sense of what she just experienced."
 						},
 						{
 							"title" : "Level 5 -  Cloak The Gathering", 
-							"description" : "At this degree of power, the vampire may extend his concealing abilities to cover an area. The immortal may use any Obfuscate power upon those nearby as well as upon himself, if he wishes. Any protected person who compromises the cloak exposes himself to view. Further, if the one who invokes the power gives himself away, the cloak falls from everyone. This power is particularly useful if the vampire needs to bring his retinue through a secure location without drawing the notice of others."
+							"description" : "At this degree of power, the vampire may extend his concealing abilities to cover an area. The immortal may use any Obfuscate power upon those nearby as well as upon himself, if he wishes. Any protected person who compromises the cloak exposes himself to view. Further, if the one who invokes the power gives himself away, the cloak falls from everyone. This power is particularly useful if the vampire needs to bring his retinue through a secure location without drawing the notice of others.",
+							"system" : "The character may conceal one extra individual for each dot of Stealth he possesses. He may bestow any single Obfuscate power at a given time to the group. While the power applies to everyone under the character's cloak, his player need only make a single roll. Each individual must follow the requirements described under the relevant Obfuscate power to remain under its effect; any person who fails to do so loses the cloak's protection, but doesn't expose the others. Only if the vampire himself errs does the endowment drop for everyone."
 						}
 					]
 				},
@@ -782,110 +1166,27 @@
 						{
 							"title" : "Level 1 - Prowess", 
 							"description" : "You have unearthed a level of strength unusual even in Vampires. Where others would flag and fail, you redouble your efforts. Your mighty blows land with a force that kills even the hardiest of mortals. With Prowess all of your unarmed or clubbing attacks inflict lethal damage instead of bashing damage, if you so desire. Furthermore, once per game session you may recoup your lost strength restoring all used Physical Traits of Brawny, Ferocious, Stalwart, Tough and Wiry. You must restore all of them at once if you have some Traits of the appropriate type unused when you invoke Prowess, you cannot restore them later. Using Prowess costs nothing and it does not count az an action; it may be done at any time.",
-							"tables" : [
-								{
-									"rows" : [
-										{
-											"cols" : [
-												"Potence",
-												"Amplify Damage"
-											]
-										},
-										{
-											"cols" : [
-												"1",
-												"x2"
-											]
-										},
-										{
-											"cols" : [
-												"2",
-												"x3"
-											]
-										},
-										{
-											"cols" : [
-												"3",
-												"x4"
-											]
-										},
-										{
-											"cols" : [
-												"4",
-												"x5"
-											]
-										},
-										{
-											"cols" : [
-												"5",
-												"x6"
-											]
-										}
-									]
-								}
-							]
+							"system" : "+1 automatic success in strength tests"
 						},
 						{
 							"title" : "Level 2 - Might", 
-							"description" : "Your strength daunts even other Cainites. Few would dare to cross you in a test of physical power. You are far more likely than the average Vampire to succeed in challenges of strength. With Might, you may make a single retest on any challenge of sheer physical strength. Thus if you are grappling, picking up a heavy object or breaking something, you can use Might as a retest. Once you invoke Might, it is the last test of the challenge; no further retests are allowed."
+							"description" : "Your strength daunts even other Cainites. Few would dare to cross you in a test of physical power. You are far more likely than the average Vampire to succeed in challenges of strength. With Might, you may make a single retest on any challenge of sheer physical strength. Thus if you are grappling, picking up a heavy object or breaking something, you can use Might as a retest. Once you invoke Might, it is the last test of the challenge; no further retests are allowed.",
+							"system" : "+2 automatic success in strength tests"
 						},
 						{
 							"title" : "Level 3 - Vigor", 
-							"description" : "Your Vampiric strength is truly monumental. You can heft hundreds of pounds with ease, deliver enough force to crush bones in a single blow and hammer down any opponent of lesser strength. When you possess Vigor, you may use the Bomb in challenges of strength. The Bomb is a closed fist with the thumb sticking up. The Bomb defeats Rock and Paper, ties with other Bombs and loses to Scissors (the fuse is cut). You are not required to use the Bomb, but you must always state before a Physical Challenge that you are capable of doing so. Using Vigor costs nothing. Your use of Vigor requires you to use only your strength; your opponent may try to defend with Stamina or Speed, but his doing so does not prevent you from using The Bomb."
+							"description" : "Your Vampiric strength is truly monumental. You can heft hundreds of pounds with ease, deliver enough force to crush bones in a single blow and hammer down any opponent of lesser strength. When you possess Vigor, you may use the Bomb in challenges of strength. The Bomb is a closed fist with the thumb sticking up. The Bomb defeats Rock and Paper, ties with other Bombs and loses to Scissors (the fuse is cut). You are not required to use the Bomb, but you must always state before a Physical Challenge that you are capable of doing so. Using Vigor costs nothing. Your use of Vigor requires you to use only your strength; your opponent may try to defend with Stamina or Speed, but his doing so does not prevent you from using The Bomb.",
+							"system" : "+3 automatic success in strength tests"
 						},
 						{
 							"title" : "Level 4 - Intensity", 
-							"description" : "Your titanic strength never fails you. Unless sorely pressed or wounded, you can continue incredible feats indefinitely. Whenever you enter a challenge of strength, you may use Potence as your bid Trait. This Trait does not count toward totals when resolving ties or overbids, but it can never be lost; thus you may continuously use Potence in successive tests of strength. Only if you are forced to risk multiple Traits such as due to wounds or Negative Traits do you risk losing any of your other Physical Traits. If you run out of Physical Traits, you cannot use this Discipline. Once you have been completely exhausted, you can no longer enter challenges."
+							"description" : "Your titanic strength never fails you. Unless sorely pressed or wounded, you can continue incredible feats indefinitely. Whenever you enter a challenge of strength, you may use Potence as your bid Trait. This Trait does not count toward totals when resolving ties or overbids, but it can never be lost; thus you may continuously use Potence in successive tests of strength. Only if you are forced to risk multiple Traits such as due to wounds or Negative Traits do you risk losing any of your other Physical Traits. If you run out of Physical Traits, you cannot use this Discipline. Once you have been completely exhausted, you can no longer enter challenges.",
+							"system" : "+4 automatic success in strength tests"
 						},
 						{
 							"title" : "Level 5 - Puissance", 
-							"description" : "No mortal can match you, and even Vampires tremble at your touch. The strength of your dead limbs is truly monumental, crushing anything that stands before you. With Puissance, you win all ties in tests of strength automatically. You need not compare Traits at all, unless some other factor would cause you to lose ties (such as wounds) or give the opponent the ability to win all ties as well (such as Fleetness). Furthermore, your incredible strikes inflict an additional health level of damage in combat. This bonus applies to any attack in which your strength is a factor unarmed combat or combat with melee weapons. However, use of this incredible strength almost certainly breaks weapons that are not specially designed to stand it."
-						},
-						{
-							"title" : "Sistema", 
-							"description" : "Descrição do sistema",
-							"tables" : [
-								{
-									"rows" : [
-										{
-											"cols" : [
-												"Potence",
-												"Amplify Damage"
-											]
-										},
-										{
-											"cols" : [
-												"1",
-												"x2"
-											]
-										},
-										{
-											"cols" : [
-												"2",
-												"x3"
-											]
-										},
-										{
-											"cols" : [
-												"3",
-												"x4"
-											]
-										},
-										{
-											"cols" : [
-												"4",
-												"x5"
-											]
-										},
-										{
-											"cols" : [
-												"5",
-												"x6"
-											]
-										}
-									]
-								}
-							]
+							"description" : "No mortal can match you, and even Vampires tremble at your touch. The strength of your dead limbs is truly monumental, crushing anything that stands before you. With Puissance, you win all ties in tests of strength automatically. You need not compare Traits at all, unless some other factor would cause you to lose ties (such as wounds) or give the opponent the ability to win all ties as well (such as Fleetness). Furthermore, your incredible strikes inflict an additional health level of damage in combat. This bonus applies to any attack in which your strength is a factor unarmed combat or combat with melee weapons. However, use of this incredible strength almost certainly breaks weapons that are not specially designed to stand it.",
+							"system" : "+5 automatic success in strength tests"
 						}
 					]
 				},
@@ -894,23 +1195,158 @@
 					"itens" : [
 						{
 							"title" : "Level 1 - Awe", 
-							"description" : "Those near the vampire suddenly desire to be closer to her and become receptive to her point of view. Awe is extremely useful for mass communication. It matters little what is said -- the hearts of those affected lean toward the vampire's opinion. The weak want to agree with her; even if the strong-willed resist, they soon find themselves outnumbered. Awe can turn a chancy deliberation into a certain resolution in the vampire's favor almost before her opponents know that the tide has turned. Despite the intensity of this attraction, those so smitten do not lose their sense of self-preservation. Danger breaks the spell of fascination, as does leaving the area. Those subject to Awe will remember how they felt in the vampire's presence, however. This will influence their reactions should they ever encounter her again."
+							"description" : "Those near the vampire suddenly desire to be closer to her and become receptive to her point of view. Awe is extremely useful for mass communication. It matters little what is said -- the hearts of those affected lean toward the vampire's opinion. The weak want to agree with her; even if the strong-willed resist, they soon find themselves outnumbered. Awe can turn a chancy deliberation into a certain resolution in the vampire's favor almost before her opponents know that the tide has turned. Despite the intensity of this attraction, those so smitten do not lose their sense of self-preservation. Danger breaks the spell of fascination, as does leaving the area. Those subject to Awe will remember how they felt in the vampire's presence, however. This will influence their reactions should they ever encounter her again.",
+							"system" : "The player rolls Charisma + Performance (difficulty 7). The number of successes rolled determines how many people are affected, as noted on the chart below. If there are more people present than the character can influence, Awe affects those with lower Willpower scores first. The power stays in effect for the remainder of the scene or until the character chooses to drop it.",
+							"tables" : [
+								{
+									"name" : "System table",
+									"rows" : [
+										{
+											"cols" : [
+												"Successes",
+												"Result"
+											]
+										},
+										{
+											"cols" : [
+												"1",
+												"One person"
+											]
+										},
+										{
+											"cols" : [
+												"2",
+												"Two people"
+											]
+										},
+										{
+											"cols" : [
+												"3",
+												"Six people"
+											]
+										},
+										{
+											"cols" : [
+												"4",
+												"20 people"
+											]
+										},
+										{
+											"cols" : [
+												"5",
+												"Everyone in the vampire's immediate vicinity (an entire auditorium, a mob)"
+											]
+										}
+									]
+								}
+							],
+							"additionalSystem" : "Those affected can use Willpower points to overcome the effect, but must continue spending Willpower every turn for as long as they remain in the same area as the vampire. As soon as an individual spends a number of Willpower points equal to the successes rolled, he shakes off the Awe completely and remains unaffected for the rest of the scene."
 						},
 						{
 							"title" : "Level 2 - Dread Gaze", 
-							"description" : "While all Kindred can frighten others by physically revealing their true vampiric natures -- baring claws and fangs, glaring with malevolence, hissing loudly with malice -- this power focuses these elements to insanely terrifying levels. Dread Gaze engenders unbearable terror in its victim, stupefying him into madness, immobility, or reckless flight. Even the most stalwart individual will fall back from the vampire's horrific visage."
+							"description" : "While all Kindred can frighten others by physically revealing their true vampiric natures -- baring claws and fangs, glaring with malevolence, hissing loudly with malice -- this power focuses these elements to insanely terrifying levels. Dread Gaze engenders unbearable terror in its victim, stupefying him into madness, immobility, or reckless flight. Even the most stalwart individual will fall back from the vampire's horrific visage.",
+							"system" : "The player rolls Charisma + Intimidation (difficulty of the victim's Wits + Courage). Success indicates the victim is cowed, while failure means the target is startled but not terrified by the sight. Three or more successes means he runs away in abject fear; victims who have nowhere to go claw at the walls, hoping to dig a way out rather than face the vampire. Moreover, each success subtracts one from the target's action dice pools next turn. The character may attempt Dread Gaze once per turn, though she may also perform it as an extended action, adding her successes in order to subjugate the target completely. Once the target loses enough dice that he cannot perform any action, he's so shaken and terrified that he curls up on the ground and weeps. Failure during the extended action means the attempt falters. The character loses all her collected successes and can start over next turn, while the victim may act normally again. A botch at any time indicates the target is not at all impressed - perhaps even finding the vampire's antics comical - and remains immune to any further uses of Presence by the character for the rest of the story."
 						},
 						{
 							"title" : "Level 3 - Entrancement", 
-							"description" : "This power bends others' emotions, making them the vampire's willing servants. Due to what these individuals see as true and enduring devotion, they heed the vampire's every desire. Since this is done willingly, instead of having their wills sapped, these servants retain their creativity and individuality. While these obedient minions are more personable and spirited than the mind-slaves created by Dominate, they're also somewhat unpredictable. Further, since Entrancement is of a temporary duration, dealing with a lapsed servant can be troublesome. A wise Kindred either disposes of those she Entrances after they serve their usefulness, or binds them more securely by a blood bond (made much easier by the minion's willingness to serve)."
+							"description" : "This power bends others' emotions, making them the vampire's willing servants. Due to what these individuals see as true and enduring devotion, they heed the vampire's every desire. Since this is done willingly, instead of having their wills sapped, these servants retain their creativity and individuality. While these obedient minions are more personable and spirited than the mind-slaves created by Dominate, they're also somewhat unpredictable. Further, since Entrancement is of a temporary duration, dealing with a lapsed servant can be troublesome. A wise Kindred either disposes of those she Entrances after they serve their usefulness, or binds them more securely by a blood bond (made much easier by the minion's willingness to serve).",
+							"system" : "The player rolls Appearance + Empathy (difficulty of the target's permanent Willpower); the number of successes determines how long the subject is entranced (see the chart below). The Storyteller may wish to make the roll instead, since the character is never certain of the strength of her hold on the victim. The vampire may try to keep the subject under her thrall, but can do so only after the initial Entrancement wears off. Attempting this power while Entrancement is already in operation has no effect.",
+							"tables" : [
+								{
+									"name" : "System table",
+									"rows" : [
+										{
+											"cols" : [
+												"Successes",
+												"Result"
+											]
+										},
+										{
+											"cols" : [
+												"1",
+												"One hour"
+											]
+										},
+										{
+											"cols" : [
+												"2",
+												"One day"
+											]
+										},
+										{
+											"cols" : [
+												"3",
+												"One week"
+											]
+										},
+										{
+											"cols" : [
+												"4",
+												"One month"
+											]
+										},
+										{
+											"cols" : [
+												"5",
+												"One year"
+											]
+										}
+									]
+								}
+							]
 						},
 						{
 							"title" : "Level 4 - Summon", 
-							"description" : "This impressive power enables the vampire to call to herself any person whom she has ever met. This call can go to anyone, mortal or supernatural, across any distance within the physical world. The subject of the Summons comes as fast as he is able, possibly without even knowing why. He knows intuitively how to find his Summoner -- even if the vampire moves to a new location, the subject redirects his own course as soon as he can. After all, he's coming to the vampire herself, not to some predetermined site. Although this power allows the vampire to call someone across a staggering distance, it is most useful when used locally. Even if the desired person books the next available flight, getting to Kyoto from Milwaukee can still take far longer than the vampire needs. Obviously, the individual's financial resources are a factor; if he doesn't have the money to travel quickly, it will take him a far greater time to get there. The subject thinks mainly of reaching the vampire, but does not neglect his own well-being. This is less of a consideration if he only has to cross a room, unless he must get through a gang of gun-wielding punks to do so. The individual retains his survival instincts, and while he won't shirk physical violence to reach the vampire's side, he won't subject himself to suicidal situations. The Summoning dissipates at dawn. Unless the subject is trained to continue toward the vampire after the first call, the immortal must Summon each night until the target arrives. Still, as long as the vampire is willing and able, she is assured to greet her desired subject some night -- as long as nothing happens to him along the way, of course."
+							"description" : "This impressive power enables the vampire to call to herself any person whom she has ever met. This call can go to anyone, mortal or supernatural, across any distance within the physical world. The subject of the Summons comes as fast as he is able, possibly without even knowing why. He knows intuitively how to find his Summoner -- even if the vampire moves to a new location, the subject redirects his own course as soon as he can. After all, he's coming to the vampire herself, not to some predetermined site. Although this power allows the vampire to call someone across a staggering distance, it is most useful when used locally. Even if the desired person books the next available flight, getting to Kyoto from Milwaukee can still take far longer than the vampire needs. Obviously, the individual's financial resources are a factor; if he doesn't have the money to travel quickly, it will take him a far greater time to get there. The subject thinks mainly of reaching the vampire, but does not neglect his own well-being. This is less of a consideration if he only has to cross a room, unless he must get through a gang of gun-wielding punks to do so. The individual retains his survival instincts, and while he won't shirk physical violence to reach the vampire's side, he won't subject himself to suicidal situations. The Summoning dissipates at dawn. Unless the subject is trained to continue toward the vampire after the first call, the immortal must Summon each night until the target arrives. Still, as long as the vampire is willing and able, she is assured to greet her desired subject some night -- as long as nothing happens to him along the way, of course.",
+							"system" : "The player rolls Charisma + Subterfuge. The base difficulty is 5; this increases to difficulty 7 if the subject is virtually a stranger. If the character used Presence successfully on the target in the past, this difficulty drops to 4 - however, if the attempt was unsuccessful, then the difficulty is 8. The number of successes indicates the subject's speed and attitude in responding",
+							"tables" : [
+								{
+									"name" : "System table",
+									"rows" : [
+										{
+											"cols" : [
+												"Successes",
+												"Result"
+											]
+										},
+										{
+											"cols" : [
+												"1",
+												"Subject approaches slowly and hesitantly."
+											]
+										},
+										{
+											"cols" : [
+												"2",
+												"Subject approaches reluctantly and is easily thwarted by obstacles."
+											]
+										},
+										{
+											"cols" : [
+												"3",
+												"Subject approaches with reasonable speed."
+											]
+										},
+										{
+											"cols" : [
+												"4",
+												"Subject comes with haste, overcoming any obstacles in his way."
+											]
+										},
+										{
+											"cols" : [
+												"5",
+												"Subject rushes to the vampire, doing anything to get to her."
+											]
+										}
+									]
+								}
+							]
 						},
 						{
 							"title" : "Level 5 - Majesty", 
-							"description" : "At this stage, the vampire can augment her supernatural mien a thousandfold. The attractive become paralyzingly beautiful; the homely become hideously twisted. Majesty inspires universal respect, devotion, fear -- or all those emotions at once -- in those around the vampire. The weak scramble to obey her every whim, and even the most dauntless find it almost impossible to deny her. People affected find the vampire so formidable that they dare not risk her displeasure. Raising their voices to her is difficult; raising a hand against her is unthinkable. Those few who shake off the vampire's potent mystique enough to oppose her are shouted down by the many under her thrall, before the immortal need even respond. Under Majesty's influence, hearts break, power trembles, and the bold shake. Wise Kindred use this power with caution against mortal and immortal alike. While Majesty can cow influential politicians and venerable Primogen, the vampire must be careful that doing so doesn't come back to haunt her. After all, a dignitary brought low before others loses his usefulness quickly, while a humiliated Kindred has centuries to plan revenge."
+							"description" : "At this stage, the vampire can augment her supernatural mien a thousandfold. The attractive become paralyzingly beautiful; the homely become hideously twisted. Majesty inspires universal respect, devotion, fear -- or all those emotions at once -- in those around the vampire. The weak scramble to obey her every whim, and even the most dauntless find it almost impossible to deny her. People affected find the vampire so formidable that they dare not risk her displeasure. Raising their voices to her is difficult; raising a hand against her is unthinkable. Those few who shake off the vampire's potent mystique enough to oppose her are shouted down by the many under her thrall, before the immortal need even respond. Under Majesty's influence, hearts break, power trembles, and the bold shake. Wise Kindred use this power with caution against mortal and immortal alike. While Majesty can cow influential politicians and venerable Primogen, the vampire must be careful that doing so doesn't come back to haunt her. After all, a dignitary brought low before others loses his usefulness quickly, while a humiliated Kindred has centuries to plan revenge.",
+							"system" : "No roll is required on the part of the vampire, but she must spend a Willpower point. A subject must make a Courage roll (difficulty of the character's Charisma + Intimidation) if he wishes to be rude or simply contrary to the vampire. Success allows the individual to act normally for the moment, although he feels the weight of the vampire's displeasure crushing down on him. A subject who fails the roll aborts his intended action and even goes to absurd lengths to humble himself before the vampire, no matter who else is watching. The effects of Majesty last for one scene."
 						}
 					]
 				},
@@ -919,23 +1355,72 @@
 					"itens" : [
 						{
 							"title" : "Level 1 - Silence Of Death", 
-							"description" : "Many Assamites claim never to have heard their targets' death screams. Silence of Death imbues the vampire with a mystical silence that radiates from her body, muting all noise within a certain vicinity. No sound occurs inside this zone, though sounds originating outside the area of effect may be heard by anyone in it. Rumors abound of certain skilled Assamite viziers who have the ability to silence a location rather than a circumference that follows them, but no proof of this has been forthcoming."
+							"description" : "Many Assamites claim never to have heard their targets' death screams. Silence of Death imbues the vampire with a mystical silence that radiates from her body, muting all noise within a certain vicinity. No sound occurs inside this zone, though sounds originating outside the area of effect may be heard by anyone in it. Rumors abound of certain skilled Assamite viziers who have the ability to silence a location rather than a circumference that follows them, but no proof of this has been forthcoming.",
+							"system" : "This power costs one blood point to activate, which maintains a 20-foot radius of utter stillness around the Assamite for one hour."
 						},
 						{
 							"title" : "Level 2 - Scorpion's Touch", 
-							"description" : "By changing the properties of her blood, a vampire may create powerful venom that strips her prey of his resilience. This power is greatly feared by other Kindred, and all manner of hideous tales concerning methods of delivery circulate among trembling coteries. Kindred with Quietus are known to deliver the poison by coating their weapons with it, blighting their opponents with a touch, or spitting it like a cobra. An apocryphal account speaks of a proud Prince who discovered an Assamite plotting her exsanguination and began to diablerize her would-be assassin. Halfway through the act, she learned that she had ingested a dire quantity of tainted blood and was then unable to resist the weakened hashashiyyin's renewed attack."
+							"description" : "By changing the properties of her blood, a vampire may create powerful venom that strips her prey of his resilience. This power is greatly feared by other Kindred, and all manner of hideous tales concerning methods of delivery circulate among trembling coteries. Kindred with Quietus are known to deliver the poison by coating their weapons with it, blighting their opponents with a touch, or spitting it like a cobra. An apocryphal account speaks of a proud Prince who discovered an Assamite plotting her exsanguination and began to diablerize her would-be assassin. Halfway through the act, she learned that she had ingested a dire quantity of tainted blood and was then unable to resist the weakened hashashiyyin's renewed attack.",
+							"system" : "To convert a bit of her blood to poison, the Assamite's player spends at least one blood point and rolls Willpower (difficulty 6). If this roll is successful, and the Assamite successfully hits (but not necessarily damages) her opponent, the target loses a number of Stamina points equal to the number of blood points converted into poison. The victim may resist the poison with a Stamina + Fortitude roll (difficulty 6); successes achieved on the resistance roll subtract from the Assamite's successes to affect the target. The maximum number of blood points an Assamite may convert at any one time equals her Stamina. The number of successes scored indicates the duration of the Stamina loss.",
+							"tables" : [
+								{
+									"name" : "System table",
+									"rows" : [
+										{
+											"cols" : [
+												"Successes",
+												"Result"
+											]
+										},
+										{
+											"cols" : [
+												"1",
+												"One turn"
+											]
+										},
+										{
+											"cols" : [
+												"2",
+												"One hour"
+											]
+										},
+										{
+											"cols" : [
+												"3",
+												"One day"
+											]
+										},
+										{
+											"cols" : [
+												"4",
+												"One month"
+											]
+										},
+										{
+											"cols" : [
+												"5",
+												"Permanently (though Stamina may be bought back up with experience)"
+											]
+										}
+									]
+								}
+							],
+							"additionalSystem" : "If a mortal's Stamina falls to zero through use of Scorpion's Touch, she becomes terminally ill and loses immunity to diseases, her body succumbing to sickness within the year unless she somehow manages to increase her Stamina again. If a Kindred's Stamina falls to zero, the vampire enters torpor and remains that way until one of her Stamina points returns. If a Kindred is permanently reduced to zero Stamina, she may recover from torpor only through mystical means.To afflict her target with the poison, the Assamite must touch her target's flesh or hit that target with something that carries the venom. Many Assamites lubricate their weapons with the excretion, while others pool the toxin in their hands (or fleck their lips with the poison, for a 'kiss of death') and press it to their opponents. Weapons so envenomed must be of the melee variety - arrows, sling stones, bullets and the like cannot carry enough of the stuff to do damage, and it drips off in flight. Players whose Assamites wish to spit at their targets must make a Stamina + Athletics roll (difficulty 6). No more than two blood points' worth of poison may be expectorated, and a Kindred may spit a distance of 10 feet for each point of Strength and/or Potence the character possesses. Assamites are immune to their own poison, but not the blood-venom of other Assamites."
 						},
 						{
 							"title" : "Level 3 - Dagon's Call", 
-							"description" : "This terrible power allows a vampire to drown her target in his own blood. By concentrating, the Kindred bursts her target's blood vessels and fills his lungs with vitae that strangles him from within. The blood actually constricts the target's body from the inside as it floods through his system; thus, it works even on unbreathing Kindred. Until the target collapses in agony or death throes, this power has no visible effect, and many Kindred like it because it leaves no trace of their presence."
+							"description" : "This terrible power allows a vampire to drown her target in his own blood. By concentrating, the Kindred bursts her target's blood vessels and fills his lungs with vitae that strangles him from within. The blood actually constricts the target's body from the inside as it floods through his system; thus, it works even on unbreathing Kindred. Until the target collapses in agony or death throes, this power has no visible effect, and many Kindred like it because it leaves no trace of their presence.",
+							"system" : "The Assamite must touch her target prior to using Dagon's Call. Within an hour thereafter, the Assamite may issue the call, though she need not be in the presence or even in the line of sight other target. Invoking the power costs one Willpower point. The Assamite's player makes a contested Stamina roll against the target's Stamina; the difficulty of each roll is equal to the opponent's permanent Willpower score. The number of successes the Assamite achieves is the amount of damage, in health levels, the victim suffers. For an additional point of Willpower spent in the next turn, the Assamite may continue using Dagon's Call by engaging in another contested Stamina roll. Damage from Dagon's Call is considered lethal. So long as the Assamite's player continues to spend Willpower, the character may continue rending her opponent from within."
 						},
 						{
 							"title" : "Level 4 - Baal's Caress", 
-							"description" : "The penultimate use of blood as a weapon (short of diablerie itself), Baal's Caress allows the Kindred to transmute her blood into a virulent ichor that destroys any living or undead flesh it touches. In nights of yore, when Assamites led the charges of Saracen legions, the Assassins were often seen licking their blades, slicing open their tongues and lubricating their weapons with this foul secretion. Baal's Caress may be used to augment any bladed weapon; everything from poisoned knives and swords to tainted fingernails and claws has been reported."
+							"description" : "The penultimate use of blood as a weapon (short of diablerie itself), Baal's Caress allows the Kindred to transmute her blood into a virulent ichor that destroys any living or undead flesh it touches. In nights of yore, when Assamites led the charges of Saracen legions, the Assassins were often seen licking their blades, slicing open their tongues and lubricating their weapons with this foul secretion. Baal's Caress may be used to augment any bladed weapon; everything from poisoned knives and swords to tainted fingernails and claws has been reported.",
+							"system" : "Baal's Caress does not increase the damage done by a given weapon, but that weapon inflicts aggravated damage rather than normal. No roll is necessary to activate this power, but one blood point is consumed per hit. For example, if an Assamite poisons his knife and strikes his opponent (even if he inflicts no damage), one blood point's worth of lubrication disappears. For this reason, many Assamites choose to coat their weapons with a significant quantity of blood. If the Assamite misses, no tainted blood is consumed."
 						},
 						{
 							"title" : "Level 5 - Taste Of Death", 
-							"description" : "A refinement of Baal's Caress, Taste of Death allows the Cainite to spit caustic blood at her target. The blood coughed forth with this power burns flesh and corrodes bone; some vampires have been reported to vomit voluminous streams of vitae that reduce their targets to heaps of sludge."
+							"description" : "A refinement of Baal's Caress, Taste of Death allows the Cainite to spit caustic blood at her target. The blood coughed forth with this power burns flesh and corrodes bone; some vampires have been reported to vomit voluminous streams of vitae that reduce their targets to heaps of sludge.",
+							"system" : "The vampire may spit up to 10 feet for each dot of Strength and/or Potence he possesses. Hitting the target requires a Stamina + Athletics roll (difficulty 6). Each blood point spewed at the target inflicts two dice of aggravated damage, and there is no limit (other than the vampire's capacity and per-turn expenditure maximum) to the quantity of blood with which a target may be deluged."
 						}
 					]
 				},
