@@ -19,7 +19,9 @@ var Header = React.createClass({
       <div className="main-header">
         <div className="top">
           <div ref="menu" className="menu" onClick={this._toggleMenu}>
-            <span>&#9776;</span>
+            <span className="line"></span>
+            <span className="line"></span>
+            <span className="line"></span>
             <ul className={menuVisibility}>
               <Link to="diceroller">
                 <li>Dice Roller</li>
