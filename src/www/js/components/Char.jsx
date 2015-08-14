@@ -36,7 +36,7 @@ var Char = React.createClass({
       el.parentNode.parentNode.style.zIndex = '0';
       el.parentNode.nextElementSibling.style.display = 'block';
       this.setState({
-        letter: el.value || ''
+        letter: el.value.substring(0,2).toUpperCase() || ''
       });
     },
 
