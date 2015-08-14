@@ -1,7 +1,3 @@
-.battle-map {
-	overflow-x: hidden;
-}
-
 .battle-map .char {
 	border-radius: 50% 50%;
 	position: absolute;
