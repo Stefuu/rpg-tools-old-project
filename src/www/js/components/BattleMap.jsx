@@ -66,10 +66,13 @@ var BattleMap = React.createClass({
 
 	_addChar: function(type){
 		this._charOrder.push(type);
-		console.log(this._charOrder);
 		this.setState({
 			totChars: this.state.totChars + 1
 		});
+		
+		if(navigator.vibrate){
+			navigator.vibrate(100);
+		}
 	},
 
 	_clear: function(type){

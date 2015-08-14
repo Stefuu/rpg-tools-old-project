@@ -23,7 +23,9 @@ var Char = React.createClass({
       if(el.querySelector('label')){  
         el.querySelector('label').style.display = 'block';
         el.querySelector('label').parentNode.style.zIndex = '1';
-        el.querySelector('label').nextElementSibling.display = 'none';
+        el.querySelector('label').nextElementSibling.style.display = 'none';
+
+        el.querySelector('label').querySelector('input').focus();
       }
     },
 
@@ -32,9 +34,9 @@ var Char = React.createClass({
       
       el.parentNode.style.display = 'none';
       el.parentNode.parentNode.style.zIndex = '0';
-      el.parentNode.nextElementSibling.display = 'block';
+      el.parentNode.nextElementSibling.style.display = 'block';
       this.setState({
-        letter: el.value
+        letter: el.value || ''
       });
     },
 

@@ -1,5 +1,5 @@
 .battle-map {
-
+	overflow-x: hidden;
 }
 
 .battle-map .char {
