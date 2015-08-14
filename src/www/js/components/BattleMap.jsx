@@ -11,7 +11,7 @@ var Char = require('./Char.jsx');
 var BattleMap = React.createClass({
 	getInitialState: function() {
     	return {
-    		matrix: '8x12',
+    		matrix: '10x8',
     		totChars: 0
     	};
   	},
@@ -127,7 +127,7 @@ var BattleMap = React.createClass({
         	<div className="map">
         		<select onChange={this._changeMatrix}>
         			<option value="">Choose map size</option>
-        			<option value="12x8">Small - Portrait</option>
+        			<option value="10x8">Small - Portrait</option>
         			<option value="15x10">Medium - Portrait</option>
         			<option value="18x13">Large - Portrait</option>
         			<option value="8x12">Small - Landscape</option>

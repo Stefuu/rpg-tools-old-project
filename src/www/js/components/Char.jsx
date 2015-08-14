@@ -35,9 +35,12 @@ var Char = React.createClass({
       el.parentNode.style.display = 'none';
       el.parentNode.parentNode.style.zIndex = '0';
       el.parentNode.nextElementSibling.style.display = 'block';
-      this.setState({
-        letter: el.value.substring(0,2).toUpperCase() || ''
-      });
+      
+      if( el.value != '' ){
+        this.setState({
+          letter: el.value.substring(0,2).toUpperCase() || ''
+        });
+      }
     },
 
   	render: function(){
@@ -52,7 +55,7 @@ var Char = React.createClass({
     	return (
         	<div className={charClass} style={ {top: topTranslate} }>
             <label style={{display: 'none'}}>
-              <input placeholder="Type initials:" onBlur={this._changeInitials} type="text"/>
+              <input placeholder="Type initials:" onBlur={this._changeInitials} onKeyUp={ function(event){if(event.keyCode == 13){ this._changeInitials(event) } }.bind(this) } type="text"/>
             </label>
             <span>{this.state.letter}</span>
             <div className="dragContainer" onTouchMove={this._touchMove} onClick={this._showInput}></div>

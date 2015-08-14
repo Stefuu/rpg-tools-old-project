@@ -61,10 +61,13 @@
   display: inline-block;
 }
 .main-header .menu span {
-  min-width: 30px;
-  min-height: 30px;
   display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin-top: 5px;
 }
+
 .main-header .menu ul{
   position: absolute;
   background-color: #eee;
