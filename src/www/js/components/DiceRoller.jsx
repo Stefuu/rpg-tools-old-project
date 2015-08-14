@@ -22,7 +22,9 @@ var DiceRoller = React.createClass({
   },
   _rollDices: function(){
     if(this.state.dices.length > 0){
-      navigator.vibrate([50]);
+      if(navigator.vibrate){  
+        navigator.vibrate([50]);
+      }
       DiceRollerActions.rollDices();
     }
   },
