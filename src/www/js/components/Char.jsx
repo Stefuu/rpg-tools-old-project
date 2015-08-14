@@ -14,8 +14,8 @@ var Char = React.createClass({
   		
   		e.preventDefault();
 
-  		el.parentNode.style.top = e.touches[0].clientY - 15;
-  		el.parentNode.style.left = e.touches[0].clientX - 15;
+  		el.parentNode.style.top = e.touches[0].clientY - 15 + window.pageYOffset;
+  		el.parentNode.style.left = e.touches[0].clientX - 15 + window.pageXOffset;
   		
   	},
     _showInput: function(e){

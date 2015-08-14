@@ -19,6 +19,9 @@ var ConcertinaListItens = React.createClass({
     if(item.system){
       var systemMArkup = <span><b>{Json.commonWords.system}:<br /></b>{item.system}</span>;
     }
+    if(item.additionalSystem){
+     var additionalSystemMarkup = <span>{item.additionalSystem}</span>;
+    }
 
     if(item.tables){
       var tables = item.tables.map(function(table,i){
@@ -36,8 +39,9 @@ var ConcertinaListItens = React.createClass({
         <div className={'desc ' + descClass}>
           <span>{item.description}</span>
           {systemMArkup}
+          {tables}
+          {additionalSystemMarkup}   
         </div> 
-        {tables}   
       </li>
     );
   }
