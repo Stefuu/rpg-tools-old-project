@@ -1,51 +1,42 @@
 /** @jsx React.DOM */
 /* jshint node:true */
 /* jshint browser:true */
-/*
-var json = {
-	"vampire" : {
-		"disciplinas" : {
-			"animalismo" : [
-				{
-					"title" : "Level 1", 
-					"description" : "blabla"
-				},
-				{
-					"title" : "Level 2", 
-					"description" : "blabla"
-				}
-			],
-			"fortitude" : [
-				{
-					"title" : "Level 1", 
-					"description" : "blabla"
-				},
-				{
-					"title" : "Level 2", 
-					"description" : "blabla"
-				}
-			],
-		}
-	}
-}
 
-porps.itens = json.vampire.disciplinas.animalismo
-*/
+var React = require('react');
+var ConcertinaListItens = require('./ConcertinaListItens.jsx');
+
 var ConcertinaList = React.createClass({
-
+  getInitialState: function () {
+    return { activeItem: null }
+  },
+  _setActive: function (value) {
+    if( value == this.state.activeItem ){
+      this.setState({ activeItem : null });
+    }else{
+      this.setState({ activeItem : value });
+    }
+    
+    // Scroll to item
+    var headerHeight = document.querySelector('.content header').clientHeight;
+    var liBtnHeight = document.querySelector('.concertina li .title').clientHeight;
+    var fixHeaderHeight = document.querySelector('.main-header .top').clientHeight;
+    setTimeout(function(){
+      document.body.scrollTop = parseInt( headerHeight - fixHeaderHeight + (liBtnHeight * (value + 1)) + (value -1) );
+    }, 500); 
+     
+  },
   render: function(){
   	var itens = this.props.itens;
-  	var itensMarkup = [];
-  	for(var i = 0; i < itens.length; i++){
-  		itensMarkup.push( <li>
-  							<span>Level {itens[i].title}</span>
-  							<span>{itens[i].description}</span> 
-  						  </li>);
-  	}
+
     return (
     	<div>
 	    	<ul className="concertina">
-	    		{itensMarkup}
+	    		{itens.map(function(item,i){
+            var boundClick = this._setActive.bind(this,i);
+            return (
+              <ConcertinaListItens key={i} onClick={boundClick} item={item} ref={'item' + i} active={this.state.activeItem == i} />
+            );
+          }, this)}
 	    	</ul>
 	    </div>
     );

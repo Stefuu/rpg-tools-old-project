@@ -1,0 +1,25 @@
+.concertina .title {
+	width: 100%;
+	display: block;
+	background-color: #0066FF;
+	padding: 10px 30px 10px 10px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+	border-bottom: 1px solid #6699FF;
+	box-sizing: border-box;
+}
+
+.concertina .title:last-child {
+	border-bottom: 0;
+}
+.concertina .desc {
+	line-height: 25px;
+	font-size: 17px;
+	overflow: hidden;
+}
+
+.concertina .desc > span{
+	padding: 10px;
+	display: block;
+}

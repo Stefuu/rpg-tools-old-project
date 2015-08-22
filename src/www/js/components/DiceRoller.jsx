@@ -10,12 +10,12 @@ var DiceRollerActions = require('./../actions/DiceRollerActions.jsx');
 
 var DiceRoller = React.createClass({
   mixins: [Reflux.connect(DiceRollerStore)],
-  componentWillMount(){
+  componentWillMount: function(){
     if(window.shake){
       window.shake.startWatch(this._rollDices, 40);
     }
   },
-  componentWillDestroy(){
+  componentWillDestroy: function(){
     if(window.shake){
       window.shake.stopWatch();
     }

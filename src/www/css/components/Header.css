@@ -6,6 +6,7 @@
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1;
 }
 
 .main-header .appName {
@@ -59,14 +60,32 @@
 .main-header .appName {
   display: inline-block;
 }
-
+.main-header .menu span {
+  min-width: 30px;
+  min-height: 30px;
+  display: block;
+}
 .main-header .menu ul{
   position: absolute;
   background-color: #eee;
-  height: 157px;
   z-index: 99;
   left: 0;
-  top: 36px;
+  top: 40px;
   width: 50%;
   font-size: 28px;
+  color: black;
+  box-shadow: 5px 5px 10px #888888;
+}
+
+.main-header .menu ul a{
+  text-indent: 15px;
+  border-top: 1px solid;
+  display: block;
+}
+.main-header .menu ul a:first-child{
+  border: 0;
+}
+
+.content header {
+  padding-bottom: 15px;
 }

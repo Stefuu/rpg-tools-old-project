@@ -1,0 +1,28 @@
+.containerTable{
+  margin: 0 30px;
+}
+.itemTable {
+  box-sizing: border-box;
+  display: block;
+  padding: 10px 0;
+  background-color: #0099CC;
+  font-size: 18px;
+  font-weight: bold;
+  text-indent: 15px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.itemTable:after{
+  right: 30px;
+}
+table {
+  margin: 10px auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+table, th, td {
+    border: 1px solid;
+}
+td {
+  padding: 10px;
+}

@@ -1,40 +1,17 @@
-var defaultLanguage = require('./../language/default.json');
+var defaultLanguage = require('./../languages/languages.json');
 
 module.exports = {
-  string: function(setStrings){
-    if(navigator.globalization){
-      navigator.globalization.getPreferredLanguage(
-        function (language){
-          var url = './js/language/' + language.value +  '.json';
-          var req = new XMLHttpRequest();
-          req.open('GET', url, false);
-          req.send();
-          if(req.status == 200){
-            setStrings(JSON.parse(req.response));
-          }
-          else{
-            setStrings(defaultLanguage);
-          }
-        }.bind(setStrings)
-      );
-    }
-    else{
-      setStrings(defaultLanguage);
-    }
+  movelDeCabeceira : function(){
+  	require('./../languages/pt-br.json');
+  	require('./../languages/en-us.json');
   },
-  datePattern: function(setDate){
-    if(navigator.globalization){
-      navigator.globalization.dateToString(
-        new Date,
-        function(date){
-          setDate(date.value);
-        }.bind(setDate),
-        function(){
-          setDate(new Date().toFormat('MM/DD/YYYY HH24:MI'));
-        }.bind(setDate))
+  chooseLanguage : function(){
+    var i = 0;
+    for(i; i < defaultLanguage.languages.length; i++){
+      if(navigator.language.toLowerCase() == defaultLanguage.languages[i].toLowerCase()){
+        return require('./../languages/'+ navigator.language.toLowerCase() +'.json');
+      }
     }
-    else{
-      setDate(new Date().toFormat('MM/DD/YYYY HH24:MI'));
-    }
+    return require('./../languages/en-us.json');;
   }
 }
