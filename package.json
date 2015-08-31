@@ -1,5 +1,5 @@
 {
-  "name": "SeuJuiz",
+  "name": "RPGTools",
   "version": "0.0.1",
   "description": "Um cronometro pra futsal.",
   "main": "index.js",
@@ -14,8 +14,8 @@
     "Cordova",
     "Gulp"
   ],
-  "author": "Primeiro Portal",
-  "license": "Apache version 2.0",
+  "author": "RPG Tools",
+  "license": "",
   "devDependencies": {
     "browserify": "~9.0.x",
     "cordova-lib": "^4.3.0",
