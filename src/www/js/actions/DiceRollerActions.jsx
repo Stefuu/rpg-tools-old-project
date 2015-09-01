@@ -8,7 +8,8 @@ var DiceRollerActions = reflux.createActions(
   [
     "rollDices",
     "addDice",
-    "clearDices"
+    "clearDices",
+    "removeDice"
   ]
 );
 
