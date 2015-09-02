@@ -37,7 +37,7 @@ var ConcertinaListItens = React.createClass({
           <span>{item.title}</span>
         </div>
         <div className={'desc ' + descClass}>
-          <span>{item.description}</span>
+          <span dangerouslySetInnerHTML={{__html: item.description}}></span>
           {systemMArkup}
           {tables}
           {additionalSystemMarkup}   
