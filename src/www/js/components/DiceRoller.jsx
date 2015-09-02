@@ -36,16 +36,26 @@ var DiceRoller = React.createClass({
     event.currentTarget.classList.add('dicePositionsSelected');
   },
   _removeDice: function(element){
+<<<<<<< 995e5d96ee8c9de2ffeac9e2940f89800e1cf788
     DiceRollerActions.removeDice($(element.currentTarget).index());
+=======
+    DiceRollerActions.removeDice($(element.currentTarget).index())
+>>>>>>> Adicionada capacidade de remover dados e exibição dos resultados individuais
   },
   render: function() {
     var renderedDiceList = [];
     if(this.state.dices.length > 0){
       for(var i = 0; i < this.state.dices.length; ++i) {
+        var currentResult = this.state.results[i] ? this.state.results[i] : false;
         var imgSrc = "assets/img/icon-d" + this.state.dices[i] + ".png";
         renderedDiceList.push(
           <li onClick={this._removeDice}>
+<<<<<<< 995e5d96ee8c9de2ffeac9e2940f89800e1cf788
             <img src={imgSrc} />
+=======
+            <span>{currentResult}</span>
+            <img src={imgSrc} className={currentResult ? 'dimImage' : ''}/>
+>>>>>>> Adicionada capacidade de remover dados e exibição dos resultados individuais
           </li>);
       }
     }
