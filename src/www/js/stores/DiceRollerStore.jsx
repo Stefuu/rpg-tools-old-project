@@ -50,6 +50,12 @@ var DiceRollerStore = Reflux.createStore({
     currentState.dices.sort(function(a, b){return a-b;});
     this.trigger(currentState);
   },
+  onRemoveDice: function(dice){
+    currentState.dices.splice(dice, 1);
+    currentState.results.splice(dice, 1);
+    console.log('Resultados:', currentState.results);
+    this.trigger(currentState);
+  },
   onClearDices: function(){
     console.log('clearDices');
   }
