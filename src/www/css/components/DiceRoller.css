@@ -62,3 +62,13 @@
 #selectedDicesList li img {
   width:100%;
 }
+
+#selectedDicesList li img.dimImage{
+  opacity: 0.2;
+}
+
+#selectedDicesList li span{
+  position:absolute;
+  line-height:70px;
+  width:70px;
+}

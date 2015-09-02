@@ -15,5 +15,5 @@ var paths = {
 gulp.task('watch', function() {
   gulp.watch(paths.css.files, ['css']);
   gulp.watch(paths.js.files, ['js']);
-  gulp.watch(paths.css.files.concat(paths.js.files), ['prepare']);
+  //gulp.watch(paths.css.files.concat(paths.js.files), ['prepare']);
 });

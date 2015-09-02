@@ -33,14 +33,19 @@ var DiceRoller = React.createClass({
     });
     event.currentTarget.classList.add('dicePositionsSelected');
   },
+  _removeDice: function(element){
+    DiceRollerActions.removeDice($(element.currentTarget).index())
+  },
   render: function() {
     var renderedDiceList = [];
     if(this.state.dices.length > 0){
       for(var i = 0; i < this.state.dices.length; ++i) {
+        var currentResult = this.state.results[i] ? this.state.results[i] : false;
         var imgSrc = "assets/img/icon-d" + this.state.dices[i] + ".png";
         renderedDiceList.push(
-          <li>
-            <img src={imgSrc} />
+          <li onClick={this._removeDice}>
+            <span>{currentResult}</span>
+            <img src={imgSrc} className={currentResult ? 'dimImage' : ''}/>
           </li>);
       }
     }
