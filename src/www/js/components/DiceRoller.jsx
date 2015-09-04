@@ -59,9 +59,6 @@ var DiceRoller = React.createClass({
           </li>);
       }
     }
-    else{
-      renderedDiceList.push(<span>Selecione pelo menos um dado</span>);
-    }
     return (
       <div className="dice-roller">
         <div className="rollDiceContainer">
@@ -70,6 +67,7 @@ var DiceRoller = React.createClass({
             <ul id="selectedDicesList">
               {renderedDiceList}
             </ul>
+            {this.state.dices.length <= 0 ? <span className="no-selected-dice">Selecione pelo manos um dado</span> : false}
           </div>
           <div className="rollDiceResult">
             <div className="label">
