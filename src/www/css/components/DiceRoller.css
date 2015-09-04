@@ -24,11 +24,18 @@
 }
 
 .selectedDices{
-  top: 100px;
-  bottom: 110px;
+  top: 140px;
+  bottom: 185px;
   left: 0;
   right: 0;
   overflow: auto;
+  position: absolute;
+}
+
+.no-selected-dice{
+  font-size: 20px;
+  position: relative;
+  top: 40px;
 }
 
 .rollDiceResult {
