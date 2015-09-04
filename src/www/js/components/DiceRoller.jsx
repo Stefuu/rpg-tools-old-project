@@ -46,8 +46,8 @@ var DiceRoller = React.createClass({
     var renderedDiceList = [];
     if(this.state.dices.length > 0){
       for(var i = 0; i < this.state.dices.length; ++i) {
-        var currentResult = this.state.results[i] ? this.state.results[i] : false;
-        var imgSrc = "assets/img/icon-d" + this.state.dices[i] + ".png";
+        var currentResult = this.state.dices[i].result;
+        var imgSrc = "assets/img/icon-d" + this.state.dices[i].type + ".png";
         renderedDiceList.push(
           <li onClick={this._removeDice}>
 <<<<<<< 995e5d96ee8c9de2ffeac9e2940f89800e1cf788
