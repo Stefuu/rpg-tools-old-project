@@ -7,10 +7,6 @@
 
 .rollDiceContainer {
   text-align:center;
-  top: 40px;
-  left: 0;
-  right: 0;
-  bottom: 70px;
 }
 
 .rollDiceButton {
@@ -80,3 +76,4 @@
   line-height:70px;
   width:70px;
 }
+

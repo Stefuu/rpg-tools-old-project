@@ -1,3 +1,7 @@
+#dicesList {
+  display: none;
+}
+
 .listDiceContainer{
   position:absolute;
   left: 0;
@@ -5,7 +9,8 @@
   bottom: 0;
   overflow-x: auto;
   overflow-y: hidden;
-  text-align: center;
+  height: 70px;
+  width: 100%;
 }
 
 .listDiceContainer #dicesList {
@@ -22,4 +27,65 @@
 
 .listDiceContainer #dicesList li img {
   width:100%;
+}
+
+
+.fab {
+  float: right;
+  bottom: 70px;
+  right: 70px;
+  position: absolute;
+}
+
+.fab-primary, .fab-secondary {
+    transition: all 0.35s ease-in-out;
+}
+
+.fab-secondary {
+    opacity: 0;
+    transform: rotate(-225deg);
+}
+
+.fab.active .fab-primary {
+    opacity: 0;
+    transform: rotate(225deg);
+}
+
+.fab.active .fab-secondary {
+  opacity: 1;
+  transform: rotate(0);
+}
+
+.fa-stack-1x, .fa-stack-2x {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.fa-plus{
+  background-color: #db4437;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-image: url(../../assets/img/bt_speed_dial_1x.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.fa-pencil {
+  background-color: #db4437;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-image: url(../../assets/img/bt_compose2_1x.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.fa-circle {
+  background-color: #db4437;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
 }

@@ -69,6 +69,7 @@ var DiceRoller = React.createClass({
           </div>
         </div>
         <DiceList />
+        
       </div>
     );
   }
