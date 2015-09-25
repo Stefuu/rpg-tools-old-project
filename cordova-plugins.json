@@ -1,10 +1,5 @@
 [
-  "https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git",
-  "https://github.com/EddyVerbruggen/Insomnia-PhoneGap-Plugin.git",
-  "https://github.com/bunchofstring/com.es3.cordova.plugins.showwhenlocked.git",
-  "https://github.com/fiscal-cliff/phonegap-plugin-brightness.git",
-  "org.apache.cordova.globalization",
   "https://github.com/apache/cordova-plugin-statusbar.git",
-  "https://github.com/leecrossley/cordova-plugin-shake.git",
-  "https://github.com/apache/cordova-plugin-vibration.git"
+  "https://github.com/apache/cordova-plugin-vibration.git",
+  "https://github.com/apache/cordova-plugin-device-motion.git"
 ]

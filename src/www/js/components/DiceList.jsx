@@ -11,39 +11,43 @@ var MainButton = require('react-mfb').MainButton;
 var ChildButton = require('react-mfb').ChildButton;
 
 var DiceList = React.createClass({
-  _addDice: function(event){
-    DiceRollerActions.addDice(event.currentTarget.id);
-  },
+	_handleBlur: function() {
+		console.log(12345);
+	},
   render: function() {
     return (
-      <Menu effect={'slidein-spring'} method={'hover'} position={'br'}>
-				<MainButton iconResting="ion-plus-round" iconActive="ion-close-round" />
-				<ChildButton
-					//onClick={function(e){ console.log(e); e.preventDefault(); }}
-					icon="ion-social-github"
-					//label="View on Github"
-					href="#" />
-				<ChildButton
-					icon="ion-social-octocat"
-					//label="Follow me on Github"
-					href="#" />
-				<ChildButton
-					icon="ion-social-twitter"
-					//label="Share on Twitter"
-					href="#" />
-				<ChildButton
-					//onClick={function(e){ console.log(e); e.preventDefault(); }}
-					icon="ion-social-github"
-					//label="View on Github"
-					href="#" />
-				<ChildButton
-					icon="ion-social-octocat"
-					//label="Follow me on Github"
-					href="#" />
-				<ChildButton
-					icon="ion-social-twitter"
-					//label="Share on Twitter"
-					href="#" />
+      <Menu effect={'slidein-spring'} method={'cick'} position={'br'} onBlur={this._handleBlur}>
+        <MainButton iconResting="ion-plus-round" iconActive="ion-close-round" />
+        <ChildButton
+          className="icon-d100"
+          onClick={DiceRollerActions.addDice.bind(null, 100)}
+          label="D100"
+          href="#" />
+        <ChildButton
+          className="icon-d20"
+          onClick={DiceRollerActions.addDice.bind(null, 20)}
+          label="D20"
+          href="#" />
+        <ChildButton
+          className="icon-d10"
+          onClick={DiceRollerActions.addDice.bind(null, 10)}
+          label="D10"
+          href="#" />
+        <ChildButton
+          className="icon-d8"
+          onClick={DiceRollerActions.addDice.bind(null, 8)}
+          label="D8"
+          href="#" />
+        <ChildButton
+          className="icon-d6"
+          onClick={DiceRollerActions.addDice.bind(null, 6)}
+          label="D6"
+          href="#" />
+        <ChildButton
+          className="icon-d4"
+          onClick={DiceRollerActions.addDice.bind(null, 4)}
+          label="D4"
+          href="#" />
     </Menu>
     );
   }
