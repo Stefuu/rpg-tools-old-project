@@ -29,63 +29,48 @@
   width:100%;
 }
 
-
-.fab {
-  float: right;
-  bottom: 70px;
-  right: 70px;
-  position: absolute;
+.mfb-slidein-spring, .mfb-component__wrap {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  outline: 0;
 }
 
-.fab-primary, .fab-secondary {
-    transition: all 0.35s ease-in-out;
-}
-
-.fab-secondary {
-    opacity: 0;
-    transform: rotate(-225deg);
-}
-
-.fab.active .fab-primary {
-    opacity: 0;
-    transform: rotate(225deg);
-}
-
-.fab.active .fab-secondary {
-  opacity: 1;
-  transform: rotate(0);
-}
-
-.fa-stack-1x, .fa-stack-2x {
-    position: absolute;
-    left: 0;
-    width: 100%;
-    text-align: center;
-}
-
-.fa-plus{
-  background-color: #db4437;
-  width: 56px;
-  height: 56px;
-  border-radius: 50%;
-  background-image: url(../../assets/img/bt_speed_dial_1x.png);
+.mfb-component__main-icon--resting,
+.mfb-component__main-icon--active,
+.mfb-component__button--child {
+  background-size: 30px;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.fa-pencil {
-  background-color: #db4437;
-  width: 56px;
-  height: 56px;
-  border-radius: 50%;
-  background-image: url(../../assets/img/bt_compose2_1x.png);
-  background-repeat: no-repeat;
-  background-position: center;
+.mfb-component__button--main {
+  color: white;
 }
 
-.fa-circle {
-  background-color: #db4437;
-  width: 56px;
-  height: 56px;
-  border-radius: 50%;
+.icon-d4 {
+  background-image: url(../../assets/img/icon-d4-white.png);
+}
+
+.icon-d6 {
+  background-image: url(../../assets/img/icon-d6-white.png);
+}
+
+.icon-d8 {
+  background-image: url(../../assets/img/icon-d8-white.png);
+}
+
+.icon-d10 {
+  background-image: url(../../assets/img/icon-d10-white.png);
+}
+
+.icon-d20 {
+  background-image: url(../../assets/img/icon-d20-white.png);
+}
+
+.icon-d100 {
+  background-image: url(../../assets/img/icon-d100-white.png);
 }
