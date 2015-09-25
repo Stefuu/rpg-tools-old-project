@@ -46,6 +46,9 @@ body {
   font-family: Roboto;
   margin: 0;
   padding: 0;
+  background-image: url('../../assets/img/loading.gif');
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 ul {

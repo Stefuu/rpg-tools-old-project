@@ -13,7 +13,7 @@ var GuideScreen = React.createClass({
   render: function() {
     return (
       <div className="guides">
-      	<header>
+        <header>
           <h1>{Json.guias.title}</h1>
           <div className="img-container">
             <img src="assets/img/guias.jpg" />
