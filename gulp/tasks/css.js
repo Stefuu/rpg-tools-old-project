@@ -21,7 +21,7 @@ gulp.task('css', function() {
             browsers: ['> 5%'],
             cascade: false
         }))
-    .pipe(concat('bundle.css'))
+    .pipe(concat('main.min.css'))
     .pipe(minifyCSS())
     .pipe(gulp.dest('./src/www/dist/css/'));
 

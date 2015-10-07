@@ -103,7 +103,7 @@
 						},
 						{
 							"title" : "Disciplinas",
-							"description" : "Animalismo, Fortitude, Metamorfose"
+							"description" : "<a class='underline' href='#guides/vampire/disciplinas/animalismo'>Animalismo</a><br /><a class='underline' href='#guides/vampire/disciplinas/fortitude'>Fortitude</a><br /><a class='underline' href='#guides/vampire/disciplinas/metamorfose'>Metamorfose</a>"
 						},
 						{
 							"title" : "Aparência",
@@ -144,7 +144,7 @@
 						},
 						{
 							"title" : "Disciplinas",
-							"description" : "Dominação, Necromancia, Potência"
+							"description" : "<a class='underline' href='#guides/vampire/disciplinas/dominacao'>Dominação</a><br /><a class='underline' href='#guides/vampire/disciplinas/necromancia_sepulchre'>Necromancia - A Linha do Sepulcro</a><br /><a class='underline' href='#guides/vampire/disciplinas/necromancia_ash'>Necromancia - A Linha das Cinzas</a><br /><a class='underline' href='#guides/vampire/disciplinas/necromancia_ash'></a><br /><a class='underline' href='#guides/vampire/disciplinas/necromancia_mortuus'>Necromancia - A Linha da Morte</a><br /><a class='underline' href='#guides/vampire/disciplinas/necromancia_vitreous'>Necromancia - A Linha Vítrea</a><br /><a class='underline' href='#guides/vampire/disciplinas/potencia'>Potência</a>"
 						},
 						{
 							"title" : "Aparência",
@@ -185,7 +185,7 @@
 						},
 						{
 							"title" : "Disciplinas",
-							"description" : "Auspícius, Demência, Ofuscação"
+							"description" : "<a class='underline' href='#guides/vampire/disciplinas/auspicios'>Auspícius</a><br /><a class='underline' href='#guides/vampire/disciplinas/demencia'>Demência</a><br /><a class='underline' href='#guides/vampire/disciplinas/ofuscacao'>Ofuscação</a>"
 						},
 						{
 							"title" : "Aparência",
@@ -226,7 +226,7 @@
 						},
 						{
 							"title" : "Disciplinas",
-							"description" : "Dominação, Tenebrosidade, Potência"
+							"description" : "<a class='underline' href='#guides/vampire/disciplinas/dominacao'>Dominação</a><br /><a class='underline' href='#guides/vampire/disciplinas/tenebrosidade'>Tenebrosidade</a><br /><a class='underline' href='#guides/vampire/disciplinas/potencia'>Potência</a>"
 						},
 						{
 							"title" : "Aparência",
@@ -267,7 +267,7 @@
 						},
 						{
 							"title" : "Disciplinas",
-							"description" : "Animalismo, Ofuscação, Potência"
+							"description" : "<a class='underline' href='#guides/vampire/disciplinas/animalismo'>Animalismo</a><br /><a class='underline' href='#guides/vampire/disciplinas/ofuscacao'>Ofuscação</a><br /><a class='underline' href='#guides/vampire/disciplinas/potencia'>Potência</a>"
 						},
 						{
 							"title" : "Aparência",
@@ -308,7 +308,7 @@
 						},
 						{
 							"title" : "Disciplinas",
-							"description" : "Animalismo, Quimerismo, Fortitude"
+							"description" : "<a class='underline' href='#guides/vampire/disciplinas/animalismo'>Animalismo</a><br /><a class='underline' href='#guides/vampire/disciplinas/quimerismo'>Quimerismo</a><br /><a class='underline' href='#guides/vampire/disciplinas/fortitude'>Fortitude</a>"
 						},
 						{
 							"title" : "Aparência",
@@ -349,7 +349,7 @@
 						},
 						{
 							"title" : "Disciplinas",
-							"description" : "Ofuscação, Presença, Serpentis"
+							"description" : "<a class='underline' href='#guides/vampire/disciplinas/ofuscacao'>Ofuscação</a><br /><a class='underline' href='#guides/vampire/disciplinas/presenca'>Presença</a><br /><a class='underline' href='#guides/vampire/disciplinas/serpentis'>Serpentis</a>"
 						},
 						{
 							"title" : "Aparência",
@@ -390,7 +390,7 @@
 						},
 						{
 							"title" : "Disciplinas",
-							"description" : "Auspícios, Rapidez, Presença"
+							"description" : "<a class='underline' href='#guides/vampire/disciplinas/auspicios'>Auspícios</a><br /><a class='underline' href='#guides/vampire/disciplinas/rapidez'>Rapidez</a><br /><a class='underline' href='#guides/vampire/disciplinas/presenca'>Presença</a>"
 						},
 						{
 							"title" : "Aparência",
@@ -431,7 +431,7 @@
 						},
 						{
 							"title" : "Disciplinas",
-							"description" : "Auspícios, Dominação, Taumaturgia"
+							"description" : "<a class='underline' href='#guides/vampire/disciplinas/auspicios'>Auspícios</a><br /><a class='underline' href='#guides/vampire/disciplinas/dominacao'>Dominação</a><br /><a class='underline' href='#guides/vampire/disciplinas/taumaturgia'>Taumaturgia - Linha do Sangue</a>"
 						},
 						{
 							"title" : "Aparência",
@@ -472,7 +472,7 @@
 						},
 						{
 							"title" : "Disciplinas",
-							"description" : "Dominação, Fortitude, Presença"
+							"description" : "<a class='underline' href='#guides/vampire/disciplinas/dominacao'>Dominação</a><br /><a class='underline' href='#guides/vampire/disciplinas/fortitude'>Fortitude</a><br /><a class='underline' href='#guides/vampire/disciplinas/presenca'>Presença</a>"
 						},
 						{
 							"title" : "Aparência",
