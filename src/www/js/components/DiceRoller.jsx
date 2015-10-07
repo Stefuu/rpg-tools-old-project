@@ -20,6 +20,10 @@ var DiceRoller = React.createClass({
       window.shake.stopWatch();
     }
   },
+  _onOverlayClick: function(){
+    document.querySelector('.mfb-component--br').setAttribute('data-mfb-state', 'close');
+    document.querySelector('.dicesOverlay').style.display = 'none';
+  },
   _rollDices: function(){
     if(this.state.dices.length > 0){
       if(navigator.vibrate){  
@@ -36,11 +40,7 @@ var DiceRoller = React.createClass({
     event.currentTarget.classList.add('dicePositionsSelected');
   },
   _removeDice: function(element){
-<<<<<<< 995e5d96ee8c9de2ffeac9e2940f89800e1cf788
     DiceRollerActions.removeDice($(element.currentTarget).index());
-=======
-    DiceRollerActions.removeDice($(element.currentTarget).index())
->>>>>>> Adicionada capacidade de remover dados e exibição dos resultados individuais
   },
   render: function() {
     var renderedDiceList = [];
@@ -50,12 +50,8 @@ var DiceRoller = React.createClass({
         var imgSrc = "assets/img/icon-d" + this.state.dices[i].type + ".png";
         renderedDiceList.push(
           <li onClick={this._removeDice}>
-<<<<<<< 995e5d96ee8c9de2ffeac9e2940f89800e1cf788
-            <img src={imgSrc} />
-=======
             <span>{currentResult}</span>
             <img src={imgSrc} className={currentResult ? 'dimImage' : ''}/>
->>>>>>> Adicionada capacidade de remover dados e exibição dos resultados individuais
           </li>);
       }
     }
@@ -78,8 +74,9 @@ var DiceRoller = React.createClass({
             </div>
           </div>
         </div>
+        <div className="dicesOverlay" onClick={this._onOverlayClick}></div>
         <DiceList />
-        
+
       </div>
     );
   }

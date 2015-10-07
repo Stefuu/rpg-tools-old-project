@@ -11,12 +11,24 @@ var MainButton = require('react-mfb').MainButton;
 var ChildButton = require('react-mfb').ChildButton;
 
 var DiceList = React.createClass({
-	_handleBlur: function() {
-		console.log(12345);
-	},
+  componentDidMount: function(){
+    document.querySelector('.mfb-component__button--main').addEventListener('click', function(){
+      var element = document.querySelector('.dicesOverlay');
+      var style = window.getComputedStyle(element);
+      var display = style.getPropertyValue('display');
+      if(display === 'none') {
+        document.querySelector('.dicesOverlay').style.display = 'block';
+        document.querySelector('.mfb-component--br').setAttribute('data-mfb-state', 'open');
+      }
+      else {
+        document.querySelector('.dicesOverlay').style.display = 'none';
+        document.querySelector('.mfb-component--br').setAttribute('data-mfb-state', 'close');
+      }
+    });
+  },
   render: function() {
     return (
-      <Menu effect={'slidein-spring'} method={'cick'} position={'br'} onBlur={this._handleBlur}>
+      <Menu effect={'slidein-spring'} position={'br'} >
         <MainButton iconResting="ion-plus-round" iconActive="ion-close-round" />
         <ChildButton
           className="icon-d100"
