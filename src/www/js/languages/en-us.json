@@ -21,7 +21,7 @@
 						},
 						{
 							"title" : "Disciplines",
-							"description" : "<a class='underline'  href='#guides/vampire/disciplinas/rapidez'>Celerity</a>, <a class='underline'  href='#guides/vampire/disciplinas/ofuscacao'>Obfuscate</a>, <a class='underline'  href='#guides/vampire/disciplinas/quietus'>Quietus</a>"
+							"description" : "<a class='underline'  href='#guides/vampire/disciplinas/rapidez'>Celerity</a><br /> <a class='underline'  href='#guides/vampire/disciplinas/ofuscacao'>Obfuscate</a><br /> <a class='underline'  href='#guides/vampire/disciplinas/quietus'>Quietus</a>"
 						},
 						{
 							"title" : "Appearance",
@@ -62,7 +62,7 @@
 						},
 						{
 							"title" : "Disciplines",
-							"description" : "<a class='underline'  href='#guides/vampire/disciplinas/rapidez'>Celerity</a>, <a class='underline'  href='#guides/vampire/disciplinas/potencia'>Potence</a>, <a class='underline'  href='#guides/vampire/disciplinas/presenca'>Presence</a>"
+							"description" : "<a class='underline'  href='#guides/vampire/disciplinas/rapidez'>Celerity</a><br /> <a class='underline'  href='#guides/vampire/disciplinas/potencia'>Potence</a><br /> <a class='underline'  href='#guides/vampire/disciplinas/presenca'>Presence</a>"
 						},
 						{
 							"title" : "Appearance",
@@ -103,7 +103,7 @@
 						},
 						{
 							"title" : "Disciplines",
-							"description" : "<a class='underline'  href='#guides/vampire/disciplinas/animalismo'>Animalism</a>, <a class='underline'  href='#guides/vampire/disciplinas/fortitude'>Fortitude</a>, <a class='underline'  href='#guides/vampire/disciplinas/metamorfose'>Protean</a>"
+							"description" : "<a class='underline'  href='#guides/vampire/disciplinas/animalismo'>Animalism</a><br /> <a class='underline'  href='#guides/vampire/disciplinas/fortitude'>Fortitude</a><br /> <a class='underline'  href='#guides/vampire/disciplinas/metamorfose'>Protean</a>"
 						},
 						{
 							"title" : "Appearance",
@@ -144,7 +144,7 @@
 						},
 						{
 							"title" : "Disciplines",
-							"description" : "<a class='underline'  href='#guides/vampire/disciplinas/dominacao'>Dominate</a>, Necromancy, <a class='underline'  href='#guides/vampire/disciplinas/potencia'>Potence</a>"
+							"description" : "<a class='underline' href='#guides/vampire/disciplinas/dominacao'>Dominate</a><br /><a class='underline' href='#guides/vampire/disciplinas/necromancia_sepulchre'>Necromancy - The Sepulchre Path</a><br /><a class='underline' href='#guides/vampire/disciplinas/necromancia_ash'>Necromancy - The Ash Path</a><br /><a class='underline' href='#guides/vampire/disciplinas/necromancia_bone'>Necromancy - The Bone Path</a><br /><a class='underline' href='#guides/vampire/disciplinas/necromancia_mortuus'>Necromancy - The Mortuus Path</a><br /><a class='underline' href='#guides/vampire/disciplinas/necromancia_vitreous'>Necromancy - The Vitreous Path</a><br /><a class='underline'  href='#guides/vampire/disciplinas/potencia'>Potence</a>"
 						},
 						{
 							"title" : "Appearance",
@@ -185,7 +185,7 @@
 						},
 						{
 							"title" : "Disciplines",
-							"description" : "<a class='underline'  href='#guides/vampire/disciplinas/auspicios'>Auspex</a>, <a class='underline'  href='#guides/vampire/disciplinas/dementacao'>Dementation</a>, <a class='underline'  href='#guides/vampire/disciplinas/ofuscacao'>Obfuscate</a>"
+							"description" : "<a class='underline'  href='#guides/vampire/disciplinas/auspicios'>Auspex</a><br /> <a class='underline'  href='#guides/vampire/disciplinas/dementacao'>Dementation</a><br /> <a class='underline'  href='#guides/vampire/disciplinas/ofuscacao'>Obfuscate</a>"
 						},
 						{
 							"title" : "Appearance",
@@ -226,7 +226,7 @@
 						},
 						{
 							"title" : "Disciplines",
-							"description" : "<a class='underline'  href='#guides/vampire/disciplinas/dominacao'>Dominate</a>, <a class='underline'  href='#guides/vampire/disciplinas/tenebrosidade'>Obtenebration</a>, <a class='underline'  href='#guides/vampire/disciplinas/potencia'>Potence</a>"
+							"description" : "<a class='underline'  href='#guides/vampire/disciplinas/dominacao'>Dominate</a><br /> <a class='underline'  href='#guides/vampire/disciplinas/tenebrosidade'>Obtenebration</a><br /> <a class='underline'  href='#guides/vampire/disciplinas/potencia'>Potence</a>"
 						},
 						{
 							"title" : "Appearance",
@@ -267,7 +267,7 @@
 						},
 						{
 							"title" : "Disciplines",
-							"description" : "<a class='underline'  href='#guides/vampire/disciplinas/animalismo'>Animalism</a>, <a class='underline'  href='#guides/vampire/disciplinas/ofuscacao'>Obfuscate</a>, <a class='underline'  href='#guides/vampire/disciplinas/potencia'>Potence</a>"
+							"description" : "<a class='underline'  href='#guides/vampire/disciplinas/animalismo'>Animalism</a><br /> <a class='underline'  href='#guides/vampire/disciplinas/ofuscacao'>Obfuscate</a><br /> <a class='underline'  href='#guides/vampire/disciplinas/potencia'>Potence</a>"
 						},
 						{
 							"title" : "Appearance",
@@ -308,7 +308,7 @@
 						},
 						{
 							"title" : "Disciplines",
-							"description" : "<a class='underline'  href='#guides/vampire/disciplinas/animalismo'>Animalism</a>, <a class='underline'  href='#guides/vampire/disciplinas/quimerismo'>Chimerstry</a>, <a class='underline'  href='#guides/vampire/disciplinas/fortitude'>Fortitude</a>"
+							"description" : "<a class='underline'  href='#guides/vampire/disciplinas/animalismo'>Animalism</a><br /> <a class='underline'  href='#guides/vampire/disciplinas/quimerismo'>Chimerstry</a><br /> <a class='underline'  href='#guides/vampire/disciplinas/fortitude'>Fortitude</a>"
 						},
 						{
 							"title" : "Appearance",
@@ -349,7 +349,7 @@
 						},
 						{
 							"title" : "Disciplines",
-							"description" : "<a class='underline'  href='#guides/vampire/disciplinas/ofuscacao'>Obfuscate</a>, <a class='underline'  href='#guides/vampire/disciplinas/presenca'>Presence</a>, <a class='underline'  href='#guides/vampire/disciplinas/serpentis'>Serpentis</a>"
+							"description" : "<a class='underline'  href='#guides/vampire/disciplinas/ofuscacao'>Obfuscate</a><br /> <a class='underline'  href='#guides/vampire/disciplinas/presenca'>Presence</a><br /> <a class='underline'  href='#guides/vampire/disciplinas/serpentis'>Serpentis</a>"
 						},
 						{
 							"title" : "Appearance",
@@ -390,7 +390,7 @@
 						},
 						{
 							"title" : "Disciplines",
-							"description" : "<a class='underline'  href='#guides/vampire/disciplinas/auspicios'>Auspex</a>, <a class='underline'  href='#guides/vampire/disciplinas/rapidez'>Celerity</a>, <a class='underline'  href='#guides/vampire/disciplinas/presenca'>Presence</a>"
+							"description" : "<a class='underline'  href='#guides/vampire/disciplinas/auspicios'>Auspex</a><br /> <a class='underline'  href='#guides/vampire/disciplinas/rapidez'>Celerity</a><br /> <a class='underline'  href='#guides/vampire/disciplinas/presenca'>Presence</a>"
 						},
 						{
 							"title" : "Appearance",
@@ -431,7 +431,7 @@
 						},
 						{
 							"title" : "Disciplines",
-							"description" : "<a class='underline'  href='#guides/vampire/disciplinas/auspicios'>Auspex</a>, <a class='underline'  href='#guides/vampire/disciplinas/dominacao'>Dominate</a>, <a class='underline'  href='#guides/vampire/disciplinas/taumaturgia'>Thaumaturgy</a>"
+							"description" : "<a class='underline'  href='#guides/vampire/disciplinas/auspicios'>Auspex</a><br /> <a class='underline'  href='#guides/vampire/disciplinas/dominacao'>Dominate</a><br /> <a class='underline'  href='#guides/vampire/disciplinas/taumaturgia'>Thaumaturgy</a>"
 						},
 						{
 							"title" : "Appearance",
@@ -472,7 +472,7 @@
 						},
 						{
 							"title" : "Disciplines",
-							"description" : "<a class='underline'  href='#guides/vampire/disciplinas/dominacao'>Dominate</a>, <a class='underline'  href='#guides/vampire/disciplinas/fortitude'>Fortitude</a>, <a class='underline'  href='#guides/vampire/disciplinas/presenca'>Presence</a>"
+							"description" : "<a class='underline'  href='#guides/vampire/disciplinas/dominacao'>Dominate</a><br /> <a class='underline'  href='#guides/vampire/disciplinas/fortitude'>Fortitude</a><br /> <a class='underline'  href='#guides/vampire/disciplinas/presenca'>Presence</a>"
 						},
 						{
 							"title" : "Appearance",
@@ -1571,6 +1571,180 @@
 						{
 							"title" : "Level 5 - Bloodform", 
 							"description" : "A vampire with this power can physically transform all or part of her body into sentient vitae. This blood is in all respects identical to the vampire's normal vitae; she can use it to nourish herself or others, create ghouls, or establish blood bonds. If all this blood is imbibed or otherwise destroyed, the vampire meets Final Death."
+						}
+					]
+				},
+				"necromancia_sepulchre" : {
+					"title" : "Necromancy - The Sepulchre Path",
+					"itens" : [
+						{
+							"title" : "Level 1 - Insight", 
+							"description" : "This power allows you to look into the eyes of a corpse and see the last thing those eyes beheld. No one but the necromance can see the vision."
+						},
+						{
+							"title" : "Level 2 - Summon Soul", 
+							"description" : "You are able to summon the spirit of a dead mortal or extinguished (but not Diablerized) vampire for conversation. You must know the name of the spirit, although a psychic impression obtained through Object Reading will suffice. There must be some person or object in the room which had a personal connection to the spirit during its time on earth."
+						},
+						{
+							"title" : "Level 3 - Compel Soul", 
+							"description" : "This power allows you to master a summoned spirit. Must be performed several times on a spirit to get more truthful answers and force it to remain. Wraith can use Pathos to resist. Can last one turn to one night to a year and a day."
+						},
+						{
+							"title" : "Level 4 - Haunting", 
+							"description" : "You can bind a spirit into a place or object, and keep it from returning to the Shadowlands."
+						},
+						{
+							"title" : "Level 5 - Torment", 
+							"description" : "It is through the use of this power that elder Giovanni convince bound ghosts to behave--or else. Torment allows the vampire to strike a wraith and inflict damage on the wraith's form. The vampire remains in the real world, however, so the wraith can't strike back."
+						}
+					]
+				},
+				"necromancia_ash" : {
+					"title" : "Necromancy - The Ash Path",
+					"itens" : [
+						{
+							"title" : "Level 1 - Shroudsight", 
+							"description" : "Shroudsight allows a necromancer to see through the Shroud, the mystical barrier that separates the living world from the Underworld. By using this power, the vampire can spot ghostly buildings and items, the landscape of the so-called Shadowlands, and even wraiths themselves. However, the odds are that an observant wraith will notice when a vampire suddenly starts staring at him, which can lead to unpleasant consequences. The effects last for a scene."
+						},
+						{
+							"title" : "Level 2 - Lifeless Tongues", 
+							"description" : "Where Shroudsight allows a necromancer to see ghosts, Lifeless Tongues allows her to converse with them effortlessly. Once Lifeless Tongues is employed, the vampire can carry on a conversation with the denizens of the ghostly Underworld without spending blood or causing the wraiths to expend any effort. This power also grants the effects of Shroudsight, so the vampire can see with whom, or what, she is conversing."
+						},
+						{
+							"title" : "Level 3 - Dead Hand", 
+							"description" : "Similar to the Sepulchre Path power Torment, Dead Hand allows a necromancer to reach across the Shroud and affect a ghostly object as if it were in the real world. Ghosts are solid to necromancers using this power, and can be attacked. Furthermore, the necromancer can pick up ghostly items, scale ghostly architecture (giving real-world bystanders the impression that he’s climbing on air!) and generally exist in two worlds. On the other hand, a necromancer using Dead Hand is quite solid to the residents of the Underworld and to whatever weapons they might have."
+						},
+						{
+							"title" : "Level 4 - Ex Nihilo", 
+							"description" : "Ex Nihilo allows a necromancer to enter the Underworld physically. While in the lands of the dead, the vampire is essentially an extra-solid ghost. He maintains his normal number of health levels, but can be hurt only by things that inflict aggravated damage on ghosts (weapons forged from souls, certain ghostly powers, etc.). A vampire physically in the Underworld can pass through solid objects (at the cost of one health level). On the other hand, vampires present in the Underworld are subject to all of the Underworld’s perils, including ultimate destruction. A vampire killed in the Deadlands is gone forever, beyond even the reach of other necromancers. Using Ex Nihilo takes a tremendous toll on the necromancer. To activate this power, the vampire must first draw a doorway with chalk or blood on any available surface.(Note: Doors can be drawn ahead of time for exactly this purpose.) The player must then expend two points of Willpower and two points of blood as the vampire attempts to open the chalk door physically, the door opens and the vampire steps through into the Underworld. When the vampire wishes to return to the real world, he needs merely to concentrate and spend another Willpower point. Vampires who wander too far into the lands of the dead may be trapped there forever. Vampires in the Underworld cannot feed upon ghosts; their only sustenance is the blood they bring with them."
+						},
+						{
+							"title" : "Level 5 - Shroud Mastery", 
+							"description" : "A bit of an exaggeration, Shroud Mastery is the ability to manipulate the veil between the worlds of the living and the dead. By doing so, a necromancer can make it easier for bound wraiths in his service to function, or make it nearly impossible for ghosts to contact the material world. To exercise Shroud Mastery, the necromancer expends two points of Willpower, then states whether he is attempting to raise or lower the Shroud. The player then makes a Willpower roll. The Shroud reverts to its normal strength at a rate of one point per hour thereafter."
+						}
+					]
+				},
+				"necromancia_bone" : {
+					"title" : "Necromancy - The Bone Path",
+					"itens" : [
+						{
+							"title" : "Level 1 - Tremens", 
+							"description" : "Tremens allows a necromancer to make the flesh of a corpse shift once. An arm might suddenly flop forward, a cadaver might situp, or dead eyes might abruptly open. To use Tremens, the necromancer spends a single blood point. One turn allows for an instantaneous movement, such as a twitch, while five allow the vampire to set up specific conditions under which the body animates (“The next time someone enters the room, I want the corpse to sit up and open its eyes.”). Under no circumstances can Tremens cause a dead body to attack or cause damage."
+						},
+						{
+							"title" : "Level 2 - Apprentice's Brooms", 
+							"description" : "With Apprentice’s Brooms, the necromancer can make a dead body rise and perform a simple function. For example, the corpse could be set to carrying heavy objects, digging, or just shambling from place to place. The cadavers thus animated do not attack or defend themselves if interfered with, but instead attempt to carry out their given instructions until such time as they’ve been rendered inanimate. Generally it takes dismemberment, flame or something similar to destroy a corpse animated in this way. Bodies energized by this power continue to decay, albeit at a much slower rate than normal."
+						},
+						{
+							"title" : "Level 3 - Shambling Hordes", 
+							"description" : "Shambling Hordes creates exactly what you think it might: reanimated corpses with the ability to attack, albeit neither very well nor very quickly. Once primed by this power, the corpses wait — for years, if necessary — to fulfill the command given them. Each zombie (for lack of a better term) can follow one simple instruction, such as 'Stay here and guard this graveyard against any intruders,'' or 'Kill them!'"
+						},
+						{
+							"title" : "Level 4 - Soul Stealing", 
+							"description" : "This power affects the living, not the dead. It does, however, temporarily turn a living soul into a sort of wraith, as it allows a necromancer to strip a soul from a living — or vampiric body. A mortal exiled from his body by this power becomes a wraith with a single tie to the real world: his now-empty body. The body itself remains autonomically alive but catatonic. This power can be used to create suitable hosts for Daemonic Possession. Every turn gives one hour."
+						},
+						{
+							"title" : "Level 5 - Daemonic Possession", 
+							"description" : "Daemonic Possession lets a vampire insert a soul into a freshly dead body and inhabit it for the duration. This does not turn the reanimated corpse into anything other than a reanimated corpse, and one that will irrevocably decay after a week, but it does give either a wraith or a free-floating soul (say, that of a vampire using Psychic Projection) a temporary home in the physical world.The body in questio must be no more than 30 minutes dead, and the new tenant must agree to inhabit it. Should the vampire, for whatever reason, wish to insert a soul into another vampire’s corpse (before it crumbles to ash), this takes 5 turns. The soul can use whatever physical abilities (Dodge, Brawl, Potence) his new home possesses, and whatever mental abilities (Computer, Law, Presence) he possesses in his current existence. He cannot use the physical abilities of his old form, or the mental abilities of his new one."
+						}
+					]
+				},
+				"necromancia_mortuus" : {
+					"title" : "Necromancy - The Mortuus Path",
+					"itens" : [
+						{
+							"title" : "Level 1 - Reaper's Shroud", 
+							"description" : "This power allows the Cainite or the subject of her choice to take on the semblance of death. Skin stretches tight over bones, flesh grows pale and sallow and joints seize as the body grows rigid. This power may be used to “play dead” and look the part, or to curse another with the appearance of the walking dead. The vampire must touch her target for this power to take effect, If the Necromancer assumes this form, she merely spends a blood point. The effects of this power last until the next dawn or dusk, when the shriveled individual slowly regains her normal state over the course of an hour. Vampires may spend two blood points to reverse the effects of Reaper’s Shroud."
+						},
+						{
+							"title" : "Level 2 - Blight", 
+							"description" : "This power allows the vampire to accelerate the aging and decrepitude processes in his intended victim. The subject suffers the effects of old age: brittle bones, dry and thin skin and various rheumatic pains among others. The vampire must touch his intended victim. Lasts until the next dusk or dawn. Vampires and ghouls affected in this manner may still spend blood points to increase their Physical Attributes."
+						},
+						{
+							"title" : "Level 3 - Resume the Coil", 
+							"description" : "This power allows vampires to wrench themselves free from death’s long slumber. A character who possesses this level of mastery may throw off the darkness of torpor or aid another in doing so. If the vampire wishes to awaken another Cainite in torpor, she must touch that vampire. If the vampire so raised entered torpor because of a lack of blood, she awakens with one blood point in her veins."
+						},
+						{
+							"title" : "Level 4 - True Death", 
+							"description" : "The Necromancer may temporarily cheat the Curse of Caine, albeit briefly, by becoming truly dead. While invoking this power, the character suffers none of the traditional banes against vampires. He is not burned by sunlight, holy water does not harm him, and he does not rise from the dead each night. He has literally become a corpse. There is no cost to assume the corpse-body, but awakening from the slumber requires two blood points. While the character is in corpse form, he may obviously take no actions, nor may he use any Disciplines, even “automatic” ones like Fortitude. The corpse-vampire does not consume blood nightly — he retains the same amount of blood as he did when he entered the state of True Death (remember that it costs two blood points to leave the corpse state), which may prove damning should anyone cut him open in the interim. A character who has been staked through the heart is still paralyzed when he returns to vampiric consciousness. This power has no maximum duration, other than the time the vampire chooses to remain dead."
+						},
+						{
+							"title" : "Level 5 - Mercy for Seth", 
+							"description" : "Named after mortals the Children of Seth — this power causes a victim to contract a virulent plague, similar to the epidemics of the 11th through 15th centuries (the Black Plague, the Red Death, etc.). This illness causes death within 24 hours for mortals and sends vampires to torpor within the same period of time. Mortal victims of plague exhibit terrible plague symptoms — sunken eyes, blackened limbs, bloody sweat and excretions, swollen nodes and weeping lesions. The vampire touches her victim, and the player must spend one blood point (which must come in contact with the victim to communicate the plague) and one Willpower point."
+						}
+					]
+				},
+				"necromancia_vitreous" : {
+					"title" : "Necromancy - The Vitreous Path",
+					"itens" : [
+						{
+							"title" : "Level 1 - Eyes of the Dead", 
+							"description" : "The necromancer employing the Eyes of the Dead can literally see through the eyes of any wraiths around her, allowing her to use the wraiths’ Deathsight. Of course, if there are no wraiths present, the power is useless. On the upside, at least for the necromancers, a few of the Restless may almost always be found wandering around. To an experienced manipulator of ghostly energies, the auras of surrounding beings give off telltale hints as to their health and may indicate their emotions or desires; the necromancer can see the energies of death and passion flowing through everyone, just as wraiths can. System: This effect is often disorienting, especially in areas where many wraiths are present. While employing the Eyes of the Dead, the necromancer may not always understand what he is seeing. Properly used, this power lets a necromancer determine whether someone is injured, diseased or dying and, also, whether the individual labors under any sorts of curses or baleful magic. This ability lasts for one scene, though the necromancer may choose to prematurely draw his perceptions back to his own body (thereby ending the power).",
+							"system" : "The player rolls Perception + Occult, difficulty 6. One success lets a necromancer determine whether someone is injured, diseased, or dying, as well as whether the individual labors under any sort of curse or baleful magic. Further, the vampire can divine the target's eventual demise, depending on the successes scored. One success means the character can guess how long the target has to live to within a few weeks. Three successes means the character can estimate how long the target has to live and what the probable source of death will be, as the entropic markings show the wounds that will someday exist on that person. Five successes means the character can actually see where and when the event will occur by interpreting the black marks on the target's soul. This ability lasts for one scene, though the necromancer may choose to end the power early. It can be used to read the fate of only one target at a time. Storytellers should exercise judgment with this power, since the markings of death are typically unavoidable. He may decide to roll the dice himself, so that the player has no way of knowing whether her insight is correct."
+						},
+						{
+							"title" : "Level 2 - Hour of Death", 
+							"description" : "Much like Eyes of the Dead, this power allows the necromancer to see with the perceptions of the Restless Dead. The difference is that this power grants the necromancer himself Deathsight instead of borrowing the perceptions of a wraith, and this vision gives much greater details. By looking at the entropic markings on a person’s body, the necro-mancer can gain rough knowledge of how far that person is from death, how soon that person is likely to die and even what the cause of her death is likely to be. Conversely, the patterns of auras also tell when a person is agitated or excited and allow the death magician to gauge someone’s feelings towards another individual when the two first meet. Many necromancers actually use this talent to be at the right place and time to capture a newly departing soul.",
+							"system" : "No roll is required, but this power does cost at least one blood point. Objects subjected to this Aura of Decay break down and become useless after being targeted. How the object gives out, as well as the exact mechanism of failure, is up to the Storyteller. Corrosion, metal fatigue, or sheer brittleness are all suitably likely for any given item's demise, but the in-game effect of using a doomed item is as if the owning character rolled a botch. The speed at which an item breaks down depends on how many blood points are spent. Note that since this power requires the expenditure of blood points, a character cannot cause an Aura of Decay while staked.",
+							"tables" : [
+								{
+									"name" : "System table",
+									"rows" : [
+										{
+											"cols" : [
+												"Blood Spent",
+												"Time To Breakdown"
+											]
+										},
+										{
+											"cols" : [
+												"1",
+												"One week"
+											]
+										},
+										{
+											"cols" : [
+												"2",
+												"One day"
+											]
+										},
+										{
+											"cols" : [
+												"3",
+												"End of scene"
+											]
+										},
+										{
+											"cols" : [
+												"4",
+												"Five turns"
+											]
+										},
+										{
+											"cols" : [
+												"5",
+												"One turn"
+											]
+										}
+									]
+								}
+							]
+
+						},
+						{
+							"title" : "Level 3 - Soul Feast", 
+							"description" : "Just as the necromancer can release entropic energies from within, she may also pull them into herself as a source of power. Soul Feasting allows the caster to either draw on the ambient death energies around her or to actively feed on a ghost, stealing the wraith's substance and mystically transforming that energy into sustenance.",
+							"system" : "The player spends one Willpower point to allow the vampire to feed on the negative energies of the dead. If the character is drawing the energies from the atmosphere, she must be in a place where death has occurred within the hour or in a place where death is common, such as a cemetery, a morgue, or the scene of a recent murder. Generally, the necromancer can draw anywhere from one to four points of entropy from such a location, although the difficulty in using all Necromancy and similar deathly powers within the area increases by an equal amount for a number of nights equal to the points taken. The energies of such an area may only be drained once until the area's entropy replenishes. In cases when the necromancer feeds on a ghost, the vampire must actually attack the wraith as if feeding normally. Wraiths have up to 10 'blood points' that may be taken from them, and they become less and less substantial as their spirit essence drains away. The character is vulnerable to any attack the ghost might make, even those that do not normally affect the physical world; while feeding, the vampire is essentially in a half-state, existing in both the living lands and the Underworld simultaneously. The wraith so attacked is considered immobilized and cannot run or escape unless it can defeat the vampire in a resisted Willpower roll (difficulty 6 for both sides). This power may also be used in conjunction with Ash Path Necromancy, allowing the vampire to drain power (though not sustenance) from ghosts while traveling in the lands of the dead. This soul energy may be used just like blood in every respect except for when the vampire rises for the night. It can activate Disciplines, heal wounds, boost Attributes, etc. Botching this power renders the vampire unable to feed through the Shroud for the rest of the night. However, she remains susceptible to the assaults of ghosts and spirits for several turns (generally, a number of turns equal to the amount of energy that could have been drawn from the area, or one turn if attacking a ghost) as she hovers between worlds, unable to function effectively in either."
+						},
+						{
+							"title" : "Level 4 - Breath Of Thanatos", 
+							"description" : "The Breath of Thanatos allows the necromancer to draw out entropic energy and focus it upon an area or person by taking a deep breath and then forcefully exhaling a fog of necromantic energy. This cloud of virulence is completely invisible to anyone without the ability to see the passing of entropy. The energy of this cloud is like a beacon for Spectres, and they are drawn to the entropic force like moths to a flame. Once the energy is pulled from the necromancer's body, she can either disperse it over a large area as a lure for Spectres, or use the mist for more sinister purposes. Channeled into an object or person, the deathmist inflicts the subject with a debilitating, wasting illness. Furthermore, the focused energies are tainted and eerie, and though generally invisible (except to powers such as Aura Perception), they tend to cause people and animals to feel uncomfortable around the victim.",
+							"system" : "The player spends one blood point and rolls Willpower (difficulty 8). Only one success is needed to draw out the Breath of Thanatos. If dispersed to summon Spectres, the energies cover roughly one-quarter of a mile (400 meters) in radius, centered around the necromancer. The range increases by an additional one-quarter mile or 400 meters for every additional blood point expended. Spectres summoned with this power will ignore the summoning necromancer for the duration of the power unless provoked, but may well go out of their way to wreak havoc on anyone else in the vicinity. The necromancer can then use other Necromancy powers (such as those in the Sepulchre Path) to manipulate and affect these Spectres. Ghosts so targeted may then interact with the necromancer as normal, although the other Spectres in the area will continue to ignore both the vampire and the targeted ghost. This energy disperses after a scene, after which the Spectres leave to find new prey. If the cloud is directed toward a particular target, the necromancer must either touch the target or direct the stream of entropy using Dexterity + Occult (difficulty 7). A target laden with entropy suffers one (and only one) level of aggravated damage; this generally manifests as sudden illness or decay. The target's social difficulties while interacting with those unfamiliar with the touch of death -- most normal humans, as well as some supernatural creatures -- increase by 2. Furthermore, supernatural perceptions indicate the target is tainted with decay, which can be dangerous. This form of taint lasts until sunrise; a victim already plagued by this power cannot be affected again until the previous fog of entropy has dispersed. A botch on the roll to control this power indicates that the vampire has turned the energy upon himself, and suffers all the effects of the vitriolic breath. This inflicts the usual injury and may subject the necromancer to the possibly dangerous attention of provoked Spectres and other creatures from beyond the grave."
+						},
+						{
+							"title" : "Level 5 - Night Cry", 
+							"description" : "The breath of entropic energy becomes a scream of pure chaos. The necromancer can issue an unearthly cry (heard both in the living world and in the Shadowlands). The howl pours icy oblivion into a target or group of targets -- either sweeping away the inherent entropy or collecting that destruction and unleashing it.",
+							"system" : "The vampire chooses a number of targets within one yard or meter per dot of Necromancy and invokes Night Cry with a terrible scream. The player spends a Willpower point and a blood point for each target beyond the first. (In other words, she spends no blood if only going after one target, or one blood for two targets. Generational blood limits apply, and the vampire may not 'pre-spend' blood prior to using Night Cry.) The player then chooses whether the vampire will aid or harm the targets, and rolls Manipulation + Occult (difficulty 6). If she chooses to aid the target or targets, each success gives each affected target a -2 difficulty modifier to all of his actions for one turn per success. If she instead chooses harm, each success causes an aggravated wound to each target. Targets may be any kind of living creature, including supernatural ones. No matter the result, the Night Cry is heard on both sides of the Shroud, attracting the attention of anyone nearby. On a botch, the necromancy may summon unruly ghosts or Spectres, similar to Breath of Thanatos (although the ghosts are under no compulsion to ignore the necromancer...)."
 						}
 					]
 				}

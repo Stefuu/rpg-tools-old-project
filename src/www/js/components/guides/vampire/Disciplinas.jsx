@@ -64,6 +64,21 @@ var Disciplinas = React.createClass({
           <Link to="vicissitude">
             <li className="itemBtn seta-direita">{Json.guias.vampiro.disciplinas.vicissitude.title}</li>
           </Link>
+          <Link to="necromancia_sepulchre">
+            <li className="itemBtn seta-direita">{Json.guias.vampiro.disciplinas.necromancia_sepulchre.title}</li>
+          </Link>
+          <Link to="necromancia_ash">
+            <li className="itemBtn seta-direita">{Json.guias.vampiro.disciplinas.necromancia_ash.title}</li>
+          </Link>
+          <Link to="necromancia_bone">
+            <li className="itemBtn seta-direita">{Json.guias.vampiro.disciplinas.necromancia_bone.title}</li>
+          </Link>
+          <Link to="necromancia_mortuus">
+            <li className="itemBtn seta-direita">{Json.guias.vampiro.disciplinas.necromancia_mortuus.title}</li>
+          </Link>
+          <Link to="necromancia_vitreous">
+            <li className="itemBtn seta-direita">{Json.guias.vampiro.disciplinas.necromancia_vitreous.title}</li>
+          </Link>
         </ul>
       </div>
     );
