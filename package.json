@@ -1,14 +1,14 @@
 {
   "name": "RPGTools",
   "version": "0.0.1",
-  "description": "Um cronometro pra futsal.",
+  "description": "Um conjunto de ferramentas para auxiliar jogos de RPG de mesa",
   "main": "index.js",
   "scripts": {
     "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "https://bitbucket.org/primeiroportal/chronos"
+    "url": "https://bitbucket.org/rpgtools/rpg-tools"
   },
   "keywords": [
     "Cordova",
