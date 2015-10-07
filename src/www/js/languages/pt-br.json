@@ -185,7 +185,7 @@
 						},
 						{
 							"title" : "Disciplinas",
-							"description" : "<a class='underline' href='#guides/vampire/disciplinas/auspicios'>Auspícius</a><br /><a class='underline' href='#guides/vampire/disciplinas/demencia'>Demência</a><br /><a class='underline' href='#guides/vampire/disciplinas/ofuscacao'>Ofuscação</a>"
+							"description" : "<a class='underline' href='#guides/vampire/disciplinas/auspicios'>Auspícios</a><br />Demência<br /><a class='underline' href='#guides/vampire/disciplinas/ofuscacao'>Ofuscação</a>"
 						},
 						{
 							"title" : "Aparência",
@@ -727,6 +727,42 @@
 										},
 										{
 											"cols" : [
+												"Psicótico",
+												"Cores Hipnóticas e Rodopiantes"
+											]
+										},
+										{
+											"cols" : [
+												"Vampiro",
+												"Cores Pálidas"
+											]
+										},
+										{
+											"cols" : [
+												"Uso de Magia",
+												"Miríades de Faíscas"
+											]
+										},
+										{
+											"cols" : [
+												"Metamorfo",
+												"Aura brilhante, Vibrante"
+											]
+										},
+										{
+											"cols" : [
+												"Fantasma",
+												"Aura fraca, Intemitente"
+											]
+										},
+										{
+											"cols" : [
+												"Fada",
+												"Lampejos de arco-íris na aura"
+											]
+										},
+										{
+											"cols" : [
 												"Zangado",
 												"Vermelho"
 											]
@@ -845,7 +881,6 @@
 												"Azul Escuro"
 											]
 										},
-										,
 										{
 											"cols" : [
 												"Confuso",
@@ -869,46 +904,10 @@
 												"Em Frenesi",
 												"Cores em Ondulação Rápida"
 											]
-										},
-										{
-											"cols" : [
-												"Psicótico",
-												"Cores Hipnóticas e Rodopiantes"
-											]
-										},
-										{
-											"cols" : [
-												"Vampiro",
-												"Cores Pálidas"
-											]
-										},
-										{
-											"cols" : [
-												"Uso de Magia",
-												"Miríades de Faíscas"
-											]
-										},
-										{
-											"cols" : [
-												"Metamorfo",
-												"Aura brilhante, Vibrante"
-											]
-										},
-										{
-											"cols" : [
-												"Fantasma",
-												"Aura fraca, Intemitente"
-											]
-										},
-										{
-											"cols" : [
-												"Fada",
-												"Lampejos de arco-íris na aura"
-											]
 										}
 									]
 								}
-							],
+							]
 						},
 						{
 							"title" : "Nível 3 - O Toque do Espírito", 
