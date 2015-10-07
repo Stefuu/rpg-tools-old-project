@@ -1073,6 +1073,126 @@
 						}
 					]
 				},
+				"taumaturgia_chama" : {
+					"title" : "Taumaturgia - Sedução das Chamas",
+					"itens" : [
+						{
+							"title" : "Nível 1 - Vela", 
+							"description" : "O vampiro gera um chama pequena, como a chama de uma vela",
+							"system" : "Dificuldade 3 para absorver, um nível de Vitalidade de dano agravado/turno"
+						},
+						{
+							"title" : "Nível 2 - Labaredas", 
+							"description" : "O vampiro gera labaredas de fogo",
+							"system" : "Dificuldade 4 para absorver, um nível de Vitalidade de dano agravado/turno"
+						},
+						{
+							"title" : "Nível 3 - Fogueira de acampamento", 
+							"description" : "O vampiro é capaz de gerar fogo na proporção de uma pequena fogueia",
+							"system" : "Dificuldade 5 para absorver, dois níveis de Vitalidade de dano agravado/turno"
+						},
+						{
+							"title" : "Nível 4 - Fogueira", 
+							"description" : "O vampiro consegue criar chamas equivalentes a uma fogueira grande",
+							"system" : "Dificuldade 7 para absorver, dois níveis de Vitalidade de dano agravado/turno"
+						},
+						{
+							"title" : "Nível 5 - Inferno", 
+							"description" : "O vampiro projeta chamas gigantescas, como uma pequena tempestade de fogo.",
+							"system" : "Dificuldade 9 para absorver, três níveis de Vitalidade de dano agravado/turno"
+						}
+					]
+				},
+				"taumaturgia_conjuracao" : {
+					"title" : "Taumaturgia - A Linha da Conjuração",
+					"itens" : [
+						{
+							"title" : "Nível 1 - Invocando a Forma Simples", 
+							"description" : "Neste nível de domínio, o conjurador pode criar objetos simples e inanimados. O objeto não pode ter partes móveis ou ser constituído de múltiplos materiais. O taumaturgo pode, por exemplo, conjurar um bastão de ferro, um cano de chumbo, uma estaca de madeira ou um pedaço de granito.",
+							"system" : "Para cada turno que o conjurador desejar manter a existência do objeto, um novo ponto de Força de Vontade tem que ser usado ou o objeto desaparecerá."
+						},
+						{
+							"title" : "Nível 2 - Permanência", 
+							"description" : "Neste nível, o conjurador não precisa mais usar pontos de Força de Vontade para manter a existência de um objeto. O objeto é, como sugere o nome deste poder, permanente, embora só objetos pequenos possam ser criados.",
+							"system" : "O jogador precisa investir três pontos de sangue no objeto para torná-lo real."
+						},
+						{
+							"title" : "Nível 3 - Magia do Ferreiro", 
+							"description" : "Agora o Membro também pode conjurar objetos complexos de múltiplos (componentes e com partes móveis. O taumaturgo pode, por exemplo, criar armas, bicicletas, serras elétricas ou telefones celulares.",
+							"system" : "Objetos criados através da Magia do Ferreiro são permanentes e necessitam de cinco pontos de sangue para serem conjurados. Itens particularmente complexos freqüentemente exigem um teste de Conhecimento (Ofícios, Ciências, etc.) além do teste básico."
+						},
+						{
+							"title" : "Nível 4 - Conjuração Reversa", 
+							"description" : "Este poder permite que conjurador 'remova' a existência de qualquer objeto previamente invocado por esta linha.",
+							"system" : "Um teste resistido é necessário. O conjurador precisa acumular tantos sucessos quantos os obtidos pelo feiticeiro original ao criar o objeto em questão."
+						},
+						{
+							"title" : "Nível 5 - Poder Sobre a Vida", 
+							"description" : "Este poder não pode criar a 'verdadeira' vida, embora possa invocar algumas imitações realmente impressionantes. Criaturas e 'pessoas' invocadas com este poder não possuem vontade própria para agir por si só e, ao invés disso, seguem estupidamente instruções simples dadas por seus mestres.",
+							"system" : "O jogador usa 10 pontos de sangue. As criaturas imperfeitas e temporárias criadas através desta linha são muito complexas para existirem por muito tempo. Dentro de uma semana depois de sua conjuração, a imitação se transforma em algo insubstancial."
+						}
+					]
+				},
+				"taumaturgia_destruicao" : {
+					"title" : "Taumaturgia - Mãos da Destruição",
+					"itens" : [
+						{
+							"title" : "Nível 1 - Decadência", 
+							"description" : "Este poder deforma a decrepitude do seu alvo, fazendo com que ele murche, apodreça ou se quebre. O alvo tem que ser inanimado, embora matérias orgânicas mortas possam ser afetadas.",
+							"system" : "Se o teste for bem sucedido, o objeto inanimado tocado pelo vampiro envelhece dez anos por cada minuto que o Membro o tocar. Se o vampiro quebrar o contato físico e desejar envelhecer o objeto novamente, outro ponto de sangue tem que ser gasto e outro teste realizado."
+						},
+						{
+							"title" : "Nível 2 - Dobrar a Madeira", 
+							"description" : "Este poder deforma e entorta objetos de madeira. Embora a madeira não seja danificada de nenhum outro modo, este poder freqüentemente faz com que os objetos se tornem totalmente inúteis. Este poder também pode ser usado para inchar e contrair a madeira, além de poder entortá-la em formas insalubres. Ao contrário de outros poderes desta linha, Dobrar a Madeira requer apenas um olhar ao invés do contato físico.",
+							"system" : "Vinte cinco quilos de madeira visível podem ser entortados para cada ponto de sangue usado desta maneira (o taumaturgo pode usar quantos pontos desejar até o seu máximo de pontos de sangue por turno, determinado pela geração). Também é possível entortar múltiplos objetos — como todas as estacas usadas por um grupo de caçadores de vampiros."
+						},
+						{
+							"title" : "Nível 3 - Toque Ácido", 
+							"description" : "O taumaturgo secreta um fluído ácido de qualquer parte do seu corpo. Este ácido viscoso pode corroer o metal, destruir a madeira e causar queimaduras químicas horríveis no tecido humano.",
+							"system" : "O jogador usa um ponto de sangue para criar o ácido, o sangue literalmente se transforma na secreção volátil. Um ponto de sangue cria ácido suficiente para queimar através de uma placa de aço de 5 mm ou 75 mm de madeira. O dano causado por um ataque com mãos limpas banhadas no ácido é agravado e custa um ponto de sangue por turno para ser usado. Um taumaturgo é imune ao seu próprio toque ácido."
+						},
+						{
+							"title" : "Nível 4 - Atrofia", 
+							"description" : "Este poder murcha o membro de uma vítima, deixando apenas um semi-mumificado casco de pele e ossos dessecados. Os efeitos são instantâneos; e também são irreversíveis nos mortais.",
+							"system" : "A vítima pode resistir aos efeitos da Atrofia se obtiver três ou mais sucessos em um teste de Vigor + Atletismo (dificuldade 8 ). Uma falha significa que o membro foi perdido permanentemente e está totalmente incapacitado. Uma resistência parcial é possível: um sucesso indica que a dificuldade de ações que envolvam o uso do membro são aumentadas em dois, embora estes efeitos ainda sejam permanentes no que se refere aos mortais. Dois sucessos indicam que as dificuldades aumentam em um. Vampiros afetados por este poder podem usar cinco pontos de sangue para reconstituir o membro atrofiado. Os mortais ficam permanentemente aleijados. Este poder só afeta os membros (braços e pernas); ele não funciona na cabeça, torso e outras partes da vítima."
+						},
+						{
+							"title" : "Nível 5 - TOrnar ao Pó", 
+							"description" : "Este temível poder acelera a decrepitude de suas vitimas. Os mortais literalmente viram pó ao mero toque de um taumaturgo habilidoso, envelhecidos além da morte até a putrefação.",
+							"system" : "Cada sucesso neste teste envelhece a vítima dez anos. Uma vítima potencial pode resistir com um teste de Vigor + Coragem (dificuldade 8 ), mas precisa acumular mais sucessos do que a jogada de ativação do taumaturgo — é uma questão de tudo ou nada. Se a vítima for bem sucedida, ela não envelhece nem um ano. Se ela não conseguir mais sucessos do que o taumaturgo, envelhece o tempo completo. Obviamente, este poder, embora afete os vampiros, não tem nenhum efeito prejudicial sobre eles (eles são imortais). No mais, um Membro murcha levemente (-1 na Aparência) por uma noite."
+						}
+					]
+				},
+				"taumaturgia_mente" : {
+					"title" : "Taumaturgia - Movimento da Mente",
+					"itens" : [
+						{
+							"title" : "Nível 1 - Meio-quilo", 
+							"description" : "O vampiro é capaz de mover objetos a distância de até 500 gramas",
+							"system" : "O número de sucessos indica a duração do controle do taumaturgo sobre o objeto (ou objetos). Cada sucesso permite um turno de manipulação, embora o Membro possa tentar manter o controle do objeto depois desse tempo, realizando um novo teste (ele não precisa usar mais um ponto de sangue para manter o controle). Se o teste for bem sucedido, o controle e mantido. Se o taumaturgo perder ou afrouxar o controle sobre o objeto e mais tarde manipulá-lo novamente, o jogador precisa usar outro ponto de sangue, pois uma nova tentativa está sendo realizada. Se este poder for usado para manipular um ser vivo, o alvo pode tentar resistir. Neste caso, o taumaturgo e o alvo fazem um teste resistido de Força de Vontade a cada turno em que o poder for usado. Como na Sedução das Chamas, os níveis individuais de poder não serão fornecidos para esta linha (consulte a tabela abaixo para ver quanto peso um taumaturgo pode controlar). Uma vez que o Membro atinja o Nível Três, ele pode levitar a si mesmo e 'voar' com aproximadamente a mesma velocidade de corrida do personagem, não importa o quanto ele pesa, embora as restrições de peso ainda se apliquem na manipulação de outras pessoas e objetos. Uma vez que o Membro alcance o Nível Quatro, ele pode 'arremessar' objetos com Força igual ao seu nível de domínio."
+						},
+						{
+							"title" : "Nível 2 - 10kg", 
+							"description" : "O vampiro é capaz de mover objetos a distância de até 10kg",
+							"system" : "O número de sucessos indica a duração do controle do taumaturgo sobre o objeto (ou objetos). Cada sucesso permite um turno de manipulação, embora o Membro possa tentar manter o controle do objeto depois desse tempo, realizando um novo teste (ele não precisa usar mais um ponto de sangue para manter o controle). Se o teste for bem sucedido, o controle e mantido. Se o taumaturgo perder ou afrouxar o controle sobre o objeto e mais tarde manipulá-lo novamente, o jogador precisa usar outro ponto de sangue, pois uma nova tentativa está sendo realizada. Se este poder for usado para manipular um ser vivo, o alvo pode tentar resistir. Neste caso, o taumaturgo e o alvo fazem um teste resistido de Força de Vontade a cada turno em que o poder for usado. Como na Sedução das Chamas, os níveis individuais de poder não serão fornecidos para esta linha (consulte a tabela abaixo para ver quanto peso um taumaturgo pode controlar). Uma vez que o Membro atinja o Nível Três, ele pode levitar a si mesmo e 'voar' com aproximadamente a mesma velocidade de corrida do personagem, não importa o quanto ele pesa, embora as restrições de peso ainda se apliquem na manipulação de outras pessoas e objetos. Uma vez que o Membro alcance o Nível Quatro, ele pode 'arremessar' objetos com Força igual ao seu nível de domínio."
+						},
+						{
+							"title" : "Nível 3 - 100kg", 
+							"description" : "O vampiro é capaz de mover objetos a distância de até 100kg",
+							"system" : "O número de sucessos indica a duração do controle do taumaturgo sobre o objeto (ou objetos). Cada sucesso permite um turno de manipulação, embora o Membro possa tentar manter o controle do objeto depois desse tempo, realizando um novo teste (ele não precisa usar mais um ponto de sangue para manter o controle). Se o teste for bem sucedido, o controle e mantido. Se o taumaturgo perder ou afrouxar o controle sobre o objeto e mais tarde manipulá-lo novamente, o jogador precisa usar outro ponto de sangue, pois uma nova tentativa está sendo realizada. Se este poder for usado para manipular um ser vivo, o alvo pode tentar resistir. Neste caso, o taumaturgo e o alvo fazem um teste resistido de Força de Vontade a cada turno em que o poder for usado. Como na Sedução das Chamas, os níveis individuais de poder não serão fornecidos para esta linha (consulte a tabela abaixo para ver quanto peso um taumaturgo pode controlar). Uma vez que o Membro atinja o Nível Três, ele pode levitar a si mesmo e 'voar' com aproximadamente a mesma velocidade de corrida do personagem, não importa o quanto ele pesa, embora as restrições de peso ainda se apliquem na manipulação de outras pessoas e objetos. Uma vez que o Membro alcance o Nível Quatro, ele pode 'arremessar' objetos com Força igual ao seu nível de domínio."
+						},
+						{
+							"title" : "Nível 4 - 250kg", 
+							"description" : "O vampiro é capaz de mover objetos a distância de até 250kg",
+							"system" : "O número de sucessos indica a duração do controle do taumaturgo sobre o objeto (ou objetos). Cada sucesso permite um turno de manipulação, embora o Membro possa tentar manter o controle do objeto depois desse tempo, realizando um novo teste (ele não precisa usar mais um ponto de sangue para manter o controle). Se o teste for bem sucedido, o controle e mantido. Se o taumaturgo perder ou afrouxar o controle sobre o objeto e mais tarde manipulá-lo novamente, o jogador precisa usar outro ponto de sangue, pois uma nova tentativa está sendo realizada. Se este poder for usado para manipular um ser vivo, o alvo pode tentar resistir. Neste caso, o taumaturgo e o alvo fazem um teste resistido de Força de Vontade a cada turno em que o poder for usado. Como na Sedução das Chamas, os níveis individuais de poder não serão fornecidos para esta linha (consulte a tabela abaixo para ver quanto peso um taumaturgo pode controlar). Uma vez que o Membro atinja o Nível Três, ele pode levitar a si mesmo e 'voar' com aproximadamente a mesma velocidade de corrida do personagem, não importa o quanto ele pesa, embora as restrições de peso ainda se apliquem na manipulação de outras pessoas e objetos. Uma vez que o Membro alcance o Nível Quatro, ele pode 'arremessar' objetos com Força igual ao seu nível de domínio."
+						},
+						{
+							"title" : "Nível 5 - 500kg", 
+							"description" : "O vampiro é capaz de mover objetos a distância de até 500kg",
+							"system" : "O número de sucessos indica a duração do controle do taumaturgo sobre o objeto (ou objetos). Cada sucesso permite um turno de manipulação, embora o Membro possa tentar manter o controle do objeto depois desse tempo, realizando um novo teste (ele não precisa usar mais um ponto de sangue para manter o controle). Se o teste for bem sucedido, o controle e mantido. Se o taumaturgo perder ou afrouxar o controle sobre o objeto e mais tarde manipulá-lo novamente, o jogador precisa usar outro ponto de sangue, pois uma nova tentativa está sendo realizada. Se este poder for usado para manipular um ser vivo, o alvo pode tentar resistir. Neste caso, o taumaturgo e o alvo fazem um teste resistido de Força de Vontade a cada turno em que o poder for usado. Como na Sedução das Chamas, os níveis individuais de poder não serão fornecidos para esta linha (consulte a tabela abaixo para ver quanto peso um taumaturgo pode controlar). Uma vez que o Membro atinja o Nível Três, ele pode levitar a si mesmo e 'voar' com aproximadamente a mesma velocidade de corrida do personagem, não importa o quanto ele pesa, embora as restrições de peso ainda se apliquem na manipulação de outras pessoas e objetos. Uma vez que o Membro alcance o Nível Quatro, ele pode 'arremessar' objetos com Força igual ao seu nível de domínio."
+						}
+					]
+				},
 				"metamorfose" : {
 					"title" : "Metamorfose",
 					"itens" : [
