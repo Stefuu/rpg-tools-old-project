@@ -21,7 +21,7 @@
 						},
 						{
 							"title" : "Disciplines",
-							"description" : "Celerity, Obfuscate, Quietus"
+							"description" : "<a class='underline'  href='#guides/vampire/disciplinas/rapidez'>Celerity</a>, <a class='underline'  href='#guides/vampire/disciplinas/ofuscacao'>Obfuscate</a>, <a class='underline'  href='#guides/vampire/disciplinas/quietus'>Quietus</a>"
 						},
 						{
 							"title" : "Appearance",
@@ -62,7 +62,7 @@
 						},
 						{
 							"title" : "Disciplines",
-							"description" : "Celerity, Potence, Presence"
+							"description" : "<a class='underline'  href='#guides/vampire/disciplinas/rapidez'>Celerity</a>, <a class='underline'  href='#guides/vampire/disciplinas/potencia'>Potence</a>, <a class='underline'  href='#guides/vampire/disciplinas/presenca'>Presence</a>"
 						},
 						{
 							"title" : "Appearance",
@@ -103,7 +103,7 @@
 						},
 						{
 							"title" : "Disciplines",
-							"description" : "Animalism, Fortitude, Protean"
+							"description" : "<a class='underline'  href='#guides/vampire/disciplinas/animalismo'>Animalism</a>, <a class='underline'  href='#guides/vampire/disciplinas/fortitude'>Fortitude</a>, <a class='underline'  href='#guides/vampire/disciplinas/metamorfose'>Protean</a>"
 						},
 						{
 							"title" : "Appearance",
@@ -144,7 +144,7 @@
 						},
 						{
 							"title" : "Disciplines",
-							"description" : "Dominate, Necromancy, Potence"
+							"description" : "<a class='underline'  href='#guides/vampire/disciplinas/dominacao'>Dominate</a>, Necromancy, <a class='underline'  href='#guides/vampire/disciplinas/potencia'>Potence</a>"
 						},
 						{
 							"title" : "Appearance",
@@ -185,7 +185,7 @@
 						},
 						{
 							"title" : "Disciplines",
-							"description" : "Auspex, Dementation, Obfuscate"
+							"description" : "<a class='underline'  href='#guides/vampire/disciplinas/auspicios'>Auspex</a>, <a class='underline'  href='#guides/vampire/disciplinas/dementacao'>Dementation</a>, <a class='underline'  href='#guides/vampire/disciplinas/ofuscacao'>Obfuscate</a>"
 						},
 						{
 							"title" : "Appearance",
@@ -226,7 +226,7 @@
 						},
 						{
 							"title" : "Disciplines",
-							"description" : "Dominate, Obtenebration, Potence"
+							"description" : "<a class='underline'  href='#guides/vampire/disciplinas/dominacao'>Dominate</a>, <a class='underline'  href='#guides/vampire/disciplinas/tenebrosidade'>Obtenebration</a>, <a class='underline'  href='#guides/vampire/disciplinas/potencia'>Potence</a>"
 						},
 						{
 							"title" : "Appearance",
@@ -267,7 +267,7 @@
 						},
 						{
 							"title" : "Disciplines",
-							"description" : "Animalism, Obfuscate, Potence"
+							"description" : "<a class='underline'  href='#guides/vampire/disciplinas/animalismo'>Animalism</a>, <a class='underline'  href='#guides/vampire/disciplinas/ofuscacao'>Obfuscate</a>, <a class='underline'  href='#guides/vampire/disciplinas/potencia'>Potence</a>"
 						},
 						{
 							"title" : "Appearance",
@@ -308,7 +308,7 @@
 						},
 						{
 							"title" : "Disciplines",
-							"description" : "Animalism, Chimerstry, Fortitude"
+							"description" : "<a class='underline'  href='#guides/vampire/disciplinas/animalismo'>Animalism</a>, <a class='underline'  href='#guides/vampire/disciplinas/quimerismo'>Chimerstry</a>, <a class='underline'  href='#guides/vampire/disciplinas/fortitude'>Fortitude</a>"
 						},
 						{
 							"title" : "Appearance",
@@ -349,7 +349,7 @@
 						},
 						{
 							"title" : "Disciplines",
-							"description" : "Obfuscate, Presence, Serpentis"
+							"description" : "<a class='underline'  href='#guides/vampire/disciplinas/ofuscacao'>Obfuscate</a>, <a class='underline'  href='#guides/vampire/disciplinas/presenca'>Presence</a>, <a class='underline'  href='#guides/vampire/disciplinas/serpentis'>Serpentis</a>"
 						},
 						{
 							"title" : "Appearance",
@@ -390,7 +390,7 @@
 						},
 						{
 							"title" : "Disciplines",
-							"description" : "Auspex, Celerity, Presence."
+							"description" : "<a class='underline'  href='#guides/vampire/disciplinas/auspicios'>Auspex</a>, <a class='underline'  href='#guides/vampire/disciplinas/rapidez'>Celerity</a>, <a class='underline'  href='#guides/vampire/disciplinas/presenca'>Presence</a>"
 						},
 						{
 							"title" : "Appearance",
@@ -431,7 +431,7 @@
 						},
 						{
 							"title" : "Disciplines",
-							"description" : "Auspex, Dominate, Thaumaturgy."
+							"description" : "<a class='underline'  href='#guides/vampire/disciplinas/auspicios'>Auspex</a>, <a class='underline'  href='#guides/vampire/disciplinas/dominacao'>Dominate</a>, <a class='underline'  href='#guides/vampire/disciplinas/taumaturgia'>Thaumaturgy</a>"
 						},
 						{
 							"title" : "Appearance",
@@ -472,7 +472,7 @@
 						},
 						{
 							"title" : "Disciplines",
-							"description" : "Dominate, Fortitude, Presence."
+							"description" : "<a class='underline'  href='#guides/vampire/disciplinas/dominacao'>Dominate</a>, <a class='underline'  href='#guides/vampire/disciplinas/fortitude'>Fortitude</a>, <a class='underline'  href='#guides/vampire/disciplinas/presenca'>Presence</a>"
 						},
 						{
 							"title" : "Appearance",
