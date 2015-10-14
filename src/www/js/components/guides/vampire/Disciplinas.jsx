@@ -55,14 +55,26 @@ var Disciplinas = React.createClass({
           <Link to="serpentis">
             <li className="itemBtn seta-direita">{Json.guias.vampiro.disciplinas.serpentis.title}</li>
           </Link>
-          <Link to="taumaturgia">
-            <li className="itemBtn seta-direita">{Json.guias.vampiro.disciplinas.taumaturgia.title}</li>
-          </Link>
           <Link to="tenebrosidade">
             <li className="itemBtn seta-direita">{Json.guias.vampiro.disciplinas.tenebrosidade.title}</li>
           </Link>
           <Link to="vicissitude">
             <li className="itemBtn seta-direita">{Json.guias.vampiro.disciplinas.vicissitude.title}</li>
+          </Link>
+          <Link to="taumaturgia_sangue">
+            <li className="itemBtn seta-direita">{Json.guias.vampiro.disciplinas.taumaturgia_sangue.title}</li>
+          </Link>
+          <Link to="taumaturgia_mente">
+            <li className="itemBtn seta-direita">{Json.guias.vampiro.disciplinas.taumaturgia_mente.title}</li>
+          </Link>
+          <Link to="taumaturgia_destruicao">
+            <li className="itemBtn seta-direita">{Json.guias.vampiro.disciplinas.taumaturgia_destruicao.title}</li>
+          </Link>
+          <Link to="taumaturgia_conjuracao">
+            <li className="itemBtn seta-direita">{Json.guias.vampiro.disciplinas.taumaturgia_conjuracao.title}</li>
+          </Link>
+          <Link to="taumaturgia_chama">
+            <li className="itemBtn seta-direita">{Json.guias.vampiro.disciplinas.taumaturgia_chama.title}</li>
           </Link>
           <Link to="necromancia_sepulchre">
             <li className="itemBtn seta-direita">{Json.guias.vampiro.disciplinas.necromancia_sepulchre.title}</li>

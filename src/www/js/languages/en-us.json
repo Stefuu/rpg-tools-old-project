@@ -1499,8 +1499,128 @@
 						}
 					]
 				},
-				"taumaturgia" : {
-					"title" : "Thaumaturgy",
+				"taumaturgia_chama" : {
+					"title" : "Thaumaturgy - The Lure of Flames",
+					"itens" : [
+						{
+							"title" : "Level 1 - Candle", 
+							"description" : "Create a candle sized flame",
+							"system" : "Difficulty 3 to soak, one health level of aggravated damage/turn"
+						},
+						{
+							"title" : "Level 2 - Palm of flame", 
+							"description" : "Create flames around your hand",
+							"system" : "Difficulty 4 to soak, one health level of aggravated damage/turn"
+						},
+						{
+							"title" : "Level 3 - Campfire", 
+							"description" : "Create a campfire sized flame",
+							"system" : "Difficulty 5 to soak, two health levels of aggravated damage/turn"
+						},
+						{
+							"title" : "Level 4 - Bonfire", 
+							"description" : "Create very big flames",
+							"system" : "Difficulty 7 to soak, two health levels of aggravated damage/turn"
+						},
+						{
+							"title" : "Level 5 - Inferno", 
+							"description" : "Create huge flames",
+							"system" : "Difficulty 9 to soak, three health levels of aggravated damage/turn"
+						}
+					]
+				},
+				"taumaturgia_mente" : {
+					"title" : "Thaumaturgy - Movement of the Mind",
+					"itens" : [
+						{
+							"title" : "Level 1", 
+							"description" : "Move objects telekinetically through the mystic power of blood.",
+							"system" : "One pound"
+						},
+						{
+							"title" : "Level 2", 
+							"description" : "Move objects telekinetically through the mystic power of blood.",
+							"system" : "20 pounds"
+						},
+						{
+							"title" : "Level 3", 
+							"description" : "Move objects telekinetically through the mystic power of blood.",
+							"system" : "200 pounds"
+						},
+						{
+							"title" : "Level 4", 
+							"description" : "Move objects telekinetically through the mystic power of blood.",
+							"system" : "500 pounds"
+						},
+						{
+							"title" : "Level 5", 
+							"description" : "Move objects telekinetically through the mystic power of blood.",
+							"system" : "1000 pounds"
+						}
+					]
+				},
+				"taumaturgia_conjuracao" : {
+					"title" : "Thaumaturgy - The Path of Conjuring",
+					"itens" : [
+						{
+							"title" : "Level 1 - Summon the Simple Form", 
+							"description" : "At this level of mastery, the conjurer may create simple, inanimate objects. The object cannot have any moving parts and may not be made of multiple materials. For example, the conjurer may summon a steel baton, a lead pipe, a wooden stake or a chunk of granite.",
+							"system" : "Each turn the conjurer wishes to keep the object in existence, another Willpower point must be spent or the object vanishes."
+						},
+						{
+							"title" : "Level 2 - Permanency", 
+							"description" : "At this level, the conjurer no longer needs to pay Willpower costs to keep an object in existence. The object is, as this level's name suggests, permanent, though simple objects are still all that may be created",
+							"system" : "The player must invest three blood points in an object to make it real."
+						},
+						{
+							"title" : "Level 3 - Magic of the Smith", 
+							"description" : "The Kindred may now conjure complex objects of multiple components and with moving parts. For example, the thaumaturge can create guns, bicycles, chainsaws or cellular phones.",
+							"system" : "Objects created via Magic of the Smith are permanent items and cost five blood points to conjure. Particularly complex items often require a Knowledge roll (Crafts, Science, etc.) in addition to the basic roll."
+						},
+						{
+							"title" : "Level 4 - Reverse Conjuration", 
+							"description" : "This power allows the conjurer to 'banish' into nonexistence any object previously called forth via this path.",
+							"system" : "This is an extended success roll. The conjurer must accumulate as many successes as the original caster received when creating the object in question."
+						},
+						{
+							"title" : "Level 5 - Power Over Life", 
+							"description" : "This power cannot create true life, though it can summon forth some truly impressive simulacra. Creatures (and people) summoned with this power lack the free will to act on their own, instead mindlessly following the simple instructions of their conjurer.",
+							"system" : "The player spends 10 blood points. Imperfect and impermanent, creatures summoned via this path are too complex to exist for long. Within a week after their conjuration, the simulacra vanish into insubstantiality."
+						}
+					]
+				},
+				"taumaturgia_destruicao" : {
+					"title" : "Thaumaturgy - Hands of Destruction",
+					"itens" : [
+						{
+							"title" : "Level 1 - Decay", 
+							"description" : "This power accelerates the decrepitude of its target, causing it to wither, rot or otherwise break down. The target must be inanimate, though dead organic matter can be affected.",
+							"system" : "If the roll is successful, the inanimate object touched by the thaumaturge ages 10 years for every minute the Kindred touches it. If the vampire breaks physical contact and wishes to age the object again, another blood point must be spent and another roll must be made."
+						},
+						{
+							"title" : "Level 2 - Gnarl Wood", 
+							"description" : "This power warps and bends wooden objects. Though the wood is otherwise undamaged, this power often leaves the objects completely useless. This power may also be used to swell or contract wood, in addition to bending it into unwholesome shapes. Unlike other powers of this path, Gnarl Wood requires merely a glance rather than physical contact.",
+							"system" : "Fifty pounds of visible wood may be gnarled for each blood point spent on this power (the thaumaturge may expend as much blood as she likes on this power, up to her per-turn generational maximum). It is also possible to warp multiple visible objects - like all the stakes an opposing team of vampire-hunters wields."
+						},
+						{
+							"title" : "Level 3 - Acidic Touch", 
+							"description" : "The thaumaturge secretes a bilious, acidic fluid from any portion of his body. The viscous acid corrodes metal, destroys wood and causes horrendous chemical bums to living tissue.",
+							"system" : "The player spends blood to create the acid - the blood literally transmutes into the volatile secretion. One blood point creates enough acid to burn through a quarter-inch of steel plate or three inches of wood. The damage from an acid-augmented hand-to-hand attack is aggravated and costs one blood point per turn to use. A thaumaturge is immune to her own acidic touch."
+						},
+						{
+							"title" : "Level 4 - Atrophy", 
+							"description" : "This power withers a victim's limb, leaving only a desiccated, almost mummified husk of bone and skin. The effects are instantaneous; in mortals, they are also irreversible.",
+							"system" : "The victim may resist the effects of Atrophy by scoring three or more successes on a Stamina + Athletics roll (difficulty 8). Failure means the limb is permanently and completely crippled. Partial resistance is possible: One success indicates that difficulties involving the use of the arm increase by two, though these effects are still permanent with regard to mortals. Two successes signify that difficulties increase by one. Vampires afflicted by this power may spend five blood points to rejuvenate atrophied limbs. Mortals are permanently crippled. This power affects only limbs (arms and legs); it does not work on victims' heads, torsos, etc."
+						},
+						{
+							"title" : "Level 5 - Turn to Dust", 
+							"description" : "This fearsome power accelerates decrepitude in its victims. Mortals literally crumble to dust at the mere touch of a skilled thaumaturge, aged beyond death and into putrefaction.",
+							"system" : "Each success on the roll ages the victim by 10 years. A potential victim may resist with a Stamina + Courage roll (difficulty 8), but must accumulate more successes than the thaumaturge's activation roll - it's an all-or-nothing affair. If the victim succeeds, he does not age at all. If he does not acquire more successes than the thaumaturge, he ages the full amount. Obviously, this power, while it affects vampires, has no detrimental effect on them (they're immortal). At most, a Kindred victim withers slightly (-1 to Appearance) for one night."
+						}
+					]
+				},
+				"taumaturgia_sangue" : {
+					"title" : "Thaumaturgy - The Path of Blood",
 					"itens" : [
 						{
 							"title" : "Level 1 - A Taste For Blood", 

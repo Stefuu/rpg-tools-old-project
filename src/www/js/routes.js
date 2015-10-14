@@ -44,7 +44,11 @@ var Vampire = require('./components/guides/vampire/Vampire.jsx');
     var Quimerismo = require('./components/guides/vampire/disciplinas/Quimerismo.jsx');
     var Rapidez = require('./components/guides/vampire/disciplinas/Rapidez.jsx');
     var Serpentis = require('./components/guides/vampire/disciplinas/Serpentis.jsx');
-    var Taumaturgia = require('./components/guides/vampire/disciplinas/Taumaturgia.jsx');
+    var Taumaturgia_sangue = require('./components/guides/vampire/disciplinas/Taumaturgia_sangue.jsx');
+    var Taumaturgia_mente = require('./components/guides/vampire/disciplinas/Taumaturgia_mente.jsx');
+    var Taumaturgia_conjuracao = require('./components/guides/vampire/disciplinas/Taumaturgia_conjuracao.jsx');
+    var Taumaturgia_destruicao = require('./components/guides/vampire/disciplinas/Taumaturgia_destruicao.jsx');
+    var Taumaturgia_chama = require('./components/guides/vampire/disciplinas/Taumaturgia_chama.jsx');
     var Necromancia_sepulchre = require('./components/guides/vampire/disciplinas/Necromancia_sepulchre.jsx');
     var Necromancia_ash = require('./components/guides/vampire/disciplinas/Necromancia_ash.jsx');
     var Necromancia_bone = require('./components/guides/vampire/disciplinas/Necromancia_bone.jsx');
@@ -94,7 +98,11 @@ var Routes = {
     <Route name="quimerismo" path="guides/vampire/disciplinas/quimerismo" handler={Quimerismo} />   
     <Route name="rapidez" path="guides/vampire/disciplinas/rapidez" handler={Rapidez} />   
     <Route name="serpentis" path="guides/vampire/disciplinas/serpentis" handler={Serpentis} />   
-    <Route name="taumaturgia" path="guides/vampire/disciplinas/taumaturgia" handler={Taumaturgia} />   
+    <Route name="taumaturgia_sangue" path="guides/vampire/disciplinas/taumaturgia_sangue" handler={Taumaturgia_sangue} />   
+    <Route name="taumaturgia_mente" path="guides/vampire/disciplinas/taumaturgia_mente" handler={Taumaturgia_mente} />   
+    <Route name="taumaturgia_conjuracao" path="guides/vampire/disciplinas/taumaturgia_conjuracao" handler={Taumaturgia_conjuracao} />   
+    <Route name="taumaturgia_destruicao" path="guides/vampire/disciplinas/taumaturgia_destruicao" handler={Taumaturgia_destruicao} />   
+    <Route name="taumaturgia_chama" path="guides/vampire/disciplinas/taumaturgia_chama" handler={Taumaturgia_chama} />   
     <Route name="necromancia_sepulchre" path="guides/vampire/disciplinas/necromancia_sepulchre" handler={Necromancia_sepulchre} />   
     <Route name="necromancia_ash" path="guides/vampire/disciplinas/necromancia_ash" handler={Necromancia_ash} />   
     <Route name="necromancia_bone" path="guides/vampire/disciplinas/necromancia_bone" handler={Necromancia_bone} />   

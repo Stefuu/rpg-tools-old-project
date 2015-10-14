@@ -1157,7 +1157,7 @@
 							"system" : "A vítima pode resistir aos efeitos da Atrofia se obtiver três ou mais sucessos em um teste de Vigor + Atletismo (dificuldade 8 ). Uma falha significa que o membro foi perdido permanentemente e está totalmente incapacitado. Uma resistência parcial é possível: um sucesso indica que a dificuldade de ações que envolvam o uso do membro são aumentadas em dois, embora estes efeitos ainda sejam permanentes no que se refere aos mortais. Dois sucessos indicam que as dificuldades aumentam em um. Vampiros afetados por este poder podem usar cinco pontos de sangue para reconstituir o membro atrofiado. Os mortais ficam permanentemente aleijados. Este poder só afeta os membros (braços e pernas); ele não funciona na cabeça, torso e outras partes da vítima."
 						},
 						{
-							"title" : "Nível 5 - TOrnar ao Pó", 
+							"title" : "Nível 5 - Tornar ao Pó", 
 							"description" : "Este temível poder acelera a decrepitude de suas vitimas. Os mortais literalmente viram pó ao mero toque de um taumaturgo habilidoso, envelhecidos além da morte até a putrefação.",
 							"system" : "Cada sucesso neste teste envelhece a vítima dez anos. Uma vítima potencial pode resistir com um teste de Vigor + Coragem (dificuldade 8 ), mas precisa acumular mais sucessos do que a jogada de ativação do taumaturgo — é uma questão de tudo ou nada. Se a vítima for bem sucedida, ela não envelhece nem um ano. Se ela não conseguir mais sucessos do que o taumaturgo, envelhece o tempo completo. Obviamente, este poder, embora afete os vampiros, não tem nenhum efeito prejudicial sobre eles (eles são imortais). No mais, um Membro murcha levemente (-1 na Aparência) por uma noite."
 						}
@@ -1635,28 +1635,33 @@
 						}
 					]
 				},
-				"taumaturgia" : {
-					"title" : "Taumaturgia",
+				"taumaturgia_sangue" : {
+					"title" : "Taumaturgia - Linha do Sangue",
 					"itens" : [
 						{
 							"title" : "Nível 1 - Um gosto por sangue", 
-							"description" : "Este poder foi desenvolvido como um meio de testar o poder de um inimigo — uma habilidade extremamente importante nas tumultuosas noites iniciais do Clã Tremere. Simplesmente provando do sangue do alvo, o taumaturgo pode determinar quanta vitae ainda resta em seu corpo e, se o alvo for um vampiro, quão recentemente ele se alimentou, sua geração (aproximadamente) e, com três ou mais sucessos, se ele cometeu diablerie recentemente."
+							"description" : "Você possui uma variedade de habilidades de Percepção relacionadas ao sangue. Você pode determinar quanto sangue foi deixado num Membro ou num mortal, há quanto tempo um vampiro alimentou-se e a geração aproximada de um vampiro. Para ser capaz de determinar qualquer coisa sobre um determinado sangue, você precisa tocá-lo.",
+							"system" : "O jogador precisa testar Percepção + Ocultismo (dificuldade 7). O n.mero de sucessos determina quanta informação é recebida e o quão precisa ela é."
 						},
 						{
 							"title" : "Nível 2 - Fúria do sangue", 
-							"description" : "Este poder permite que um vampiro force outro Membro a usar pontos de sangue contra a sua vontade. O taumaturgo precisa tocar seu alvo para que este poder funcione, apesar do mais leve toque ser o suficiente. Um vampiro afetado por este poder pode sentir uma agitação física conforme o taumaturgo intensifica seus Atributos Físicos ou pode até mesmo se encontrar próximo do frenesi conforme seu estoque de vitae é misticamente esgotado."
+							"description" : "Com apenas um toque, o personagem pode forçaar outro Membro a usar seu sangue, quer ele queira ou não. Assim, um vampiro pode ver a sua Forças ser aumentada subitamente e nãoo fazer idéia do motivo. Além disso, como o vampiro torna-se mais excitável, o grau de dificuldade de todos os testes de frenesi realizados durante o resto da cena serão aumentadas em um ponto.",
+							"system" : "O jogador precisa testar Destreza + Lábia contra uma dificuldade equivalente à Força de Vontade do alvo. Cada sucesso força o alvo a gastar imediatamente um Ponto de Sangue da forma que o Taumaturgo desejar."
 						},
 						{
 							"title" : "Nível 3 - Potência do sangue", 
-							"description" : "O taumaturgo ganha tamanho controle sobre o seu sangue que ele pode 'concentrá-lo', tornando-o mais forte por um curto período de tempo. Na verdade, ele pode temporariamente diminuir sua geração com este poder. Este poder pode ser usado somente uma vez por noite."
+							"description" : "Você pode executar manipulações que tornem o sangue dentro de seu corpo mais potente durante um período de tempo curto, abaixando desta forma a sua geração efetiva.",
+							"system" : "Faça um teste de Manipulação + SobrevivÍncia ( dificuldade 8 ); os sucessos precisam ser gastos para diminuir as gerações do vampiro e criar uma duração em horas."
 						},
 						{
 							"title" : "Nível 4 - Furto de vitae", 
-							"description" : "Usando este poder, um taumaturgo consegue extrair a vitae de suas vítimas. Ele não precisa entrar em contato com o seu alvo — o sangue literalmente flui em uma torrente fisica que vai do alvo at e o Membro (ela normalmente é absorvida misticamente e não precisa ser ingerida pela boca)."
+							"description" : "Mediante um processo místico, você pode transferir para o seu próprio organismo sangue que se encontre à distância e até mesmo drenar os Pontos de Sangue de outras criaturas para acrescentar aos seus próprios.",
+							"system" : "O jogador deve testar Inteligência + Medicina contra uma dificuldade de seis se o sangue for estacionário (como um banco de sangue) ou contra a Força de Vontade de um alvo se o alvo for um ser vivo. O número de sucessos determina quantos Pontos de Sangue são transferidos. O sangue a ser roubado deve estar a uma distância de no máximo 15 metros e bem à vista; além disso, a fonte do ataque deve ser óbvia."
 						},
 						{
 							"title" : "Nível 5 - Caldeirão de sangue", 
-							"description" : "Um taumaturgo usando este poder, ferve o sangue do alvo em suas veias como água no fogão. O Membro precisa tocar o alvo e é este toque que faz com que o sangue do alvo ferva. Este poder é sempre fatal para os mortais e causa grandes danos até mesmo nos mais poderosos vampiros."
+							"description" : "Você é capaz de manipular o sangue de outros seres. Tocando o outro, você pode ferver o seu sangue, não apenas criando um dano físico incrível, como também destruindo grande parte do sangue do alvo. Isto virtualmente assegura a morte de qualquer mortal sobre o qual for executado este feitiço, podendo também infligir grandes danos físicos aos vampiros.",
+							"system" : "O jogador precisa testar Força de Vontade contra uma dificuldade igual ao número de Pontos de Sangue que o vampiro deseja ferver de uma vez + 4 (máximo 10). A vítima também sofre um ferimento para cada ponto fervido, perdendo um ponto de Vitalidade."
 						}
 					]
 				},
