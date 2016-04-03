@@ -6,34 +6,61 @@ var React = require('react');
 var DiceRollerStore = require('./../stores/DiceRollerStore.jsx');
 var DiceRollerActions = require('./../actions/DiceRollerActions.jsx');
 
+var Menu = require('react-mfb').Menu;
+var MainButton = require('react-mfb').MainButton;
+var ChildButton = require('react-mfb').ChildButton;
+
 var DiceList = React.createClass({
-  _addDice: function(event){
-    DiceRollerActions.addDice(event.currentTarget.id);
+  componentDidMount: function(){
+    document.querySelector('.mfb-component__button--main').addEventListener('click', function(){
+      var element = document.querySelector('.dicesOverlay');
+      var style = window.getComputedStyle(element);
+      var display = style.getPropertyValue('display');
+      if(display === 'none') {
+        document.querySelector('.dicesOverlay').style.display = 'block';
+        document.querySelector('.mfb-component--br').setAttribute('data-mfb-state', 'open');
+      }
+      else {
+        document.querySelector('.dicesOverlay').style.display = 'none';
+        document.querySelector('.mfb-component--br').setAttribute('data-mfb-state', 'close');
+      }
+    });
   },
   render: function() {
     return (
-      <div className="listDiceContainer">
-        <ul id="dicesList">
-          <li id="4" onClick={this._addDice}>
-            <img src="assets/img/icon-d4.png" />
-          </li>
-          <li id="6" onClick={this._addDice}>
-            <img src="assets/img/icon-d6.png" />
-          </li>
-          <li id="8" onClick={this._addDice}>
-            <img src="assets/img/icon-d8.png" />
-          </li>
-          <li id="10" onClick={this._addDice}>
-            <img src="assets/img/icon-d10.png" />
-          </li>
-          <li id="12" onClick={this._addDice}>
-            <img src="assets/img/icon-d12.png" />
-          </li>
-          <li id="20" onClick={this._addDice}>
-            <img src="assets/img/icon-d20.png" />
-          </li>
-        </ul>
-      </div>
+      <Menu effect={'slidein-spring'} position={'br'} >
+        <MainButton iconResting="ion-plus-round" iconActive="ion-close-round" />
+        <ChildButton
+          className="icon-d100"
+          onClick={DiceRollerActions.addDice.bind(null, 100)}
+          label="D100"
+          href="#" />
+        <ChildButton
+          className="icon-d20"
+          onClick={DiceRollerActions.addDice.bind(null, 20)}
+          label="D20"
+          href="#" />
+        <ChildButton
+          className="icon-d10"
+          onClick={DiceRollerActions.addDice.bind(null, 10)}
+          label="D10"
+          href="#" />
+        <ChildButton
+          className="icon-d8"
+          onClick={DiceRollerActions.addDice.bind(null, 8)}
+          label="D8"
+          href="#" />
+        <ChildButton
+          className="icon-d6"
+          onClick={DiceRollerActions.addDice.bind(null, 6)}
+          label="D6"
+          href="#" />
+        <ChildButton
+          className="icon-d4"
+          onClick={DiceRollerActions.addDice.bind(null, 4)}
+          label="D4"
+          href="#" />
+    </Menu>
     );
   }
 });

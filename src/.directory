@@ -1,0 +1,10 @@
+[Dolphin]
+GroupedSorting=true
+PreviewsShown=true
+SortRole=type
+Timestamp=2015,9,25,19,19,59
+Version=3
+VisibleRoles=Icons_text,Icons_size
+
+[Settings]
+HiddenFilesShown=true

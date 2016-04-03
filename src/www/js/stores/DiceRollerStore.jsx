@@ -38,16 +38,16 @@ var DiceRollerStore = Reflux.createStore({
     currentState.results = [];
     currentState.dicesSum = 0;
     for(var i = 0; i < currentState.dices.length; ++i){
-      var diceREsult = Math.round(Math.random() * (currentState.dices[i] - 1) + 1);
+      var diceREsult = Math.round(Math.random() * (currentState.dices[i].type - 1) + 1);
+      currentState.dices[i].result = diceREsult;
       currentState.results.push(diceREsult);
       currentState.dicesSum += diceREsult;
     }
-    console.log('Resultados:', currentState.results);
     this.trigger(currentState);
   },
   onAddDice: function(dicePositions){
-    currentState.dices.push(parseInt(dicePositions));
-    currentState.dices.sort(function(a, b){return a-b;});
+    currentState.dices.push({'type': parseInt(dicePositions), result: false});
+    currentState.dices.sort(function(a, b){return a.type-b.type;});
     this.trigger(currentState);
   },
   onRemoveDice: function(dice){
@@ -58,6 +58,10 @@ var DiceRollerStore = Reflux.createStore({
   },
   onClearDices: function(){
     console.log('clearDices');
+  },
+  onRemoveDice: function(dice){
+    currentState.dices.splice(dice, 1);
+    this.trigger(currentState);
   }
 });
 

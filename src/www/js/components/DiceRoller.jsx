@@ -20,6 +20,10 @@ var DiceRoller = React.createClass({
       window.shake.stopWatch();
     }
   },
+  _onOverlayClick: function(){
+    document.querySelector('.mfb-component--br').setAttribute('data-mfb-state', 'close');
+    document.querySelector('.dicesOverlay').style.display = 'none';
+  },
   _rollDices: function(){
     if(this.state.dices.length > 0){
       if(navigator.vibrate){  
@@ -42,15 +46,14 @@ var DiceRoller = React.createClass({
     var renderedDiceList = [];
     if(this.state.dices.length > 0){
       for(var i = 0; i < this.state.dices.length; ++i) {
-        var imgSrc = "assets/img/icon-d" + this.state.dices[i] + ".png";
+        var currentResult = this.state.dices[i].result;
+        var imgSrc = "assets/img/icon-d" + this.state.dices[i].type + ".png";
         renderedDiceList.push(
           <li onClick={this._removeDice}>
-            <img src={imgSrc} />
+            <span>{currentResult}</span>
+            <img src={imgSrc} className={currentResult ? 'dimImage' : ''}/>
           </li>);
       }
-    }
-    else{
-      renderedDiceList.push(<span>Selecione pelo menos um dado</span>);
     }
     return (
       <div className="dice-roller">
@@ -60,6 +63,7 @@ var DiceRoller = React.createClass({
             <ul id="selectedDicesList">
               {renderedDiceList}
             </ul>
+            {this.state.dices.length <= 0 ? <span className="no-selected-dice">Select at least one dice.</span> : false}
           </div>
           <div className="rollDiceResult">
             <div className="label">
@@ -70,7 +74,9 @@ var DiceRoller = React.createClass({
             </div>
           </div>
         </div>
+        <div className="dicesOverlay" onClick={this._onOverlayClick}></div>
         <DiceList />
+
       </div>
     );
   }

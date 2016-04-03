@@ -7,10 +7,6 @@
 
 .rollDiceContainer {
   text-align:center;
-  top: 40px;
-  left: 0;
-  right: 0;
-  bottom: 70px;
 }
 
 .rollDiceButton {
@@ -21,14 +17,22 @@
   background-color: #2196F3;
   color: #FFF;
   font-size:30px;
+  border-radius: 5px;
 }
 
 .selectedDices{
-  top: 100px;
-  bottom: 110px;
+  top: 140px;
+  bottom: 185px;
   left: 0;
   right: 0;
   overflow: auto;
+  position: absolute;
+}
+
+.no-selected-dice{
+  font-size: 20px;
+  position: relative;
+  top: 40px;
 }
 
 .rollDiceResult {
@@ -61,4 +65,25 @@
 
 #selectedDicesList li img {
   width:100%;
+}
+
+#selectedDicesList li img.dimImage{
+  opacity: 0.2;
+}
+
+#selectedDicesList li span{
+  position:absolute;
+  line-height:70px;
+  width:70px;
+}
+
+.dicesOverlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  opacity: 0.9;
+  background-color: white;
 }

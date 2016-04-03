@@ -43,9 +43,12 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  outline: 0;
   font-family: Roboto;
   margin: 0;
   padding: 0;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 ul {
@@ -58,7 +61,7 @@ button:focus {
   outline:0;
 }
 
-body h1 { 
+body h1 {
   text-align: center;
   font-size: 34px;
   margin: 0;
@@ -71,7 +74,6 @@ a,
 a:visited,
 a:hover,
 a:active {
-  color:inherit;
   text-decoration: none;
 }
 
@@ -107,8 +109,8 @@ a:active {
   display: inline-block;
   vertical-align: middle;
   margin-right: 10px;
-  width: 0; 
-  height: 0; 
+  width: 0;
+  height: 0;
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
   border-bottom: 5px solid black;
