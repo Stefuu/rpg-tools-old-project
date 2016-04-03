@@ -21,7 +21,7 @@
 						},
 						{
 							"title" : "Disciplinas",
-							"description" : "Rapidez, Ofuscaçao, Quietus"
+							"description" : "<a class='underline' href='#guides/vampire/disciplinas/rapidez'>Rapidez</a><br /><a class='underline' href='#guides/vampire/disciplinas/ofuscacao'>Ofuscaçao</a><br /><a class='underline' href='#guides/vampire/disciplinas/quietus'>Quietus</a>"
 						},
 						{
 							"title" : "Aparência",
@@ -62,7 +62,7 @@
 						},
 						{
 							"title" : "Disciplinas",
-							"description" : "Rapides, Potência, Presença."
+							"description" : "<a class='underline' href='#guides/vampire/disciplinas/rapidez'>Rapidez</a><br /><a class='underline' href='#guides/vampire/disciplinas/potencia'>Potência</a><br /><a class='underline' href='#guides/vampire/disciplinas/presenca'>Presença</a>"
 						},
 						{
 							"title" : "Aparência",
@@ -103,7 +103,7 @@
 						},
 						{
 							"title" : "Disciplinas",
-							"description" : "Animalismo, Fortitude, Metamorfose"
+							"description" : "<a class='underline' href='#guides/vampire/disciplinas/animalismo'>Animalismo</a><br /><a class='underline' href='#guides/vampire/disciplinas/fortitude'>Fortitude</a><br /><a class='underline' href='#guides/vampire/disciplinas/metamorfose'>Metamorfose</a>"
 						},
 						{
 							"title" : "Aparência",
@@ -144,7 +144,7 @@
 						},
 						{
 							"title" : "Disciplinas",
-							"description" : "Dominação, Necromancia, Potência"
+							"description" : "<a class='underline' href='#guides/vampire/disciplinas/dominacao'>Dominação</a><br /><a class='underline' href='#guides/vampire/disciplinas/necromancia_sepulchre'>Necromancia - A Linha do Sepulcro</a><br /><a class='underline' href='#guides/vampire/disciplinas/necromancia_ash'>Necromancia - A Linha das Cinzas</a><br /><a class='underline' href='#guides/vampire/disciplinas/necromancia_ash'></a><br /><a class='underline' href='#guides/vampire/disciplinas/necromancia_mortuus'>Necromancia - A Linha da Morte</a><br /><a class='underline' href='#guides/vampire/disciplinas/necromancia_vitreous'>Necromancia - A Linha Vítrea</a><br /><a class='underline' href='#guides/vampire/disciplinas/potencia'>Potência</a>"
 						},
 						{
 							"title" : "Aparência",
@@ -185,7 +185,7 @@
 						},
 						{
 							"title" : "Disciplinas",
-							"description" : "Auspícius, Demência, Ofuscação"
+							"description" : "<a class='underline' href='#guides/vampire/disciplinas/auspicios'>Auspícios</a><br />Demência<br /><a class='underline' href='#guides/vampire/disciplinas/ofuscacao'>Ofuscação</a>"
 						},
 						{
 							"title" : "Aparência",
@@ -226,7 +226,7 @@
 						},
 						{
 							"title" : "Disciplinas",
-							"description" : "Dominação, Tenebrosidade, Potência"
+							"description" : "<a class='underline' href='#guides/vampire/disciplinas/dominacao'>Dominação</a><br /><a class='underline' href='#guides/vampire/disciplinas/tenebrosidade'>Tenebrosidade</a><br /><a class='underline' href='#guides/vampire/disciplinas/potencia'>Potência</a>"
 						},
 						{
 							"title" : "Aparência",
@@ -267,7 +267,7 @@
 						},
 						{
 							"title" : "Disciplinas",
-							"description" : "Animalismo, Ofuscação, Potência"
+							"description" : "<a class='underline' href='#guides/vampire/disciplinas/animalismo'>Animalismo</a><br /><a class='underline' href='#guides/vampire/disciplinas/ofuscacao'>Ofuscação</a><br /><a class='underline' href='#guides/vampire/disciplinas/potencia'>Potência</a>"
 						},
 						{
 							"title" : "Aparência",
@@ -308,7 +308,7 @@
 						},
 						{
 							"title" : "Disciplinas",
-							"description" : "Animalismo, Quimerismo, Fortitude"
+							"description" : "<a class='underline' href='#guides/vampire/disciplinas/animalismo'>Animalismo</a><br /><a class='underline' href='#guides/vampire/disciplinas/quimerismo'>Quimerismo</a><br /><a class='underline' href='#guides/vampire/disciplinas/fortitude'>Fortitude</a>"
 						},
 						{
 							"title" : "Aparência",
@@ -349,7 +349,7 @@
 						},
 						{
 							"title" : "Disciplinas",
-							"description" : "Ofuscação, Presença, Serpentis"
+							"description" : "<a class='underline' href='#guides/vampire/disciplinas/ofuscacao'>Ofuscação</a><br /><a class='underline' href='#guides/vampire/disciplinas/presenca'>Presença</a><br /><a class='underline' href='#guides/vampire/disciplinas/serpentis'>Serpentis</a>"
 						},
 						{
 							"title" : "Aparência",
@@ -390,7 +390,7 @@
 						},
 						{
 							"title" : "Disciplinas",
-							"description" : "Auspícios, Rapidez, Presença"
+							"description" : "<a class='underline' href='#guides/vampire/disciplinas/auspicios'>Auspícios</a><br /><a class='underline' href='#guides/vampire/disciplinas/rapidez'>Rapidez</a><br /><a class='underline' href='#guides/vampire/disciplinas/presenca'>Presença</a>"
 						},
 						{
 							"title" : "Aparência",
@@ -431,7 +431,7 @@
 						},
 						{
 							"title" : "Disciplinas",
-							"description" : "Auspícios, Dominação, Taumaturgia"
+							"description" : "<a class='underline' href='#guides/vampire/disciplinas/auspicios'>Auspícios</a><br /><a class='underline' href='#guides/vampire/disciplinas/dominacao'>Dominação</a><br /><a class='underline' href='#guides/vampire/disciplinas/taumaturgia'>Taumaturgia - Linha do Sangue</a>"
 						},
 						{
 							"title" : "Aparência",
@@ -472,7 +472,7 @@
 						},
 						{
 							"title" : "Disciplinas",
-							"description" : "Dominação, Fortitude, Presença"
+							"description" : "<a class='underline' href='#guides/vampire/disciplinas/dominacao'>Dominação</a><br /><a class='underline' href='#guides/vampire/disciplinas/fortitude'>Fortitude</a><br /><a class='underline' href='#guides/vampire/disciplinas/presenca'>Presença</a>"
 						},
 						{
 							"title" : "Aparência",
@@ -727,6 +727,42 @@
 										},
 										{
 											"cols" : [
+												"Psicótico",
+												"Cores Hipnóticas e Rodopiantes"
+											]
+										},
+										{
+											"cols" : [
+												"Vampiro",
+												"Cores Pálidas"
+											]
+										},
+										{
+											"cols" : [
+												"Uso de Magia",
+												"Miríades de Faíscas"
+											]
+										},
+										{
+											"cols" : [
+												"Metamorfo",
+												"Aura brilhante, Vibrante"
+											]
+										},
+										{
+											"cols" : [
+												"Fantasma",
+												"Aura fraca, Intemitente"
+											]
+										},
+										{
+											"cols" : [
+												"Fada",
+												"Lampejos de arco-íris na aura"
+											]
+										},
+										{
+											"cols" : [
 												"Zangado",
 												"Vermelho"
 											]
@@ -845,7 +881,6 @@
 												"Azul Escuro"
 											]
 										},
-										,
 										{
 											"cols" : [
 												"Confuso",
@@ -869,46 +904,10 @@
 												"Em Frenesi",
 												"Cores em Ondulação Rápida"
 											]
-										},
-										{
-											"cols" : [
-												"Psicótico",
-												"Cores Hipnóticas e Rodopiantes"
-											]
-										},
-										{
-											"cols" : [
-												"Vampiro",
-												"Cores Pálidas"
-											]
-										},
-										{
-											"cols" : [
-												"Uso de Magia",
-												"Miríades de Faíscas"
-											]
-										},
-										{
-											"cols" : [
-												"Metamorfo",
-												"Aura brilhante, Vibrante"
-											]
-										},
-										{
-											"cols" : [
-												"Fantasma",
-												"Aura fraca, Intemitente"
-											]
-										},
-										{
-											"cols" : [
-												"Fada",
-												"Lampejos de arco-íris na aura"
-											]
 										}
 									]
 								}
-							],
+							]
 						},
 						{
 							"title" : "Nível 3 - O Toque do Espírito", 
@@ -1071,6 +1070,126 @@
 							"title" : "Nível 5 - Escudo", 
 							"description" : "Como uma barra de aço, uma montanha ou uma constante imutável, você resiste a qualquer dano e sobrevive a qualquer ataque> Apenas forças monumentais e persistentes podem destruí-lo completamente. Entretanto, uma vez que o fogo e a destruição tenham passado, você pode erguer-se do caos que restou.",
 							"system" : "O nível do personagem em Fortitude é adicionado ao seu Vigor com o propósito de absorver o dano normal contusão ou letal). Um personagem com esta Disciplina também pode usar seus pontos em Fortitude para absorver dano agravado (os Membros normalmente não absorvem danos de mordidas de vampiros, garras de lobisomens, efeitos mágicos, fogo, luz do sol ou traumas físicos maciços). Portanto, um vampiro com Fortitude 3 tem três dados para absorver ferimentos agravados."
+						}
+					]
+				},
+				"taumaturgia_chama" : {
+					"title" : "Taumaturgia - Sedução das Chamas",
+					"itens" : [
+						{
+							"title" : "Nível 1 - Vela", 
+							"description" : "O vampiro gera um chama pequena, como a chama de uma vela",
+							"system" : "Dificuldade 3 para absorver, um nível de Vitalidade de dano agravado/turno"
+						},
+						{
+							"title" : "Nível 2 - Labaredas", 
+							"description" : "O vampiro gera labaredas de fogo",
+							"system" : "Dificuldade 4 para absorver, um nível de Vitalidade de dano agravado/turno"
+						},
+						{
+							"title" : "Nível 3 - Fogueira de acampamento", 
+							"description" : "O vampiro é capaz de gerar fogo na proporção de uma pequena fogueia",
+							"system" : "Dificuldade 5 para absorver, dois níveis de Vitalidade de dano agravado/turno"
+						},
+						{
+							"title" : "Nível 4 - Fogueira", 
+							"description" : "O vampiro consegue criar chamas equivalentes a uma fogueira grande",
+							"system" : "Dificuldade 7 para absorver, dois níveis de Vitalidade de dano agravado/turno"
+						},
+						{
+							"title" : "Nível 5 - Inferno", 
+							"description" : "O vampiro projeta chamas gigantescas, como uma pequena tempestade de fogo.",
+							"system" : "Dificuldade 9 para absorver, três níveis de Vitalidade de dano agravado/turno"
+						}
+					]
+				},
+				"taumaturgia_conjuracao" : {
+					"title" : "Taumaturgia - A Linha da Conjuração",
+					"itens" : [
+						{
+							"title" : "Nível 1 - Invocando a Forma Simples", 
+							"description" : "Neste nível de domínio, o conjurador pode criar objetos simples e inanimados. O objeto não pode ter partes móveis ou ser constituído de múltiplos materiais. O taumaturgo pode, por exemplo, conjurar um bastão de ferro, um cano de chumbo, uma estaca de madeira ou um pedaço de granito.",
+							"system" : "Para cada turno que o conjurador desejar manter a existência do objeto, um novo ponto de Força de Vontade tem que ser usado ou o objeto desaparecerá."
+						},
+						{
+							"title" : "Nível 2 - Permanência", 
+							"description" : "Neste nível, o conjurador não precisa mais usar pontos de Força de Vontade para manter a existência de um objeto. O objeto é, como sugere o nome deste poder, permanente, embora só objetos pequenos possam ser criados.",
+							"system" : "O jogador precisa investir três pontos de sangue no objeto para torná-lo real."
+						},
+						{
+							"title" : "Nível 3 - Magia do Ferreiro", 
+							"description" : "Agora o Membro também pode conjurar objetos complexos de múltiplos (componentes e com partes móveis. O taumaturgo pode, por exemplo, criar armas, bicicletas, serras elétricas ou telefones celulares.",
+							"system" : "Objetos criados através da Magia do Ferreiro são permanentes e necessitam de cinco pontos de sangue para serem conjurados. Itens particularmente complexos freqüentemente exigem um teste de Conhecimento (Ofícios, Ciências, etc.) além do teste básico."
+						},
+						{
+							"title" : "Nível 4 - Conjuração Reversa", 
+							"description" : "Este poder permite que conjurador 'remova' a existência de qualquer objeto previamente invocado por esta linha.",
+							"system" : "Um teste resistido é necessário. O conjurador precisa acumular tantos sucessos quantos os obtidos pelo feiticeiro original ao criar o objeto em questão."
+						},
+						{
+							"title" : "Nível 5 - Poder Sobre a Vida", 
+							"description" : "Este poder não pode criar a 'verdadeira' vida, embora possa invocar algumas imitações realmente impressionantes. Criaturas e 'pessoas' invocadas com este poder não possuem vontade própria para agir por si só e, ao invés disso, seguem estupidamente instruções simples dadas por seus mestres.",
+							"system" : "O jogador usa 10 pontos de sangue. As criaturas imperfeitas e temporárias criadas através desta linha são muito complexas para existirem por muito tempo. Dentro de uma semana depois de sua conjuração, a imitação se transforma em algo insubstancial."
+						}
+					]
+				},
+				"taumaturgia_destruicao" : {
+					"title" : "Taumaturgia - Mãos da Destruição",
+					"itens" : [
+						{
+							"title" : "Nível 1 - Decadência", 
+							"description" : "Este poder deforma a decrepitude do seu alvo, fazendo com que ele murche, apodreça ou se quebre. O alvo tem que ser inanimado, embora matérias orgânicas mortas possam ser afetadas.",
+							"system" : "Se o teste for bem sucedido, o objeto inanimado tocado pelo vampiro envelhece dez anos por cada minuto que o Membro o tocar. Se o vampiro quebrar o contato físico e desejar envelhecer o objeto novamente, outro ponto de sangue tem que ser gasto e outro teste realizado."
+						},
+						{
+							"title" : "Nível 2 - Dobrar a Madeira", 
+							"description" : "Este poder deforma e entorta objetos de madeira. Embora a madeira não seja danificada de nenhum outro modo, este poder freqüentemente faz com que os objetos se tornem totalmente inúteis. Este poder também pode ser usado para inchar e contrair a madeira, além de poder entortá-la em formas insalubres. Ao contrário de outros poderes desta linha, Dobrar a Madeira requer apenas um olhar ao invés do contato físico.",
+							"system" : "Vinte cinco quilos de madeira visível podem ser entortados para cada ponto de sangue usado desta maneira (o taumaturgo pode usar quantos pontos desejar até o seu máximo de pontos de sangue por turno, determinado pela geração). Também é possível entortar múltiplos objetos — como todas as estacas usadas por um grupo de caçadores de vampiros."
+						},
+						{
+							"title" : "Nível 3 - Toque Ácido", 
+							"description" : "O taumaturgo secreta um fluído ácido de qualquer parte do seu corpo. Este ácido viscoso pode corroer o metal, destruir a madeira e causar queimaduras químicas horríveis no tecido humano.",
+							"system" : "O jogador usa um ponto de sangue para criar o ácido, o sangue literalmente se transforma na secreção volátil. Um ponto de sangue cria ácido suficiente para queimar através de uma placa de aço de 5 mm ou 75 mm de madeira. O dano causado por um ataque com mãos limpas banhadas no ácido é agravado e custa um ponto de sangue por turno para ser usado. Um taumaturgo é imune ao seu próprio toque ácido."
+						},
+						{
+							"title" : "Nível 4 - Atrofia", 
+							"description" : "Este poder murcha o membro de uma vítima, deixando apenas um semi-mumificado casco de pele e ossos dessecados. Os efeitos são instantâneos; e também são irreversíveis nos mortais.",
+							"system" : "A vítima pode resistir aos efeitos da Atrofia se obtiver três ou mais sucessos em um teste de Vigor + Atletismo (dificuldade 8 ). Uma falha significa que o membro foi perdido permanentemente e está totalmente incapacitado. Uma resistência parcial é possível: um sucesso indica que a dificuldade de ações que envolvam o uso do membro são aumentadas em dois, embora estes efeitos ainda sejam permanentes no que se refere aos mortais. Dois sucessos indicam que as dificuldades aumentam em um. Vampiros afetados por este poder podem usar cinco pontos de sangue para reconstituir o membro atrofiado. Os mortais ficam permanentemente aleijados. Este poder só afeta os membros (braços e pernas); ele não funciona na cabeça, torso e outras partes da vítima."
+						},
+						{
+							"title" : "Nível 5 - Tornar ao Pó", 
+							"description" : "Este temível poder acelera a decrepitude de suas vitimas. Os mortais literalmente viram pó ao mero toque de um taumaturgo habilidoso, envelhecidos além da morte até a putrefação.",
+							"system" : "Cada sucesso neste teste envelhece a vítima dez anos. Uma vítima potencial pode resistir com um teste de Vigor + Coragem (dificuldade 8 ), mas precisa acumular mais sucessos do que a jogada de ativação do taumaturgo — é uma questão de tudo ou nada. Se a vítima for bem sucedida, ela não envelhece nem um ano. Se ela não conseguir mais sucessos do que o taumaturgo, envelhece o tempo completo. Obviamente, este poder, embora afete os vampiros, não tem nenhum efeito prejudicial sobre eles (eles são imortais). No mais, um Membro murcha levemente (-1 na Aparência) por uma noite."
+						}
+					]
+				},
+				"taumaturgia_mente" : {
+					"title" : "Taumaturgia - Movimento da Mente",
+					"itens" : [
+						{
+							"title" : "Nível 1 - Meio-quilo", 
+							"description" : "O vampiro é capaz de mover objetos a distância de até 500 gramas",
+							"system" : "O número de sucessos indica a duração do controle do taumaturgo sobre o objeto (ou objetos). Cada sucesso permite um turno de manipulação, embora o Membro possa tentar manter o controle do objeto depois desse tempo, realizando um novo teste (ele não precisa usar mais um ponto de sangue para manter o controle). Se o teste for bem sucedido, o controle e mantido. Se o taumaturgo perder ou afrouxar o controle sobre o objeto e mais tarde manipulá-lo novamente, o jogador precisa usar outro ponto de sangue, pois uma nova tentativa está sendo realizada. Se este poder for usado para manipular um ser vivo, o alvo pode tentar resistir. Neste caso, o taumaturgo e o alvo fazem um teste resistido de Força de Vontade a cada turno em que o poder for usado. Como na Sedução das Chamas, os níveis individuais de poder não serão fornecidos para esta linha (consulte a tabela abaixo para ver quanto peso um taumaturgo pode controlar). Uma vez que o Membro atinja o Nível Três, ele pode levitar a si mesmo e 'voar' com aproximadamente a mesma velocidade de corrida do personagem, não importa o quanto ele pesa, embora as restrições de peso ainda se apliquem na manipulação de outras pessoas e objetos. Uma vez que o Membro alcance o Nível Quatro, ele pode 'arremessar' objetos com Força igual ao seu nível de domínio."
+						},
+						{
+							"title" : "Nível 2 - 10kg", 
+							"description" : "O vampiro é capaz de mover objetos a distância de até 10kg",
+							"system" : "O número de sucessos indica a duração do controle do taumaturgo sobre o objeto (ou objetos). Cada sucesso permite um turno de manipulação, embora o Membro possa tentar manter o controle do objeto depois desse tempo, realizando um novo teste (ele não precisa usar mais um ponto de sangue para manter o controle). Se o teste for bem sucedido, o controle e mantido. Se o taumaturgo perder ou afrouxar o controle sobre o objeto e mais tarde manipulá-lo novamente, o jogador precisa usar outro ponto de sangue, pois uma nova tentativa está sendo realizada. Se este poder for usado para manipular um ser vivo, o alvo pode tentar resistir. Neste caso, o taumaturgo e o alvo fazem um teste resistido de Força de Vontade a cada turno em que o poder for usado. Como na Sedução das Chamas, os níveis individuais de poder não serão fornecidos para esta linha (consulte a tabela abaixo para ver quanto peso um taumaturgo pode controlar). Uma vez que o Membro atinja o Nível Três, ele pode levitar a si mesmo e 'voar' com aproximadamente a mesma velocidade de corrida do personagem, não importa o quanto ele pesa, embora as restrições de peso ainda se apliquem na manipulação de outras pessoas e objetos. Uma vez que o Membro alcance o Nível Quatro, ele pode 'arremessar' objetos com Força igual ao seu nível de domínio."
+						},
+						{
+							"title" : "Nível 3 - 100kg", 
+							"description" : "O vampiro é capaz de mover objetos a distância de até 100kg",
+							"system" : "O número de sucessos indica a duração do controle do taumaturgo sobre o objeto (ou objetos). Cada sucesso permite um turno de manipulação, embora o Membro possa tentar manter o controle do objeto depois desse tempo, realizando um novo teste (ele não precisa usar mais um ponto de sangue para manter o controle). Se o teste for bem sucedido, o controle e mantido. Se o taumaturgo perder ou afrouxar o controle sobre o objeto e mais tarde manipulá-lo novamente, o jogador precisa usar outro ponto de sangue, pois uma nova tentativa está sendo realizada. Se este poder for usado para manipular um ser vivo, o alvo pode tentar resistir. Neste caso, o taumaturgo e o alvo fazem um teste resistido de Força de Vontade a cada turno em que o poder for usado. Como na Sedução das Chamas, os níveis individuais de poder não serão fornecidos para esta linha (consulte a tabela abaixo para ver quanto peso um taumaturgo pode controlar). Uma vez que o Membro atinja o Nível Três, ele pode levitar a si mesmo e 'voar' com aproximadamente a mesma velocidade de corrida do personagem, não importa o quanto ele pesa, embora as restrições de peso ainda se apliquem na manipulação de outras pessoas e objetos. Uma vez que o Membro alcance o Nível Quatro, ele pode 'arremessar' objetos com Força igual ao seu nível de domínio."
+						},
+						{
+							"title" : "Nível 4 - 250kg", 
+							"description" : "O vampiro é capaz de mover objetos a distância de até 250kg",
+							"system" : "O número de sucessos indica a duração do controle do taumaturgo sobre o objeto (ou objetos). Cada sucesso permite um turno de manipulação, embora o Membro possa tentar manter o controle do objeto depois desse tempo, realizando um novo teste (ele não precisa usar mais um ponto de sangue para manter o controle). Se o teste for bem sucedido, o controle e mantido. Se o taumaturgo perder ou afrouxar o controle sobre o objeto e mais tarde manipulá-lo novamente, o jogador precisa usar outro ponto de sangue, pois uma nova tentativa está sendo realizada. Se este poder for usado para manipular um ser vivo, o alvo pode tentar resistir. Neste caso, o taumaturgo e o alvo fazem um teste resistido de Força de Vontade a cada turno em que o poder for usado. Como na Sedução das Chamas, os níveis individuais de poder não serão fornecidos para esta linha (consulte a tabela abaixo para ver quanto peso um taumaturgo pode controlar). Uma vez que o Membro atinja o Nível Três, ele pode levitar a si mesmo e 'voar' com aproximadamente a mesma velocidade de corrida do personagem, não importa o quanto ele pesa, embora as restrições de peso ainda se apliquem na manipulação de outras pessoas e objetos. Uma vez que o Membro alcance o Nível Quatro, ele pode 'arremessar' objetos com Força igual ao seu nível de domínio."
+						},
+						{
+							"title" : "Nível 5 - 500kg", 
+							"description" : "O vampiro é capaz de mover objetos a distância de até 500kg",
+							"system" : "O número de sucessos indica a duração do controle do taumaturgo sobre o objeto (ou objetos). Cada sucesso permite um turno de manipulação, embora o Membro possa tentar manter o controle do objeto depois desse tempo, realizando um novo teste (ele não precisa usar mais um ponto de sangue para manter o controle). Se o teste for bem sucedido, o controle e mantido. Se o taumaturgo perder ou afrouxar o controle sobre o objeto e mais tarde manipulá-lo novamente, o jogador precisa usar outro ponto de sangue, pois uma nova tentativa está sendo realizada. Se este poder for usado para manipular um ser vivo, o alvo pode tentar resistir. Neste caso, o taumaturgo e o alvo fazem um teste resistido de Força de Vontade a cada turno em que o poder for usado. Como na Sedução das Chamas, os níveis individuais de poder não serão fornecidos para esta linha (consulte a tabela abaixo para ver quanto peso um taumaturgo pode controlar). Uma vez que o Membro atinja o Nível Três, ele pode levitar a si mesmo e 'voar' com aproximadamente a mesma velocidade de corrida do personagem, não importa o quanto ele pesa, embora as restrições de peso ainda se apliquem na manipulação de outras pessoas e objetos. Uma vez que o Membro alcance o Nível Quatro, ele pode 'arremessar' objetos com Força igual ao seu nível de domínio."
 						}
 					]
 				},
@@ -1516,28 +1635,33 @@
 						}
 					]
 				},
-				"taumaturgia" : {
-					"title" : "Taumaturgia",
+				"taumaturgia_sangue" : {
+					"title" : "Taumaturgia - Linha do Sangue",
 					"itens" : [
 						{
 							"title" : "Nível 1 - Um gosto por sangue", 
-							"description" : "Este poder foi desenvolvido como um meio de testar o poder de um inimigo — uma habilidade extremamente importante nas tumultuosas noites iniciais do Clã Tremere. Simplesmente provando do sangue do alvo, o taumaturgo pode determinar quanta vitae ainda resta em seu corpo e, se o alvo for um vampiro, quão recentemente ele se alimentou, sua geração (aproximadamente) e, com três ou mais sucessos, se ele cometeu diablerie recentemente."
+							"description" : "Você possui uma variedade de habilidades de Percepção relacionadas ao sangue. Você pode determinar quanto sangue foi deixado num Membro ou num mortal, há quanto tempo um vampiro alimentou-se e a geração aproximada de um vampiro. Para ser capaz de determinar qualquer coisa sobre um determinado sangue, você precisa tocá-lo.",
+							"system" : "O jogador precisa testar Percepção + Ocultismo (dificuldade 7). O n.mero de sucessos determina quanta informação é recebida e o quão precisa ela é."
 						},
 						{
 							"title" : "Nível 2 - Fúria do sangue", 
-							"description" : "Este poder permite que um vampiro force outro Membro a usar pontos de sangue contra a sua vontade. O taumaturgo precisa tocar seu alvo para que este poder funcione, apesar do mais leve toque ser o suficiente. Um vampiro afetado por este poder pode sentir uma agitação física conforme o taumaturgo intensifica seus Atributos Físicos ou pode até mesmo se encontrar próximo do frenesi conforme seu estoque de vitae é misticamente esgotado."
+							"description" : "Com apenas um toque, o personagem pode forçaar outro Membro a usar seu sangue, quer ele queira ou não. Assim, um vampiro pode ver a sua Forças ser aumentada subitamente e nãoo fazer idéia do motivo. Além disso, como o vampiro torna-se mais excitável, o grau de dificuldade de todos os testes de frenesi realizados durante o resto da cena serão aumentadas em um ponto.",
+							"system" : "O jogador precisa testar Destreza + Lábia contra uma dificuldade equivalente à Força de Vontade do alvo. Cada sucesso força o alvo a gastar imediatamente um Ponto de Sangue da forma que o Taumaturgo desejar."
 						},
 						{
 							"title" : "Nível 3 - Potência do sangue", 
-							"description" : "O taumaturgo ganha tamanho controle sobre o seu sangue que ele pode 'concentrá-lo', tornando-o mais forte por um curto período de tempo. Na verdade, ele pode temporariamente diminuir sua geração com este poder. Este poder pode ser usado somente uma vez por noite."
+							"description" : "Você pode executar manipulações que tornem o sangue dentro de seu corpo mais potente durante um período de tempo curto, abaixando desta forma a sua geração efetiva.",
+							"system" : "Faça um teste de Manipulação + SobrevivÍncia ( dificuldade 8 ); os sucessos precisam ser gastos para diminuir as gerações do vampiro e criar uma duração em horas."
 						},
 						{
 							"title" : "Nível 4 - Furto de vitae", 
-							"description" : "Usando este poder, um taumaturgo consegue extrair a vitae de suas vítimas. Ele não precisa entrar em contato com o seu alvo — o sangue literalmente flui em uma torrente fisica que vai do alvo at e o Membro (ela normalmente é absorvida misticamente e não precisa ser ingerida pela boca)."
+							"description" : "Mediante um processo místico, você pode transferir para o seu próprio organismo sangue que se encontre à distância e até mesmo drenar os Pontos de Sangue de outras criaturas para acrescentar aos seus próprios.",
+							"system" : "O jogador deve testar Inteligência + Medicina contra uma dificuldade de seis se o sangue for estacionário (como um banco de sangue) ou contra a Força de Vontade de um alvo se o alvo for um ser vivo. O número de sucessos determina quantos Pontos de Sangue são transferidos. O sangue a ser roubado deve estar a uma distância de no máximo 15 metros e bem à vista; além disso, a fonte do ataque deve ser óbvia."
 						},
 						{
 							"title" : "Nível 5 - Caldeirão de sangue", 
-							"description" : "Um taumaturgo usando este poder, ferve o sangue do alvo em suas veias como água no fogão. O Membro precisa tocar o alvo e é este toque que faz com que o sangue do alvo ferva. Este poder é sempre fatal para os mortais e causa grandes danos até mesmo nos mais poderosos vampiros."
+							"description" : "Você é capaz de manipular o sangue de outros seres. Tocando o outro, você pode ferver o seu sangue, não apenas criando um dano físico incrível, como também destruindo grande parte do sangue do alvo. Isto virtualmente assegura a morte de qualquer mortal sobre o qual for executado este feitiço, podendo também infligir grandes danos físicos aos vampiros.",
+							"system" : "O jogador precisa testar Força de Vontade contra uma dificuldade igual ao número de Pontos de Sangue que o vampiro deseja ferver de uma vez + 4 (máximo 10). A vítima também sofre um ferimento para cada ponto fervido, perdendo um ponto de Vitalidade."
 						}
 					]
 				},
@@ -1588,6 +1712,293 @@
 						{
 							"title" : "Nível 5 - Forma sanguínea", 
 							"description" : "Um vampiro com este poder pode transformar total ou parcialmente o seu corpo em sangue consciente. Se todo seu sangue for absorvido o vampiro encara a Morte Final."
+						}
+					]
+				},
+				"necromancia_sepulchre" : {
+					"title" : "Necromancy - A Linha do Sepulcro",
+					"itens" : [
+						{
+							"title" : "Level 1 - Visão Cadavérica", 
+							"description" : "Este poder permite ao necromante olhar nos olhos de um cadáver e, ver refletida a última coisa que o morto presenciou. A visão aparece apenas nos olhos do cadáver e ninguém poderá vê-la, exceto o necromante que estiver usando a Visão Cadavérica.",
+							"system" : "Este poder exige um teste de Percepção + Ocultismo (Dificuldade 8 para criaturas originalmente vivas e 10 para as originalmente não-vivas, como os vampiros) enquanto o vampiro olha nos olhos do alvo. O número de sucessos no teste determina a clarezada visão; uma falha crítica mostra ao necromante uma visão de sua própria Morte Final, que pode induzir o Rõtschreck. Este poder não pode ser usado no corpo de vampiros que tenham alcançado a Golconda, ou naqueles em que a decomposição se encontra acentuada.",
+							"tables" : [
+								{
+									"name" : "Tabela de sistema",
+									"rows" : [
+										{
+											"cols" : [
+												"Sucessos",
+												"Efeito"
+											]
+										},
+										{
+											"cols" : [
+												"1",
+												"Um sentimento básico sobre a morte do alvo"
+											]
+										},
+										{
+											"cols" : [
+												"2",
+												"Uma imagem clara da morte do alvo e dos segundos anteriores"
+											]
+										},
+										{
+											"cols" : [
+												"3",
+												"Uma imagem, clara, incluindo sons, dos minutos anteriores à morte"
+											]
+										},
+										{
+											"cols" : [
+												"4",
+												"Uma imagem clara, incluindo sons, da meia-hora que antecedeu a morte do alvo"
+											]
+										},
+										{
+											"cols" : [
+												"5",
+												"Percepção sensorial completa da hora que antecedeu a morte do alvo"
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"title" : "Level 2 - Invocar Espírito", 
+							"description" : "O poder de Invocar o Espírito permite que um necromante convoque um fantasma de volta do Mundo Inferior, mas apenas para conversar com ele. Para realizar este feito, o Giovanni deve atender às seguintes condições: <br /> • O necromante deve saber o nome da aparição em questão, apesar de uma imagem da aparição obtida via Psicometria também ser suficiente. <br /> • Um objeto com o qual a aparição teve contato durante a vida deve estar por perto. Se o objeto for algo de grande importância para o fantasma, as chances de sucesso da Invocação aumentam dramaticamente (-2 na dificuldade). <br /> Nota: Esse bônus se aplica á todos os poderes da linha do Sepulcro. Alguns tipos de fantasmas não podem ser convocados com este poder. Os vampiros que atingiram a Golconda antes da Morte Final, ou que foram díablerizados, estão além do alcance dessa Invocação. Da mesma forma, muitos fantasmas dos mortos não podem ser convocados, pois foram destruídos, estão impossibilitados de retornar ao plano dos mortais ou se perderam na tormenta eterna do Mundo Inferior.",
+							"system" : "Para usar Invocar o Espírito, o vampiro deve fazer um teste de Percepção + Ocultismo (Dificuldade 7, ou a Força de Vontade do fantasma, se o Narrador souber o valor). O número de sucessos no teste indica o quão acessível está o fantasma e por quanto tempo ele permanecerá nas proximidades do invocador. Os fantasmas convocados podem ser vistos e ouvidos pelo vampiro que os convocou, e permanecem assim até que o tempo da invocação se esgote. Os fantasmas que desejam ser invocados podem aparecer voluntariamente. Para cada pergunta que o vampiro faz ao espírito convocado, o Narrador deve rolar um dado para cada sucesso obtido no teste da convocação. E necessário pelo menos um sucesso nesse segundo teste (Dificuldade 6) para manter o fantasma por perto tempo suficiente para responder à pergunta. Se um vampiro obtiver uma falha crítica na convocação, ele invocará um fantasma maligno (conhecido como Espectro), que passará imediatamente a atormentar quem o convocou."
+						},
+						{
+							"title" : "Level 3 - Compelir", 
+							"description" : "Com este poder, um vampiro pode comandar um fantasma a fazer seus desejos durante algum tempo. O uso de Compelir é um empreendimento perigoso e quando usado impropriamente pode colocar em perigo tanto o vampiro quanto a aparição.",
+							"system" : "A fim de Compelir uma aparição, o vampiro primeiramente precisa invocá-la com sucesso. Antes de a aparição deixar a cena da invocação, o jogador do vampiro precisa testar Manipulação + Ocultismo (Dificuldade igual à Força de Vontade do alvo). A aparição pode Usar seu Pathos (o equivalente fantasmagórico do sangue; assuma uma base de 7 para todos os fantasmas) para combater a compulsão; cada ponto usado remove um dos sucessos do vampiro. O vampiro pode tentar compelir a aparição múltiplas vezes durante uma única invocação. Para cada sucesso alcançado na jogada de Manipulação + Ocultismo, o necromante alcança um maior nível de controle sobre a aparição. A classificação é a que se segue:",
+							"tables" : [
+								{
+									"name" : "Tabela de sistema",
+									"rows" : [
+										{
+											"cols" : [
+												"Sucessos",
+												"Efeito"
+											]
+										},
+										{
+											"cols" : [
+												"0",
+												"A compulsão da invocação termina e a aparição está livre para partir. Muitos fantasmas se utilizam desta oportunidade para atacar seus pretensos mestres ao partirem."
+											]
+										},
+										{
+											"cols" : [
+												"1",
+												"A aparição tem que permanecer nas vizinhanças e não pode atacar nenhuma criatura sem a permissão do necromante."
+											]
+										},
+										{
+											"cols" : [
+												"2",
+												"A aparição é forçada a permanecer e responder sinceramente a qualquer pergunta que lhe for feita; é aconselhável que a pergunta seja feita com cuidado."
+											]
+										},
+										{
+											"cols" : [
+												"3",
+												"A aparição é forçada a permanecer e responder sinceramente a qualquer pergunta, sem evasões ou omissões."
+											]
+										},
+										{
+											"cols" : [
+												"4",
+												"A aparição tem que permanecer, respondendo sinceramente a qualquer pergunta que lhe for feita. Ela também tem que realizar quaisquer serviços exigidos por seu novo mestre, apesar de só estar ligada às palavras do comando e não ao espírito."
+											]
+										},
+										{
+											"cols" : [
+												"5",
+												"A aparição está aprisionada, obedecendo o ao comandos do vampiro de acordo com suas habilidades.Compelir mantém controle sobre a aparição por uma hora para cada sucesso obtido. Se o vampiro desejar, ele pode usar um ponto de Força de Vontade para manter a aparição sob a compulsão por mais uma noite. O gasto de um ponto permanente de Força de Vontade une a aparição ao vampiro por um ano e um dia."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"title" : "Level 4 - Assombração", 
+							"description" : "O poder Assombração liga um fantasma a um local em particular ou, em casos extremos, a um objeto. A aparição não pode deixar a área à qual ela foi ligada sem arriscar sua própria destruição. Uma assombração que tente deixar sua área precisa ser bem sucedida em um teste de Força de Vontade (Dificuldade 10; dois sucessos são necessários) ou sofrer um nível de dano agravado; se a aparição não possuir mais níveis de Vitalidade, ela será lançada ao mais profundo do Mundo Inferior para enfrentar a destruição.",
+							"system" : "O jogador testa Manipulação + Ocultismo (Dificuldade igual à Força de Vontade do alvo, se ele resistir, caso contrário é 4). Cada sucesso liga a aparição ao lugar da escolha do necromante durante uma noite; com o gasto de um ponto de Força de Vontade, a duração é de uma semana. O gasto de um ponto permanente de Força de Vontade estende essa duração por um ano."
+						},
+						{
+							"title" : "Level 5 - Tormento", 
+							"description" : "É através do uso deste poder que os anciões Giovanni convencem fantasmas aprisionados a se comportarem, ou então... Tormento permite que o vampiro golpeie uma aparição como se ele mesmo estivesse na terra dos mortos, infligindo danos na forma ectoplásmica da aparição. O vampiro, contudo, permanece no mundo real, e portanto, não pode ser atingido pela aparição.",
+							"system" : "O jogador testa Vigor + Empada (Dificuldade igual à Força de Vontade da Aparição) e o vampiro passa a ser capaz de 'tocar' na aparição. Cada sucesso inflige um nível de dano letal no fantasma. Se a aparição perder todos os seus níveis de Vitalidade, ela instantaneamente desaparece através de algo que parece ser um portal para algum horrível reino de pesadelos. Fantasmas 'destruídos' não podem se aproximar do mundo real por um mês."
+						}
+					]
+				},
+				"necromancia_ash" : {
+					"title" : "Necromancy - A Linha das Cinzas",
+					"itens" : [
+						{
+							"title" : "Level 1 - Visão alem da mortalha", 
+							"description" : "A Visão Além da Mortalha permite que o necromante veja através da Mortalha, a barreira mística que separa o mundo dos vivos do Mundo Inferior. Ao usar este poder, o vampiro pode ver construções e objetos fantasmagóricos, a paisagem da tão falada Terra das Sombras e até mesmo as próprias aparições. Contudo, as aparições também irão perceber quando um vampiro de repente começar a olhar para elas, o que pode levar a conseqüências desagradáveis.",
+							"system" : "Um simples teste de Percepção + Prontidão (Dificuldade 7) permite que o necromante se utiliza da Visão Além da Mortalha. Os efeitos duram por uma cena."
+						},
+						{
+							"title" : "Level 2 - Línguas inanimadas", 
+							"description" : "Enquanto a Visão Além da Mortalha permite que o necromante veja fantasmas, Línguas Inanimadas permite que ele converse facilmente com eles. Uma vez que Línguas Inanimadas for ativado, o vampiro pode levar adiante uma conversação com um dos habitantes do fantasmagórico Mundo Inferior sem usar o sangue ou fazer com que as assombrações façam qualquer esforço.",
+							"system" : "O uso de Línguas Inanimadas requer um teste de Percepção + Ocultismo (Dificuldade 6) e a utilização de um ponto de Força de Vontade. Este poder também garante os efeitos da Visão Além da Mortalha, para que o vampiro possa ver com quem, ou o quê, ele está conversando."
+						},
+						{
+							"title" : "Level 3 - Mão Morta", 
+							"description" : "Similar ao poder Tormento, da linha do Sepulcro, a Mão Morta permite que o necromante alcance além da Mortalha e afete objetos fantasmagóricos como se eles estivessem no mundo real. Os fantasmas são sólidos para os necromantes que usam este poder e podem ser atacados. Além disso, o necromante pode pegar itens fantasmagóricos, escalar arquiteturas fantasmas (dando aos espectadores do mundo real a impressão que ele está escalando o ar!) e de um modo geral, existir em ambos os mundos. Do outro lado, um necromante usando a Mão Morta também é bastante sólido para os habitantes do Mundo Inferior — e para qualquer arma que eles possam usar.",
+							"system" : "O jogador usa um ponto de Força de Vontade e testa Raciocínio + Ocultismo (Dificuldade 7) para que o vampiro ative a Mão Morta. Para cada cena que o vampiro desejar se manter em contato com o Mundo Inferior, ele precisa usar um ponto de sangue."
+						},
+						{
+							"title" : "Level 4 - Ex Nihilo", 
+							"description" : "Ex Nihilo permite que o necromente entre fisicamente no Mundo Inferior. Enquanto estiver na terra dos mortos, o vampiro é essencialmente um fantasma extra-sólido. Ele mantém o mesmo número de níveis de Vitalidade mas só pode ser ferido por coisas que inflijam dano agravado em fantasmas (armas forjadas com almas, certos poderes fantasmas, etc.). Um vampiro fisicamente no Mundo Inferior pode passar através de objetos sólidos (o que lhes custa um nível de Vitalidade) e se manter 'incorpóreo' por um número de turnos igual ao seu nível de Vigor. Do outro lado, os vampiros presentes no Mundo Inferior estão sujeitos a todos os perigos do mesmo, incluindo a destruição definitiva. Um vampiro morto na Terra dos Mortos se foi para sempre, além do alcance dos próprios necromantes.",
+							"system" : "Usar o Ex Nihilo requer um esforço tremendo da parte do necromante. Para ativar este poder, o vampiro precisa primeiro desenhar um portal com giz ou sangue em uma superfície apropriada.",
+							"additionalSystem" : "(Observação: Portais podem ser desenhados com antecedência para este propósito.) O jogador precisa então, usar dois pontos de Força de Vontade e dois pontos de Sangue e testar Vigor + Ocultismo (Dificuldade 8 ) conforme o vampiro tenta abrir fisicamente a porta de giz. Se o teste for bem sucedido a porta se abre e o vampiro entra no Mundo Inferior. Quando o vampiro quiser retornar ao mundo real, ele só precisa se concentrar (e o jogador deve usar mais um ponto de Força de Vontade e testar Vigor + Ocultismo, Dificuldade 6). De acordo com o Narrador, um vampiro que esteja muito profundamente imerso no Mundo Inferior pode ter que viajar para um lugar mais próximo das terras dos vivos a fim de atravessar. Vampiros que se aventuram muito profundamente na terra dos mortos podem ficar aprisionados para sempre. Um vampiro no Mundo Inferior não pode se alimentar de fantasmas; sua única alimentação é o sangue que ele levar consigo."
+						},
+						{
+							"title" : "Level 5 - Domínio da mortalha", 
+							"description" : "Com um pouco de exagero, Domínio da Mortalha é a habilidade de manipular o véu entre o mundo dos vivos e dos mortos. Ao fazer isso, um necromante pode facilitar o serviço de aparições que estejam ligadas a ele ou praticamente impossibilitar o contato de um fantasma com o mundo material.",
+							"system" : "Para fazer uso do Domínio da Mortalha, o necromante usa dois pontos de Força de Vontade, declarando se sua intenção é baixar ou levantar a Mortalha. Então, o jogador testa a Força de Vontade (Dificuldade 9). Cada sucesso aumenta ou reduz a dificuldade das ações de todas os fantasmas próximos em um, até um máximo de 10 e um mínimo de 3. A Mortalha recupera sua força normal em um ponto a cada hora depois disso."
+						}
+					]
+				},
+				"necromancia_bone" : {
+					"title" : "Necromancy - A Linha dos Ossos",
+					"itens" : [
+						{
+							"title" : "Level 1 - Tremor", 
+							"description" : "O Tremor permite que um necromante faça com que um cadáver realize um movimento. Um braço pode se estender para frente, o cadáver pode se sentar e olhos mortos podem se abrir repentinamente. Não é preciso dizer que este tipo de coisa tende a ter um impacto impressionante sobre pessoas que não estão esperando que um familiar morto se levante de seu caixão.",
+							"system" : "Para usar o Tremor, o necromante precisa gastar um único ponto de sangue e o jogador precisa testar Destreza + Ocultismo (Dificuldade 6). Quanto maior o número de sucessos alcançados, maior pode ser a complexidade da ação realizada pelo cadáver. Um sucesso permite um movimento instantâneo, como uma contração muscular, enquanto cinco sucessos permitem que o vampiro estipule as condições sob as quais o corpo deve ser reanimado ('Na próxima vez que alguém entrar neste quarto, eu quero que o cadáver sente-se e abra os olhos.'). Sob nenhuma condição o Tremor fará com que um cadáver ataque ou cause dano."
+						},
+						{
+							"title" : "Level 2 - Vassoura do aprendiz", 
+							"description" : "Com Vassoura do Aprendiz, o necromante pode fazer com que um corpo morto se levante e realize uma função simples. O cadáver pode, por exemplo, ser colocado para carregar objetos pesados, cavar ou apenas rastejar de um lado para o outro. Cadáveres animados desta forma não atacam ou se defendem se atacados, mas tentarão cumprir suas instruções até serem destruídos. Geralmente é necessário um desmembramento, fogo ou algo similar para destruir um cadáver animado desta maneira.",
+							"system" : "Um teste de Raciocínio + Ocultismo (Dificuldade 7) e o gasto tanto de um ponto de sangue como o de um ponto de Força de Vontade são necessários para animar cadáveres com Vassoura do Aprendiz. O número de cadáveres animados é igual ao número de sucessos obtidos. O necromante deve então declarar a tarefa que ele quer que os zumbis realizem. Os cadáveres se dedicam ao trabalho até terminarem (quando desmoronam) ou ate serem destruídos por alguma coisa (incluindo o tempo). Corpos energizados por este poder continuam a apodrecer, embora em uma velocidade muito menor."
+						},
+						{
+							"title" : "Level 3 - Hordas Trôpegas", 
+							"description" : "Hordas Trôpegas criam exatamente o que parecem criar: cadáveres reanimados com a habilidade de atacar, embora nenhum deles seja muito bom ou rápido. Uma vez instruídos por este poder, os cadáveres esperam — por anos, se necessário — até completarem o comando que lhes foi dado. As ordens podem ser para proteger um certo lugar ou simplesmente atacar imediatamente, mas eles continuarão lutando até que o último destes monstros decompostos seja destruído.",
+							"system" : "O jogador investe um ponto de Força de Vontade, e então usa um ponto de sangue para cada cadáver que o necromante quiser animar. O jogador precisa ser bem sucedido em um teste de Raciocínio + Ocultismo (Dificuldade 8 ); cada sucesso permite que o vampiro levante mais um cadáver da tumba. Cada zumbi (por falta de um termo melhor) pode seguir uma instrução simples, como 'Permaneça aqui e proteja este cemitério contra quaisquer invasores,' ou 'Mate-o!'<br />Observação: Caso seja necessário, os zumbis criados por Hordas Trôpegas esperarão para sempre até cumprirem suas funções. Muito tempo depois de suas carnes apodrecerem em seus ossos misticamente animados, os zumbis continuariam a esperar...esperar...e esperar — ainda capazes de realizar suas tarefas."
+						},
+						{
+							"title" : "Level 4 - Roubar Almas", 
+							"description" : "Este poder afeta os vivos, e não os mortos. Contudo, ele transforma uma alma viva em uma espécie de aparição, pois permite que um necromante arranque a alma de um corpo vivo (ou vampírico). Um mortal exilado do seu corpo torna-se uma aparição com uma única ligação com o mundo real: seu corpo, agora vazio.",
+							"system" : "O jogador usa um ponto de Força de Vontade, e então, realiza um teste resistido de Força de Vontade contra a suposta vítima (Dificuldade 6). Os sucessos indicam o número de horas durante a qual a alma original é forçada para fora de sua moradia. O corpo se mantém automaticamente vivo, mas catatônico. Este poder pode ser usado para criar hospedeiros apropriados para Possessão Demoníaca."
+						},
+						{
+							"title" : "Level 5 - Possesão Demoniaca", 
+							"description" : "A Possessão Demoníaca permite que um vampiro insira uma alma em um corpo fresco que o habitará pela duração do poder. Isto não faz do cadáver reanimado nada mais do que um cadáver reanimado, que irrevogavelmente irá apodrecer em uma semana, mas pode fornecer a uma aparição ou alma livre (como um vampiro usando Projeção Psíquica) uma habitação temporária no mundo físico.",
+							"system" : "O corpo em questão não pode estar morto por mais de 30 minutos e o novo inquilino precisa aceitar o corpo — um fantasma ou forma astral não pode ser forçado em uma nova carcaça. Obviamente, a maioria dos fantasmas aceitaria a oportunidade alegremente, mas isso não vem ao caso. Se um vampiro, por qualquer que seja a razão, quiser inserir uma alma no cadáver de um outro vampiro (antes dele se transformarem cinzas), o necromante precisa obter cinco sucessos em um teste resistido de Força de Vontade contra o possuidor original do corpo. De outra forma, o intruso não consegue acesso ao corpo.<br /> Observação: A alma pode usar quaisquer habilidades físicas (Esquiva, Briga, Potência) possuída por sua nova casa e quaisquer habilidades mentais (Computador, Direito, Presença) que ele possui em sua existência atual. Ele não pode usar habilidades físicas de sua velha forma nem as habilidades mentais da sua nova.",
+							"additionalSystem" : "Estatísticas de zumbis:<br />Cadáveres animados por necromantes da linha dos Ossos possuem Força 3, Destreza 2, Vigor 4, Briga 2 e sempre agem por último no turno (a não ser em situações muito especiais). Eles não têm pontos de Força de Vontade, mas resistem a ataques como se tivessem uma Força de Vontade de 10. Todos os Atributos Mentais e Sociais de um corpo reanimado são iguais a zero e os zumbis nunca tentam se esquivar. A parada de dados dos zumbis não é afetada pelo dano, exceto pelos danos causados por fogo e garras e dentes de criaturas sobrenaturais. A maioria dos zumbis têm 10 níveis de Vitalidade, mas são incapazes de curar os ferimentos que recebem."
+						}
+					]
+				},
+				"necromancia_mortuus" : {
+					"title" : "Necromancy - A Linha da Morte",
+					"itens" : [
+						{
+							"title" : "Level 1 - Sudário da Morte", 
+							"description" : "Este poder permite que o Caimita, ou um alvo a sua escolha, assuma a aparência de morte. A pele estica sobre os ossos, empalidece e as juntas se atrofiam. Ele pode ser usado para o usuário assumir uma aparência de morto ou para amaldiçoar outros com essa aparência.",
+							"system" : "Para assumir essa forma só é preciso gastar 1 Ponto de Sangue. É necessário o toque se for em outra pessoa e o gasto de 1 Ponto de Sangue e testar Vigor + Ocultismo (Dif. Vigor do alvo + 3). Os efeitos duram até o próximo alvorecer ou anoitecer, quando o individuo encarquilhado recupera sua forma natural no decorrer de uma hora. Enquanto estiver nesse efeito a personagem perde 2 Pontos de Destreza e Aparência (até o mínimo de 1). Vampiros podem usar 2 Pontos de Sangue para sair dos efeitos de Sudário da Morte."
+						},
+						{
+							"title" : "Level 2 - Murchar", 
+							"description" : "Este poder acelera o processo de envelhecimento de sua vítima. O alvo sofre os efeitos da idade avançada: ossos quebradiços, pele fina e ressecada, e várias outras coisas. Algumas vítimas adquirem doenças da idade como artrite e outras doenças ósseas.",
+							"system" : "O vampiro precisa tocar o alvo e testar Manipulação + Medicina (dif. é a Força de Vontade do alvo) e gastar 1 Ponto de Força de Vontade). Os efeitos duram até o próximo alvorecer ou anoitecer, enquanto estiver nesse efeito a personagem subtrai 3 de todos os Atributos Físicos (até o mínimo de 1). Vampiro e carniçais podem gastar Pontos de Sangue para aumentar seus Atributos reduzidos. Mortais sob o efeito de Murchar que se encontra em atividades físicas estressantes correm o risco de um ataque cardíaco. Para cada turno que permanecer nessa atividade deve testar Vigor (dif. 6) se falhar no teste sofre uma parada cardíaca."
+						},
+						{
+							"title" : "Level 3 - Retomar A Consciência", 
+							"description" : "O Necromante é capaz de levantar a si mesmo ou a outros do Torpor.",
+							"system" : "O jogador gasta 2 Pontos de Força de Vontade e testa Força de Vontade (Dif. 10 menos o nível da Humanidade/ Trilha da Sabedoria da personagem). Se o vampiro que foi acordado dessa forma entrou no Torpor por falta de Sangue, ele acordará com 1 Ponto de Sangue em suas veias."
+						},
+						{
+							"title" : "Level 4 - Morte Verdadeira", 
+							"description" : "O Necromante pode ludibriar temporariamente a Maldição de Caim, mesmo que por pouco tempo, tornando-se verdadeiramente morto. Invocando este poder, a personagem não está sujeita a nenhuma das maldições tradicionais de vampiros, ele não é queimado por luz do sol, água benta não o incomodam, ele não desperta noite após noite.",
+							"system" : "Entrar nesse estado não requer nenhum teste, mas sair dele requer 2 Pontos de Sangue. Enquanto estiver nesse estado o vampiro não pode realizar nenhuma ação e nem usar Disciplinas, nem mesmo as “automáticas” como Fortitude. O cadáver vampírico consome 1 Ponto de Sangue por noite, ele mantém a mesma quantidade de Sangue que possuía ao entrar no estado de Morte Verdadeira. Uma personagem que foi trespassada por uma estaca permanece paralisada ao retornar à consciência vampírica."
+						},
+						{
+							"title" : "Level 5 - Mercy for Seth", 
+							"description" : "Named after mortals the Children of Seth — this power causes a victim to contract a virulent plague, similar to the epidemics of the 11th through 15th centuries (the Black Plague, the Red Death, etc.). This illness causes death within 24 hours for mortals and sends vampires to torpor within the same period of time. Mortal victims of plague exhibit terrible plague symptoms — sunken eyes, blackened limbs, bloody sweat and excretions, swollen nodes and weeping lesions. The vampire touches her victim, and the player must spend one blood point (which must come in contact with the victim to communicate the plague) and one Willpower point."
+						}
+					]
+				},
+				"necromancia_vitreous" : {
+					"title" : "Necromancy - A Linha Vítrea",
+					"itens" : [
+						{
+							"title" : "Level 1 - Olhos dos Mortos", 
+							"description" : "O Necromante que emprega os Olhos dos Mortos pode literalmente ver através dos olhos de todas as Aparições em torno dele, permitindo que use a Visão da Morte das Aparições. Naturalmente, se não houver nenhuma Aparição no local, o poder é inútil. No lado ascendente, ao menos para os Necromantes, alguns dos inquietos pode quase sempre ser encontrado vagueando ao redor. Para um manipulador experiente de energias fantasmagóricas, as auras de seres das redondezas dão sugestões indicadoras a respeito de sua saúde e podem indicar suas emoções ou desejos; o Necromante pode ver as energias da morte e da paixão que correm através de todos, apenas como as Aparições podem.",
+							"system" : "O jogador testa Percepção + Ocultismo (dif. 6), a fim ver através dos Olhos dos Mortos em torno do Necromante . Este efeito é freqüentemente desorientador, especialmente nas áreas onde muitas Aparições estão, isto podem fazer com que o Necromante sofra até uma penalidade de +4 ao tentar perceber coisas não no Mundo dos Mortos. Ao empregar os Olhos dos Mortos, o Necromante não pode sempre compreender o que está vendo (quando na dúvida, usa Inteligência + Ocultismo para reconhecer os testes padrões da morte nas auras). Usado corretamente, este poder deixa o Necromante determinar se alguém está ferido, doente ou morrendo e também, se o indivíduo lida com energias sobrenaturais e magia. Este poder dura por uma cena, embora o Necromante possa escolher direcionar as percepções para seu próprio corpo (que termina desse modo o poder)."
+						},
+						{
+							"title" : "Level 2 - Hora da Morte", 
+							"description" : "Assim como Olhos dos Mortos, este poder permite que o Necromante veja com as percepções dos mortos inquietos. A diferença é que o Necromante não precisa das percepções da Visão da Morte das Aparições: ele tem a dele própria, e esta visão é muito mais detalhada. Olhando as marca entrópicas em um corpo, o Necromante pode ganhar o conhecimento superficial de quão distante essa pessoa está da morte, como essa pessoa vai provavelmente morrer e determinar a provável causa da morte. Inversamente, os testes padrões das auras também determinam o humor do indivíduo e permite que o Necromante calibre alguns sentimentos para um outro indivíduo. Muitos Necromantes realmente usam este talento para estar no lugar certo e o cronometram para capturar uma alma recentemente falecida.",
+							"system" : "O jogador testa Raciocínio + Ocultismo (Dif. 7). Quanto mais sucessos obtidos, mais o jogador pode dizer sobre a morte dos alvos. Este poder dura por uma cena, pode ser usado somente em um alvo de cada vez.",
+							"tables" : [
+								{
+									"name" : "Tabela de sistema",
+									"rows" : [
+										{
+											"cols" : [
+												"Sucessos",
+												"Efeito"
+											]
+										},
+										{
+											"cols" : [
+												"1",
+												"Quanto tempo o alvo tem de vida, se é muito ou pouco tempo."
+											]
+										},
+										{
+											"cols" : [
+												"2",
+												"Quanto tempo o alvo tem de vida, dizendo o ano e dia."
+											]
+										},
+										{
+											"cols" : [
+												"3",
+												"Provável fonte da morte, com algumas feridas que existirão no dia da morte."
+											]
+										},
+										{
+											"cols" : [
+												"4",
+												"Provável lugar onde acontecerá a morte, com alguns flashs do lugar."
+											]
+										},
+										{
+											"cols" : [
+												"5",
+												"Ver onde e quando o evento ocorrerá, com percepção detalhada da morte"
+											]
+										}
+									]
+								}
+							]
+
+						},
+						{
+							"title" : "Level 3 - Julgamento da Alma", 
+							"description" : "As Aparições parecem possuir uma Besta, bem como os vampiros, embora suas “Sombras” sejam menos brutais. Usando o Julgamento da Alma, o Necromante determina se a Aparição está sendo influenciada por suas paixões mais sombrias. Esse conhecimento pode ser muito útil. Muitos Necromantes preferem trocar “favores” a tentar forçá-las a servi-lo. Sabendo do aspecto de uma Aparição que o Necromante está lidando significa saber se é viável discutir ou não questões de importância com a Aparição no momento. Vários Necromantes levam esse caso um passo à frente, negociando com a Aparição normal e sua Sombra sem deixar que um influencie no que o outro está fazendo.",
+							"system" : "O jogador testa Percepção + Ocultismo (dificuldade 7) e gasta um Ponto de Força de Vontade a fim discernir que aspecto da Aparição está atualmente no controle. Já que a Aparição não tem geralmente nenhuma idéia de o que sua Sombra está fazendo (apesar do inverso não ser verdadeiro), o Necromante pode esconder suas negociações ao trabalhar com a natureza sombria das Aparições. Este poder também permite que o Necromante determine se a Aparição está dominada por um ser superior ou por sua Sombra; as Aparições geralmente dominadas por suas Sombras são conhecidas como Espectros e são extremamente perigosas."
+						},
+						{
+							"title" : "Level 4 - Sopro de Thanatos", 
+							"description" : "O Sopro de Thanatos permite que o Necromante prolongue a energia entrópica e focalize-a em cima de uma área ou de uma pessoa. Geralmente, o Necromante faz uma respiração profunda e força então a exalar uma névoa de energia Mephiti. Esta nuvem de virulência é completamente invisível a qualquer um sem a Habilidade de ver a passagem da entropia (com níveis mais baixos deste poder, e outros poderes). A energia desta nuvem é como uma teia para Aparições, e são atraídos à força entrópica como insetos à luz florescente. Não há nenhuma obrigação na parte dos fantasmas em se comportar, e o Necromante deve ter um melhor plano do que fazer com eles uma vez que tenham chegado – pois a maioria dos Necromantes da Trilha Vítrea aprende também outras Trilhas. Uma vez que a energia é expelida do corpo do Necromante , pode ser dispersada sobre uma área grande como um lugar para atrair Aparições e Espectros ou usar a névoa para finalidades um tanto mais sinistras. Canalizado em um objeto ou em uma pessoa, a névoa mortal inflige todo o alvo com alguns aspectos negativos, e pode realmente causar ferimento. Além disso, as energias focalizadas são tantas e sérias, geralmente são invisíveis, e tendem a fazer com que as pessoas e os animais sintam o desconforto em torno da vítima.",
+							"system" : " O jogador gasta um Ponto do Sangue e testa Força de Vontade (dif. 8). Somente um sucesso é necessário para projetar o Sopro de Thanatos. Se dispersado para chamar fantasmas, as energias cobrem um raio de 400 metros, centrado em torno do Necromante . A escala aumenta por mais 400 metros para cada Ponto adicional do Sangue gasto. Como previamente notado, os fantasmas chamados com este poder não são observados pelo Necromante desse jeito e podem jorrar e sair de sua maneira, atravessando paredes e aparecendo em qualquer lugar na vizinhança. Esta energia se dispersa após uma cena.Se a nuvem for dirigida para um alvo em particular, o Necromante deve tocar no alvo ou dirigir mais o curso da entropia testando Destreza + Ocultismo (Dif. 7). Um alvo atingido com entropia sofre um (e somente um) nível de dano agravado; isto se manifesta geralmente como uma doença ou deterioração. As dificuldades de todos os testes sociais dos alvos que estão com o estranho toque da morte como os Lupinos, as Fadas, determinados Magos e a maioria dos seres humanos normais aumentam em 2. Além disso, as percepções sobrenaturais indicam o alvo como portador de uma corrupção e deterioração, que pode ser perigosa, porque determinadas entidades (tais como os Lupinos) têm sentidos especiais de detectar tal mancha e um encontro com essas criaturas pode ser violento para àqueles infectados assim. Esta mancha da corrupção dura até o alvorecer ou crepúsculo; uma vítima já atingida por este poder não pode ser afetada outra vez até que a névoa precedente da entropia se disperse. Uma falha crítica indica que o vampiro gerou a energia acima dele próprio, e sofre todos os efeitos do Sopro de Thanatos. Isto inflige o ferimento usual e sujeita o Necromante à afeição possivelmente perigosa dos Espectros e de outras criaturas além da Mortalha."
+						},
+						{
+							"title" : "Level 5 - Banquete de Almas", 
+							"description" : "Enquanto apenas o Necromante podia extrair o Oblívio interior, agora ele próprio pode também puxar energias entrópicas externas como uma fonte do poder. O Banquete de Almas permite se alimentar das energias ambientais de morte em torno do Necromante, aquelas que as Aparições usam para se alimentar, roubando a substância das Aparições e transformando misticamente essa energia em um sustento rude.",
+							"system" : "O jogador gasta um Ponto de Força de Vontade para permitir que o vampiro se alimente das energias negativas dos mortos. Se a personagem estiver extraindo as energias da atmosfera, deve ser em um lugar onde a morte ocorra na hora ou em um lugar onde a morte seja comum, como um cemitério, um necrotério ou a cena de um assassinato recente. Geralmente, o Necromante pode extrair em qualquer lugar de 1 a 4 Pontos da entropia, embora a dificuldade de toda a Necromancia (e de todos os poderes fantasmagóricos que deve se atravessar a Mortalha) aumente por uma quantidade igual aos pontos de entropia sugados, por diversas noites. As energias de tal área podem somente ser drenadas uma vez até que a entropia da área reabasteça (outra vez, após diversas noites). Nos casos quando o Necromante se alimenta de uma Aparição, o vampiro deve realmente atacar a Aparição como se estivesse se alimentando normalmente. As Aparições tem até 10 “Pontos de entropia” (nesse caso, equivalentes a Pontos de Sangue) que podem ser sugados deles e vão se tornando cada vez menos insubstanciais enquanto sua essência de espírito é drenada. O jogador é vulnerável a todo o ataque que a Aparição possa fazer mesmo aqueles que não afetam normalmente o mundo físico; ao se alimentar, o vampiro está essencialmente em um meio estado de existência, entre a vida na Terra e o Mundo dos Mortos simultaneamente. A Aparição assim que atacado está considerada imobilizada e não pode fugir ou escapar a menos que puder derrotar o vampiro em um teste resistido de Força de Vontade (dificuldade 6). Este poder pode também ser usado em conjunto com a Trilha das Cinzas de Necromancia, permitindo que o vampiro drene o poder (não pensando em sustento) dos fantasmas ao viajar nas Terras dos Mortos. Esta energia da alma pode ser usada para ativar Disciplinas, mas não pode ser usada no lugar do Sangue real para as finalidades físicas tais como aumentar Atributos ou se curar. Uma falha crítica rende o vampiro incapacidade de se alimentar através da barreira da morte (Mortalha). Ao contrário, ele permanece suscetível aos ataques das Aparições e dos espíritos por diversos turnos (geralmente, um número de turnos iguais à quantidade de energia que poderia ter sido drenada da área ou de um turno se atacando uma Aparição) como o Necromante fica entre os dois mundos, este poder é incapaz de funcionar eficientemente em qualquer um deles."
 						}
 					]
 				}

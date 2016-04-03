@@ -23,3 +23,7 @@
 	padding: 10px;
 	display: block;
 }
+
+.underline {
+  text-decoration: underline;
+}

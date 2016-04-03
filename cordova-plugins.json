@@ -1,5 +1,6 @@
 [
   "https://github.com/apache/cordova-plugin-statusbar.git",
+  "https://github.com/leecrossley/cordova-plugin-shake.git",
   "https://github.com/apache/cordova-plugin-vibration.git",
   "https://github.com/apache/cordova-plugin-device-motion.git"
 ]
