@@ -20,7 +20,7 @@ window.React = React;
 
 document.addEventListener('deviceready', function(){
   FastClick(document.body);
-  $('body').css('background-image', 'none');
+  //document.getElementByTagName('body').css('background-image', 'none');
   Routes.run();
 }, false);
 

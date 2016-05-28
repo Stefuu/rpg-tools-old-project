@@ -47,26 +47,39 @@ var BattleMap = React.createClass({
 		
 		var chars = [];
 		
-		for( i = 0, j = 0, keyCount = 0; keyCount < this.state.totChars; keyCount++ ){
+		var size = this.state.totChars;
 
-			if( this._charOrder[keyCount] == 'friend' ){	
-				chars.push(<Char type={'friend'} key={keyCount} num={i} />);
+		this._charOrder = JSON.parse(localStorage.getItem('chars'));
+		size = this._charOrder.length;
+		
+		for( i = 0, j = 0, keyCount = 0; keyCount < size; keyCount++ ){
+			
+			if( this._charOrder[keyCount]['charType'] == 'friend' ){	
+				chars.push(<Char type={'friend'} key={keyCount} posY={this._charOrder[keyCount]['posY']} posX={this._charOrder[keyCount]['posX']} reactKey={keyCount} name={this._charOrder[keyCount]['name']} num={i} />);
 				i++;
 			}else{
-				chars.push(<Char type={'enemy'} key={keyCount} num={j} />);
+				chars.push(<Char type={'enemy'} key={keyCount} posY={this._charOrder[keyCount]['posY']} posX={this._charOrder[keyCount]['posX']} reactKey={keyCount} name={this._charOrder[keyCount]['name']} num={j} />);
 				j++;
 			}
 		}
-		
+	
+		localStorage.setItem('chars',JSON.stringify(this._charOrder));
 
 		return chars;
 	},
 	
 	_charOrder: [],
 
-	_addChar: function(type){
-		this._charOrder.push(type);
-		console.log(this._charOrder);
+	_addChar: function(type,posX,posY){
+		
+		this._charOrder.push({
+			charType: type,
+			name: -1,
+			reactKey: this.state.totChars,
+			posX: -1,
+			posY: -1
+		});
+		
 		this.setState({
 			totChars: this.state.totChars + 1
 		});
@@ -74,14 +87,19 @@ var BattleMap = React.createClass({
 		if(navigator.vibrate){  
         	navigator.vibrate([50]);
       	}
-	},
 
+      	localStorage.setItem('chars',JSON.stringify(this._charOrder));
+      	
+	},
+	_setCharsPosition: function(){
+
+	},
 	_clear: function(type){
 		if (confirm(Json.battlemap.confirm) == true) {
 			this.setState({
 				totChars: 0
 			});
-			this._charOrder = [];    
+			localStorage.setItem('chars',JSON.stringify([]));
 		}
 	},
 
@@ -93,7 +111,7 @@ var BattleMap = React.createClass({
 	},
 
 	componentDidMount: function(){
-		this._charOrder = [];
+		
 	},
 
 	render: function() {
