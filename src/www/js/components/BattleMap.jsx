@@ -49,6 +49,10 @@ var BattleMap = React.createClass({
 		
 		var size = this.state.totChars;
 
+		if( localStorage.getItem('chars') == null ){
+			localStorage.setItem('chars',JSON.stringify([]));
+		}
+
 		this._charOrder = JSON.parse(localStorage.getItem('chars'));
 		size = this._charOrder.length;
 		
@@ -108,10 +112,6 @@ var BattleMap = React.createClass({
 		this.setState({
 			matrix: el.value.toString()
 		});
-	},
-
-	componentDidMount: function(){
-		
 	},
 
 	render: function() {
