@@ -27,7 +27,11 @@
 	color: #fff;
 }
 
-.battle-map .controls,
+.battle-map .controls{
+	margin: 10px auto;
+	display: table;
+}
+
 .battle-map select {
 	margin: 10px auto;
 	display: table;
@@ -43,7 +47,8 @@
 
 .battle-map .controls .enemy,
 .battle-map .controls .friend,
-.battle-map .controls .clear {
+.battle-map .controls .clear, 
+.battle-map .controls .delete {
 	display: inline-block;
 	font-weight: bold;
 	color: #fff;
@@ -51,6 +56,16 @@
 	background-color: gray;
 	border: 1px solid;
 	margin-right: 10px;
+}
+
+.battle-map .controls .delete {
+	border-radius: 50%;
+    margin: 0 auto;
+    display: table;
+}
+
+.battle-map .controls .delete img {
+	width: 70px;
 }
 
 .battle-map .dragContainer {

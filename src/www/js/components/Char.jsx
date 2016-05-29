@@ -7,7 +7,8 @@ var Char = React.createClass({
     	return {
         name: this.props.num + 1,
         posX: -1,
-        posỲ: -1
+        posỲ: -1,
+        active: true
     	};
   	},
 
@@ -28,13 +29,41 @@ var Char = React.createClass({
       
       for( var i = 0; i < aux.length; i++ ){
         
-        if( this.props.reactKey == aux[i]['reactKey'] && el.value != '' ){
+        if( el.getAttribute('data-key') == aux[i]['reactKey'] && el.value != '' ){
+          console.log(el.getAttribute('data-key'));
           aux[i]['posY'] = el.parentNode.style.top;
           aux[i]['posX'] = el.parentNode.style.left;
         }
       }
 
       localStorage.setItem('chars',JSON.stringify(aux));
+
+      this._checkDeletion(e.changedTouches[event.changedTouches.length-1].clientX + window.pageXOffset, e.changedTouches[event.changedTouches.length-1].clientY + window.pageYOffset,e.target);
+
+    },
+    _checkDeletion: function(itemX,itemY,item){
+      var trashY = document.querySelector('.delete img').offsetTop;
+      var trashX = document.querySelector('.delete img').offsetLeft;
+      var trashWidth = document.querySelector('.delete img').width;
+      var trashHeight = document.querySelector('.delete img').height
+      
+      if( (itemX >= trashX && itemX <= trashX + trashWidth) && (itemY >= trashY && itemY <= trashY + trashHeight) ){
+        if (confirm('certeza vei?') == true) {
+          item.parentNode.style.display = 'none';
+
+          var aux = [];
+          aux = JSON.parse(localStorage.getItem('chars'));
+          
+          for( var i = 0; i < aux.length; i++ ){
+            
+            if( item.getAttribute('data-key') == aux[i]['reactKey'] ){
+              aux[i]['active'] = false;
+            }
+          }
+
+          localStorage.setItem('chars',JSON.stringify(aux));
+        }
+      }
 
     },
     _showInput: function(e){
@@ -88,6 +117,7 @@ var Char = React.createClass({
           posY: this.props.posY
         });
       }
+
     },
 
   	render: function(){
@@ -104,14 +134,20 @@ var Char = React.createClass({
     		}
       }
 
+      if( !this.props.active ){
+        var display = 'none';
+      }else{
+        var display = 'initial';
+      }
+
   		var charClass = 'char ' + this.props.type;
     	return (
-        	<div className={charClass} style={ {top: topTranslate, left: leftTranslate} }>
+        	<div className={charClass} style={ {top: topTranslate, left: leftTranslate, display: display} }>
             <label style={{display: 'none'}}>
               <input placeholder="Type initials:" onBlur={this._changeInitials} onKeyUp={ function(event){if(event.keyCode == 13){ this._changeInitials(event) } }.bind(this) } type="text"/>
             </label>
             <span>{this.state.name}</span>
-            <div className="dragContainer" onTouchMove={this._touchMove} onTouchEnd={this._touchEnd} onClick={this._showInput}></div>
+            <div data-key={this.props.reactKey} className="dragContainer" onTouchMove={this._touchMove} onTouchEnd={this._touchEnd} onClick={this._showInput}></div>
           </div>    
     	);
   }

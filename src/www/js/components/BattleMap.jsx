@@ -12,7 +12,7 @@ var BattleMap = React.createClass({
 	getInitialState: function() {
     	return {
     		matrix: '10x8',
-    		totChars: 0
+    		totChars: document.querySelectorAll('.char').length
     	};
   	},
 	_createMatrix: function(sizeX,sizeY){
@@ -59,10 +59,10 @@ var BattleMap = React.createClass({
 		for( i = 0, j = 0, keyCount = 0; keyCount < size; keyCount++ ){
 			
 			if( this._charOrder[keyCount]['charType'] == 'friend' ){	
-				chars.push(<Char type={'friend'} key={keyCount} posY={this._charOrder[keyCount]['posY']} posX={this._charOrder[keyCount]['posX']} reactKey={keyCount} name={this._charOrder[keyCount]['name']} num={i} />);
+				chars.push(<Char type={'friend'} active={this._charOrder[keyCount]['active']} key={keyCount} posY={this._charOrder[keyCount]['posY']} posX={this._charOrder[keyCount]['posX']} reactKey={keyCount} name={this._charOrder[keyCount]['name']} num={i} />);
 				i++;
 			}else{
-				chars.push(<Char type={'enemy'} key={keyCount} posY={this._charOrder[keyCount]['posY']} posX={this._charOrder[keyCount]['posX']} reactKey={keyCount} name={this._charOrder[keyCount]['name']} num={j} />);
+				chars.push(<Char type={'enemy'} active={this._charOrder[keyCount]['active']} key={keyCount} posY={this._charOrder[keyCount]['posY']} posX={this._charOrder[keyCount]['posX']} reactKey={keyCount} name={this._charOrder[keyCount]['name']} num={j} />);
 				j++;
 			}
 		}
@@ -79,13 +79,14 @@ var BattleMap = React.createClass({
 		this._charOrder.push({
 			charType: type,
 			name: -1,
-			reactKey: this.state.totChars,
+			reactKey: document.querySelectorAll('.char').length,
 			posX: -1,
-			posY: -1
+			posY: -1,
+			active: true
 		});
 		
 		this.setState({
-			totChars: this.state.totChars + 1
+			totChars: document.querySelectorAll('.char').length + 1
 		});
 		
 		if(navigator.vibrate){  
@@ -94,9 +95,6 @@ var BattleMap = React.createClass({
 
       	localStorage.setItem('chars',JSON.stringify(this._charOrder));
       	
-	},
-	_setCharsPosition: function(){
-
 	},
 	_clear: function(type){
 		if (confirm(Json.battlemap.confirm) == true) {
@@ -152,6 +150,9 @@ var BattleMap = React.createClass({
         			<option value="10x15">Medium - Landscape</option>
         			<option value="13x18">Large - Landscape</option>
         		</select>
+        	</div>
+        	<div className="delete">
+        		<img src="assets/img/trash.png" />
         	</div>
         </div>
       </div>
